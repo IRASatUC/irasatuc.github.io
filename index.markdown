@@ -4,5 +4,3 @@
 
 layout: home
 ---
-# News
-**March 2, 2020** IRAS Github Pages initiated. 
