@@ -23,4 +23,4 @@ permalink: /current_projects/
 
 # Drone Team Collaboration as A Distributed System ​
 
-# UAV-Manipulator Systems for Aerial Manipulation
+# [UAV-Manipulator Systems for Aerial Manipulation​]({% link projects/uav-manipulator.markdown %})
