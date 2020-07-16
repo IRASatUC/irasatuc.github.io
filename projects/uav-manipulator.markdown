@@ -21,5 +21,5 @@ layout: default
 - Assembly and construction
 - 3D printing large structures from air
 
-|![](/images/projects/uav-manipulator/uav_arm.jpg "UAV and manipulator add-on")|![](/images/projects/uav-manipulator/applications.jpg "UAV-manipulator applications")|
+|![uav arm](/images/projects/uav-manipulator/uav_arm.jpg "UAV and manipulator add-on")|![applications](/images/projects/uav-manipulator/applications.jpg "UAV-manipulator applications")|
 

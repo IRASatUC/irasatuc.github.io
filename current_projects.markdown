@@ -21,6 +21,6 @@ permalink: /current_projects/
 
 # Physics-Based Mixed Reality Simulation​
 
-# Drone Team Collaboration as A Distributed System ​
+# [Drone Team Collaboration as A Distributed System]({% link projects/drone_team.markdown %}) 
 
 # [UAV-Manipulator Systems for Aerial Manipulation​]({% link projects/uav-manipulator.markdown %})
