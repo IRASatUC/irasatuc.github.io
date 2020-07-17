@@ -17,7 +17,7 @@ permalink: /current_projects/
 
 # [Robotics Assisted 3D Scanning of Aircraft for Reverse Engineering​]({% link projects/robotics-assisted-3d-scanning-of-aircraft-for-reverse-engineering.markdown %})
 
-# CableCat: Powering the PSR​
+# [CableCat: Powering the PSR]({% link projects/cablecat.markdown %})
 
 # [Physics-Based Mixed Reality Simulation]({% link projects/physics-based.markdown %})
 
