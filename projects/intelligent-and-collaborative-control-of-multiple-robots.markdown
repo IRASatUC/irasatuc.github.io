@@ -3,19 +3,15 @@ layout: default
 ---
 <h2 align="center"><b>Intelligent and Collaborative Control of Multiple Robots</b></h2>
 
-|![](/images/projects/collaborative_robots/human_experiment.jpg)|![](/images/projects/collaborative_robots/operation_model.jpg)|
-
 <h2 align="center">Problem Statement</h2>
 <p align="justify">
 A group of independent agents (e.g., humans and robots) work collaboratively as a distributed system to achieve a common goal without a central control.
 </p>
 
-<h2 align="center">Aim</h2>
+<h2 align="center">Goal</h2>
 <p align="justify">
 Develop intelligent control strategy for each agent of a group such that the actions of the independent group members make the group collaboratively achieve a common goal effectively and efficiently.
 </p>
-
-|![](/images/projects/collaborative_robots/transportation_scenario.jpg)|![](/images/projects/collaborative_robots/transportation_concept.jpg)|
 
 <h2 align="center">Current State of Art</h2>
 <p align="justify">
@@ -37,6 +33,21 @@ Inter-agent communication is not required; easily scalable for a larger problem 
 - Multiple robots carry or manipulate a large piece of hardware
 - Multiple robots jointly perform an assembly/construction task
 - Training for optimal behavioral strategy through simulation 
+
+<h2 align="center">Case Study 1</h2>
+<p align="justify">
+Each robot of the 5-robot team makes its own decision to pull a cable to make the cables’ common end chase a dynamic target. Each robot does not communicate with others but it knows the team goal. The team members can increase or decrease without re-training.
+</p>
+
+|![](/images/projects/collaborative_robots/human_experiment.jpg)|![](/images/projects/collaborative_robots/operation_model.jpg)|
+
+<h2 align="center">Case Study 2</h2>
+<p align="justify">
+Two distributed robots each (by making own decision) carrying one end of a rod to take the rod out of the room without collision with obstacles, with Genetic fuzzy based learning technology for the distributed multi-agent system.
+</p>
+
+|![](/images/projects/collaborative_robots/transportation_scenario.jpg)|![](/images/projects/collaborative_robots/transportation_concept.jpg)|
+
 
 <h2 align="center">Publications​</h2>
 - [Sathyan, A. and Ma, O., “Collaborative Decentralized Control of Multiple Robots Using Genetic Fuzzy Systems”, Robotica, 2019, DOI: 10.1017/S0263574719000353​](https://asmedigitalcollection.asme.org/DSCC/proceedings/DSCC2018/51890/V001T03A002/455557)

@@ -33,7 +33,7 @@ Apply Genetic Fuzzy Methodology (GFM) or Machine Learning (ML) techniques to tra
 UAV team activities are mostly limited to formation flights coordinated by a centralized controller which is vulnerable to security or reliability problems. An individual UAV's behavior can easily affect the performance of the entire team.
 </p>
 
-![uav collab](/images/projects/drone_team/drone_collab.jpg "UAV collaboration")
+![uav collab](/images/projects/drone_team/drone_collab.jpg "UAV collaboration"){:width="100%"}
 
 <h2 align="center">Publications</h2>
 - [Bisig C.; Montejo J.; Verbryke M.; Sathyan A.; and Ma O., “Genetic Fuzzy Systems for Decentralized, Multi-UAV Cargo Handling”, Proceedings of AIAA SciTech, Jan 6-10, 2020, Orlando, FL.](https://arc.aiaa.org/doi/abs/10.2514/6.2020-1117)
