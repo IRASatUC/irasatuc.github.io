@@ -41,6 +41,13 @@ Each robot of the 5-robot team makes its own decision to pull a cable to make th
 
 |![](/images/projects/collaborative_robots/human_experiment.jpg)|![](/images/projects/collaborative_robots/operation_model.jpg)|
 
+<table>
+<tr>
+<th><iframe width="100%" height="240" src="https://www.youtube.com/embed/y7ddBo7_724" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+<th><iframe width="100%" height="240" src="https://www.youtube.com/embed/6WKHUTNcEF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+</tr>
+</table>
+
 <h2 align="center">Case Study 2</h2>
 <p align="justify">
 Two distributed robots each (by making own decision) carrying one end of a rod to take the rod out of the room without collision with obstacles, with Genetic fuzzy based learning technology for the distributed multi-agent system.
@@ -48,6 +55,12 @@ Two distributed robots each (by making own decision) carrying one end of a rod t
 
 |![](/images/projects/collaborative_robots/transportation_scenario.jpg)|![](/images/projects/collaborative_robots/transportation_concept.jpg)|
 
+<table>
+<tr>
+<th><iframe width="100%" height="240" src="https://www.youtube.com/embed/xJpjZ_juxdE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+<th><iframe width="100%" height="240" src="https://www.youtube.com/embed/tjASWSG2qsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+</tr>
+</table>
 
 <h2 align="center">Publications​</h2>
 - [Sathyan, A. and Ma, O., “Collaborative Decentralized Control of Multiple Robots Using Genetic Fuzzy Systems”, Robotica, 2019, DOI: 10.1017/S0263574719000353​](https://asmedigitalcollection.asme.org/DSCC/proceedings/DSCC2018/51890/V001T03A002/455557)
