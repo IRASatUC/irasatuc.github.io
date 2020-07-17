@@ -3,7 +3,7 @@ layout: default
 ---
 <h2 align="center"><b>Space Robot Control for On-Orbit Servicing</b></h2>
 
-![](/images/projects/space_robotics/operation_concept.jpg "Space Robotics")
+![](/images/projects/space_robotics/operation_concept.jpg "Space Robotics"){:width="100%"}
 
 <h2 align="center">Challenges</h2>
 - Not designed for robotic grasping​
@@ -16,7 +16,7 @@ layout: default
 - Space situation awareness​
 - Satellite on-orbit services such as refuel, rescue, repair, debris cleanup, etc.
 
-![](/images/projects/space_robotics/testbed.jpg "Air-bearing Testbed")
+![](/images/projects/space_robotics/testbed.jpg "Air-bearing Testbed"){:width="100%"}
 
 <h2 align="center">Publications​</h2>
 - Flores-Abad, A.; Ma, O.; Pham, K.; and Ulrich, S.; “A Review of Robotics Technologies for On-Orbit Services”, Progress in Aerospace Science, Vol.68, 2014, pp.1-26.

@@ -19,4 +19,4 @@ Multiple robots (as a team) jointly transport a large object to a targeted desti
 - Object delivered by collaboration of two robots with over 96% success rate.​
 - Robots learned how to evaluate individual’s states and actions.
 
-![](/images/projects/collaborative_transportation/simulation_result.jpg "Simulation Result") <!-- .element width="720px" -->
+![](/images/projects/collaborative_transportation/simulation_result.jpg "Simulation Result"){:width="100%"}
