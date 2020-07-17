@@ -19,7 +19,7 @@ permalink: /current_projects/
 
 # CableCat: Powering the PSR​
 
-# Physics-Based Mixed Reality Simulation​
+# [Physics-Based Mixed Reality Simulation]({% link projects/physics-based.markdown %})
 
 # [Drone Team Collaboration as A Distributed System]({% link projects/drone_team.markdown %}) 
 
