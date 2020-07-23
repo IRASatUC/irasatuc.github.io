@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<h2 align="center"><b>CableCat: Powering the PSR</b></h2>
+|Student-Led Project proposed to NASA BIG Idea Challenge|![](/images/projects/cablecat/big_idea_icon.jpg)|
 
-<h3 align="center">Student-Led Project proposed to NASA BIG Idea Challenge</h3>
+<h2 align="center"><b>CableCat: Powering the PSR</b></h2>
 
 <h2 align="center">Objectives & Technical Approach</h2>
 - Establish power infrastructure to the Permanently Shadowed Regions (PSRs) on the lunar surface of scientific interest.
@@ -12,7 +12,7 @@ layout: default
 - Develop an autonomous 2-wheeled spool (rover) to navigate into the desired a PSR, unspooling the power/data cable.
 - The design of the spool guarantees it always in right posture while traveling on uncertain terrain.
 
-|![](/images/projects/cablecat/cablecat.jpg)|![](/images/projects/cablecat/big_idea_icon.jpg)|
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/SQIqQC9Uh38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2 align="center">Team</h2>
 
