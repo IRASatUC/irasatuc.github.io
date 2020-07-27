@@ -5,11 +5,11 @@ permalink: /prior_projects/
 ---
 # Contact Dynamics Modeling, Analysis and Control​
 
-# SPDM Task Verification Facility (STVF)​
+# [SPDM Task Verification Facility (STVF)​]({% link prior_projects/stvf.markdown %})
 
 # European Proximity Operations Simulator (EPOS) ​
 
-# Reduced-Gravity and Biomechanics (RGB) Lab at NMSU​
+# [Reduced-Gravity and Biomechanics (RGB) Lab at NMSU​]({% link prior_projects/reduced-gravity.markdown %})
 
 # Contact Dynamics Modeling and Simulation​
 
