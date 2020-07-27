@@ -7,7 +7,8 @@ layout: home
 IRAS Lab is a 2000-sqft lab facility at UC main campus for supporting research and teaching in multidisciplinary areas of robotics, artificial intelligence, and autonomous systems for space, aviation and other applications. 
 </p>
 
-![IRAS Lab](/images/IRAS_LAB.jpg "IRAS LAB")
+|![IRAS Lab](/images/IRAS_LAB.jpg "IRAS LAB")|![IRAS Lab](/images/space_robotics.jpg "IRAS LAB")|
+
 
 |[![Current Projects](/images/current_projects.jpg "current projects")]({% link current_projects.markdown %})|[![Prior Projects](/images/prior_projects.jpg "prior projects")]({% link prior_projects.markdown %})|
 
