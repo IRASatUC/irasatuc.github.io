@@ -24,7 +24,7 @@ layout: default
 | Cable Design | Trent Gatz |
 | Navigation & Mapping | William Kelly, Michael Burgess, Daniel Shircliff |
 | Cameras | Selena Laikos, Vincent Iskander |
-| Faculty Advisors | Dr. Ou Ma, Dr. Janet Dong, Dr. Shabaan Abdallah |
+| Faculty Advisors | Dr. Ou Ma, Dr. Janet Dong, Dr. Shaaban Abdallah |
 
 
 <h2 align="center">Project Status</h2>
@@ -33,6 +33,6 @@ layout: default
 - Prototype work on hold due to COVID19 shutdown
 
 <h2 align="center">Publications</h2>
-- A. Barth, C. Bisig, O. Ma and J. Dong, “CableCat: An Autonomous System to Develop Power and Data Infrastructure on the Moon”, 2020 IFA International Astronautical Congress (IAC), 12-14, Dubai, October , 2020.
+- A. Barth, C. Bisig, O. Ma, J. Dong, and S. Abdallah, “CableCat: An Autonomous System to Develop Power and Data Infrastructure on the Moon”, 2020 IFA International Astronautical Congress (IAC), 12-14, Dubai, October , 2020.
 - A. Barth, C. Bisig, O. Ma, J. Dong, and S. Abdallah, “Prototype design …”, to be submitted to AIAA ASCEND 2020.
 
