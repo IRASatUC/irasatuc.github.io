@@ -8,9 +8,9 @@ layout: default
 
 <h2 align="center">Objectives & Technical Approach</h2>
 - Establish power infrastructure to the Permanently Shadowed Regions (PSRs) on the lunar surface of scientific interest.
-- Extend the missions of science robots operating within a PSR by providing a power supply station and relieving the burden that they be 100% self-sufficient.
+- Enable new missions of science robots operating within a PSR by providing a power supply station to allow the robots be 100% self-sufficient.
 - Develop an autonomous 2-wheeled spool (rover) to navigate into the desired a PSR, unspooling the power/data cable.
-- The design of the spool guarantees it always in right posture while traveling on uncertain terrain.
+- Design the spool such that it guarantees always in right posture while traveling on uncertain terrain.
 
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/SQIqQC9Uh38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
