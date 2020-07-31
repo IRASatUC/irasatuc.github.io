@@ -5,7 +5,7 @@ layout: default
 
 <h2 align="center">Research Goal</h2>
 <p align="justify">
-Development of a decentralized system of collaborative UAVs that can bring a load to any arbitrarily defined target pose.
+Development of a decentralized system of collaborative UAVs that can jointly bring a large load from one place to another.
 </p>
 
 <h2 align="center">Strategic Alignment</h2>
@@ -14,13 +14,13 @@ Decentralized collaborative system of UAVs provide the ability to lift heavy loa
 </p>
 
 <h2 align="center">Objectives</h2>
-- Develop a physics based simulation environment for multi-UAV-load system.
-- Develop machine learning based controllers for each UAV with the goal of bringing the load to any pose, by working as a team.
-- Extend the methodology to real-life control of multiple collaborative UAVs
+- Develop a physics based simulation environment for multi-UAV load-transportation system.
+- Develop machine learning based controllers for each UAV with the goal of transporting the load, by working as a team.
+- Extend the methodology to real-life control of multiple collaborative UAVs.
 
 <h2 align="center">Approach</h2>
 <p align="justify">
-Apply Genetic Fuzzy Methodology (GFM) or Machine Learning (ML) techniques to train the system of UAVs to achieve the common goal of bring the payload to any arbitrary pose. By penalizing undesirable actions, GA/ML can tune the controller parameters to ensure near-optimal performance by the team of UAVs.
+Apply Genetic Fuzzy Methodology (GFM) or Machine Learning (ML) techniques to train the system of UAVs to achieve the common goal of transporting a load to a target location. By penalizing undesirable actions, GA/ML can tune the controller parameters to ensure near-optimal performance by the UAV team.
 </p>
 
 <h2 align="center">Applications</h2>
