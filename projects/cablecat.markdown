@@ -34,5 +34,5 @@ layout: default
 
 <h2 align="center">Publications</h2>
 - A. Barth, C. Bisig, O. Ma and J. Dong, “CableCat: An Autonomous System to Develop Power and Data Infrastructure on the Moon”, 2020 IFA International Astronautical Congress (IAC), 12-14, Dubai, October , 2020.
-- A. Barth, C. Bisig, O. Ma and J. Dong, “Prototype design …”, to be submitted to AIAA ASCEND 2020.
+- A. Barth, C. Bisig, O. Ma, J. Dong, and S. Abdallah, “Prototype design …”, to be submitted to AIAA ASCEND 2020.
 
