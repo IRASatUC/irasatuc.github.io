@@ -17,4 +17,5 @@ A two-phase scanning method with using a high-precision indoor positioning syste
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/QjeofsLnRSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 <h2 align="center">Publications</h2>
-- [Yufeng Sun, Lin Zhang, and Ou Ma. "Robotics-Assisted 3D Scanning of Aircraft." AIAA AVIATION 2020 FORUM. July 2020.(https://arc.aiaa.org/doi/abs/10.2514/6.2020-3224) - Yufeng Sun and Ou Ma. "Automating Aircraft Exterior Inspection with Robotics and Machine Learning Technologies" ASME 2020 Intl. Mech. Eng Congress and Exposition (IMECE202), Nov. 16-19, 2020, Portland, OR.]
+- [Yufeng Sun, Lin Zhang, and Ou Ma. "Robotics-Assisted 3D Scanning of Aircraft." AIAA AVIATION 2020 FORUM. July 2020.(https://arc.aiaa.org/doi/abs/10.2514/6.2020-3224) 
+- Yufeng Sun and Ou Ma. "Automating Aircraft Exterior Inspection with Robotics and Machine Learning Technologies" ASME 2020 Intl. Mech. Eng Congress and Exposition (IMECE202), Nov. 16-19, 2020, Portland, OR.]
