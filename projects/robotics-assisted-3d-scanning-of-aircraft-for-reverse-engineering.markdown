@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h2 align="center"><b>Robotics Assisted 3D Scanning of Aircraft for Reverse Engineering</b></h2>
+<h2 align="center"><b>Robotics Assisted 3D Scanning of Aircraft for Reverse Engineering and Inspection</b></h2>
 ![](/images/projects/aircraft_scanning/Aircraft_Scanning.jpg "Aircraft 3D Scanning"){:width="100%"}
 <h2 align="center">Description</h2>
 <p align="justify">
@@ -17,5 +17,5 @@ A two-phase scanning method with using a high-precision indoor positioning syste
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/QjeofsLnRSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 <h2 align="center">Publications</h2>
-- [Sun, Yufeng, Lin Zhang, and Ou Ma. "Robotics-Assisted 3D Scanning of Aircraft." AIAA AVIATION 2020 FORUM. 2020.](https://arc.aiaa.org/doi/abs/10.2514/6.2020-3224)
-
+- [Yufeng Sun, Lin Zhang, and Ou Ma. "Robotics-Assisted 3D Scanning of Aircraft." AIAA AVIATION 2020 FORUM. July 2020.(https://arc.aiaa.org/doi/abs/10.2514/6.2020-3224) 
+- Yufeng Sun and Ou Ma. "Automating Aircraft Exterior Inspection with Robotics and Machine Learning Technologies" ASME 2020 Intl. Mech. Eng Congress and Exposition (IMECE202), Nov. 16-19, 2020, Portland, OR.]
