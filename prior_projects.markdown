@@ -15,7 +15,9 @@ permalink: /prior_projects/
 
 # Robot Control for Capturing a Non-cooperative Object​
 
-# Technology for Simulating Human Activities in Partial Gravity​
+# [Technology for Simulating Human Activities in Partial Gravity]({% link prior_projects/simulating-partial-gravity.markdown %})
+
+# [Risk of Falling Assessment for Older Adults]({% link prior_projects/fall-risk.markdown %})
 
 # Identification of Mass Distribution of a Live Human​
 
