@@ -5,7 +5,7 @@ permalink: /current_projects/
 ---
 # [Space Robot Control for On-Orbit Servicing​]({% link projects/space-robot-control-for-onorbit-servicing.markdown %})
 
-# Optimal Attitude Profiling of A 6U Scientific CubeSat​
+# [Optimal Attitude Profiling of A 12U Scientific CubeSat]({% link projects/cubesat.markdown %})
 
 # Decentralized Control of Multiple UAVs Collaboration​
 
