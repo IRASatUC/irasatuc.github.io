@@ -3,6 +3,7 @@ layout: default
 ---
 <h2 align="center"><b>Optimal Attitude Profiling of A 12U Scientific CubeSat</b></h2>
 <h3 align="center">(Industrial project sponsored by Sierra Lobo, Inc.)</h3>
+https://www.uc.edu/news/articles/n20944639/uc-aerospace-students-design-custom-satellites-for-science.html
 
 ![](/images/projects/cubesat/cubesat.jpg "A 12U scientific cubesat developed by Sierra Lobo for imaging surface temperature"){:width="70%"}
 
