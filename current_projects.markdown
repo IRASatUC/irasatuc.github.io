@@ -11,7 +11,7 @@ permalink: /current_projects/
 
 # [Intelligent and Collaborative Control of Multi-Robot Team]({% link projects/intelligent-and-collaborative-control-of-multiple-robots.markdown %})
 
-# [Multi-Vechile Collaboration for Object Transportation]({% link projects/multi-vehicle-collaboration-for-object-transportation.markdown %})
+# [Multi-Robot Cooperative Object Transportation]({% link projects/multi-vehicle-collaboration-for-object-transportation.markdown %})
 
 # [Multi-Agent Pursuit and Evasion​]({% link projects/multi-agent-pursuit-and-evasion.markdown %})
 
