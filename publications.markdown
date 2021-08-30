@@ -4,9 +4,9 @@ title: Publications
 permalink: /publications/
 ---
 # Peer-Reviewed Journal Papers:
-[1] <p>Barth, A.; Sun, Y.; and Ma, O.;“Genetic Fuzzy Based Method for Training Two Independent Robots to Perform a Cooperative Task”, Intelligent Service Robotics, 2021, https://doi.org/10.1007/s11370-021-00379-2.
+<p>[1] Barth, A.; Sun, Y.; and Ma, O.;“Genetic Fuzzy Based Method for Training Two Independent Robots to Perform a Cooperative Task”, Intelligent Service Robotics, 2021, https://doi.org/10.1007/s11370-021-00379-2.
 </p><br/>
-[2] <p>Papadopoulos, E.; Aghili, F.; Ma, O.; Lampariello, R.; “Robotic Manipulation and Capture in Space: A Survey”, Frontiers in Robotics and AI, 2021, Doi: https://doi.org/10.3389/frobt.2021.686723.
+<p>[2] Papadopoulos, E.; Aghili, F.; Ma, O.; Lampariello, R.; “Robotic Manipulation and Capture in Space: A Survey”, Frontiers in Robotics and AI, 2021, Doi: https://doi.org/10.3389/frobt.2021.686723.
 </p><br/>
 [3] Alsamhi, S.H.; Almalki, F.; Ma, O.; and Ansari, M.S.; “Predictive Estimation of Optimal Signal Strength from Drones over IoT Frameworks in Smart Cities”, IEEE Transactions on Mobile Computing, 2021, doi: 10.1109/TMC.2021.3074442.
 <br/>
