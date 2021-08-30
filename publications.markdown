@@ -5,20 +5,33 @@ permalink: /publications/
 ---
 # Peer-Reviewed Journal Papers:
 [1] Barth, A.; Sun, Y.; and Ma, O.;“Genetic Fuzzy Based Method for Training Two Independent Robots to Perform a Cooperative Task”, Intelligent Service Robotics, 2021, https://doi.org/10.1007/s11370-021-00379-2.
+</br >
 [2] Papadopoulos, E.; Aghili, F.; Ma, O.; Lampariello, R.; “Robotic Manipulation and Capture in Space: A Survey”, Frontiers in Robotics and AI, 2021, Doi: https://doi.org/10.3389/frobt.2021.686723.
+</br >
 [3] Alsamhi, S.H.; Almalki, F.; Ma, O.; and Ansari, M.S.; “Predictive Estimation of Optimal Signal Strength from Drones over IoT Frameworks in Smart Cities”, IEEE Transactions on Mobile Computing, 2021, doi: 10.1109/TMC.2021.3074442.
+</br >
 [4] Alsamhi, S.H.; Almalki, F.; Ma, O.; and Ansari, M.S.; “Predictive Estimation of Optimal Signal Strength from Drones over IoT Frameworks in Smart Cities”, accepted by IEEE Transactions on Mobile Computing, 2021.
+</br >
 [5] Sathyan A.; Cohen K.; and Ma O.; “Genetic fuzzy based scalable system of distributed robots for a collaborative task”, Frontiers in Robotics and AI, 2020. doi: 10.3389/frobt.2020.601243.
-&nbsp;  
+</p>&nbsp;</p>
 [6] Zhang L.; Sun Y.; Barth A.; and Ma O., "Decentralized Control of Multi-Robot System in Cooperative Object Transportation Using Deep Reinforcement Learning," in IEEE Access, vol. 8, pp. 184109-184119, 2020, doi: 10.1109/ACCESS.2020.3025287.
+</br >
 [7] Alsamhi, S.H.; Ma, O.; and Ansari, M.S.; “Convergence of Machine Learning and Robotics Communication in Collaborative Assembly: Mobility, Connectivity and Future Perspectives”, Journal of Intelligent and Robotic Systems: Theory and Applications, 2020, 98(3-4), pp. 541-566.
+</br >
 [8] Liu, Q.; Liang, J.; and Ma, O.; “A physics-based and data-driven hybrid modeling method for accurately simulating complex contact phenomenon”, Multibody System Dynamics (2020). https://doi.org/10.1007/s11044-020-09746-w.
+</br >
 [9] Ren, W.; Ma, O.; Ji, H.; and Liu, X.; "Human Posture Recognition Using a Hybrid of Fuzzy Logic and Machine Learning Approaches," IEEE Access, vol.8, pp.135628-135639, 2020, doi: 10.1109/ACCESS.2020.3011697.
+</br >
 [10] Alsamhi, S.H.; Ma, O.; Ansari, M.S.; and Almalki, F., “Survey on Collaborative Smart Drones and Internet of Things for Improving Smartness of Smart Cities”, IEEE Access, 2019. DOI: 10.1109/ACCESS.2017.DOI &nbsp;  
+</br >
 [11] Alsamhi, S.H.; Ma, O.; Ansari, M.S.; Almalki, F.; and Angelides, M.; “Performance Optimization of Tethered Balloon Technology for Public Safety and Emergency Communications”,  Telecommunication Systems, 2019, DOI: 10.1007/s11235-019-00580-w.
+</br >
 [12] Meng Q.; Liang, J.; and Ma, O., “Identification of All the Inertial Parameters of a Non-cooperative Object in Orbit”, Aerospace Science and Technology, Vol. 91, August 2019, pp. 571-582.
+</br >
 [13] Sathyan, A.; Cohen, K.; and Ma, O.; “Comparison Between Genetic Fuzzy Methodology and Q-Learning for Collaborative Control Design”, International Journal of Artificial Intelligence and Applications, Vol.10, No.2, March 2019.
+</br >
 [14] Zhang L.; Li, S.; Xiong, H.; Diao, X. and Ma, O., An Application of Convolutional Neural Networks on Human Intention Prediction; International Journal of Artificial Intelligence and Applications, Vol.10, No.5, September 2019.
+</br >
 [15] Sathyan, A. and Ma, O.; “Collaborative Decentralized Control of Multiple Robots Using Genetic Fuzzy Systems”, Robotica, Volume 37, Issue 11, 2019, pp. 1922-1936.
 &nbsp;  
 [16] Alsamhi, S.H.; Ma, O.; and Ansari, M.S.; “Survey on artificial intelligence based techniques for emerging robotic communication”. Telecommunication Systems, Vol. 72, 2019, pp.609-. https://doi.org/10.1007/s11235-019-00597-1.
