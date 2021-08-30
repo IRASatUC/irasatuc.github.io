@@ -4,11 +4,11 @@ title: Publications
 permalink: /publications/
 ---
 # Peer-Reviewed Journal Papers:
-[1]	Barth, A.; Sun, Y.; and Ma, O.;“Genetic Fuzzy Based Method for Training Two Independent Robots to Perform a Cooperative Task”, Intelligent Service Robotics, 2021, https://doi.org/10.1007/s11370-021-00379-2. 
+[1] Barth, A.; Sun, Y.; and Ma, O.;“Genetic Fuzzy Based Method for Training Two Independent Robots to Perform a Cooperative Task”, Intelligent Service Robotics, 2021, https://doi.org/10.1007/s11370-021-00379-2.
 &nbsp;  
-[2]	Papadopoulos, E.; Aghili, F.; Ma, O.; Lampariello, R.; “Robotic Manipulation and Capture in Space: A Survey”, Frontiers in Robotics and AI, 2021, Doi: https://doi.org/10.3389/frobt.2021.686723.  
+[2] Papadopoulos, E.; Aghili, F.; Ma, O.; Lampariello, R.; “Robotic Manipulation and Capture in Space: A Survey”, Frontiers in Robotics and AI, 2021, Doi: https://doi.org/10.3389/frobt.2021.686723.
 &nbsp;  
-[3]	Alsamhi, S.H.; Almalki, F.; Ma, O.; and Ansari, M.S.; “Predictive Estimation of Optimal Signal Strength from Drones over IoT Frameworks in Smart Cities”, IEEE Transactions on Mobile Computing, 2021, doi: 10.1109/TMC.2021.3074442. 
+[3] Alsamhi, S.H.; Almalki, F.; Ma, O.; and Ansari, M.S.; “Predictive Estimation of Optimal Signal Strength from Drones over IoT Frameworks in Smart Cities”, IEEE Transactions on Mobile Computing, 2021, doi: 10.1109/TMC.2021.3074442.
 &nbsp;  
 [4] Alsamhi, S.H.; Almalki, F.; Ma, O.; and Ansari, M.S.; “Predictive Estimation of Optimal Signal Strength from Drones over IoT Frameworks in Smart Cities”, accepted by IEEE Transactions on Mobile Computing, 2021.
 &nbsp;  
@@ -24,7 +24,7 @@ permalink: /publications/
 &nbsp;  
 [10] Alsamhi, S.H.; Ma, O.; Ansari, M.S.; and Almalki, F., “Survey on Collaborative Smart Drones and Internet of Things for Improving Smartness of Smart Cities”, IEEE Access, 2019. DOI: 10.1109/ACCESS.2017.DOI
 &nbsp;  
-[11] Alsamhi, S.H.; Ma, O.; Ansari, M.S.; Almalki, F.; and Angelides, M.; “Performance Optimization of Tethered Balloon Technology for Public Safety and Emergency Communications”,  Telecommunication Systems, 2019, DOI: 10.1007/s11235-019-00580-w
+[11] Alsamhi, S.H.; Ma, O.; Ansari, M.S.; Almalki, F.; and Angelides, M.; “Performance Optimization of Tethered Balloon Technology for Public Safety and Emergency Communications”,  Telecommunication Systems, 2019, DOI: 10.1007/s11235-019-00580-w.
 &nbsp;  
 [12] Meng Q.; Liang, J.; and Ma, O., “Identification of All the Inertial Parameters of a Non-cooperative Object in Orbit”, Aerospace Science and Technology, Vol. 91, August 2019, pp. 571-582.
 &nbsp;  
@@ -34,9 +34,9 @@ permalink: /publications/
 &nbsp;  
 [15] Sathyan, A. and Ma, O.; “Collaborative Decentralized Control of Multiple Robots Using Genetic Fuzzy Systems”, Robotica, Volume 37, Issue 11, 2019, pp. 1922-1936.
 &nbsp;  
-[16] Alsamhi, S.H.; Ma, O.; and Ansari, M.S.; “Survey on artificial intelligence based techniques for emerging robotic communication”. Telecommunication Systems, Vol. 72, 2019, pp.609-. https://doi.org/10.1007/s11235-019-00597-1
+[16] Alsamhi, S.H.; Ma, O.; and Ansari, M.S.; “Survey on artificial intelligence based techniques for emerging robotic communication”. Telecommunication Systems, Vol. 72, 2019, pp.609-. https://doi.org/10.1007/s11235-019-00597-1.
 &nbsp;  
-[17] Alsamhi, S.H.; Ma, O.; Ansari, M.S.; and Gupta, S.K.; “Collaboration of Drone and Internet of Public Safety Things in Smart Cities: An Overview of QoS and Network Performance Optimization”, Drones, 2019. DOI: 10.3390/drones3010013
+[17] Alsamhi, S.H.; Ma, O.; Ansari, M.S.; and Gupta, S.K.; “Collaboration of Drone and Internet of Public Safety Things in Smart Cities: An Overview of QoS and Network Performance Optimization”, Drones, 2019. DOI: 10.3390/drones3010013.
 &nbsp;  
 [18] Johansen, R.A. et al. (12 authors including O. Ma), “HABSat-1: assessing the feasibility of using CubeSats for the detection of cyanobacterial harmful algal blooms in inland lakes and reservoirs”, Journal of Lake and Reservoir Management, Vol.35, Issue 2, 2019. DOI: 10.1080/10402381.2019.1609146.
 &nbsp;  
@@ -60,7 +60,7 @@ permalink: /publications/
 &nbsp;  
 [28] Flores-Abad, A.; Xie, P.; Martinez-Arredondo, G.; and Ma, O.; “Verification of a Special Inertial Measurement Unit using a Quadrotor Aircraft”, International Journal of Intelligent Unmanned Systems, Vol. 2(1): pp.40-55, 2014.
 &nbsp;  
-[29] Zhang, Z.; Zhang, S.; Xie, P.; and Ma, O.; “Bioinspired 4D Trajectory Generation for a UAS Rapid Point-to-Point Movement”. Journal of Bionic Engineering. Vol.11, No.1, pp.72–81, 2014
+[29] Zhang, Z.; Zhang, S.; Xie, P.; and Ma, O.; “Bioinspired 4D Trajectory Generation for a UAS Rapid Point-to-Point Movement”. Journal of Bionic Engineering. Vol.11, No.1, pp.72–81, 2014.
 &nbsp;  
 [30] Flores-Abad, A. and Ma, O.; "Bio-inspired approach for a space manipulator to capture a tumbling object with minimal impact force", International Journal of Mechanisms and Robotic Systems, Vol. 1, No. 4, 2013, pp.331-348.
 &nbsp;  
@@ -129,14 +129,14 @@ permalink: /publications/
 [62] Angeles, J. and Ma, O.; "Dynamic simulation of n-axis serial robotic manipulators using a natural orthogonal complement", International Journal of Robotic Research, 1988, Vol.7, No.5, pp.32-47.
 &nbsp;  
 [63] Ma, O. and Angeles, J.; "Performance evaluation of pathe-generating planar, spherical and spatial four-bar mechanisms", Mechanism and Machine Theory, 1988, Vol.21, pp.257-268.
-
+&nbsp;  
 # Book Chapters
 [1] Diao, X.; Ma, O. and Zhang, M.; “Contact Dynamic Simulation of Micro-/Nano-scale Manipulation for Medical Applications”, a chapter of Systems Engineering Approach to Medical Automation, edited by R. Felder, M. Alwan, and M. Zhang, Artech House Publishers, 2008, ISBN: 9781596931640.
 &nbsp;  
 [2] Ma, O. and Zhang, M.; “Modeling and control of electroporation-mediated gene delivery process for gene therapy”, Chapter 17 of Life Science Automation: Fundamentals and Applications, edited by M. Zhang, B. Nelson and R.A. Felder, Artech House Publishers, 2007.
 &nbsp;  
 [3] Ma, O. and Xie, P.; “Unmanned Vehicle Systems and Technologies for Geomatics Applications”, Chapter 2 of Unmanned Aerial Vehicle Systems for Geomatics, 2019, ISBN: 978-184995-127-2.
-
+&nbsp;  
 # Patents
 [1] Ma, O. and Wang, J., “Apparatus and method for reduced-gravity simulation”, US Patent #8,152,699, April 2012.
 &nbsp;  
@@ -145,11 +145,11 @@ permalink: /publications/
 [3] Ma, O., “Multi-Degrees-of-Freedom Gravity Augmenting Machine”, US Patent pending 2014.
 &nbsp;  
 [4] Ma, O. and Ruble K., “Six degrees of freedom free-motion test apparatus”, US Patent #9,228,917, January 2016.
-
-# Peer-Reviewed Conference Papers
-[1] Barth, A. and Ma, O., “Study of Hopping Mechanics for Different Terrain Conditions for Hopping on a Low-Gravity Surface”; 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vigas, NV. 
 &nbsp;  
-[2] Barth, A.; Ma, O.; Putman, P.; Walker, A., “Determining an optimal attitude profile for thermal management of a remote sensing cubesat”; 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vigas, NV. 
+# Peer-Reviewed Conference Papers
+[1] Barth, A. and Ma, O., “Study of Hopping Mechanics for Different Terrain Conditions for Hopping on a Low-Gravity Surface”; 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vigas, NV.
+&nbsp;  
+[2] Barth, A.; Ma, O.; Putman, P.; Walker, A., “Determining an optimal attitude profile for thermal management of a remote sensing cubesat”; 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vigas, NV.
 &nbsp;  
 [3] Barth, A.; Zhang, L.; Ma, O., “Cooperation of a Team of Heterogeneous Swarm Robots for Space Exploration”; 2021 IFA International Astronautical Congress, Oct. 25-29, 2021, Dubai.
 &nbsp;  
@@ -163,7 +163,7 @@ permalink: /publications/
 &nbsp;  
 [8] Bisig C.; Montejo J.; Verbryke M.; Sathyan A.; and Ma O., “Genetic Fuzzy Systems for Decentralized, Multi-UAV Cargo Handling”, Proceedings of AIAA SciTech, Jan 6-10, 2020, Orlando, FL.
 &nbsp;  
-[9] Sun Y., Barth A. and Ma O., “An Intelligent Approach for a Two-robot Team to Perform a Cooperative Task”, Proceedings of AIAA SciTech, Jan 6-10, 2020, Orlando, FL
+[9] Sun Y., Barth A. and Ma O., “An Intelligent Approach for a Two-robot Team to Perform a Cooperative Task”, Proceedings of AIAA SciTech, Jan 6-10, 2020, Orlando, FL.
 &nbsp;  
 [10] Liu, Qian; Ma, O.; and Li, Haiquan, “A Novel Hybrid Modeling Method for Contact Problems”, ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE2019), August 18-21, 2019, Anaheim, CA, USA.
 &nbsp;  
@@ -173,7 +173,7 @@ permalink: /publications/
 &nbsp;  
 [13] Sathyan, Ma, O., and Cohen K., “Intelligent Approach for Individual Space Robots Performing Collaborative Tasks”,  Proc. of AIAA Space Forum, Orlando, FL, Sept. 16-18, 2018.
 &nbsp;  
-[14] Meng，Q. and Ma, O., “Estimate of All the Inertial Parameters of a Free-Floating Object in Orbit”, Proc. of 2018 GNC Conference, AIAA SciTech, Orlando, Florida, Jan 2018. https://arc.aiaa.org/doi/pdf/10.2514/6.2018-1606
+[14] Meng，Q. and Ma, O., “Estimate of All the Inertial Parameters of a Free-Floating Object in Orbit”, Proc. of 2018 GNC Conference, AIAA SciTech, Orlando, Florida, Jan 2018. https://arc.aiaa.org/doi/pdf/10.2514/6.2018-1606.
 &nbsp;  
 [15] Beck, Richard et al., “Adapting Low-Cost Drone Technology to CubeSats for Environmental Monitoring and Management: Harmful Algal Bloom Satellite-1 (HABsat-1)”, 32nd Annual AIAA/USU   Conference on Small Satellite, Logan, UT, August 4-9, 2018.
 &nbsp;  
@@ -195,11 +195,11 @@ permalink: /publications/
 &nbsp;  
 [24] Xie, P., Ma, O., Zhang, L., Zhao, Z., “A Bio-inspired UAV Leg-Foot Mechanism for Landing, Grasping and Perching Tasks”, Proc. of AIAA Atmospheric Flight Mechanics Conference, AIAA Science and Technology Forum, Kissimmee, FL, Jan. 5-9, 2015.
 &nbsp;  
-[25] Zhang, L., Ma, O., Fabre, J. M., Wood, R. H., Garcia, S., Ivey, K., McCann, E., “Classification of older adults with/without a fall history using machine learning methods”, IEEE International Conference of Engineering in Medicine and Biology Society (EMBC), Milan, Italy, August 25-29, 2015
+[25] Zhang, L., Ma, O., Fabre, J. M., Wood, R. H., Garcia, S., Ivey, K., McCann, E., “Classification of older adults with/without a fall history using machine learning methods”, IEEE International Conference of Engineering in Medicine and Biology Society (EMBC), Milan, Italy, August 25-29, 2015.
 &nbsp;  
 [26] Xiu, W., Ruble, K. and Ma O., “A Reduced-Gravity Simulator for Physically Simulating Human Walking in Microgravity or Reduced-Gravity Environment”, Proc. of 2014 Intl. Conf. on Robotics and Auto. (ICRA), Hong Kong, China, May 31-June 5, 2014.
 &nbsp;  
-[27] Wood, R.H., Fabre, J. M., Ma, O., Deleon, P., and Zhang, L., “Emerging measures of falls screening and assessment”, Proc. of the 4th Annual International Aging Conference. Manchester, UK, November, 2014.   
+[27] Wood, R.H., Fabre, J. M., Ma, O., Deleon, P., and Zhang, L., “Emerging measures of falls screening and assessment”, Proc. of the 4th Annual International Aging Conference. Manchester, UK, November, 2014.
 &nbsp;  
 [28] Xie, P., and Ma, O., “Grasping analysis of a bio-inspired UAV/MAV perching mechanism”, Proc. of the ASME 2013 International Mechanical Engineering Congress & Exposition Conference (IMECE), Nov. 15-21, 2013, San Diego, CA. Paper # IMECE2013-66526.
 &nbsp;  
@@ -313,7 +313,7 @@ permalink: /publications/
 &nbsp;  
 [83] Ma, O. and Yang, G., “Validation of a satellite docking simulator using the SOSS experimental testbed”, Proc. IEEE Int. Conf. on Intelligent Robots and Systems (IROS’06), Beijing, China, Oct.9-15, 2006, pp.4115-4120.
 &nbsp;  
-[84] Diao, X. and Ma, O., “Workspace analysis of a 6-DOF cable robot for hardware-in-the-loop Dynamic simulation”, Proc. IEEE Int. Conf. on Intelligent Robots and Systems (IROS’06), Beijing, China, Oct.9-15, 2006, pp.4103-4108.<br/>[Citations: 10]
+[84] Diao, X. and Ma, O., “Workspace analysis of a 6-DOF cable robot for hardware-in-the-loop Dynamic simulation”, Proc. IEEE Int. Conf. on Intelligent Robots and Systems (IROS’06), Beijing, China, Oct.9-15, 2006, pp.4103-4108.<br/>[Citations: 10].
 &nbsp;  
 [85] Diao, X., Ma, O., and Paz, R., "Study of 6-DOF cable-robots for potential application of HIL microgravity contact-dynamics simulation", Proc. AIAA Modeling and Simulation Technologies Conference and Exhibit, Keystone, CO, August 21-24, 2006, AIAA-2006-6732, pp. 1097-1110.
 &nbsp;  
