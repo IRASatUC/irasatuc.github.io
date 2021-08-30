@@ -67,17 +67,20 @@ permalink: /publications/
 </p><p>[61] Angeles, J.; Ma, O.; and Rajas, A.; "An algorithm for the inverse dynamics of n-axis general manipulators using Kane's equations", International Journal of Computers and Mathematics with Applications, 1989, Vol.17, No.12, pp.1545-1561.
 </p><p>[62] Angeles, J. and Ma, O.; "Dynamic simulation of n-axis serial robotic manipulators using a natural orthogonal complement", International Journal of Robotic Research, 1988, Vol.7, No.5, pp.32-47.
 </p><p>[63] Ma, O. and Angeles, J.; "Performance evaluation of pathe-generating planar, spherical and spatial four-bar mechanisms", Mechanism and Machine Theory, 1988, Vol.21, pp.257-268.
-</p><p># Book Chapters
-[1] Diao, X.; Ma, O. and Zhang, M.; “Contact Dynamic Simulation of Micro-/Nano-scale Manipulation for Medical Applications”, a chapter of Systems Engineering Approach to Medical Automation, edited by R. Felder, M. Alwan, and M. Zhang, Artech House Publishers, 2008, ISBN: 9781596931640.
+</p>
+# Book Chapters
+<p>[1] Diao, X.; Ma, O. and Zhang, M.; “Contact Dynamic Simulation of Micro-/Nano-scale Manipulation for Medical Applications”, a chapter of Systems Engineering Approach to Medical Automation, edited by R. Felder, M. Alwan, and M. Zhang, Artech House Publishers, 2008, ISBN: 9781596931640.
 </p><p>[2] Ma, O. and Zhang, M.; “Modeling and control of electroporation-mediated gene delivery process for gene therapy”, Chapter 17 of Life Science Automation: Fundamentals and Applications, edited by M. Zhang, B. Nelson and R.A. Felder, Artech House Publishers, 2007.
 </p><p>[3] Ma, O. and Xie, P.; “Unmanned Vehicle Systems and Technologies for Geomatics Applications”, Chapter 2 of Unmanned Aerial Vehicle Systems for Geomatics, 2019, ISBN: 978-184995-127-2.
-</p><p># Patents
-[1] Ma, O. and Wang, J., “Apparatus and method for reduced-gravity simulation”, US Patent #8,152,699, April 2012.
+</p>
+# Patents
+<p>[1] Ma, O. and Wang, J., “Apparatus and method for reduced-gravity simulation”, US Patent #8,152,699, April 2012.
 </p><p>[2] Ma, O., Ortega, C., Ruble, K., Lu, Q., “Multi-degree-of-freedom test stand for unmanned air vehicles”, US Patent #8,353,199, January 2013.
 </p><p>[3] Ma, O., “Multi-Degrees-of-Freedom Gravity Augmenting Machine”, US Patent pending 2014.
 </p><p>[4] Ma, O. and Ruble K., “Six degrees of freedom free-motion test apparatus”, US Patent #9,228,917, January 2016.
-</p><p># Peer-Reviewed Conference Papers
-[1] Barth, A. and Ma, O., “Study of Hopping Mechanics for Different Terrain Conditions for Hopping on a Low-Gravity Surface”; 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vigas, NV.
+</p>
+# Peer-Reviewed Conference Papers
+<p>[1] Barth, A. and Ma, O., “Study of Hopping Mechanics for Different Terrain Conditions for Hopping on a Low-Gravity Surface”; 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vigas, NV.
 </p><p>[2] Barth, A.; Ma, O.; Putman, P.; Walker, A., “Determining an optimal attitude profile for thermal management of a remote sensing cubesat”; 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vigas, NV.
 </p><p>[3] Barth, A.; Zhang, L.; Ma, O., “Cooperation of a Team of Heterogeneous Swarm Robots for Space Exploration”; 2021 IFA International Astronautical Congress, Oct. 25-29, 2021, Dubai.
 </p><p>[4] Sun Y. and Ma O.; “Automating Aircraft Exterior Inspection with Robotics and Machine Learning Technologies”, to be published at Proc. of the ASME 2020 Intl. Mech. Eng Congress and Exposition (IMECE202), Nov. 16-19, 2020, Portland, OR.
