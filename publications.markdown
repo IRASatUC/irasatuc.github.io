@@ -12,8 +12,8 @@ permalink: /publications/
 <br/>
 [4] Alsamhi, S.H.; Almalki, F.; Ma, O.; and Ansari, M.S.; “Predictive Estimation of Optimal Signal Strength from Drones over IoT Frameworks in Smart Cities”, accepted by IEEE Transactions on Mobile Computing, 2021.
 <br/>
-[5] Sathyan A.; Cohen K.; and Ma O.; “Genetic fuzzy based scalable system of distributed robots for a collaborative task”, Frontiers in Robotics and AI, 2020. doi: 10.3389/frobt.2020.601243.
- &nbsp;  <br/>
+[5] Sathyan A.; Cohen K.; and Ma O.; “Genetic fuzzy based scalable system of distributed robots for a collaborative task”, Frontiers in Robotics and AI, 2020. doi: 10.3389/frobt.2020.601243. &nbsp;  
+<br/>
 [6] Zhang L.; Sun Y.; Barth A.; and Ma O., "Decentralized Control of Multi-Robot System in Cooperative Object Transportation Using Deep Reinforcement Learning," in IEEE Access, vol. 8, pp. 184109-184119, 2020, doi: 10.1109/ACCESS.2020.3025287.
 <br/>
 [7] Alsamhi, S.H.; Ma, O.; and Ansari, M.S.; “Convergence of Machine Learning and Robotics Communication in Collaborative Assembly: Mobility, Connectivity and Future Perspectives”, Journal of Intelligent and Robotic Systems: Theory and Applications, 2020, 98(3-4), pp. 541-566.
@@ -32,8 +32,8 @@ permalink: /publications/
 <br/>
 [14] Zhang L.; Li, S.; Xiong, H.; Diao, X. and Ma, O., An Application of Convolutional Neural Networks on Human Intention Prediction; International Journal of Artificial Intelligence and Applications, Vol.10, No.5, September 2019.
 <br/>
-[15] Sathyan, A. and Ma, O.; “Collaborative Decentralized Control of Multiple Robots Using Genetic Fuzzy Systems”, Robotica, Volume 37, Issue 11, 2019, pp. 1922-1936.
-&nbsp;  
+[15] Sathyan, A. and Ma, O.; “Collaborative Decentralized Control of Multiple Robots Using Genetic Fuzzy Systems”, Robotica, Volume 37, Issue 11, 2019, pp. 1922-1936. &nbsp;  
+<br/>
 [16] Alsamhi, S.H.; Ma, O.; and Ansari, M.S.; “Survey on artificial intelligence based techniques for emerging robotic communication”. Telecommunication Systems, Vol. 72, 2019, pp.609-. https://doi.org/10.1007/s11235-019-00597-1.
 &nbsp;  
 [17] Alsamhi, S.H.; Ma, O.; Ansari, M.S.; and Gupta, S.K.; “Collaboration of Drone and Internet of Public Safety Things in Smart Cities: An Overview of QoS and Network Performance Optimization”, Drones, 2019. DOI: 10.3390/drones3010013.
