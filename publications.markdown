@@ -12,7 +12,8 @@ permalink: /publications/
 <br/>
 [4] Alsamhi, S.H.; Almalki, F.; Ma, O.; and Ansari, M.S.; “Predictive Estimation of Optimal Signal Strength from Drones over IoT Frameworks in Smart Cities”, accepted by IEEE Transactions on Mobile Computing, 2021.
 <br/>
-[5] Sathyan A.; Cohen K.; and Ma O.; “Genetic fuzzy based scalable system of distributed robots for a collaborative task”, Frontiers in Robotics and AI, 2020. doi: 10.3389/frobt.2020.601243. &nbsp;  
+[5] Sathyan A.; Cohen K.; and Ma O.; “Genetic fuzzy based scalable system of distributed robots for a collaborative task”, Frontiers in Robotics and AI, 2020. doi: 10.3389/frobt.2020.601243.
+ &nbsp;  <br/>
 [6] Zhang L.; Sun Y.; Barth A.; and Ma O., "Decentralized Control of Multi-Robot System in Cooperative Object Transportation Using Deep Reinforcement Learning," in IEEE Access, vol. 8, pp. 184109-184119, 2020, doi: 10.1109/ACCESS.2020.3025287.
 <br/>
 [7] Alsamhi, S.H.; Ma, O.; and Ansari, M.S.; “Convergence of Machine Learning and Robotics Communication in Collaborative Assembly: Mobility, Connectivity and Future Perspectives”, Journal of Intelligent and Robotic Systems: Theory and Applications, 2020, 98(3-4), pp. 541-566.
