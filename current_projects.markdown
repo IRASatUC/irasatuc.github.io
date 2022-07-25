@@ -23,8 +23,10 @@ permalink: /current_projects/
 
 # [Physics-Based Mixed Reality Simulation]({% link projects/physics-based.markdown %})
 
-# [Drone Team Collaboration as A Distributed System]({% link projects/drone_team.markdown %}) 
+# [Drone Team Collaboration as A Distributed System]({% link projects/drone_team.markdown %})
 
 # [UAV-Manipulator Systems for Aerial Manipulation​]({% link projects/uav-manipulator.markdown %})
 
 # [Autonomous Mobile Robot for Door Opening]({% link projects/autonomous-robot-for-door-opening.markdown %})
+
+# [Physical Simulation of a Human-Driving Vehicle in Lab Environment]({% link projects/human-driving-vehicle-simulation.markdown %})
