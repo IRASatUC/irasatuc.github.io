@@ -14,12 +14,11 @@ With the fast advancement of robotics and autonomy technologies, heterogeneous a
 </p>
 
 <h2 align="center">Technology Highlights</h2>
-<p align="left">
 - Human-machine interface – a vehicle driving simulator to allow a human driver to participate.
 - Render live video imaging from a vehicle mounted camera on the simulator’s screens.
 - Operate the “manned vehicle” by a human driver through a realistic driving simulator – a true human-in-the-loop and hardware-in-the-loop simulation system.
 - All the software is ROS based and thus easy to transfer and further development.
-</p>
+
 ![](/images/projects/human-driver-simulation/vehicle-simulator-environment.jpg "Simulation Environment in Lab"){:width="100%"}
 
 <h2 align="center">A similar product</h2>
