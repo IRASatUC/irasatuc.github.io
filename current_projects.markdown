@@ -3,6 +3,8 @@ layout: page
 title: Current Projects
 permalink: /current_projects/
 ---
+# [Development of A 3D Proximity-Operation Test System for On-Orbit Servicing a Non-Cooperative Object]({% link projects/orbit_servicing_test.markdown %})
+
 # [Space Robot Control for On-Orbit Servicing​]({% link projects/space-robot-control-for-onorbit-servicing.markdown %})
 
 # [Optimal Attitude Profiling of A 12U Scientific CubeSat]({% link projects/cubesat.markdown %})

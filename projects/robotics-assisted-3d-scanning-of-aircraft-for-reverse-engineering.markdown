@@ -20,3 +20,4 @@ A two-phase scanning method with using a high-precision indoor positioning syste
 - [Yufeng Sun, Lin Zhang, and Ou Ma. "Robotics-Assisted 3D Scanning of Aircraft." AIAA AVIATION 2020 FORUM. July 2020.](https://arc.aiaa.org/doi/abs/10.2514/6.2020-3224)
 - [Yufeng Sun and Ou Ma. "Automating Aircraft Exterior Inspection with Robotics and Machine Learning Technologies" ASME 2020 Intl. Mech. Eng Congress and Exposition (IMECE202), Nov. 16-19, 2020, Portland, OR.](https://asmedigitalcollection.asme.org/IMECE/proceedings/IMECE2020/84492/V02BT02A053/1099026)
 - [Sun, Yufeng, and Ma Ou. "Automating Aircraft Scanning for Inspection or 3D Model Creation with a UAV and Optimal Path Planning." Drones 6.4 (2022): 87.](https://www.mdpi.com/2504-446X/6/4/87)
+- [Sun, Y. and Ma, O.; “Drone-based Automated Exterior Inspection of an Aircraft using Reinforcement Learning Technique”, AIAA 2023 SciTech, National Harbor, MD, Jan 23-27, 2023.](https://doi.org/10.2514/6.2023-0107)
