@@ -11,7 +11,7 @@ The significant challenges include
 - self-charging using standard wall outlets: the robot must be able to autonomously charge its battery using standard wall outlets which are widely available in public indoor environments, so that it can extend its working time without human assistance.
 Both are complex tasks which can be divided into three subtasks: 1) object detection; 2) long-range approaching; and 3) close-range manipulation. Instead of using an expensive robotic arm, we are developing a cost-effective device which can be attached to a wheeled robot along with cameras and force sensors for the door-opening task.
 </p>
-![](/images/projects/door-opening/robot.png "indoor service robot"){:width="50%" .image-center}
+![](/images/projects/door-opening/robot.png "indoor service robot"){:width="100%" .image-center}
 
 <h2 align="center">Methodology</h2>
 <p align="justify">
@@ -26,7 +26,7 @@ For close-range manipulation task, we built a simulation and trained the force-v
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5CGG6vOeOh4?si=tQX7Etv7_HqbwECV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
-<h2 align="center">Enable Service Robots to Charge Batteries using Standard Wall Outlets</h2>
+<h2 align="center">Enable Service Robots to Charge Batteries</h2>
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BhfFRvom3v4?si=rFktwZH5q7XEfs0q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
