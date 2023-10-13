@@ -21,7 +21,7 @@ On-Orbit Servicing a Non-Cooperative Object
 - Allows to test real sensors and other hardware components in an integrated system.
 - Provides a safe and fully controlled testing environment.
 
-<h2 align="center">Tumbling Satellite Motion Simulation using a 6-DOF Fanuc Robotic Arm</h2>
+<h2 align="center">Hardware-in-the-Loop Simulation-based Satellite 3D Tumbling Testbed</h2>
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DbBZQQoCwqY?si=lWBBNkB5pvUSNsVm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
