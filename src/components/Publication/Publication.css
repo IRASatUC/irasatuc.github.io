@@ -1,0 +1,21 @@
+.Publication h1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.Publication ol{
+    list-style-type: decimal ;
+    display: none;
+}
+.Publication h2{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: x-large;
+}
+.Publication ol li{
+    font-size: large;
+    padding:5px
+}
+.Publication {
+    padding-left: 50px;
+
+}

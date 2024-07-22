@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.News h1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.News ul li{
+    font-size: large;
+    padding:5px
+}
+.News {
+    padding-left: 50px;
+
+}

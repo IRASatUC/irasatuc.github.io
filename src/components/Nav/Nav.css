@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-Logo{
+    width: 200px;
+    height: auto;
+    filter:invert(1);
+}

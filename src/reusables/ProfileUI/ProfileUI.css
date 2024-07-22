@@ -1,0 +1,66 @@
+.box {
+    background: linear-gradient(45deg, rgb(55,66,91,1) 30%, rgb(68, 90, 141) 90%);
+    border-radius: 5px;
+    color:white;
+    padding: 0px;
+    height: 190px;
+    width: 250px;
+    box-shadow: 0 3px 5px 2px rgb(55,66,91,0.3);
+    text-align: center;
+    transition: 0.3s;
+}
+.title{
+    display: none;
+    top:0;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+}
+.des {
+    display: none;
+    top:0;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.box:hover {
+    .title{
+        display: block;
+    }
+    .des{
+        display: block;
+    }
+    background: linear-gradient(45deg, rgb(55,66,91,1) 30%, rgb(68, 90, 141) 90%);
+    border-radius: 5px;
+    color:white;
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 3px 5px 2px rgba(68, 90, 141, .3);
+}
+
+.img-box {
+    height: 190px;
+    width: 190px;
+    top:-80px;
+    object-fit: cover;
+    border-radius: 6px;
+    /* border: 1px solid black;  */
+    box-shadow: 0 3px 5px 2px rgba(68, 90, 141, 0.3);
+    position: relative;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.prof-container {
+    margin: 10px;
+    width: fit-content;
+    padding-top: 80px;
+    
+}
+.name{
+    margin-top: -75px;
+    font-size: 27px;
+    /* font-size: x-large; */
+}
