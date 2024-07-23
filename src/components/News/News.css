@@ -4,7 +4,12 @@
 
 
 
-
+.NewsBox{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:100%;
+}
 .News h1{
     font-weight: bold;
     font-size: xx-large;
@@ -16,4 +21,12 @@
 .News {
     padding-left: 50px;
 
+}
+@media only screen and (max-width: 900px) {
+    .NewsBox{
+        display:block;
+        
+        width:100%;
+    }
+    
 }

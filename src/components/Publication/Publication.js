@@ -29,8 +29,19 @@ export default function Publication(){
         <ol id="Publication_contents_peer_review_conference" reversed>
           {Publication_contents_peers_review_conference.map((content)=>{
             return(
-              <li>{content.authors}; {content.title}, <i>{content.journal}</i>,{content.volume}.{content.issue} {content.year}.<a href={"https://"+content.doi}>{content.doi}</a></li>
-
+                <li >
+                  {content.authors}; {content.title}, <i>{content.booktitle}</i> {content.date}&nbsp;{content.year}
+                  {content.address?(content.address+";"):""} &nbsp;
+                  {content.volume }&nbsp;
+                  {content.issue}&nbsp;
+                  {content.pages}&nbsp;
+                  
+                  {content.doi && (
+                    <>
+                       <a href={`https://${content.doi}`}>{content.doi}</a>
+                    </>
+                  )}
+                </li>
             )
           })}
         </ol>
@@ -38,7 +49,7 @@ export default function Publication(){
         <ol id="Publication_contents_books_chapter" reversed>
           {Publication_contents_books_chapter.map((content)=>{
             return(
-              <li>{content.authors}; {content.title}, <i>{content.journal}</i>,{content.volume}.{content.issue} {content.year}.<a href={"https://"+content.doi}>{content.doi}</a></li>
+              <li>{content.authors}; {content.title}, <i>{content.journal}</i>,{content.volume}.{content.issue} {content.year}. {content.editors} {content.publisher}. {content.isbn} </li>
 
             )
           })}
@@ -46,10 +57,11 @@ export default function Publication(){
         <h2 onClick={()=>{dropdownDisplay("Publication_contents_patents")}}>Patents </h2>
         <ol id="Publication_contents_patents" reversed>
           {Publication_contents_patents.map((content)=>{
+            
             return(
-              <li>{content.authors}; {content.title}, <i>{content.journal}</i>,{content.volume}.{content.issue} {content.year}.<a href={"https://"+content.doi}>{content.doi}</a></li>
+              <li>{content.authors}; {content.title}, <i>{content.type}</i>,{content.number}.{content.date} .<a href={"https://"+content.doi}>{content.doi}</a></li>
 
-            )
+            ) 
           })}
         </ol>
         

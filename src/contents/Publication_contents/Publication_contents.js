@@ -198,7 +198,412 @@ export const Publication_contents_peers_review = [
         issue: "",
         year: 2019,
         doi: "https://doi.org/10.1007/s11235-019-00597-1"
+    },    {
+        "authors": "Alsamhi, S.H.; Ma, O.; Ansari, M.S.; Gupta, S.K.",
+        "title": "Collaboration of Drone and Internet of Public Safety Things in Smart Cities: An Overview of QoS and Network Performance Optimization",
+        "journal": "Drones",
+        "year": 2019,
+        "doi": "10.3390/drones3010013"
     },
+    {
+        "authors": "Johansen, R.A.; et al. (12 authors including O. Ma)",
+        "title": "HABSat-1: assessing the feasibility of using CubeSats for the detection of cyanobacterial harmful algal blooms in inland lakes and reservoirs",
+        "journal": "Journal of Lake and Reservoir Management",
+        "volume": 35,
+        "issue": 2,
+        "year": 2019,
+        "doi": "10.1080/10402381.2019.1609146"
+    },
+    {
+        "authors": "Alsamhi, S.H.; Ansari, M.S.; Ma, O.; Almalki, F.; Gupta, S.K.",
+        "title": "Tethered Balloon Technology in Design Solutions for Rescue and Relief Team Emergency Communication Services",
+        "journal": "Disaster Medicine and Public Health Preparedness",
+        "volume": 13,
+        "issue": 2,
+        "year": 2019,
+        "pages": "203-210"
+    },
+    {
+        "authors": "Yao, H.; Ren, W.; Ma, O.",
+        "title": "Understanding the True Dynamics of a Space Manipulator from Its Air-Bearing based Ground Testing",
+        "journal": "AIAA Journal of Guidance, Control and Dynamics",
+        "year": 2018,
+        "doi": "10.2514/1.G003501"
+    },
+    {
+        "authors": "Flores-Abad, A.; Zhang, L.; Zheng, W.; Ma, O.",
+        "title": "Optimal Capture of a Tumbling Object in Orbit Using a Space Manipulator",
+        "journal": "Journal of Intelligent and Robotic Systems",
+        "volume": 86,
+        "issue": 2,
+        "year": 2017,
+        "pages": "199-211"
+    },
+    {
+        "authors": "Xiu, W.; Zhang, L.; Ma, O.",
+        "title": "Experimental Study of a Momentum-based Method for Identifying the Inertia Barycentric Parameters of a Human Body",
+        "journal": "Multibody System Dynamics",
+        "volume": 36,
+        "issue": 3,
+        "year": 2016,
+        "pages": "237-255"
+    },
+    {
+        "authors": "Zhang, L.; Ma, O.; Fabre, J.; Wood, R.",
+        "title": "The Motion of Center of Mass during Walking Reveals Difference between Older Adults with and without a Fall History",
+        "journal": "The International Journal of Aging and Society",
+        "volume": 5,
+        "issue": 3,
+        "year": 2015,
+        "pages": "1-14"
+    },
+    {
+        "authors": "Xie, P.; Ma, O.; Flores-Abad, A.",
+        "title": "Development of an autonomous unmanned aerial vehicle using gas-powered RC helicopter",
+        "journal": "Journal of Aerospace Engineering",
+        "year": 2015,
+        "doi": "10.1177/0954410014563361"
+    },
+    {
+        "authors": "Flores-Abad, A.; Ma, O.; Zheng, W.; Pham, K.",
+        "title": "Optimal Controller for a Space Robot with Uncertainties in the Boundary Conditions",
+        "journal": "AIAA Journal of Guidance, Control and Dynamics",
+        "volume": 37,
+        "issue": 6,
+        "year": 2014,
+        "pages": "2014-2017"
+    },
+    {
+        "authors": "Zhang, Z.; Xie, P.; Ma, O.",
+        "title": "Bio-inspired Trajectory Generation for UAV Perching Movement Based on Tau Theory",
+        "journal": "International Journal of Advanced Robotic Systems",
+        "volume": 11,
+        "year": 2014
+    },
+    {
+        "authors": "Flores-Abad, A.; Ma, O.; Pham, K.; Ulrich, S.",
+        "title": "A Review of Robotics Technologies for On-Orbit Services",
+        "journal": "Progress in Aerospace Science",
+        "volume": 68,
+        "year": 2014,
+        "pages": "1-26"
+    },
+    {
+        "authors": "Flores-Abad, A.; Xie, P.; Martinez-Arredondo, G.; Ma, O.",
+        "title": "Verification of a Special Inertial Measurement Unit using a Quadrotor Aircraft",
+        "journal": "International Journal of Intelligent Unmanned Systems",
+        "volume": 2,
+        "issue": 1,
+        "year": 2014,
+        "pages": "40-55"
+    },
+    {
+        "authors": "Zhang, Z.; Zhang, S.; Xie, P.; Ma, O.",
+        "title": "Bioinspired 4D Trajectory Generation for a UAS Rapid Point-to-Point Movement",
+        "journal": "Journal of Bionic Engineering",
+        "volume": 11,
+        "issue": 1,
+        "year": 2014,
+        "pages": "72-81"
+    },
+    {
+        "authors": "Flores-Abad, A.; Ma, O.",
+        "title": "Bio-inspired approach for a space manipulator to capture a tumbling object with minimal impact force",
+        "journal": "International Journal of Mechanisms and Robotic Systems",
+        "volume": 1,
+        "issue": 4,
+        "year": 2013,
+        "pages": "331-348"
+    },
+    {
+        "authors": "Lu, Q.; Liang, J.; Qiao, B.; Ma, O.",
+        "title": "A new active body-weight support system capable of virtually offloading partial body mass",
+        "journal": "IEEE/ASME Transactions on Mechatronics",
+        "volume": 18,
+        "issue": 1,
+        "year": 2013,
+        "pages": "11-20"
+    },
+    {
+        "authors": "Hatamleh, K.; Ma, O.; Flores-Abad, A.; Xie, P.",
+        "title": "Development of a special inertial measurement unit for UAV applications",
+        "journal": "ASME Journal of Dynamic Systems, Measurement, and Control",
+        "volume": 135,
+        "issue": 1,
+        "year": 2013
+    },
+    {
+        "authors": "Yang, G.; Ma, O.",
+        "title": "Validation of satellite docking simulations using an air-bearing based experimental testbed",
+        "journal": "International Journal of Space Science and Engineering",
+        "volume": 1,
+        "issue": 3,
+        "year": 2013,
+        "pages": "253-267"
+    },
+    {
+        "authors": "Lu, Q.; Ma, O.",
+        "title": "Identification of Human Inertia Properties using A Momentum-based Approach",
+        "journal": "ASME Journal of Biomechanical Engineering",
+        "volume": 134,
+        "issue": 10,
+        "year": 2012
+    },
+    {
+        "authors": "Ma, O.; Flores-Abad, A.; Boge, T.",
+        "title": "Use of industrial robots for hardware-in-the-loop simulation of satellite rendezvous and docking",
+        "journal": "Acta Astronautica",
+        "volume": 81,
+        "issue": 1,
+        "year": 2012,
+        "pages": "335-347"
+    },
+    {
+        "authors": "Liang, J.; Fillmore, S.; Ma, O.",
+        "title": "An extended bristle friction force model with experimental validation",
+        "journal": "Mechanism and Machine Theory",
+        "volume": 56,
+        "year": 2012,
+        "pages": "123-137"
+    },
+    {
+        "authors": "Liang, J.; Ma, O.; Liu, C.",
+        "title": "Model reduction of contact dynamics simulation using a modified Lyapunov balancing method",
+        "journal": "Frontier of Mechanical Engineering",
+        "volume": 6,
+        "issue": 4,
+        "year": 2011,
+        "pages": "383-391"
+    },
+    {
+        "authors": "Liang, J.; Ma, O.",
+        "title": "Angular-velocity tracking with unknown dynamics for satellite rendezvous and docking",
+        "journal": "Acta Astronautica",
+        "volume": 69,
+        "year": 2011,
+        "pages": "1019-1028"
+    },
+    {
+        "authors": "Lu, Q.; Ortega, C.; Ma, O.",
+        "title": "Passive gravity compensation mechanisms: technologies and applications",
+        "journal": "Recent Patents on Engineering",
+        "volume": 5,
+        "issue": 1,
+        "year": 2011,
+        "pages": "32-44"
+    },
+    {
+        "authors": "Doush, I.A.; Enrico, P.; Simon, D.; Son, C.T.; Ma, O.",
+        "title": "Multimodal presentation of two-dimensional charts: an investigation using open office Xml and Microsoft Excel",
+        "journal": "ACM Transactions on Accessible Computing",
+        "volume": 3,
+        "issue": 2,
+        "year": 2010
+    },
+    {
+        "authors": "Hatamleh, K.; Ma, O.; Paz, R.",
+        "title": "A UAV model parameter identification method: A simulation study",
+        "journal": "International Journal of Information Acquisition",
+        "volume": 6,
+        "issue": 4,
+        "year": 2009,
+        "pages": "225-238"
+    },
+    {
+        "authors": "Diao, X.; Ma, O.",
+        "title": "Force-closure analysis of 6-DOF cable manipulators with seven or more cables",
+        "journal": "Robotica",
+        "volume": 27,
+        "year": 2009,
+        "pages": "209-215"
+    },
+    {
+        "authors": "Ma, O.; Zhang, M.",
+        "title": "Modeling and control of electroporation-mediated gene delivery",
+        "journal": "IEEE Transactions on Automation Science and Engineering",
+        "volume": 6,
+        "issue": 2,
+        "year": 2009,
+        "pages": "228-238"
+    },
+    {
+        "authors": "Diao, X.; Ma, O.",
+        "title": "Vibration analysis of cable-driven parallel manipulators",
+        "journal": "Multibody System Dynamics",
+        "volume": 21,
+        "issue": 4,
+        "year": 2009,
+        "pages": "347-360"
+    },
+    {
+        "authors": "Ma, O.; Dang, H.; Pham, K.",
+        "title": "On-orbit identification of inertia properties of spacecraft using a robotic arm",
+        "journal": "AIAA Journal of Guidance, Control and Dynamics",
+        "volume": 31,
+        "issue": 6,
+        "year": 2008,
+        "pages": "1761-1771"
+    },
+    {
+        "authors": "Diao, X.; Ma, O.",
+        "title": "Workspace determination of general 6-DOF cable manipulators",
+        "journal": "Advanced Robotics",
+        "volume": 22,
+        "year": 2008,
+        "pages": "261-278"
+    },
+    {
+        "authors": "Ma, Z.; Ma, O.; Shashikanth, B.",
+        "title": "Optimal Approach to and Alignment with a Rotating Rigid Body for Capture",
+        "journal": "Journal of the Astronautical Science",
+        "volume": 55,
+        "issue": 4,
+        "year": 2007,
+        "pages": "407-419"
+    },
+    {
+        "authors": "Diao, X.; Ma, O.",
+        "title": "A method of verifying force-closure condition for general cable manipulators with seven cables",
+        "journal": "Mechanism and Machine Theory",
+        "volume": 42,
+        "issue": 12,
+        "year": 2007,
+        "pages": "1563-1576"
+    },
+    {
+        "authors": "Ma, O.; Wang, J.",
+        "title": "Model order reduction for impact-contact dynamics simulations of flexible manipulators",
+        "journal": "Robotica",
+        "volume": 25,
+        "issue": 4,
+        "year": 2007,
+        "pages": "397-407"
+    },
+    {
+        "authors": "Tao, W.; Zhang, M.; Ma, O.",
+        "title": "Modeling and vibration suppression for industrial track robots",
+        "journal": "Industrial Robot",
+        "volume": 34,
+        "issue": 4,
+        "year": 2007,
+        "pages": "317-325"
+    },
+    {
+        "authors": "Tao, W.; Zhang, M.; Ma, O.; Yun, X.P.",
+        "title": "Residual vibration analysis and suppression for SCARA robots in semiconductor manufacturing",
+        "journal": "International Journal of Intelligent Control and Systems",
+        "volume": 11,
+        "issue": 2,
+        "year": 2006,
+        "pages": "97-105"
+    },
+    {
+        "authors": "Weber, M.; Patel, K.; Ma, O.; Sharf, I.",
+        "title": "Identification of contact dynamics model parameters from constrained robotic operations",
+        "journal": "ASME Journal of Dynamic Systems, Measurement, and Control",
+        "volume": 128,
+        "issue": 2,
+        "year": 2006,
+        "pages": "307-318"
+    },
+    {
+        "authors": "Zhang, M.; Ma, O.; Diao, X.",
+        "title": "Dynamics modeling and analysis of inkjet technology based oligo DNA microarray spotting",
+        "journal": "IEEE Transactions on Automation Science and Engineering",
+        "volume": 3,
+        "issue": 2,
+        "year": 2006,
+        "pages": "159-168"
+    },
+    {
+        "authors": "Ma, O.; Wang, J.; Misra, S.; Liu, M.",
+        "title": "On the validation of SPDM task verification facility",
+        "journal": "Journal of Robotic Systems",
+        "volume": 21,
+        "issue": 5,
+        "year": 2004,
+        "pages": "219-235"
+    },
+    {
+        "authors": "Van Vliet, J.; Sharf, I.; Ma, O.",
+        "title": "Experimental validation of contact dynamics simulation of constrained robotic tasks",
+        "journal": "The International Journal of Robotics Research",
+        "volume": 19,
+        "issue": 12,
+        "year": 2000,
+        "pages": "1203-1217"
+    },
+    {
+        "authors": "Ma, O.; Carr, R.",
+        "title": "Dynamics modelling and simulation of SPDM contact operations, Part I: simulation model and berthing 6B avionics boxes",
+        "journal": "IFAC Proceedings",
+        "volume": 31,
+        "issue": 33,
+        "year": 1998,
+        "pages": "159-164"
+    },
+    {
+        "authors": "Ma, O.; Carr, R.",
+        "title": "Dynamics modelling and simulation of SPDM contact operations, Part II: SPDM handling the IEA battery ORUs",
+        "journal": "IFAC Proceedings",
+        "volume": 31,
+        "issue": 33,
+        "year": 1998,
+        "pages": "165-170"
+    },
+    {
+        "authors": "Ma, O.; Buhariwala, K.; Neil, R.; Maclean, J.; Carr, R.",
+        "title": "MDSF - A generic development and simulation facility for flexible, complex robotic systems",
+        "journal": "Robotica",
+        "volume": 15,
+        "issue": 1,
+        "year": 1997,
+        "pages": "49-62"
+    },
+    {
+        "authors": "Ma, O.; Angeles, J.",
+        "title": "Architecture singularities of parallel manipulators",
+        "journal": "International Journal of Robotics and Automation",
+        "volume": 7,
+        "issue": 1,
+        "year": 1992,
+        "pages": "23-29"
+    },
+    {
+        "authors": "Angeles, J.; Ma, O.",
+        "title": "Performance evaluation of four-bar linkages for rigid-body guidance based on generalized coupler curves",
+        "journal": "ASME Journal of Mechanical Design",
+        "volume": 113,
+        "issue": 1,
+        "year": 1991,
+        "pages": "17-24"
+    },
+    {
+        "authors": "Angeles, J.; Ma, O.; Rajas, A.",
+        "title": "An algorithm for the inverse dynamics of n-axis general manipulators using Kane's equations",
+        "journal": "International Journal of Computers and Mathematics with Applications",
+        "volume": 17,
+        "issue": 12,
+        "year": 1989,
+        "pages": "1545-1561"
+    },
+    {
+        "authors": "Angeles, J.; Ma, O.",
+        "title": "Dynamic simulation of n-axis serial robotic manipulators using a natural orthogonal complement",
+        "journal": "International Journal of Robotics Research",
+        "volume": 7,
+        "issue": 5,
+        "year": 1988,
+        "pages": "32-47"
+    },
+    {
+        "authors": "Ma, O.; Angeles, J.",
+        "title": "Performance evaluation of pathe-generating planar, spherical and spatial four-bar mechanisms",
+        "journal": "Mechanism and Machine Theory",
+        "volume": 21,
+        "year": 1988,
+        "pages": "257-268"
+    }
 ]
 
 export const Publication_contents_books_chapter = [{
@@ -905,4 +1310,361 @@ export const Publication_contents_peers_review_conference = [    {
     location: "Toronto",
     date: "Aug. 2-5, 2010",
     doi: "AIAA-2010-7649"
-}]
+},{
+    author: "Ma, O., Dang, H., and Pham, K.",
+    title: "On-orbit identification of inertia properties of spacecraft using robotics technology",
+    booktitle: "Proceedings of the AIAA Guidance, Navigation, and Control Conference",
+    address: "Hilton Head, SC",
+    date: "Aug. 20-23",
+    year: 2007,
+    paper: "AIAA-2007-6815"
+  },
+  {
+    author: "Reveles, R., Ma, O., Maes, M., and Kim, J.",
+    title: "Fuzzy-neural model based control of a mobile robot for chasing a moving target",
+    booktitle: "Proceedings of the 13th International Conference on Advanced Robotics (ICAR’07)",
+    address: "Jeju, Korea",
+    date: "Aug. 21-24",
+    year: 2007,
+    pages: "pp. 808-813"
+  },
+  {
+    author: "Kim, J. and Ma, O.",
+    title: "Testing of a contact-dynamics parameters identification method using a robotics-based testbed",
+    booktitle: "Proceedings of the 13th International Conference on Advanced Robotics (ICAR’07)",
+    address: "Jeju, Korea",
+    date: "Aug. 21-24",
+    year: 2007,
+    pages: "pp. 975-980"
+  },
+  {
+    author: "Lin, B.W. and Ma, O.",
+    title: "Modeling and analysis of human binocular perception of position and velocity in the visual cortex",
+    booktitle: "Proceedings of the 2007 International Joint Conference on Neural Networks (IJCNN’07)",
+    address: "Orlando, FL, USA",
+    date: "Aug. 12-17",
+    year: 2007,
+    paper: "1273"
+  },
+  {
+    author: "Ma, O., Diao, X., Matinez, L. and Sarkodie-Gyan, T.",
+    title: "Dynamically removing partial body mass using acceleration feedback for neural training",
+    booktitle: "Proceedings of the IEEE International Conference on Rehabilitation Robotics (ICORR’07)",
+    address: "Noordwijk, The Netherlands",
+    date: "June 13-15",
+    year: 2007,
+    pages: "pp. 1102-1107"
+  },
+  {
+    author: "Ma, O., Dang, H. and Pham, K.",
+    title: "Simulation study of a robotics-based method for on-orbit identification of spacecraft inertia properties",
+    booktitle: "SPIE Defense and Security Symposium",
+    address: "Orlando, FL",
+    date: "April 9-13",
+    year: 2007,
+    paper: "65555-47"
+  },
+  {
+    author: "Ma, Z., Ma, O. and Shashikanth, B.",
+    title: "Optimal control for spacecraft to rendezvous with a tumbling satellite in a close range",
+    booktitle: "Proceedings of the IEEE International Conference on Intelligent Robots and Systems (IROS’06)",
+    address: "Beijing, China",
+    date: "Oct. 9-15",
+    year: 2006,
+    pages: "pp. 4109-4114"
+  },
+  {
+    author: "Ma, O. and Yang, G.",
+    title: "Validation of a satellite docking simulator using the SOSS experimental testbed",
+    booktitle: "Proceedings of the IEEE International Conference on Intelligent Robots and Systems (IROS’06)",
+    address: "Beijing, China",
+    date: "Oct. 9-15",
+    year: 2006,
+    pages: "pp. 4115-4120"
+  },
+  {
+    author: "Diao, X. and Ma, O.",
+    title: "Workspace analysis of a 6-DOF cable robot for hardware-in-the-loop Dynamic simulation",
+    booktitle: "Proceedings of the IEEE International Conference on Intelligent Robots and Systems (IROS’06)",
+    address: "Beijing, China",
+    date: "Oct. 9-15",
+    year: 2006,
+    pages: "pp. 4103-4108",
+    citations: 10
+  },
+  {
+    author: "Diao, X., Ma, O., and Paz, R.",
+    title: "Study of 6-DOF cable-robots for potential application of HIL microgravity contact-dynamics simulation",
+    booktitle: "Proceedings of the AIAA Modeling and Simulation Technologies Conference and Exhibit",
+    address: "Keystone, CO",
+    date: "August 21-24",
+    year: 2006,
+    paper: "AIAA-2006-6732",
+    pages: "pp. 1097-1110"
+  },
+  {
+    author: "Ma, O. and Boyden, S.",
+    title: "A robotics-based testbed for verifying a method of identifying contact-dynamics model parameters",
+    booktitle: "SPIE Defense and Security Symposium",
+    address: "Orlando, FL",
+    date: "April 18-21",
+    year: 2006,
+    paper: "6221-2",
+    pages: "p. 622102"
+  },
+  {
+    author: "Diao, X., Ma, O., and Liu, M.",
+    title: "Dynamics of a robotics-based hardware-in-the-loop simulator for verifying microgravity contact dynamics",
+    booktitle: "SPIE Defense and Security Symposium",
+    address: "Orlando, FL",
+    date: "April 18-21",
+    year: 2006,
+    paper: "6221-4",
+    pages: "p. 622104"
+  },
+  {
+    author: "Tao, W., Zhang, M. and Ma, O.",
+    title: "Modeling and vibration suspension for industrial track robots",
+    booktitle: "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA’06)",
+    address: "Orlando, FL",
+    date: "May 2006",
+    pages: "pp. 1072-1077"
+  },
+  {
+    author: "Ma, O. and Horan, S.",
+    title: "NMSU Nanosatellite with robotics capabilities",
+    booktitle: "Proceedings of the 8th International Symposium on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS’05)",
+    address: "Munich, Germany",
+    date: "Sept. 5-9",
+    year: 2005,
+    pages: "pp. 145-152"
+  },
+  {
+    author: "Ma, O., Yang, G. and Diao, X.",
+    title: "Experimental validation of CDT-based satellite docking simulations using SOSS testbed",
+    booktitle: "Proceedings of the 8th International Symposium on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS’05)",
+    address: "Munich, Germany",
+    date: "Sept. 5-9",
+    year: 2005,
+    pages: "pp. 441-447"
+  },
+  {
+    author: "Ma, O. and Diao, X.",
+    title: "Dynamics analysis of a cable-driven parallel manipulator for hardware-in-the-loop dynamic simulation",
+    booktitle: "Proceedings of the 2005 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM’05)",
+    address: "Monterey, CA",
+    date: "July 24-28",
+    year: 2005,
+    pages: "pp. 837-842"
+  },
+  {
+    author: "Ma, O. and Wang, J.",
+    title: "Model order reduction for contact dynamics simulations of flexible multibody systems",
+    booktitle: "Proceedings of the 46th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics & Materials Conference",
+    address: "Austin, Texas",
+    date: "April 18-21",
+    year: 2005,
+    paper: "2005-2262"
+  },
+  {
+    author: "Zhang, M. and Ma, O.",
+    title: "Dynamic modeling and analysis of Oligo DNA microarray spotting",
+    booktitle: "Proceedings of the American Control Conference (ACC’05)",
+    address: "Portland, Oregon",
+    date: "June 8-10",
+    year: 2005,
+    pages: "pp. 388-393"
+  },
+  {
+    author: "Ma, O.",
+    title: "Model order reduction for contact dynamics simulations of manipulator systems",
+    booktitle: "Proceedings of the IEEE International Conference on Robotics and Automation",
+    address: "New Orleans, LA",
+    date: "April 27-30",
+    year: 2004,
+    pages: "pp. 1814-1819"
+  },
+  {
+    author: "Dupris, E., Doyon, M., Martin, E., Allard, P., Piedboeuf, J.-C., and Ma, O.",
+    title: "Autonomous operations for space robots",
+    booktitle: "Proceedings of the 55th IAF International Astronautical Congress",
+    address: "Vancouver",
+    date: "Oct. 4-8",
+    year: 2004,
+    volume: 12,
+    pages: "pp. 8019-8026"
+  },
+  {
+    author: "Ma, O., Wang J., Misra S., and Liu M.",
+    title: "Validation Plan for SPDM Task Verification Facility",
+    booktitle: "Proceedings of the 7th International Symposium on Artificial Intelligence, Robotics and Automation in Space",
+    address: "Nara, Japan",
+    date: "May 19-23",
+    year: 2003
+  },
+  {
+    author: "Ma, O., Crabtree, D., Jones, H., Yang, G., Martin, E., Carr, R., and Piedboeuf, J.C.",
+    title: "Development and applications of a simulink-based satellite docking simulator with generic contact dynamics capabilities",
+    booktitle: "Proceedings of the 2002 IAF World Space Congress",
+    address: "Houston, TX",
+    date: "Oct. 10-19",
+    year: 2002,
+    pages: "p. U-3-02"
+  },
+  {
+    author: "Weber, M., Ma, O., and Sharf, I.",
+    title: "Identification of contact dynamics model parameters from constrained robotic operations",
+    booktitle: "ASME Design Engineering Technical Conference and Computers in Engineering Conference",
+    address: "Montreal, Canada",
+    date: "Sept. 29-Oct. 2002",
+    pages: "pp. 1289-1298"
+},  {
+    author: "Carretero, J.A., Nahon, M., and Ma, O.",
+    title: "Using genetic algorithms with niche formation to solve the minimum distance problem amongst concave objects",
+    booktitle: "ASME Design Engineering Technical Conference and Computers in Engineering Conference",
+    address: "Montreal, Canada",
+    date: "Sept. 29-Oct. 2",
+    year: 2002,
+    paper: "DETC2002-DAC34105"
+  },
+  {
+    author: "Carretero, J.A., Nahon, M.A. and Ma, O.",
+    title: "Solving distance problems with concave bodies using Simulated Annealing",
+    booktitle: "Proceedings of the 2001 IROS Conference",
+    address: "Maui, Hawaii, US",
+    date: "October 29-November 3",
+    year: 2001,
+    pages: "pp. 1507-1512"
+  },
+  {
+    author: "Carr, R., Ma O., Yang, G., Jones, H., Bolger, J. Martin, E., Piedboeuf, J.C., and Crabtree, D.",
+    title: "A simulink-based satellite docking simulator with generic contact dynamics capabilities",
+    booktitle: "The 6th International Symposium on Artificial Intelligence, Robotics, and Automation in Space",
+    address: "Montreal, Canada",
+    date: "June 2001"
+  },
+  {
+    author: "Ma, O.",
+    title: "CDT – a general contact dynamics toolkit",
+    booktitle: "Proceedings of the 31st International Symposium on Robotics",
+    address: "Montreal, Canada",
+    date: "May 2000",
+    pages: "pp. 468-473"
+  },
+  {
+    author: "Ma, O. and Martin, E.",
+    title: "Extending the capability of attitude control systems to assist satellite docking missions",
+    booktitle: "Proceedings of 2000 CCToMM workshop",
+    address: "Saint-Hubert, Quebec",
+    date: "July 2000"
+  },
+  {
+    author: "Nahon, M., Ma, O., Piedboeuf, J.-C., and DeCarufel J.",
+    title: "A distance determination algorithm for real-time simulation of contact dynamics",
+    booktitle: "Proceedings of the 10th CASI Conference on Astronautics",
+    address: "Ottawa",
+    date: "October 1998",
+    pages: "pp. 51-57"
+  },
+  {
+    author: "Crabtree, D., Buhariwala, K., Ma O., Maclean, J., and Poirier, A.",
+    title: "The manipulator development simulation facility, a generic facility for development of flexible robotics manipulators",
+    booktitle: "Presented at the 47th IAF International Astronautical Congress",
+    address: "Beijing, China",
+    date: "October 1996"
+  },
+  {
+    author: "Ma, O.",
+    title: "Contact dynamics modelling for the simulation of Space Station manipulators handling payloads",
+    booktitle: "Proceedings of the 1995 IEEE International Conference on Robotics and Automation",
+    address: "Nagoya, Japan",
+    date: "May 1995",
+    pages: "pp. 1252-1258"
+  },
+  {
+    author: "Ma, O. and Angeles, J.",
+    title: "Optimum design of manipulators under dynamic isotropy conditions",
+    booktitle: "Proceedings of IEEE International Conference on Robotics and Automation",
+    address: "Atlanta, Georgia",
+    date: "May 2-7",
+    year: 1993,
+    volume: 1,
+    pages: "pp. 470-475"
+  },
+  {
+    author: "Ma, O. and Nahon, M.",
+    title: "A general method of computing the distance between two moving objects",
+    booktitle: "Proceedings of ASME 1992 Design Automation Conference",
+    address: "Scottsdale, Arizona",
+    date: "Sept. 13-16",
+    year: 1992,
+    volume: 1,
+    pages: "pp. 109-117"
+  },
+  {
+    author: "Ma, O. and Angeles, J.",
+    title: "Optimum architecture design of platform manipulators",
+    booktitle: "Proceedings of 1991 IEEE International Conference on Advanced Robotics",
+    address: "Pisa, Italy",
+    date: "June 19-22",
+    year: 1991,
+    volume: 2,
+    pages: "pp. 1130-1135"
+  },
+  {
+    author: "Ma, O. and Angeles, J.",
+    title: "Architecture singularities of platform manipulators",
+    booktitle: "Proceedings of 1991 IEEE International Conference on Robotics and Automation",
+    address: "Sacramento, California",
+    date: "April 1991",
+    volume: 2,
+    pages: "pp. 1542-1548"
+  },
+  {
+    author: "Ma, O. and Angeles, J.",
+    title: "An algorithmic approach for the direct-kinematics of special Steward-platform manipulators",
+    booktitle: "Proceedings of 3rd International Symposium on Robotics and Manufacturing",
+    address: "Vancouver, BC",
+    date: "July 18-20",
+    year: 1990,
+    volume: 1,
+    pages: "pp. 3-10"
+  },
+  {
+    author: "Ma, O. and Angeles, J.",
+    title: "The concept of dynamic isotropy and its applications to inverse kinematics and trajectory planning",
+    booktitle: "Proceedings of 1990 IEEE International Conference on Robotics and Automation",
+    address: "Cincinnati, Ohio",
+    date: "May 13-18",
+    year: 1990,
+    volume: 1,
+    pages: "pp. 481-486"
+  },
+  {
+    author: "Angeles, J. and Ma, O.",
+    title: "QUADMIN: an integrated package for constrained nonlinear least-square problems",
+    booktitle: "Proceedings of 1989 ASME International Computers in Engineering Conference",
+    address: "Anaheim, CA",
+    date: "July 1989",
+    volume: 2,
+    pages: "pp. 247-252"
+  },
+  {
+    author: "Ma, O. and Angeles, J.",
+    title: "Direct kinematics and dynamics of a parallel three-DOF parallel manipulator",
+    booktitle: "Proceedings of 1989 ASME Design and Automation Conference",
+    address: "Montreal",
+    date: "September 1989",
+    volume: 3,
+    pages: "pp. 313-320"
+  },
+  {
+    author: "Angeles, J., Ma, O. and Patel, R.V.",
+    title: "DYNVERS: an integrated package for robotic manipulators' inverse and direct dynamics",
+    booktitle: "ASME International Conference on Computers in Engineering",
+    address: "San Francisco, CA",
+    date: "Jul. 31-Aug. 4",
+    year: 1988,
+    pages: "pp. 439-445"
+  }
+]

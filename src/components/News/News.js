@@ -7,7 +7,7 @@ export default function News() {
         <div className='News'>
             <div>
                 <h1>News</h1>
-                <div style={{display:'flex',justifyContent:"space-around",width:"100%"}}>
+                <div className="NewsBox">
                 {News_contents.map((news) => {
                     return (
                         <NewsCard title={news.title} link={news.link} date={news.date}/>
