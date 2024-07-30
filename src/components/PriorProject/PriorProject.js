@@ -21,25 +21,25 @@ export default function PriorProject() {
 
           <h1>Prior Projects</h1>
           <ul>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject5")}>Physical Simulation of a Human-Driving Vehicle in Lab Environment</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject6")}>UAV-Manipulator Systems for Aerial Manipulation</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject7")}>Autonomous Mobile Robot for Door Opening</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject8")}>Robotics Assisted 3D Scanning of Aircraft for Reverse Engineering</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject9")}>Multi-Robot Cooperative Object Transportation</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject10")}>Multi-Agent Pursuit and Evasion</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject11")}>Space Robot Control for On-Orbit Servicing</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject12")}>Optimal Attitude Profiling of A 12U Scientific CubeSat</li>
-            <li>Contact Dynamics Modeling, Analysis and Control</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject1")}>SPDM Task Verification Facility (STVF)</li>
-            <li>European Proximity Operations Simulator (EPOS)</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject2")}>Reduced-Gravity and Biomechanics (RGB) Lab at NMSU</li>
-            <li>Contact Dynamics Modeling and Simulation</li>
-            <li>Robot Control for Capturing a Non-cooperative Object</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject3")}>Technology for Simulating Human Activities in Partial Gravity</li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject4")}>Risk of Falling Assessment for Older Adults</li>
-            <li>Identification of Mass Distribution of a Live Human</li>
-            <li>Design and Control of Unmanned Arial Vehicles</li>
-            <li>Student-Led Flight Experiments</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject5")}>1. Physical Simulation of a Human-Driving Vehicle in Lab Environment</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject6")}>2. UAV-Manipulator Systems for Aerial Manipulation</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject7")}>3. Autonomous Mobile Robot for Door Opening</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject8")}>4. Robotics Assisted 3D Scanning of Aircraft for Reverse Engineering</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject9")}>5. Multi-Robot Cooperative Object Transportation</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject10")}>6. Multi-Agent Pursuit and Evasion</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject11")}>7. Space Robot Control for On-Orbit Servicing</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject12")}>8. Optimal Attitude Profiling of A 12U Scientific CubeSat</li>
+            <li>9. Contact Dynamics Modeling, Analysis and Control</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject1")}>10. SPDM Task Verification Facility (STVF)</li>
+            <li>11. European Proximity Operations Simulator (EPOS)</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject2")}>12. Reduced-Gravity and Biomechanics (RGB) Lab at NMSU</li>
+            <li>13. Contact Dynamics Modeling and Simulation</li>
+            <li>14. Robot Control for Capturing a Non-cooperative Object</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject3")}>15. Technology for Simulating Human Activities in Partial Gravity</li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setPriorProject("PriorProject4")}>16. Risk of Falling Assessment for Older Adults</li>
+            <li>17. Identification of Mass Distribution of a Live Human</li>
+            <li>18. Design and Control of Unmanned Arial Vehicles</li>
+            <li>19. Student-Led Flight Experiments</li>
           </ul>
         </div>
       </div>

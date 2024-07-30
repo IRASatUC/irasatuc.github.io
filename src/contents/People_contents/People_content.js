@@ -15,16 +15,19 @@ export const People_contents_falcuty = [
     {
         imgUrl: Lab_Website_Ma_Ou,
         name: "Ma Ou",
-        title: "Professor",
+        title: "PHD, Lab Director",
         description: () => {
             return (
-                <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                <div>
+                    <p style={{ textAlign: "left", paddingLeft: "5px" }}>
                     - Space Robotics and Autonomy<br />
                     - Machine Learning and Intelligence System<br />
                     - Impact-contact dynamics<br />
-                    - Human Robot Interactions and Collaboration
-
-                </p>
+                    - Human Robot Interactions and Collaboration<br />
+                    <strong>- Email: maou@ucmail.uc.edu</strong>
+                    </p>
+                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/maou">Personal Website</a></button>
+                </div>
             )
         },
     },
@@ -36,11 +39,11 @@ export const People_contents_staffs = [
     {
         imgUrl: Lab_Website_Yufeng_Sun,
         name: "Yufeng (Eric) Sun",
-        title: "Research Associate",
+        title: "PHD, Research Associate",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
                     - Intelligence Robotics<br />
                     - Machine Learning<br />
                     - Dynamics and Control
@@ -57,7 +60,7 @@ export const People_contents_staffs = [
                 <>
                 <p style={{ textAlign:"center",padding:"5px",fontWeight:"bold",marginTop:"-15px",fontSize:"10px" }}>SSTI Project Coordinator</p>
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                     Research Area<br />
+                     Research Areas<br />
 
                     - In Space Service, Assembly, and Manufacturing (ISAM)<br />
                     - Estimation and Tracking of Noncooperative Spacecraft <br />
@@ -80,7 +83,7 @@ export const People_contents_students = [
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
 
                     - Intelligent Control of Space Manipulators<br />
 
@@ -99,7 +102,7 @@ export const People_contents_students = [
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
 
                     - Advanced Control Methods<br />
 
@@ -118,7 +121,7 @@ export const People_contents_students = [
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
                     - Infrastructure construction<br />
                     - Maintenance systems for space assets<br />
                     - Interplanetary inhabitants
@@ -134,7 +137,7 @@ export const People_contents_students = [
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
                     - Deep Learning<br />
                     - Flight Dynamics and Control<br />
                     - Space Robotics
@@ -149,7 +152,7 @@ export const People_contents_students = [
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
                     - Autonomous Control<br />
                     - Autonomous Sensing<br />
                     - Aircraft Dynamics
@@ -165,7 +168,7 @@ export const People_contents_students = [
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
                     - Design of Modular Robotic Systems for Space Applications<br />
 
                     - Remote Operation and Telepresence
@@ -183,7 +186,7 @@ export const People_contents_students = [
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
                     - Theoretical Physics<br />
                     - Robotics<br />
                     - AI, Algorithms, and Software
@@ -195,11 +198,11 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Ethan_Leszcynski,
         name: "Ethan Leszcynski",
-        title: "Undergraduate student",
+        title: "Undergraduate/M.Eng",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
                     - Space Vehicle Robotics<br />
                     - Turbomachinery<br />
                     - Control Systems
@@ -214,7 +217,7 @@ export const People_contents_students = [
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    Research Area<br />
+                    Research Areas<br />
                     - In Space Service, Assembly, and Manufacturing (ISAM)<br />
                     - Spacecraft and Space Robotics Dynamics and Control<br />
                     - Autonomous Systems

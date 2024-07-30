@@ -17,6 +17,14 @@ export default function People() {
                             )
                         })}
                     </div>
+                    <li><strong>Colaborating Faculty</strong></li>
+                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap"}}>
+                        {People_contents_falcuty.map((content) => {
+                            return (
+                                <ProfileUI imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
+                            )
+                        })}
+                    </div>
                     <li><strong>Staff</strong></li>
                     <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap"}}>
                         {People_contents_staffs.map((content) => {

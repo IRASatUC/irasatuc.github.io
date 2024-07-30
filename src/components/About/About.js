@@ -45,7 +45,7 @@ export default function About() {
                             Lab Website : https://irasatuc.github.io
                         </p>
                         <p className='mt-5 flex items-center justify-start flex-wrap text-white  text-xl	font-bold	w-full'>
-                            Collaborating Faculty : Professors Catharine McGhan, Donghoon Kim, Kelly Cohen, Raj Sharma, Janet Dong, etc.
+                            Collaborating Faculty : Donghoon Kim, Kelly Cohen, Raj Sharma, Janet Dong, Shaaban Abdallah, etc.
                         </p>
                     </div>
                 </div>

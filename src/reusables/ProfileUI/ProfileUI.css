@@ -29,11 +29,13 @@
     .des{
         display: block;
     }
+    
     background: linear-gradient(45deg, rgb(55,66,91,1) 30%, rgb(68, 90, 141) 90%);
     border-radius: 5px;
     color:white;
-    height: 300px;
+    height: auto;
     width: 250px;
+    padding: 10px;
     box-shadow: 0 3px 5px 2px rgba(68, 90, 141, .3);
 }
 
