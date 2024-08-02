@@ -1,9 +1,9 @@
-import tumbling from './Tumbling satellite.mp4';
 import ProjectUI from '../../../../reusables/ProjectUI/ProjectUI';
 import operation_concept from './operation_concept.jpg';
-import axios from "axios";
+import tumbling from './Tumbling satellite.mp4'
 
 function CurrentProject1_Description(){
+
   return(
     <div>
         <h2><strong>Objectives</strong></h2>
@@ -29,9 +29,10 @@ function CurrentProject1_Description(){
   )
 }
 export default function CurrentProject1() {
+  
   return (
     <ProjectUI 
-      Background={tumbling} 
+      Background={tumbling }
       projectTitle="Development of A 3D Proximity-Operation Test System for On-Orbit Servicing a Non-Cooperative Object"
       projectTeaser=""
       projectDescription={CurrentProject1_Description}

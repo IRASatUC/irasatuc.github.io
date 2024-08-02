@@ -1,0 +1,13 @@
+{
+  "resourceName": "irasStaticFile",
+  "policyUUID": "ba6bf501",
+  "bucketName": "iraswebba68c6169d964066a6a258bdbfa94d13",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

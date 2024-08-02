@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-irasweb-dev-604ed-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654654565595:role/amplify-irasweb-dev-604ed-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654654565595:role/amplify-irasweb-dev-604ed-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-irasweb-dev-604ed-deployment",
+      "UnauthRoleName": "amplify-irasweb-dev-604ed-unauthRole",
+      "StackName": "amplify-irasweb-dev-604ed",
+      "StackId": "arn:aws:cloudformation:us-east-1:654654565595:stack/amplify-irasweb-dev-604ed/afd88f30-506c-11ef-8f0f-0affdf8da635",
+      "AmplifyAppId": "d204tih5wqzman"
+    },
+    "categories": {
+      "auth": {
+        "irasweb90825fa5": {}
+      },
+      "storage": {
+        "irasStaticFile": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
