@@ -6,27 +6,12 @@ import CurrentProject3 from './CurrentProjectContents/CurrentProject3/CurrentPro
 import CurrentProject4 from './CurrentProjectContents/CurrentProject4/CurrentProject4';
 import CurrentProject5 from './CurrentProjectContents/CurrentProject5/CurrentProject5';
 import CurrentProject6 from './CurrentProjectContents/CurrentProject6/CurrentProject6';
+import CurrentProjectList from './CurrentProjectContents/CurrentProjectList/CurrentProjectList';
+import { BrowserRouter, Routes, Route,Outlet,Link } from "react-router-dom";
+
 export default function CurrentProjects() {
     const [currentProject, setCurrentProject] = useState('');
-    function CurrentProjectList() {
-      return (
-        <div className='CurrentProjects'>
-            <div>
-                <h1>Current Projects</h1>
-                <ul>
-                    <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setCurrentProject("CurrentProject1")}>1. Development of A 3D Proximity-Operation Test System for On-Orbit Servicing a Non-Cooperative Object</li>
-                   
-                    <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setCurrentProject("CurrentProject2")}>2. Intelligent and Collaborative Control of Multi-Robot Team</li>
-                    
-                    <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setCurrentProject("CurrentProject3")}>3. Visual-based Robotic Tracking of Arbitrarily defined Object</li>
-                    <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setCurrentProject("CurrentProject4")}>4. CableCat: Powering the PSR</li>
-                    <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setCurrentProject("CurrentProject5")}>5. Physics-Based Mixed Reality Simulation</li>
-                    <li style={{fontWeight:"bold",cursor:"pointer"}} onClick={() => setCurrentProject("CurrentProject6")}>6. Drone Team Collaboration as A Distributed System</li>
-                </ul>
-            </div>
-        </div>
-      )
-    }
+    
     
     function currentProject_paginations(routes) {
         switch (routes) {
@@ -56,8 +41,9 @@ export default function CurrentProjects() {
         }
       }
     return (
+      
        <div>
-              {currentProject_paginations(currentProject)}
+        <Outlet/>
        </div>
     )
 }
