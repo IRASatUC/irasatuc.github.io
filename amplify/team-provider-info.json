@@ -19,7 +19,11 @@
         "irasStaticFile": {}
       },
       "hosting": {
-        "S3AndCloudFront": {}
+        "S3AndCloudFront": {},
+        "amplifyhosting": {
+          "appId": "d204tih5wqzman",
+          "type": "manual"
+        }
       }
     }
   }
