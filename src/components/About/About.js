@@ -26,8 +26,11 @@ export default function About() {
 
             </div>
             <div className='transition'></div>
-
             <div className='iras-lab-about-section-2'>
+
+            </div>
+
+            <div className='iras-lab-about-section-3'>
 
             </div>
             <div id="About_contact_section" className='bg-[#37425B] flex items-end justify-center	h-full w-full'>

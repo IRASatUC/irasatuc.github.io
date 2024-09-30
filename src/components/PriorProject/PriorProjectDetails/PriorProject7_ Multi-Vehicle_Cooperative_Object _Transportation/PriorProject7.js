@@ -1,5 +1,6 @@
 import dynamic_model from './dynamic_model.jpg';
 import simulation_result from './simulation_result.jpg'
+import picture2 from './picture2.jpg';
 import ProjectUI from '../../../../reusables/ProjectUI/ProjectUI';
 const headerStyle = {
     textAlign: 'center',
@@ -9,7 +10,7 @@ const headerStyle = {
 function PriorProject7_Description() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
-            <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: "30px", width: "100%" }}>Multi-Robot Cooperative Object Transportation
+            <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: "30px", width: "100%" }}>Multi-Vehicle Collaboration for Object Transportation
             </h1>
             <h2 style={headerStyle}>Problem Description
             </h2>
@@ -47,6 +48,9 @@ function PriorProject7_Description() {
                 </li>
                 
             </ul>
+            <h2 style={headerStyle}>Simulation Interface
+            </h2>
+            <img src={picture2} alt="simulation interface" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto',marginBottom:"30px", width: '30%' }} />
             <img src={simulation_result} alt="simulation result" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '70%' }} />
 
         </div>

@@ -44,7 +44,7 @@ export default function PriorProject8() {
     return (
         <ProjectUI
             BackgroundImage={Aircraft_Scanning}
-            projectTitle="Robotics Assisted 3D Scanning of Aircraft for Reverse Engineering and Inspection"
+            projectTitle="AI and Robotics Assisted 3D Scanning for Inspection or Rapid and Accurate Reverse Engineering"
             projectTeaser=""
             projectDescription={PriorProject8_Description}
             projectImage={[{

@@ -4,7 +4,7 @@ function CurrentProject6_Description() {
     return (
         <div>
             <div style={{  padding: '20px' }}>
-                <h1 style={{textAlign:"center",fontWeight:"bolder",paddingBottom:"20px"}}>Drone Team Collaboration as A Distributed System</h1>
+                <h1 style={{textAlign:"center",fontWeight:"bolder",paddingBottom:"20px"}}>Multi-Robot Cooperative Object Transportation</h1>
 
                 <h2 style={{textAlign:"center",paddingBottom:"20px",paddingTop:"20px",fontWeight:"bold"}}>Research Goal</h2>
                 <p>Development of a decentralized system of collaborative UAVs that can jointly bring a large load from one place to another.</p>
@@ -38,9 +38,14 @@ function CurrentProject6_Description() {
 const CurrentProject6_publications = () => {
     return (
       <div style={{ padding: '20px' }}>
-        <ul>
+        <ul style={{listStyleType:"disc"}}>
           <li>
-            Bisig C.; Montejo J.; Verbryke M.; Sathyan A.; and Ma O., “Genetic Fuzzy Systems for Decentralized, Multi-UAV Cargo Handling”, Proceedings of AIAA SciTech, Jan 6-10, 2020, Orlando, FL.
+          Bisig, Caleb and Ma, Ou; “Scalable and Robust Decentralized Cargo Transport via Genetic Fuzzy Systems”, Proc. of 2022 AIAA SciTech, San Diego, https://doi.org/10.2514/6.2022-1728.
+
+          </li>
+          <li>
+          Sathyan, A.; Ma, O. and Cohen, K.; “Genetic Fuzzy Methodology for Decentralized Cooperative UAVs to Transport a Shared Payload”, Drones, 2023. https://doi.org/10.3390/drones7020103
+
           </li>
         </ul>
       </div>

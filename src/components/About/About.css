@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.about{
+    background-color:#37425B ;
+}
 .iras-lab-about-section-1{
     height: 700px;
     background-image: url("../img/IRAS_LAB_2021.jpg");
@@ -31,6 +33,20 @@
 
 }
 .iras-lab-about-section-2{
+    height: 600px;
+    width: 100%;
+    background-image: url("../img/DF\ HighBay\ room\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-color:#37425B ;
+    background-position: 50% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.iras-lab-about-section-3{
     height: 600px;
     width: 100%;
     background-image: url("../img/space_robotics_2023.jpg");

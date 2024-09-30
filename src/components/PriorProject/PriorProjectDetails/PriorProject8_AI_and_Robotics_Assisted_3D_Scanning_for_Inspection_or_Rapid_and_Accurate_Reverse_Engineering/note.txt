@@ -1,0 +1,24 @@
+Objective & Scope:  
+Develop an one-stop solution for efficient 3D scanning of an aircraft for inspection or outer-mold-line (OML) model generation.
+
+Motivation
+Aircraft maintenance often needs accurate 3D OML models for detailed inspection, data record, or other process. Many aircraft either do not have a 3D model or have an inaccurate 3D model due to hardware deviation. Current technology requires weeks time to manually scan an entire aircraft, which is a process of high cost, low efficiency, and also low quality. Moreover, human visual inspection is prone to human errors and stress. 
+
+New Technology
+Uses the latest Artificial Intelligence (AI), Robotics, and Sensing technologies, we are developing a new solution:
+UAV for coarse scan and UGV & robot-arm for detailed scan
+AI calculates random and fully-covered marker distribution
+AI helps generate optimal collision-free scan trajectories
+Robot accurately places and removes the markers (if needed)
+Robot performs smooth and accurate 3D scanning
+AI and vision sensors perform real-time inspection & feedback
+AI enhanced robot smartly performs repeated scanning for difficult spots as a skilled human worker does
+AI enhanced 3D model generation and quality assessment
+Studying the feasibility of using a UAV for detailed scanning
+
+Advantages
+Much faster and automated process, more accurate models, much less human labor, less dependent on human skills, transferable knowledge (AI software and trained models).  
+
+Publications
+Sun, Y.  and Ma, O.; “Automating Aircraft Scanning for Inspection or 3D Model Creation with a UAV and Optimal Path Planning”, Drones, 2022, 6(4), 87; https://doi.org/10.3390/drones6040087
+Sun, Y. and Ma, O.; “Drone-based Automated Exterior Inspection of an Aircraft using Reinforcement Learning Technique”, AIAA 2023 SciTech, MD, 2023.
