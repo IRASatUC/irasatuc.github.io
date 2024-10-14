@@ -15,6 +15,7 @@ import CurrentProject3 from './components/CurrentProjects/CurrentProjectContents
 import CurrentProject4 from './components/CurrentProjects/CurrentProjectContents/CurrentProject4/CurrentProject4';
 import CurrentProject5 from './components/CurrentProjects/CurrentProjectContents/CurrentProject5/CurrentProject5';
 import CurrentProject6 from './components/CurrentProjects/CurrentProjectContents/CurrentProject6/CurrentProject6';
+import CurrentProject7  from './components/CurrentProjects/CurrentProjectContents/CurrentProject7/CurrentProject7';
 import CurrentProjectList from './components/CurrentProjects/CurrentProjectContents/CurrentProjectList/CurrentProjectList';
 
 //PRIOR PROJECTS IMPORT
@@ -80,14 +81,14 @@ function App() {
               <Route path="/PriorProject/PriorProject19" element={< PriorProject19/>} />    
               <Route path="/PriorProject/PriorProject21" element={< PriorProject21/>} />    
               <Route path="/PriorProject/PriorProject23" element={< PriorProject23/>} />    
-
+              <Route path="/PriorProject/PriorProject5" element={< PriorProject5 />} />
 
             </Route>
             <Route path="/CurrentProjects" element={< CurrentProjects />} >
               <Route index element={< CurrentProjectList />} />
+              <Route path="/CurrentProjects/CurrentProject7" element={< CurrentProject7 />} />
               <Route path="/CurrentProjects/CurrentProject1" element={< CurrentProject1 />} />
               <Route path="/CurrentProjects/PriorProject9" element={< PriorProject9 />} />
-              <Route path="/CurrentProjects/PriorProject5" element={< PriorProject5 />} />
               <Route path="/CurrentProjects/PriorProject12" element={< PriorProject12/>} /> 
               <Route path="/CurrentProjects/PriorProject14" element={< PriorProject14/>} />                   
             </Route>

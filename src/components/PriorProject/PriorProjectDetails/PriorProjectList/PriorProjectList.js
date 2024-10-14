@@ -32,6 +32,7 @@ export default function PriorProjectList() {
             <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/PriorProject14">21. Robot Control for Capturing a Non-cooperative Object</Link></li>
             <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/PriorProject21">22. Bio Inspired Hopping Locomotion for Lunar Exploration</Link></li>
             <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/PriorProject23">23. Prediction of Human Action Intention or Outcome</Link></li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/PriorProject5">24. Space Robot Control for On-Orbit Servicing</Link></li>
 
 
           </ul>
