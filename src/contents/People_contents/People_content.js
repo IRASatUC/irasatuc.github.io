@@ -11,6 +11,14 @@ import Lab_Website_Yufeng_Sun from "../Lab Portraits/Lab_Website_Yufeng_Sun.jpg"
 import Lab_Website_Jacob_Hoffmann from "../Lab Portraits/Lab_Website_Jacob_Hoffmann.jpeg"
 import Lab_Website_Ma_Ou from "../Lab Portraits/Lab_Website_Ma_Ou.jpg"
 import Lab_Website_Kai_Liao from "../Lab Portraits/Lab_Website_Kai_Liao.JPG"
+import Lab_Web_Site_Massoud_Rabiee from "../Lab Portraits/Lab_Web_Site_Massoud_Rabiee.jpg"
+import Lab_Website_Donghoon_Kim from "../Lab Portraits/Lab_Website_Donghoon_Kim.jpg"
+import Lab_Website_Janet_Jiaxiang_Dong from "../Lab Portraits/Lab_Website_Janet_Jiaxiang_Dong.jpg"
+import Lab_Web_Site_Shaaban_Abdallah from "../Lab Portraits/Lab_Web_Site_Shaaban_Abdallah.jpg"
+import Lab_Website_Kelly_Cohen from "../Lab Portraits/Lab_Website_Kelly_Cohen.jpg"
+import Lab_Website_Akshat_Shah from "../Lab Portraits/Lab_Website_Akshat_Shah.jpeg"
+import Lab_Website_Long_pham from "../Lab Portraits/Lab_Website_Long_pham.jpg"
+import Lab_Wesite_Taha_Momayiz from "../Lab Portraits/Lab_Wesite_Taha_Momayiz.JPEG"
 export const People_contents_falcuty = [
     {
         imgUrl: Lab_Website_Ma_Ou,
@@ -27,6 +35,100 @@ export const People_contents_falcuty = [
                     <strong>- Email: maou@ucmail.uc.edu</strong>
                     </p>
                     <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/maou">Personal Website</a></button>
+                </div>
+            )
+        },
+    },
+
+];
+export const People_contents_colaborating_falcuty = [
+    {
+        imgUrl: Lab_Web_Site_Massoud_Rabiee,
+        name: "Massoud Rabiee",
+        title: "Professor",
+        description: () => {
+            return (
+                <div>
+                    <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                    - Digital controls<br />
+                    - robotics and automation<br />
+                    - electric machines & drives, industrial & process control<br />
+                    - industrial & process control<br />
+                    <strong>- Email: rabieem@ucmail.uc.edu</strong>
+                    </p>
+                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/rabieem?_gl=1*1elvfbn*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4NTU0LjQ0LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjg1NTQuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjg1NTQuMC4wLjA">Personal Website</a></button>
+                </div>
+            )
+        },
+    },{
+        imgUrl: Lab_Website_Donghoon_Kim,
+        name: "Donghoon Kim",
+        title: "Assistant Professor",
+        description: () => {
+            return (
+                <div>
+                    <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                    - Digital controls<br />
+                    - robotics and automation<br />
+                    - electric machines & drives, industrial & process control<br />
+                    - industrial & process control<br />
+                    <strong>- Phone: (513)556 5305</strong>
+                    </p>
+                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/kim3dn?_gl=1*zi9c01*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4Mzc2LjQ5LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjgzNzYuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjgzNzYuMC4wLjA">Personal Website</a></button>
+                </div>
+            )
+        },
+    },{
+        imgUrl: Lab_Website_Janet_Jiaxiang_Dong,
+        name: "Janet Jiaxiang Dong",
+        title: "Professor",
+        description: () => {
+            return (
+                <div>
+                    <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                    - Robotic cell design and integration<br />
+                    - Autonomous vehicles and mobile robots, and intelligent robotic systems<br />
+                    - Control and automation<br />
+                    - Manufacturing Technology<br />
+                    <strong>- Email: rabieem@ucmail.uc.edu</strong>
+                    </p>
+                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/dongjg?_gl=1*inrqgz*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4NDYwLjQ0LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjg0NjAuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjg0NjAuMC4wLjA">Personal Website</a></button>
+                </div>
+            )
+        },
+    },{
+        imgUrl: Lab_Web_Site_Shaaban_Abdallah,
+        name: "Shaaban Adallah",
+        title: "Professor",
+        description: () => {
+            return (
+                <div>
+                    <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                    - Fluid Mechanics<br />
+                    - Computational Fluid Dynamics<br />
+                    - Domain Decomposition Methods<br />
+                    - Computation of Incompressible Viscous Three-Dimensional Flow in Turbomachinery (Inlet, Duct, Combustor, Compressor, Turbine)<br />
+                    <strong>- Email: abdallsa@ucmail.uc.edu</strong>
+                    </p>
+                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/abdallsa?_gl=1*1mnctz3*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4Mzc2LjQ5LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjgzNzYuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjgzNzYuMC4wLjA">Personal Website</a></button>
+                </div>
+            )
+        },
+    },{
+        imgUrl: Lab_Website_Kelly_Cohen,
+        name: "Kelly Cohen",
+        title: "Professor",
+        description: () => {
+            return (
+                <div>
+                    <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                    - Intelligent Systems<br />
+                    - Advanced air mobility<br />
+                    - Unmanned aerial vehicles<br />
+                    - Fuzzy logic systems<br />
+                    <strong>- Email: Kelly.Cohen@uc.edu</strong>
+                    </p>
+                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/cohenky?_gl=1*d4zktn*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4Mjc5LjU3LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjgyNzkuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjgyNzkuMC4wLjA">Personal Website</a></button>
                 </div>
             )
         },
@@ -226,5 +328,57 @@ export const People_contents_students = [
                 </p>
             )
         },
+    },
+    {
+        imgUrl: Lab_Website_Akshat_Shah,
+        name: "Akshat Shah",
+        title: "Undergraduate student",
+        description: () => {
+            return (
+                <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                    Research Areas<br />
+                    - In Space Service, Assembly, and Manufacturing (ISAM)<br />
+                    - Spacecraft and Space Robotics Dynamics and Control<br />
+                    - Autonomous Systems
+
+
+                </p>
+            )
+        },
+    },
+    {
+        imgUrl: Lab_Website_Long_pham,
+        name: "Long Pham",
+        title: "Undergraduate student",
+        description: () => {
+            return (
+                <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                    Research Areas<br />
+                    - In Space Service, Assembly, and Manufacturing (ISAM)<br />
+                    - Spacecraft and Space Robotics Dynamics and Control<br />
+                    - Autonomous Systems
+
+
+                </p>
+            )
+        },
+    },
+    {
+        imgUrl: Lab_Wesite_Taha_Momayiz,
+        name: "Taha Momayiz",
+        title: "Undergraduate student",
+        description: () => {
+            return (
+                <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                    Research Areas<br />
+                    - In Space Service, Assembly, and Manufacturing (ISAM)<br />
+                    - Spacecraft and Space Robotics Dynamics and Control<br />
+                    - Autonomous Systems
+
+
+                </p>
+            )
+        },
     }
+
 ]

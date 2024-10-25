@@ -26,5 +26,33 @@
         }
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-irasweb-prod-9595f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::017820694137:role/amplify-irasweb-prod-9595f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::017820694137:role/amplify-irasweb-prod-9595f-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-irasweb-prod-9595f-deployment",
+      "UnauthRoleName": "amplify-irasweb-prod-9595f-unauthRole",
+      "StackName": "amplify-irasweb-prod-9595f",
+      "StackId": "arn:aws:cloudformation:us-east-1:017820694137:stack/amplify-irasweb-prod-9595f/b8ed2bb0-8a5c-11ef-93a8-1252b95ba589",
+      "AmplifyAppId": "dzr0qiouebxjq"
+    },
+    "categories": {
+      "auth": {
+        "irasweb90825fa5": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dzr0qiouebxjq",
+          "type": "manual"
+        },
+        "S3AndCloudFront": {}
+      },
+      "storage": {
+        "irasStaticFile": {}
+      }
+    }
   }
 }
