@@ -11,13 +11,13 @@ export default function PriorProjectList() {
             <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project3">1. Intelligent and Collaborative Control of Multi-Robot Team</Link></li>
                   
             <li style={{fontWeight:"bold",cursor:"pointer"}}><Link to="/PriorProject/Project26">2. Visual-based Robotic Tracking of Arbitrarily defined Object</Link></li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project3">3. CableCat: Powering the PSR</Link></li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project22">3. CableCat: Powering the PSR</Link></li>
             <li style={{fontWeight:"bold",cursor:"pointer"}}><Link to="/PriorProject/Project10">4. Physics-Based Mixed Reality Simulation</Link></li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project6">5. Multi-Robot Cooperative Object Transportation</Link></li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project6">5. Multi-Drone Decentralized Control for Collaborative Transporting a Large/Heavy Payload</Link></li>
             <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project11">6. Physical Simulation of a Human-Driving Vehicle in Lab Environment</Link></li>
             <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project25">7. UAV-Manipulator Systems for Aerial Manipulation</Link></li>
             <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project8">8. AI and Robotics Assisted 3D Scanning for Inspection or Rapid and Accurate Reverse Engineering</Link></li>
-            <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project5">9. Multi-Vehicle Cooperative Object Transportation</Link></li>
+            <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project5">9. Multi-Vehicle Decentralized Control for Collaborative Object Transportation</Link></li>
             <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project4">10. Multi-Agent Pursuit and Evasion</Link></li>
             <li>11. Contact Dynamics Modeling, Analysis and Control</li>
             <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/PriorProject/Project19">12. SPDM Task Verification Facility (STVF)</Link></li>

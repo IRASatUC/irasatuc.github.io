@@ -13,7 +13,7 @@ Challenging In-Space Operations for ISAM and Space Logistics
 </Link></li>
 
                   <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/CurrentProjects/Project1">2. Development of A 3D Proximity-Operation Test System for On-Orbit Servicing a Non-Cooperative Object</Link></li>
-                  <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/CurrentProjects/Project9">3. Autonomous Mobile Robot for Door Opening</Link></li>
+                  <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/CurrentProjects/Project9">3. AI-based Solution for Mobile Robots to Open a Self-closing Door and Pass through the Doorway</Link></li>
                   <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/CurrentProjects/Project12">4. Optimal Attitude Profiling of A 12U Scientific CubeSat</Link></li>
                   <li style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/CurrentProjects/Project16">5. Robot Control for Capturing a Non-cooperative Object</Link></li>
 

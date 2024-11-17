@@ -44,12 +44,7 @@ export default function About() {
                         <p className='mt-5 flex items-center justify-start flex-wrap text-white  text-xl	font-bold	w-full'>
                             Lab Manager : Conrad Kent, kentcm@ucmail.uc.edu, (513) 556-3747
                         </p>
-                        <p className='mt-5 flex items-center justify-start flex-wrap text-white  text-xl	font-bold	w-full'>
-                            Lab Website : https://irasatuc.github.io
-                        </p>
-                        <p className='mt-5 flex items-center justify-start flex-wrap text-white  text-xl	font-bold	w-full'>
-                            Collaborating Faculty : Donghoon Kim, Kelly Cohen, Raj Sharma, Janet Dong, Shaaban Abdallah, etc.
-                        </p>
+                        
                     </div>
                 </div>
             <div className='iras-lab-about-section-end'>

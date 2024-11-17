@@ -1,7 +1,7 @@
 import "./NewsCard.css";
 
 export default function NewsCard(props) {
-    return(<div className="bg-white overflow-hidden border-4 border-blue-500 w-2/3 lg:w-1/3" style={{margin:"10px"}}>
+    return(<div className="bg-white overflow-hidden border-4 border-blue-500 w-2/3 " style={{margin:"10px"}}>
             <a href={props.link}>
                 <div className="p-4 md:p-6">
                     <p className="text-blue-500 font-semibold text-xs mb-1 leading-none">News</p>

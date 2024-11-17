@@ -9,35 +9,11 @@ import People from './components/People/People';
 import Publication from './components/Publication/Publication';
 import News from './components/News/News';
 //CURRENT PROJECT IMPORT
-import CurrentProject1 from './components/CurrentProjects/CurrentProjectContents/CurrentProject1/CurrentProject1';
-import CurrentProject2 from './components/CurrentProjects/CurrentProjectContents/CurrentProject2/CurrentProject2';
-import CurrentProject3 from './components/CurrentProjects/CurrentProjectContents/CurrentProject3/CurrentProject3';
-import CurrentProject4 from './components/CurrentProjects/CurrentProjectContents/CurrentProject4/CurrentProject4';
-import CurrentProject5 from './components/CurrentProjects/CurrentProjectContents/CurrentProject5/CurrentProject5';
-import CurrentProject6 from './components/CurrentProjects/CurrentProjectContents/CurrentProject6/CurrentProject6';
-import CurrentProject7  from './components/CurrentProjects/CurrentProjectContents/CurrentProject7/CurrentProject7';
+
 import CurrentProjectList from './components/CurrentProjects/CurrentProjectContents/CurrentProjectList/CurrentProjectList';
 
 //PRIOR PROJECTS IMPORT
-import PriorProject1 from './components/PriorProject/PriorProjectDetails/PriorProject1_SPDM_Task_Verification_Facility_(STVF)/PriorProject1';
-import PriorProject2 from './components/PriorProject/PriorProjectDetails/PriorProject2_Reduced-Gravity_and_Biomechanics_(RGB)_Lab_at_NMSU/PriorProject2';
-import PriorProject3 from './components/PriorProject/PriorProjectDetails/PriorProject3_Technology_for_Simulating_Human_Activities_in_Partial_Gravity/PriorProject3';
-import PriorProject4 from './components/PriorProject/PriorProjectDetails/PriorProject4_Risk_of_Falling_Assessment_for_Older_Adults/PriorProject4';
-import PriorProject5 from './components/PriorProject/PriorProjectDetails/PriorProject5_Space_Robot_Control_for_On-Orbit_Servicing/PriorProject5';
-import PriorProject6 from './components/PriorProject/PriorProjectDetails/PriorProject6_Multi-Agent_Pursuit_and_Evasion/PriorProject6';
-import PriorProject7 from './components/PriorProject/PriorProjectDetails/PriorProject7_ Multi-Vehicle_Cooperative_Object _Transportation/PriorProject7';
-import PriorProject8 from './components/PriorProject/PriorProjectDetails/PriorProject8_AI_and_Robotics_Assisted_3D_Scanning_for_Inspection_or_Rapid_and_Accurate_Reverse_Engineering/PriorProject8';
-import  PriorProject9 from './components/PriorProject/PriorProjectDetails/PriorProject9_Autonomous_Mobile_Robot_for_Door_Opening/PriorProject9';
-import PriorProject10 from './components/PriorProject/PriorProjectDetails/PriorProject10_UAV-Manipulator_Systems_for_Aerial_Manipulation/PriorProject10';
-import PriorProject11 from './components/PriorProject/PriorProjectDetails/PriorProject11_Physical_Simulation_of_a_Human-Driving_Vehicle_in_Lab_Environment/PriorProject11';
-import PriorProject12 from './components/PriorProject/PriorProjectDetails/PriorProject12_Optimal_Attitude_Profiling_of_A_12U_Scientific_CubeSat/PriorProject12';
-import PriorProject13 from './components/PriorProject/PriorProjectDetails/PriorProject13_Contact_Dynamics_Modeling_and_Simulation/PriorProject13';
-import PriorProject14 from './components/PriorProject/PriorProjectDetails/PriorProject14_Robot_Control _for_Capturing_a_Non-cooperative_Object/PriorProject14';
-import PriorProject17 from './components/PriorProject/PriorProjectDetails/PriorProject17_Identification_of_Mass_Distribution_of_a_Live_Human/PriorProject17';
-import PriorProject18 from './components/PriorProject/PriorProjectDetails/PriorProject18_Design_and_Control_of_Unmanned_Arial_Vehicles/PriorProject18';
-import PriorProject19 from './components/PriorProject/PriorProjectDetails/PriorProject19_Student-Led_Flight_Experiments/PriorProject19';
-import PriorProject21 from './components/PriorProject/PriorProjectDetails/PriorProject21_Bio-Inspired_Hopping_Locomotion_for_Lunar_Exploration/PriorProject21';
-import PriorProject23 from './components/PriorProject/PriorProjectDetails/PriorProject23_Prediction_of_Human_Action_Intention_or_Outcome/PriorProject23';
+
 import PriorProjectList from './components/PriorProject/PriorProjectDetails/PriorProjectList/PriorProjectList';
 //import project
 import Project1 from './components/Projects/Project1_Development_of_A_3D_Proximity-Operation_Test_System_for_On-Orbit_Servicing_a_Non-Cooperative_Object/Project1';

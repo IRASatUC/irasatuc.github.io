@@ -1,7 +1,7 @@
 
 import './People.css';
 import ProfileUI from '../../reusables/ProfileUI/ProfileUI';
-import { People_contents_falcuty, People_contents_students,People_contents_staffs, People_contents_colaborating_falcuty } from '../../contents/People_contents/People_content';
+import { People_contents_falcuty, People_contents_students,People_contents_staffs, People_contents_colaborating_falcuty_within_UC,People_contents_colaborating_falcuty_outside_UC } from '../../contents/People_contents/People_content';
 export default function People() {
     return (
         <div className='People'>
@@ -17,9 +17,17 @@ export default function People() {
                             )
                         })}
                     </div>
-                    <li><strong>Colaborating Faculty</strong></li>
+                    <li><strong>Collaborating Faculty within UC</strong></li>
                     <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap"}}>
-                        {People_contents_colaborating_falcuty.map((content) => {
+                        {People_contents_colaborating_falcuty_within_UC.map((content) => {
+                            return (
+                                <ProfileUI imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
+                            )
+                        })}
+                    </div>
+                    <li><strong>Collaborating Faculty outside UC</strong></li>
+                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap"}}>
+                        {People_contents_colaborating_falcuty_outside_UC.map((content) => {
                             return (
                                 <ProfileUI imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
                             )

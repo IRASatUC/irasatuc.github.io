@@ -19,6 +19,8 @@ import Lab_Website_Kelly_Cohen from "../Lab Portraits/Lab_Website_Kelly_Cohen.jp
 import Lab_Website_Akshat_Shah from "../Lab Portraits/Lab_Website_Akshat_Shah.jpeg"
 import Lab_Website_Long_pham from "../Lab Portraits/Lab_Website_Long_pham.jpg"
 import Lab_Wesite_Taha_Momayiz from "../Lab Portraits/Lab_Wesite_Taha_Momayiz.JPEG"
+import Lab_Web_Site_Eric_Butcher from "../Lab Portraits/Lab_Web_Site_Eric_Butcher.jpg"
+import Lab_Web_Site_Ian_Walker from "../Lab Portraits/Lab_Web_Site_Ian_Walker.jpg"
 export const People_contents_falcuty = [
     {
         imgUrl: Lab_Website_Ma_Ou,
@@ -41,26 +43,27 @@ export const People_contents_falcuty = [
     },
 
 ];
-export const People_contents_colaborating_falcuty = [
+export const People_contents_colaborating_falcuty_within_UC = [
     {
-        imgUrl: Lab_Web_Site_Massoud_Rabiee,
-        name: "Massoud Rabiee",
+        imgUrl: Lab_Website_Kelly_Cohen,
+        name: "Kelly Cohen",
         title: "Professor",
         description: () => {
             return (
                 <div>
                     <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    - Digital controls<br />
-                    - robotics and automation<br />
-                    - electric machines & drives, industrial & process control<br />
-                    - industrial & process control<br />
-                    <strong>- Email: rabieem@ucmail.uc.edu</strong>
+                    - Intelligent Systems<br />
+                    - Advanced air mobility<br />
+                    - Unmanned aerial vehicles<br />
+                    - Fuzzy logic systems<br />
+                    <strong>- Email: Kelly.Cohen@uc.edu</strong>
                     </p>
-                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/rabieem?_gl=1*1elvfbn*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4NTU0LjQ0LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjg1NTQuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjg1NTQuMC4wLjA">Personal Website</a></button>
+                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/cohenky?_gl=1*d4zktn*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4Mjc5LjU3LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjgyNzkuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjgyNzkuMC4wLjA">Personal Website</a></button>
                 </div>
             )
-        },
-    },{
+        }
+    },
+        {
         imgUrl: Lab_Website_Donghoon_Kim,
         name: "Donghoon Kim",
         title: "Assistant Professor",
@@ -114,28 +117,73 @@ export const People_contents_colaborating_falcuty = [
                 </div>
             )
         },
-    },{
-        imgUrl: Lab_Website_Kelly_Cohen,
-        name: "Kelly Cohen",
+    },
+        {
+            imgUrl: Lab_Web_Site_Massoud_Rabiee,
+            name: "Massoud Rabiee",
+            title: "Professor",
+            description: () => {
+                return (
+                    <div>
+                        <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                        - Digital controls<br />
+                        - robotics and automation<br />
+                        - electric machines & drives, industrial & process control<br />
+                        - industrial & process control<br />
+                        <strong>- Email: rabieem@ucmail.uc.edu</strong>
+                        </p>
+                        <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/rabieem?_gl=1*1elvfbn*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4NTU0LjQ0LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjg1NTQuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjg1NTQuMC4wLjA">Personal Website</a></button>
+                    </div>
+                )
+            },
+        }
+
+    
+
+];
+export const People_contents_colaborating_falcuty_outside_UC = [
+    {
+        imgUrl: Lab_Web_Site_Eric_Butcher,
+        name: "Eric Butcher",
         title: "Professor",
         description: () => {
             return (
                 <div>
                     <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    - Intelligent Systems<br />
-                    - Advanced air mobility<br />
-                    - Unmanned aerial vehicles<br />
-                    - Fuzzy logic systems<br />
-                    <strong>- Email: Kelly.Cohen@uc.edu</strong>
+                    - Spacecraft dynamics and control<br />
+                    - Coupled orbit/attitude dynamics<br />
+                    - Time-delayed, stochastic, and fractional order systems<br />
+                    - Multi-agent consensus control<br />
+                    - Coulomb formation flying<br />
+
+                    <strong>- Email: ebutcher@arizona.edu</strong>
                     </p>
-                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/cohenky?_gl=1*d4zktn*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4Mjc5LjU3LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjgyNzkuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjgyNzkuMC4wLjA">Personal Website</a></button>
+                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://ame.engineering.arizona.edu/faculty-staff/faculty/eric-butcher">Personal Website</a></button>
+                </div>
+            )
+        }
+    },
+        {
+        imgUrl: Lab_Web_Site_Ian_Walker,
+        name: "Ian Walker",
+        title: "Professor",
+        description: () => {
+            return (
+                <div>
+                    <p style={{ textAlign: "left", paddingLeft: "5px" }}>
+                    - N/A<br />
+                    <strong>- N/A</strong>
+                    </p>
+                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://www.uwyo.edu/eecs/faculty-staff/ian-walker/index.html">Personal Website</a></button>
                 </div>
             )
         },
-    },
+    }
+        
+
+    
 
 ];
-
 export const People_contents_staffs = [
     
     {

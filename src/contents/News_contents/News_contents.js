@@ -1,5 +1,10 @@
 export const News_contents=[
     {
+        link:"",
+        title:"Our team member, Andrew Barth, recently completed his PhD dissertation and defense. Andy, who graduated with a degree in Aerospace Engineering from UC in 1999, brings 15 years of experience in the space industry, including contributions to the ISS robotics and Orion programs. He returned to UC a few years ago to pursue doctoral research in Space Robotics. With his PhD now completed, Andy will concentrate on advancing research for the USSF SSTI2 project at the IRAS Lab.",
+        date:"Nov 17, 2024"
+    },
+    {
     link:"https://www.spaceforce.mil/News/Article-Display/Article/3736639/ussf-announces-award-to-texas-am-and-university-of-cincinnati-for-space-strateg/",
     title:"USSF announces award to Texas A&M and University of Cincinnati for Space Strategic Technology Institute 2",
     date:"April 10, 2024"

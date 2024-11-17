@@ -1,70 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Website Update Instructions
 
-## Available Scripts
+## Step 1: Install Dependencies
+Run the following command to install the necessary dependencies:
 
-In the project directory, you can run:
+```bash
+npm install
+```
 
-### `npm start`
+## Step 2: Configure AWS CLI
+Set up the AWS CLI by running:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+aws configure
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Provide the necessary configuration details when prompted:
+- **AWS Access Key ID**
+- **AWS Secret Access Key**
+- **Default region name**
+- **Default output format**
 
-### `npm test`
+## Step 3: Update the Web Content
+1. Navigate to the `contents` folder:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. To add a new element to an existing list, simply follow the format of previous entries.
 
-### `npm run build`
+## Step 4: Add a New Project
+To add a new project, import the `ProjectUI` component from `reusables/ProjectUI` and use the following structure:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```jsx
+<ProjectUI
+  BackGround(optional)="link for background video"
+  BackgroundImage(optional)="link to image background"
+  projectDescription(optional)="react component to render description"
+  projectImage(optional)='[{title: "title of the image (optional)", src: "src of the image (required)"}]'
+  projectVideo(optional)='[{title: "title of the video (optional)", src: "src of the video (required)"}]'
+  Publication="react component to render the Publications section"
+/>
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **BackGround**: (Optional) URL to the background video.
+- **BackgroundImage**: (Optional) URL to the background image.
+- **projectDescription**: (Optional) React component to render the project description.
+- **projectImage**: (Optional) Array of image objects with:
+  - `title`: (Optional) Title of the image.
+  - `src`: (Required) Source of the image.
+- **projectVideo**: (Optional) Array of video objects with:
+  - `title`: (Optional) Title of the video.
+  - `src`: (Required) Source of the video.
+- **Publication**: React component to render the Publications section.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> **Note**: Ensure each new project follows this structure for consistency.
 
-### `npm run eject`
+## Step 5: Publish the Update
+After making your updates, you can publish the website using Amplify by running:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+amplify publish
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will deploy the changes to your Amplify environment and make the updates live.
