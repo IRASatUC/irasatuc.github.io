@@ -1,0 +1,12 @@
+.Oppoturnities h1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.Oppoturnities ul li{
+    font-size: large;
+    padding:5px
+}
+.Oppoturnities {
+    padding-left: 50px;
+
+}

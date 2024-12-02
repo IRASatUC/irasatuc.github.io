@@ -8,6 +8,8 @@ import CurrentProjects from './components/CurrentProjects/CurrentProjects';
 import People from './components/People/People';
 import Publication from './components/Publication/Publication';
 import News from './components/News/News';
+import Oppoturnities from './components/Oppoturnities/Oppoturnities';
+import OppoturnitiesList from './components/Oppoturnities/OppoturnitiesDetails/OppoturnitiesList/OppoturnitiesList';
 //CURRENT PROJECT IMPORT
 
 import CurrentProjectList from './components/CurrentProjects/CurrentProjectContents/CurrentProjectList/CurrentProjectList';
@@ -62,7 +64,9 @@ function App() {
         <Route path="/" element={<Nav />}>
           <Route index element={<About />} />
           <Route path="News" element={<News />} />
-
+          <Route path="Oppoturnities" element={<Oppoturnities />}>
+            <Route index element={<OppoturnitiesList />} />
+          </Route>
           {/* PriorProject Routes */}
           <Route path="PriorProject" element={<PriorProject />}>
             <Route index element={<PriorProjectList />} />

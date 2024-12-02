@@ -42,7 +42,7 @@ export default function About() {
 
                         </p>
                         <p className='mt-5 flex items-center justify-start flex-wrap text-white  text-xl	font-bold	w-full'>
-                            Lab Manager : Conrad Kent, kentcm@ucmail.uc.edu, (513) 556-3747
+                            Lab Manager : Conrad Kent, kentcm@ucmail.uc.edu, (513) 556-3684  
                         </p>
                         
                     </div>

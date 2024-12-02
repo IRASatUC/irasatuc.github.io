@@ -14,7 +14,6 @@ import Lab_Website_Kai_Liao from "../Lab Portraits/Lab_Website_Kai_Liao.JPG"
 import Lab_Web_Site_Massoud_Rabiee from "../Lab Portraits/Lab_Web_Site_Massoud_Rabiee.jpg"
 import Lab_Website_Donghoon_Kim from "../Lab Portraits/Lab_Website_Donghoon_Kim.jpg"
 import Lab_Website_Janet_Jiaxiang_Dong from "../Lab Portraits/Lab_Website_Janet_Jiaxiang_Dong.jpg"
-import Lab_Web_Site_Shaaban_Abdallah from "../Lab Portraits/Lab_Web_Site_Shaaban_Abdallah.jpg"
 import Lab_Website_Kelly_Cohen from "../Lab Portraits/Lab_Website_Kelly_Cohen.jpg"
 import Lab_Website_Akshat_Shah from "../Lab Portraits/Lab_Website_Akshat_Shah.jpeg"
 import Lab_Website_Long_pham from "../Lab Portraits/Lab_Website_Long_pham.jpg"
@@ -96,24 +95,6 @@ export const People_contents_colaborating_falcuty_within_UC = [
                     <strong>- Email: rabieem@ucmail.uc.edu</strong>
                     </p>
                     <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/dongjg?_gl=1*inrqgz*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4NDYwLjQ0LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjg0NjAuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjg0NjAuMC4wLjA">Personal Website</a></button>
-                </div>
-            )
-        },
-    },{
-        imgUrl: Lab_Web_Site_Shaaban_Abdallah,
-        name: "Shaaban Adallah",
-        title: "Professor",
-        description: () => {
-            return (
-                <div>
-                    <p style={{ textAlign: "left", paddingLeft: "5px" }}>
-                    - Fluid Mechanics<br />
-                    - Computational Fluid Dynamics<br />
-                    - Domain Decomposition Methods<br />
-                    - Computation of Incompressible Viscous Three-Dimensional Flow in Turbomachinery (Inlet, Duct, Combustor, Compressor, Turbine)<br />
-                    <strong>- Email: abdallsa@ucmail.uc.edu</strong>
-                    </p>
-                    <button style={{width:"100px",height:"auto",padding:"5px",border:"1px solid white",marginTop:"10px"}}><a href="https://researchdirectory.uc.edu/p/abdallsa?_gl=1*1mnctz3*_gcl_au*MTEwNTcwNDUyMy4xNzI4MzMzMTkx*_ga*NzQwMjg0ODMzLjE1MDQ2MzA3MzU.*_ga_7H1FCKXZ4Y*MTcyOTAxNDEyNi4xNDIuMS4xNzI5MDI4Mzc2LjQ5LjAuMA..*_ga_LSJTQ7TZ38*MTcyOTAxNDEyNi4zMC4xLjE3MjkwMjgzNzYuMC4wLjA.*_ga_CWY9357HWN*MTcyOTAxNDEyNi4xOS4xLjE3MjkwMjgzNzYuMC4wLjA">Personal Website</a></button>
                 </div>
             )
         },

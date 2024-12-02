@@ -16,6 +16,9 @@ export default function Nav(){
                 <Link to="/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                   About
                 </Link>
+                <Link to="/Oppoturnities" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                  Oppoturnities
+                </Link>
                 <Link to="/News" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                   News
                 </Link>
