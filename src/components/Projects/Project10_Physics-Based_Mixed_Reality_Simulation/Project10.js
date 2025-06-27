@@ -3,6 +3,7 @@ import architecture from "./architecture.jpg";
 import interface_img from "./interface.jpg";
 import Project10_video1 from "./Project10_video1.mp4";
 function Project10_Description() {
+
     return (
 
         <div style={{ padding: '20px' }}>

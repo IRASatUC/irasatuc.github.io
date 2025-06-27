@@ -9,43 +9,47 @@ export default function People() {
                 <h1>People</h1>
                 
                 <ul>
-                    <li><strong>Faculty</strong></li>
-                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap"}}>
-                        {People_contents_falcuty.map((content) => {
+                    <li key={0}><strong>Faculty</strong></li>
+                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap",columnGap:"20px"}}>
+                        {People_contents_falcuty.map((content, index) => {
                             return (
-                                <ProfileUI imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
+                                <ProfileUI key={index} imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
                             )
                         })}
                     </div>
-                    <li><strong>Collaborating Faculty within UC</strong></li>
-                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap"}}>
-                        {People_contents_colaborating_falcuty_within_UC.map((content) => {
+
+                    <li key={1}><strong>Collaborating Faculty within UC</strong></li>
+                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap",columnGap:"20px"}}>
+                        {People_contents_colaborating_falcuty_within_UC.map((content, index) => {
                             return (
-                                <ProfileUI imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
+                                <ProfileUI key={index} imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
                             )
                         })}
                     </div>
-                    <li><strong>Collaborating Faculty outside UC</strong></li>
-                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap"}}>
-                        {People_contents_colaborating_falcuty_outside_UC.map((content) => {
+
+                    <li key={2}><strong>Collaborating Faculty outside UC</strong></li>
+                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap",columnGap:"20px"}}>
+                        {People_contents_colaborating_falcuty_outside_UC.map((content, index) => {
                             return (
-                                <ProfileUI imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
+                                <ProfileUI key={index} imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
                             )
                         })}
                     </div>
-                    <li><strong>Staff</strong></li>
-                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap"}}>
-                        {People_contents_staffs.map((content) => {
+
+                    <li key={3}><strong>Staff</strong></li>
+                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap",columnGap:"20px"}}>
+                        {People_contents_staffs.map((content, index) => {
                             return (
-                                <ProfileUI imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
+                                <ProfileUI key={index} imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
                             )
                         })}
                     </div>
-                    <li><strong>Students</strong></li>
-                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap"}}>
-                        {People_contents_students.map((content) => {
+
+                    <li key={4}><strong>Students</strong></li>
+                    <div style={{display:"flex",width:"100%",height:"auto",flexWrap:"wrap",columnGap:"20px"}}>
+                        {People_contents_students.map((content, index) => {
                             return (
-                                <ProfileUI imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
+                                <ProfileUI key={index} imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />
                             )
                         })}
                     </div>

@@ -8,15 +8,13 @@ export default function Project24() {
             </video>
             <div className="content" >
                 <h1 style={{ fontSize: "30px" }}>Technology for Simulating Human Activities in Partial Gravity</h1>
-                <p>
-                    <ul>
-                        <li>Simulate any gravity level from 0 to 1g</li>
-                        <li>Multi-DOF mechanism and exoskeletons</li>
-                        <li>Reliable passive technology</li>
-                        <li>Ambient lab environment</li>
-                        <li>Low cost</li>
-                    </ul>
-                </p>
+                <ul>
+                    <li>Simulate any gravity level from 0 to 1g</li>
+                    <li>Multi-DOF mechanism and exoskeletons</li>
+                    <li>Reliable passive technology</li>
+                    <li>Ambient lab environment</li>
+                    <li>Low cost</li>
+                </ul>
                 <button id="myBtn" onClick={() => console.log("Hi")}>Explore</button>
             </div>
             <div className='Project24_publication'>

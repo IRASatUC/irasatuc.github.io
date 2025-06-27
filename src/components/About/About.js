@@ -1,7 +1,7 @@
 import "./About.css";
 import { About_descriptions } from "../../contents/About_descriptions/About_descriptions";
 function textSwap(newText,id){
-    document.getElementById(id).style.animation='fadeIn 5s ease-in-out forwards';
+    document.getElementById(id).style.animation='fadeIn 2s ease-in-out forwards';
     
     document.getElementById(id).innerHTML = newText;
 }
@@ -19,7 +19,7 @@ export default function About() {
                 <div className='flex items-center justify-center mt-5 w-full'>
                     <button onClick={()=>{
                         textSwap(About_descriptions[0],"About-text")
-                    }} class="bg-[#37425B] hover:text-blue-500 text-white font-bold py-2 px-4 rounded animate-bounce">
+                    }} className="bg-[#37425B] hover:text-blue-500 text-white font-bold py-2 px-4 rounded animate-bounce">
                         Learn More
                     </button>
                 </div>

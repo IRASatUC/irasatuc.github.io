@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .about{
     background-color:#37425B ;
 }
@@ -12,7 +13,7 @@
     background-color:#37425B ;
 }
 #Home-About-Container{
-    animation: fadeIn 5s ease-in-out forwards;
+    animation: fadeIn 2s ease-in-out forwards;
     opacity: 0;
 
 }
@@ -63,6 +64,7 @@
 #About_contact_section{
     position: sticky;
     bottom: 0;
+    padding-bottom: 10px;
 }
 .iras-lab-about-section-end{
     background-color:white !important;

@@ -2,7 +2,7 @@
   "name": "iras_web",
   "version": "0.1.0",
   "private": true,
-  "homepage":"/IRAS-Lab",
+  "homepage": "/IRAS-Lab",
   "dependencies": {
     "@aws-amplify/ui-react": "^6.1.14",
     "@aws-sdk/client-s3": "^3.620.1",

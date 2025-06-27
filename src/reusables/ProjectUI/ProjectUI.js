@@ -1,7 +1,5 @@
 import "./ProjectUI.css";
-const UI_width1={
-  width:"40%"
-}
+const UI_width1={width:"40%"}
 const UI_width2={width:"80%"}
 export default function ProjectUI(props) {
   function CheckUI_case1(params){
@@ -41,10 +39,10 @@ export default function ProjectUI(props) {
       }
       {props.projectImage?
         <div className='ProjectUI_img'>
-          <h0>{props.projectImageTitle?props.projectImageTitle:""}</h0>
-          {props.projectImage.map((imageProps)=>{
+          <h1>{props.projectImageTitle?props.projectImageTitle:""}</h1>
+          {props.projectImage.map((imageProps, index)=>{
               return (
-                  <div className="image_content_box" style={CheckUI_case1(props.projectImage)}>
+                  <div key={index} className="image_content_box" style={CheckUI_case1(props.projectImage)}>
                           <div >
                             {
                               typeof(imageProps.title)==="string"?<p style={{fontSize:'30px',width:"100%",textAlign:"center",color:"white"}}><strong>{imageProps.title}</strong></p>:
@@ -60,13 +58,13 @@ export default function ProjectUI(props) {
 
       {props.projectVideo?
       <div className="ProjectUI_vid_container">
-        <h0>{props.projectVideoTitle?props.projectVideoTitle:""}</h0>
+        <h1>{props.projectVideoTitle?props.projectVideoTitle:""}</h1>
 
         <div className='ProjectUI_vid'>
           
-            {props.projectVideo.map((vidProps)=>{
+            {props.projectVideo.map((vidProps, index)=>{
                 return (
-                    <div className="vid_content_box" style={CheckUI_case1(props.projectVideo)}>
+                    <div key={index} className="vid_content_box" style={CheckUI_case1(props.projectVideo)}>
                         <div>
                           {
                             typeof(vidProps.title)==="string"?<p style={{fontSize:'30px',width:"100%",textAlign:"center",color:"white"}}><strong>{vidProps.title}</strong></p>:

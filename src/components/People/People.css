@@ -1,12 +1,14 @@
 .People h1{
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 4em;
+    text-decoration: underline;
 }
+
 .People ul li{
-    font-size: large;
+    font-size: 2em;
     padding:5px
 }
-.People {
-    padding-left: 50px;
 
+.People {
+    padding: 20px 50px 0px 50px;
 }

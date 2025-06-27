@@ -6,7 +6,7 @@ export default function CurrentProjects() {
     return (
       
        <div>
-        <Outlet/>
+            <Outlet/>
        </div>
     )
 }

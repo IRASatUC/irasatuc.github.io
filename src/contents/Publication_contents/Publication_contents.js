@@ -1,12 +1,13 @@
 export const Publication_contents_peers_review = [
-  <li>
+  <li key={0}>
     Ma, T.; Zhang, T. and Ma, O.; “Global Reorientation of a Free-Fall Multibody
     System using Periodical Joint Motions - Theory and Motion Planning”,
-    Multibody System Dynamics, 2014.{" "}
-    <href a="https://doi.org/10.1007/s11044-024-10032-2">
+    Multibody System Dynamics, 2024.{" "}
+    <a href="https://doi.org/10.1007/s11044-024-10032-2">
       https://doi.org/10.1007/s11044-024-10032-2
-    </href>
+    </a>
   </li>,
+
   <li key={1}>
     Sun, Y. and Ma, O. "Learning-based approach to enable mobile robots to
     charge batteries using standard wall outlets".{" "}
@@ -322,153 +323,153 @@ export const Publication_contents_peers_review = [
     3, 2013, pp. 253-267.
   </li>,
 
-  <li key="41">
+  <li key={41}>
     Lu, Q. and Ma, O.; “Identification of Human Inertia Properties using A
     Momentum-based Approach”, ASME Journal of Biomechanical Engineering, Vol.
     134, No. 10, 2012.
   </li>,
-  <li key="42">
+  <li key={42}>
     Ma, O.; Flores-Abad, A. and Boge, T.; “Use of industrial robots for
     hardware-in-the-loop simulation of satellite rendezvous and docking”, Acta
     Astronautica, Vol. 81(1), 2012, pp. 335-347.
   </li>,
-  <li key="43">
+  <li key={43}>
     Liang, J.; Fillmore, S.; and Ma, O.; “An extended bristle friction force
     model with experimental validation”, Mechanism and Machine Theory, Vol. 56,
     2012, pp. 123-137.
   </li>,
-  <li key="44">
+  <li key={44}>
     Liang, J.; Ma, O.; and Liu, C.; "Model reduction of contact dynamics
     simulation using a modified Lyapunov balancing method", Frontier of
     Mechanical Engineering, Vol. 6, No. 4, 2011, pp. 383-391.
   </li>,
-  <li key="45">
+  <li key={45}>
     Liang, J. and Ma, O.; "Angular-velocity tracking with unknown dynamics for
     satellite rendezvous and docking", Acta Astronautica, Vol. 69, 2011, pp.
     1019-1028.
   </li>,
-  <li key="46">
+  <li key={46}>
     Lu, Q.; Ortega, C. and Ma, O.; "Passive gravity compensation mechanisms:
     technologies and applications", Recent Patents on Engineering, Vol. 5, Issue
     1, 2011, pp. 32-44.
   </li>,
-  <li key="47">
+  <li key={47}>
     Doush, I.A.; Enrico, P.; Simon, D.; Son, C.T.; and Ma, O.; "Multimodal
     presentation of two-dimensional charts: an investigation using open office
     Xml and Microsoft Excel", ACM Transactions on Accessible Computing, Vol. 3,
     Issue 2, 2010.
   </li>,
-  <li key="48">
+  <li key={48}>
     Hatamleh, K.; Ma, O.; and Paz, R.; “A UAV model parameter identification
     method: A simulation study”. International Journal of Information
     Acquisition, Vol. 6 (4), 2009, pp. 225-238.
   </li>,
-  <li key="49">
+  <li key={49}>
     Diao, X. and Ma, O.; “Force-closure analysis of 6-DOF cable manipulators
     with seven or more cables”, Robotica, Vol. 27, 2009, pp. 209-215.
   </li>,
-  <li key="50">
+  <li key={50}>
     Ma, O. and Zhang, M.; “Modeling and control of electroporation-mediated gene
     delivery”, IEEE Transactions on Automation Science and Engineering, Vol. 6,
     No. 2, 2009, pp. 228-238.
   </li>,
-  <li key="51">
+  <li key={51}>
     Diao, X. and Ma, O.; “Vibration analysis of cable-driven parallel
     manipulators”, Multibody System Dynamics, Vol. 21, Issue 4, 2009, pp.
     347-360.
   </li>,
-  <li key="52">
+  <li key={52}>
     Ma, O.; Dang, H.; and Pham., K.; “On-orbit identification of inertia
     properties of spacecraft using a robotic arm”, AIAA Journal of Guidance,
     Control and Dynamics, Vol. 31, No. 6, 2008, pp. 1761-1771.
   </li>,
-  <li key="53">
+  <li key={53}>
     Diao, X. and Ma, O.; “Workspace determination of general 6-DOF cable
     manipulators”, Advanced Robotics, Vol. 22, 2008, pp. 261-278.
   </li>,
-  <li key="54">
+  <li key={54}>
     Ma, Z.; Ma, O.; and Shashikanth, B.; “Optimal Approach to and Alignment with
     a Rotating Rigid Body for Capture”, Journal of the Astronautical Science,
     Vol. 55, No. 4, 2007, pp. 407-419.
   </li>,
-  <li key="55">
+  <li key={55}>
     Diao, X. and Ma, O., “A method of verifying force-closure condition for
     general cable manipulators with seven cables”, Mechanism and Machine Theory,
     Vol. 42, Issue 12, 2007, pp. 1563-1576.
   </li>,
-  <li key="56">
+  <li key={56}>
     Ma, O. and Wang, J., “Model order reduction for impact-contact dynamics
     simulations of flexible manipulators”, Robotica, Vol. 25, Issue 4, 2007, pp.
     397-407.
   </li>,
-  <li key="57">
+  <li key={57}>
     Tao, W., Zhang, M., and Ma, O., “Modeling and vibration suppression for
     industrial track robots”, Industrial Robot, Vol. 34, No. 4, July 2007, pp.
     317-325.
   </li>,
-  <li key="58">
+  <li key={58}>
     Tao, W., Zhang, M., Ma, O., and Yun, X.P., “Residual vibration analysis and
     suppression for SCARA robots in semiconductor manufacturing”, International
     Journal of Intelligent Control and Systems, Vol. 11, No. 2, 2006, pp.
     97-105.
   </li>,
-  <li key="59">
+  <li key={59}>
     Weber, M.; Patel, K.; Ma, O.; and Sharf, I.; “Identification of contact
     dynamics model parameters from constrained robotic operations”, ASME J. of
     Dyn. Syst., Meas., and Ctrl, Vol. 128(2), 2006, pp. 307-318.
   </li>,
-  <li key="60">
+  <li key={60}>
     Zhang, M.; Ma, O.; and Diao, X.; “Dynamics modeling and analysis of inkjet
     technology based oligo DNA microarray spotting”, IEEE Trans. on Auto.
     Science and Eng., Vol. 3, No. 2, 2006, pp. 159-168.
   </li>,
-  <li key="61">
+  <li key={61}>
     61. Ma, O.; Wang, J.; Misra, S.; and Liu, M.; “On the validation of SPDM
     task verification facility”, Journal of Robotic Systems, Vol. 21, No. 5,
     2004, pp. 219-235.
   </li>,
-  <li key="62">
+  <li key={62}>
     Van Vliet, J.; Sharf, I.; and Ma, O.; “Experimental validation of contact
     dynamics simulation of constrained robotic tasks”, The International Journal
     of Robotics Research, Vol. 19, No. 12, 2000, pp. 1203-1217.
   </li>,
-  <li key="63">
+  <li key={63}>
     Ma, O. and Carr, R.; “Dynamics modelling and simulation of SPDM contact
     operations, Part I: simulation model and berthing 6B avionics boxes”, IFAC
     Proceedings, Vol. 31, Issue 33, 1998, pp. 159-164.
   </li>,
-  <li key="64">
+  <li key={64}>
     Ma, O. and Carr, R.; “Dynamics modelling and simulation of SPDM contact
     operations, Part II: SPDM handling the IEA battery ORUs”, IFAC Proceedings,
     Vol. 31, Issue 33, 1998, pp. 165-170.
   </li>,
-  <li key="65">
+  <li key={65}>
     Ma, O.; Buhariwala K.; Neil R.; Maclean J.; and Carr R.; "MDSF - A generic
     development and simulation facility for flexible, complex robotic systems",
     Robotica, Vol. 15, No. 1, 1997, pp. 49-62.
   </li>,
-  <li key="66">
+  <li key={66}>
     Ma, O. and Angeles J.; "Architecture singularities of parallel
     manipulators", International Journal of Robotics & Automation, 1992, Vol. 7,
     No. 1, pp. 23-29.
   </li>,
-  <li key="67">
+  <li key={67}>
     Angeles, J. and Ma, O.; "Performance evaluation of four-bar linkages for
     rigid-body guidance based on generalized coupler curves", ASME Trans., J. of
     Mech. Design, 1991, Vol. 113 (No. 1), pp. 17-24.
   </li>,
-  <li key="68">
+  <li key={68}>
     Angeles, J.; Ma, O.; and Rajas, A.; "An algorithm for the inverse dynamics
     of n-axis general manipulators using Kane's equations", International
     Journal of Computers and Mathematics with Applications, 1989, Vol. 17, No.
     12, pp. 1545-1561.
   </li>,
-  <li key="69">
+  <li key={69}>
     Angeles, J. and Ma, O.; "Dynamic simulation of n-axis serial robotic
     manipulators using a natural orthogonal complement", International Journal
     of Robotic Research, 1988, Vol. 7, No. 5, pp. 32-47.
   </li>,
-  <li key="70">
+  <li key={70}>
     Ma, O. and Angeles, J.; "Performance evaluation of path-generating planar,
     spherical and spatial four-bar mechanisms", Mechanism and Machine Theory,
     1988, Vol. 21, pp. 257-268.
@@ -490,6 +491,9 @@ export const Publication_contents_patents = [
   "Ma, O. and Wang, J., “Apparatus and method for reduced-gravity simulation”, US Patent #8,152,699, April 2012.",
 ];
 export const Publication_contents_peers_review_conference = [
+  "Barth, A.; Roach, D., Ma, O.; Hernandez, M. and Fleming, A.; “Machine Learning-based Optimal Trajectory Planning for Spacecraft Passively Flying Around a Satellite for Proximity Operations”, Proc. of the 2025 AIAA SciTech, Orlando, FL.",
+  "Yufeng Sun and Ou Ma, “A Physics-Enhanced Deep Learning Model for Fast Prediction of the Behavior of a Forced Dynamic System”, 5th International Conference on Dynamic Data Driven Applications Systems (DDDAS), 2024, New Brunswick, NJ.",
+
   "Hoffmann, J.; Barth, A.; Ma, O.; and Dong, J.; “An Innovative Spherical Air Bearing-based Testbed for Testing 3D Attitude Motion of CubeSats”, accepted for publication at AIAA SciTech 2025.",
   "T. Ma, T. Zhang, O. Ma, “Global Reorientation of a Free-Fall Multibody System using Reconstruction Loss-based Deep Learning Method”, IFToMM Symposium of RoManSy & USCToMM Symposium on Mechanical Systems and Robotics, May 23-25, 2024, Tampa, FL.",
   "Roach, D.; Barth, A.; Ma, O.; Fleming, A.; “PRO-based Trajectory Planning for Spacecraft Close-Distance Flight around a Client Satellite for Proximity Operations”, Proc. of 2023 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2023), 2023, Las Vegas, NV.",

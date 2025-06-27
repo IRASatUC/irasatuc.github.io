@@ -1,10 +1,21 @@
 import "./NewsCard.css";
+import { Fragment } from "react";
 
 export default function NewsCard(props) {
-    return(<div className="bg-white overflow-hidden border-4 border-blue-500 w-2/3 " style={{margin:"10px"}}>
-            <a href={props.link}>
+    return (
+        <div className="bg-white overflow-hidden border-4 border-blue-500 w-2/3 " style={{margin:"10px"}}>
+            <a href={(props.link.length > 0) ? props.link : "#"} >
                 <div className="p-4 md:p-6">
-                    <p className="text-blue-500 font-semibold text-xs mb-1 leading-none">News</p>
+                    <div className="leading-none flex items-center gap-6">
+                        <p className="text-blue-500 mb-1 font-semibold text-xs leading-none">News</p>
+
+                        {props.link.length > 0 &&
+                            <>
+                                <p className="text-2xl mb-1.5 select-none">•</p>
+                                <p className="text-gray-700 mb-1 text-xs hover:underline"> {props.link} </p>
+                            </>
+                        }
+                    </div>
                     <h3 className="font-semibold mb-2 text-xl leading-tight sm:leading-normal">{props.title}</h3>
                     <div className="text-sm flex items-center">
                         <svg className="opacity-75 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="12" height="12" viewBox="0 0 97.16 97.16" style={{enableBackground:"new 0 0 97.16 97.16"}} xmlSpace="preserve">
@@ -15,5 +26,6 @@ export default function NewsCard(props) {
                     </div>
                 </div>
             </a>
-    </div>)
+        </div>
+    )
 }

@@ -8,9 +8,9 @@ export default function News() {
             <div>
                 <h1>News</h1>
                 <div className="NewsBox">
-                {News_contents.map((news) => {
+                {News_contents.map((news, index) => {
                     return (
-                        <NewsCard title={news.title} link={news.link} date={news.date}/>
+                        <NewsCard key={index} title={news.title} link={news.link} date={news.date}/>
                     )
                 }
                 

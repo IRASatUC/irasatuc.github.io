@@ -4,7 +4,12 @@
 }
 .PriorProject ul li{
     font-size: large;
-    padding:5px
+    padding:5px;
+
+    :hover {
+        color: #2a3858;
+        text-decoration: underline;
+    }
 }
 .PriorProject {
     padding-left: 50px;
