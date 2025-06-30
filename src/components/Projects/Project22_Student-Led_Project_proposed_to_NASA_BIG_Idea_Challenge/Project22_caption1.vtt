@@ -1,0 +1,212 @@
+WEBVTT
+
+00:01.200 --> 00:04.000 line:10 position:72%
+Andrew Barth:
+Hello, we're students at the
+University of Cincinnati,
+
+00:04.000 --> 00:06.700 line:10 position:72%
+Andrew Barth:
+and we would like to
+introduce you to the CableCat.
+
+00:06.900 --> 00:10.600 line:10 position:72%
+Andrew Barth:
+Our big idea, for the exploration of the
+lunar permanently shadowed regions,
+
+00:10.600 --> 00:14.400 line:10 position:72%
+Andrew Barth:
+solves the problem of delivering power
+to areas of limited or no sunlight.
+
+00:14.700 --> 00:18.300 line:10 position:72%
+Andrew Barth:
+Once arriving at the PSR, our CableCat
+will serve as a power hub
+
+00:18.300 --> 00:22.600 line:10 position:72%
+Andrew Barth:
+for visiting vehicles to come and recharge
+and continue their own science missions.
+
+00:23.800 --> 00:27.500 line:10 position:70%
+Caleb Bisig:
+Hi, I'm Caleb Bisig, here to introduce
+the key functionality of our robot.
+
+00:27.600 --> 00:31.600 line:10 position:70%
+Caleb Bisig:
+So the design of our robot is a spool
+with independently controlled wheels
+
+00:31.600 --> 00:36.200 line:10 position:70%
+Caleb Bisig:
+capable of navigating around the lunar surface
+while passively unspooling power cable.
+
+00:36.600 --> 00:38.400 line:10 position:70%
+Caleb Bisig:
+This cable would be up to 100 meters long,
+
+00:38.400 --> 00:42.600 line:10 position:70%
+Caleb Bisig:
+allowing our robot to bring power from the base
+to anywhere the robot's capable of reaching.
+
+00:43.500 --> 00:47.200 line:10 position:72%
+Jacky Wang:
+Hey, this is Jacky, and we are going to talk
+about the mechanical design of this project.
+
+00:47.700 --> 00:50.200 line:10 position:72%
+Jacky Wang:
+We have three different ways
+to keep it from falling over.
+
+00:50.900 --> 00:54.600 line:10 position:72%
+Tom Wu:
+Hi, I'm Tom. First of all, do you know
+the structure of the segway?
+
+
+00:54.600 --> 00:58.300 line:10 position:72%
+Tom Wu:
+It has a gyroscope and
+it can achieve self-balance.
+
+00:58.600 --> 01:04.300 line:10 position:72%
+Jimmy Shan:
+Hey, this is Jimmy. Secondly, I considered
+elongating the length of the shaft
+
+01:04.300 --> 01:08.600 line:10 position:72%
+Jimmy Shan:
+so that the stability of the robot will increase.
+
+01:08.600 --> 01:15.000 line:10 position:72%
+Neo Yang:
+Hello, this is Neo. At last, we can put
+hemispherical protection nets
+
+01:15.000 --> 01:16.500 line:10 position:72%
+Neo Yang:
+on the side of the wheels.
+
+01:16.500 --> 01:20.200 line:10 position:72%
+Neo Yang:
+It can protect the camera
+and prevent it from rolling over.
+
+01:20.700 --> 01:24.500 line:10 position:72%
+Prithev Govindasamy Srinivasan:
+Hi, my name is Prithev, and I am
+working on stablization of the robot.
+
+01:24.500 --> 01:27.400 line:10 position:72%
+Prithev Govindasamy Srinivasan:
+The camera sensors that [are] used
+for navigation purposes
+
+01:27.400 --> 01:32.200 line:10 position:72%
+Prithev Govindasamy Srinivasan:
+[are] attached to an extension
+of the central hub of the robot
+
+01:32.700 --> 01:35.800 line:10 position:72%
+Prithev Govindasamy Srinivasan:
+and the camera sensors are continuously
+capturing the environment
+
+01:35.800 --> 01:39.500 line:10 position:72%
+Prithev Govindasamy Srinivasan:
+and providing those data
+to the onboard computer,
+
+01:39.500 --> 01:42.300 line:10 position:72%
+Prithev Govindasamy Srinivasan:
+and for this purpose,
+the robot has to be stable,
+
+01:42.300 --> 01:44.300 line:10 position:72%
+Prithev Govindasamy Srinivasan:
+and we are planning to
+achieve this stability
+
+01:44.300 --> 01:48.800 line:10 position:72%
+Prithev Govindasamy Srinivasan:
+with the help of a ring-laser gyroscope
+and the gimbal mechanism.
+
+01:49.800 --> 01:54.800 line:10 position:72%
+Aratrika Pan:
+Hi, I'm Aratrika Pan, and I will be describing
+some additional features of the CableCat.
+
+01:55.400 --> 01:58.450 line:10 position:72%
+Aratrika Pan:
+The power ports are located
+up the edge of the hemispherical frame
+
+01:58.450 --> 02:01.800 line:10 position:72%
+Aratrika Pan:
+and provide an elevated charging station
+for approaching vehicles.
+
+02:02.200 --> 02:05.000 line:10 position:72%
+Aratrika Pan:
+The central hub contains
+thermally sensitive electronics,
+
+02:05.000 --> 02:08.600 line:10 position:72%
+Aratrika Pan:
+including the IMU, processor,
+battery, and drive motors.
+
+02:09.200 --> 02:11.700 line:10 position:72%
+Aratrika Pan:
+The battery will be used to augment
+the power from the lander
+
+02:11.700 --> 02:14.800 line:10 position:72%
+Aratrika Pan:
+in scenarios where maximum
+drive and torque is required.
+
+02:16.300 --> 02:19.100 line:10 position:74%
+Michael Saxer:
+Hello, my name is Michael Saxer
+and we are designing our rover
+
+02:19.100 --> 02:23.100 line:10 position:74%
+Michael Saxer:
+to survive the extreme highs and lows
+of the lunar temperature environment,
+
+02:23.300 --> 02:27.000 line:10 position:74%
+Michael Saxer:
+which includes the permanenty shadowed
+regions which can get as low as 25 Kelvin.
+
+02:28.200 --> 02:32.600 line:10 position:50%
+Tim Hammer:
+My name's Tim Hammer, we will be using
+a lunar soil replicant to test our rover.
+
+02:32.600 --> 02:37.600 line:10 position:50%
+Tim Hammer:
+As you can see here, we are expecting slopes
+anywhere from 30 to 35 degrees max,
+
+02:37.600 --> 02:39.400 line:10 position:50%
+Tim Hammer:
+we will be testing our rover with.
+
+02:40.300 --> 02:43.800 line:10 position:74%
+Michael Saxer:
+We also plan on creating
+a lunar sandbox to test our rover
+
+02:43.800 --> 02:45.800 line:10 position:74%
+Michael Saxer:
+here at the University of Cincinnati.

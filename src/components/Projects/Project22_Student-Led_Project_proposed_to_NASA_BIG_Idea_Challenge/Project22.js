@@ -1,4 +1,5 @@
 import Project22_video1 from './Project22_video1.mp4';
+import Project22_caption1 from './Project22_caption1.vtt';
 import big_idea_icon from "./big_idea_icon.jpg"
 import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 function Project22_Description() {
@@ -84,7 +85,9 @@ export default function Project22() {
             projectDescription={Project22_Description}
             projectVideo={[{
                 title: "",
-                src: Project22_video1
+                src: Project22_video1,
+                caption: Project22_caption1,
+                doNotAutoplay: true
             }]}
 
         />

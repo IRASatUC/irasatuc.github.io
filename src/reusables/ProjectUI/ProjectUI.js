@@ -70,8 +70,11 @@ export default function ProjectUI(props) {
                             typeof(vidProps.title)==="string"?<p style={{fontSize:'30px',width:"100%",textAlign:"center",color:"white"}}><strong>{vidProps.title}</strong></p>:
                             vidProps.title()
                           }
-                          <video autoPlay muted loop >
+                          <video autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay} >
                               <source src={vidProps.src} type="video/mp4"></source>
+                              {
+                                typeof(vidProps.caption)==="string" && <track label="English" kind="subtitles" srclang="en" src={vidProps.caption} default />
+                              }
                           </video>
                         </div>
                     </div>
