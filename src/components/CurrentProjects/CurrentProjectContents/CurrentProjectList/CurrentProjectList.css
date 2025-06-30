@@ -5,7 +5,39 @@
 
 .CurrentProjects ul li {
     font-size: large;
-    padding:5px
+    padding: 5px;
+    position: relative;
+
+    .imgBord {
+        position: absolute;
+        transition: 0.3s linear;
+        padding: 105px;
+    }
+
+    img {
+        position: absolute;
+        max-height: 200px;
+        left: 10px;
+        top: 10px;
+    }
+
+    video {
+        max-height: 200px;
+        position: relative;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+    }
+
+    &:hover {
+        color: #2a3858;
+        text-decoration: underline;
+
+        .imgBord {
+            border: blue solid 5px;
+            padding: 100px;
+        }
+    }
 }
 .CurrentProjects {
     padding-left: 50px;

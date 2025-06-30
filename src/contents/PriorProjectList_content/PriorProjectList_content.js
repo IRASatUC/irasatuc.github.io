@@ -1,0 +1,34 @@
+export const PriorProjectList_contents = [
+    {link: "/PriorProject/Project3",    text: "1. Intelligent and Collaborative Control of Multi-Robot Team"},
+    {link: "/PriorProject/Project26",   text: "2. Visual-based Robotic Tracking of Arbitrarily defined Object"},
+    {link: "/PriorProject/Project22",   text: "3. CableCat: Powering the PSR"},
+    {link: "/PriorProject/Project10",   text: "4. Physics-Based Mixed Reality Simulation"},
+    {link: "/PriorProject/Project6",    text: "5. Multi-Drone Decentralized Control for Collaborative Transporting a Large/Heavy Payload"},
+    {link: "/PriorProject/Project11",   text: "6. Physical Simulation of a Human-Driving Vehicle in Lab Environment"},
+    {link: "/PriorProject/Project25",   text: "7. UAV-Manipulator Systems for Aerial Manipulation"},
+    {link: "/PriorProject/Project8",    text: "8. AI and Robotics Assisted 3D Scanning for Inspection or Rapid and Accurate Reverse Engineering"},
+    {link: "/PriorProject/Project5",    text: "9. Multi-Vehicle Decentralized Control for Collaborative Object Transportation"},
+    {link: "/PriorProject/Project4",    text: "10. Multi-Agent Pursuit and Evasion"},
+    {link: "",                          text: "11. Contact Dynamics Modeling, Analysis and Control"},
+    {link: "/PriorProject/Project19",   text: "12. SPDM Task Verification Facility (STVF)"},
+    {link: "",                          text: "13. European Proximity Operations Simulator (EPOS)"},
+    {link: "/PriorProject/Project14",   text: "14. Reduced-Gravity and Biomechanics (RGB) Lab at NMSU"},
+    {link: "/PriorProject/Project13",   text: "15. Contact Dynamics Modeling and Simulation"},
+    {link: "/PriorProject/Project24",   text: "16. Technology for Simulating Human Activities in Partial Gravity"},
+    {link: "/PriorProject/Project15",   text: "17. Risk of Falling Assessment for Older Adults"},
+    {link: "/PriorProject/Project2",    text: "18. Identification of Mass Distribution of a Live Human"},
+    {link: "/PriorProject/Project18",   text: "19. Design and Control of Unmanned Arial Vehicles"},
+    {link: "/PriorProject/Project20",   text: "20. Student-Led Flight Experiments"},
+    {link: "/PriorProject/Project16",   text: "21. Robot Control for Capturing a Non-cooperative Object"},
+    {link: "/PriorProject/Project21",   text: "22. Bio Inspired Hopping Locomotion for Lunar Exploration"},
+    {link: "/PriorProject/Project23",   text: "23. Prediction of Human Action Intention or Outcome"},
+    {link: "/PriorProject/Project17",   text: "24. Space Robot Control for On-Orbit Servicing"},
+];
+
+
+
+
+
+
+
+

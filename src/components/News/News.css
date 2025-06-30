@@ -8,6 +8,10 @@
     display:block;
     justify-content: center;
     width:100%;
+
+    > div:hover {
+        filter: drop-shadow(10px 10px 0.75rem rgba(0, 0, 128, 0.5));
+    }
 }
 .News h1{
     font-weight: bold;
