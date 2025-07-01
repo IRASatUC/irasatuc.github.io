@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .Project6_header {
+        @apply text-center font-bold pb-5 pt-5;
+    }
+}

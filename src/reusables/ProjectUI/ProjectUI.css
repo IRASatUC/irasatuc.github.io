@@ -1,3 +1,5 @@
+@tailwind components;
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: relative;
@@ -117,3 +119,9 @@
         border-top: 1px solid white;
     }
 }
+
+@layer components {
+    .ProjectUI_header {
+        @apply text-center font-bold p-5;
+    }
+} 

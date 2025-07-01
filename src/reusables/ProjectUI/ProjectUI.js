@@ -41,7 +41,7 @@ export default function ProjectUI(props) {
 
                     { props.projectImage.map((imageProps, index)=>{
                         return (
-                            <div key={index} className="image_content_box" style={{width: (props.projectImage.length <= 1) ? "80%" : "40%"}}>
+                            <div key={index} className="image_content_box" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "40%"}}>
                                 <div>
                                     {
                                         typeof(imageProps.title) === "string" ?
@@ -64,7 +64,7 @@ export default function ProjectUI(props) {
                     <div className='ProjectUI_vid'>
                         { props.projectVideo.map((vidProps, index)=>{
                             return (
-                                <div key={index} className="vid_content_box" style={{width: (props.projectImage.length <= 1) ? "80%" : "40%"}}>
+                                <div key={index} className="vid_content_box" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "40%"}}>
                                     <div>
                                         {
                                             typeof(vidProps.title)==="string" ?

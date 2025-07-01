@@ -2,19 +2,13 @@ import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import testbed from './testbed.jpg';
 import operation_concept from './operation_concept.jpg'
 
-const headerStyle = {
-    textAlign: 'center',
-    fontWeight: 'bold',
-    padding: '20px'
-};
-
 function Project17() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
             <h1 style={{ textAlign: 'center', fontWeight: 'bold', fontSize: "30px", width: "100%" }}>Space Robot Control for On-Orbit Servicing</h1>
             <img src={operation_concept} alt="operation concept" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '70%' }} />
 
-            <h2 style={headerStyle}>Challenges</h2>
+            <h2 className="ProjectUI_header">Challenges</h2>
             <ul style={{ listStyleType: 'disc' }}>
                 <li>Not designed for robotic grasping​</li>
                 <li>Physical properties unknown​ </li>
@@ -23,7 +17,7 @@ function Project17() {
                 <li>Vision alone is insufficient for full estimation​</li>
             </ul>
 
-            <h2 style={headerStyle}>Applications​</h2>
+            <h2 className="ProjectUI_header">Applications​</h2>
             <ul style={{ listStyleType: 'disc' }}>
                 <li>Space situation awareness
                 </li>

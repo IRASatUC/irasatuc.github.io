@@ -4,16 +4,10 @@ import video1 from './video1.mp4';
 import Picture1 from './Picture1.jpg';
 import Picture2 from './Picture2.jpg';
 
-const headerStyle = {
-    textAlign: 'center',
-    fontWeight: 'bold',
-    padding: '20px'
-};
-
 function Project13_Description() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
-            <h1 style={headerStyle}>Contact Dynamics Modeling and Simulation</h1>
+            <h1 className="ProjectUI_header">Contact Dynamics Modeling and Simulation</h1>
             <ul style={{listStyleType:"disc"}}>
                 <li>Multi-point and frictional impact-contact with complex geometry</li>
                 <li>Model order reduction</li>

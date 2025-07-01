@@ -2,18 +2,12 @@ import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import applications from "./applications.jpg"
 import uav_arm from './uav_arm.jpg'
 
-const headerStyle = {
-    textAlign: 'center',
-    fontWeight: 'bold',
-    padding: '20px'
-};
-
 function Project25_Description() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
-            <h1 style={{...headerStyle,fontSize:"30px"}}>UAV-Manipulator Systems for Aerial Manipulation</h1>
+            <h1 className="ProjectUI_header" style={{fontSize:"30px"}}>UAV-Manipulator Systems for Aerial Manipulation</h1>
             <section>
-                <h2 style={headerStyle}>Research Problems</h2>
+                <h2 className="ProjectUI_header">Research Problems</h2>
                 <ul style={{listStyleType:"disc"}}>
                     <li>Coupling dynamics between UAV and arm</li>
                     <li>Contact dynamics between arms and environment</li>
@@ -25,7 +19,7 @@ function Project25_Description() {
                 </ul>
             </section>
             <section>
-                <h2 style={headerStyle}>Potential Applications</h2>
+                <h2 className="ProjectUI_header">Potential Applications</h2>
                 <ul style={{listStyleType:"disc"}}>
                     <li>Inspects and fixes large or tall structures</li>
                     <li>Perches on various spots like a bird</li>
