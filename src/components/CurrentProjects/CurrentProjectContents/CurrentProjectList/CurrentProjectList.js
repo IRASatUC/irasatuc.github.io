@@ -1,6 +1,6 @@
 import "./CurrentProjectList.css";
 import { CurrentProjectList_contents } from "../../../../contents/CurrentProjectList_content/CurrentProjectList_content";
-import { BrowserRouter, Routes, Route,Outlet,Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function CurrentProjectList() {
     return (
@@ -14,14 +14,11 @@ export default function CurrentProjectList() {
                                 <Link to={content.link}>
                                     <div style={{width:"210px",height:"210px"}}>
                                         <div className="imgBord"></div>
-                                        {
-                                            (content.video === undefined)
-                                                ? <img src={content.image} alt="bowser" />
-                                                : <video width="200" height="200" autoPlay loop muted playsInline poster={content.image}>
-                                                    <source src={content.video} type="video/mp4" />
-                                                    Bowser
-                                                </video>
-                                        }
+                                        { (content.video === undefined) ?
+                                            <img src={content.image} alt="Placeholder" /> :
+                                            <video width="200" height="200" autoPlay loop muted playsInline poster={content.image}>
+                                                <source src={content.video} type="video/mp4" />
+                                            </video> }
                                     </div>
                                 </Link>
                                 <Link to={content.link} style={{paddingTop:"80px"}}>
@@ -34,4 +31,4 @@ export default function CurrentProjectList() {
           </div>
       </div>
     )
-  }
+}

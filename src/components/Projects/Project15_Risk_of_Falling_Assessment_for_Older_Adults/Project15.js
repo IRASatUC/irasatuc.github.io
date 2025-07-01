@@ -3,11 +3,12 @@ import ip_2d from "./ip_2d.jpg";
 import ip_3d from "./ip_3d.jpg";
 import result from "./result.jpg";
 import analysis from "./analysis.jpg";
+
 export default function Project15() {
     return (
         <div className='Project15'>
             <img src={analysis} alt="" id="myImage"></img>
-            <div className="content" >
+            <div className="content">
                 <h1 style={{ fontSize: "30px" }}>Risk of Falling Assessment for Older Adults</h1>
                 <p>
                     <ul>
@@ -19,11 +20,13 @@ export default function Project15() {
                 </p>
                 <button id="myBtn" onClick={() => console.log("Hi")}>Explore</button>
             </div>
+
             <div className='Project15_img'>
                 <img src={ip_2d} style={{ width: "300px", height: "auto" }} alt=""></img>
                 <img src={ip_3d} style={{ width: "300px", height: "auto" }} alt=""></img>
                 <img src={result} style={{ width: "300px", height: "auto" }} alt=""></img>
             </div>
+
             <div className='Project15_publication'>
                 <h1 style={{ display: 'flex', justifyContent: "center", width: "100%", fontSize: "30px", fontWeight: "bold" }}>Publications</h1>
                 <div style={{ display: 'flex', justifyContent: "center", width: "100%" }} >

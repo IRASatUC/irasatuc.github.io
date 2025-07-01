@@ -1,8 +1,8 @@
-.menu-box{
+.menu-box {
     display: flex;
     width: 90%;
 }
-.menu-box h2{
+.menu-box h2 {
     border: 1px solid black;
     border-radius: 20px 20px 0 0;
     padding: 10px;
@@ -10,29 +10,28 @@
     text-align: center;
     vertical-align: middle;
 }
-.content-box{
+.content-box {
     width: 90%;
     height: auto;
     border: 1px solid black;
     padding: 40px;
 }
-.Publication h1{
+.Publication h1 {
     font-weight: bold;
     font-size: xx-large;
 }
-.Publication ol{
+.Publication ol {
     list-style-type: decimal ;
 }
-.Publication h2{
+.Publication h2 {
     cursor: pointer;
     font-weight: bold;
     font-size: x-large;
 }
-.Publication ol li{
+.Publication ol li {
     font-size: large;
     padding:5px
 }
 .Publication {
     padding-left: 50px;
-
 }

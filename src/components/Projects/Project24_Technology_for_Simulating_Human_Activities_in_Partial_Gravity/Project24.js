@@ -1,11 +1,13 @@
 import './Project24.css';
 import lowGravity from "./Playing in Low Gravity.mp4"
+
 export default function Project24() {
     return (
         <div className='Project24'>
             <video autoPlay muted loop id="myVideo">
                 <source src={lowGravity} type="video/mp4"></source>
             </video>
+
             <div className="content" >
                 <h1 style={{ fontSize: "30px" }}>Technology for Simulating Human Activities in Partial Gravity</h1>
                 <ul>
@@ -17,6 +19,7 @@ export default function Project24() {
                 </ul>
                 <button id="myBtn" onClick={() => console.log("Hi")}>Explore</button>
             </div>
+
             <div className='Project24_publication'>
                 <h1 style={{ display: 'flex', justifyContent: "center", width: "100%", fontSize: "30px", fontWeight: "bold" }}>Publications</h1>
                 <div style={{ display: 'flex', justifyContent: "center", width: "100%" }} >

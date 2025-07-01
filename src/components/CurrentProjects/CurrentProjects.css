@@ -1,12 +1,11 @@
-.CurrentProjects h1{
+.CurrentProjects h1 {
     font-weight: bold;
     font-size: xx-large;
 }
-.CurrentProjects ul li{
+.CurrentProjects ul li {
     font-size: large;
     padding:5px
 }
 .CurrentProjects {
     padding-left: 50px;
-
 }

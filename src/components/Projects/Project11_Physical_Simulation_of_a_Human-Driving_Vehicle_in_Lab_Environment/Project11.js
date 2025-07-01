@@ -1,21 +1,24 @@
+import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import vehicle_simulator_environment from './vehicle-simulator-environment.jpg'
 import Prior_Project11_video1 from './Prior_Project11_video1.mp4';
 import Prior_Project11_video2 from './Prior_Project11_video2.mp4';
 
-import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 const headerStyle = {
     textAlign: 'center',
     fontWeight: 'bold',
     padding: '20px'
 };
+
 function Project11_Description() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
             <h1 style={{...headerStyle,fontSize:"30px"}}>Physical Simulation of a Human-Driving Vehicle in Lab Environment</h1>
             <h2 style={headerStyle}>Objective</h2>
             <p>Develop technology to physically simulate a human driving a manned vehicle which is represented by an unmanned vehicle in a scaled urban environment where both “manned vehicles” and autonomous vehicles are operating in the shared space. The technology can be used to support research in the areas of trusted autonomy, human-autonomy collaboration, and autonomous driving.</p>
+
             <h2 style={headerStyle}>Motivation</h2>
             <p>With the fast advancement of robotics and autonomy technologies, heterogeneous autonomous robotic vehicles (e.g., UGVs or driverless vehicles) are expected to work along with manned vehicles in human-autonomy shared environments. Hence, the operation of those autonomous vehicles must co-operate and ensure safety in the presence of manned vehicles. However, it is very risky and also costly to test autonomous vehicles operating in a real urban environment where many manned vehicles are operating. Therefore, we need a technology and facility which ensures safe testing of multiple autonomous vehicles operating with human-driven vehicles in a shared urban environment. The technology developed on this project will address this need.</p>
+
             <h2 style={headerStyle}>Technology HighLights</h2>
             <ul style={{listStyleType:"disc"}}>
                 <li>Human-machine interface – a vehicle driving simulator to allow a human driver to participate.</li>
@@ -27,30 +30,30 @@ function Project11_Description() {
     )
 }
 
-
 export default function Project11() {
     return (
         <ProjectUI
             projectTitle="Robotics Assisted 3D Scanning of Aircraft for Reverse Engineering and Inspection"
             projectTeaser=""
             projectDescription={Project11_Description}
+
             projectImage={[{
                 title: "",
                 src: vehicle_simulator_environment,
             }]}
+
             projectVideo={[{
-                title:()=>{
+                title: () => {
                     return(
                         <div style={{color:"white"}}>
                             <h1 style={headerStyle}>A similar product</h1>
                             <p>The technology is, in part, similar to the Sony’s Mario car game:</p>
                         </div>
                     )
-                    
                 },
                 src: Prior_Project11_video1,
             },{
-                title:()=>{
+                title: () => {
                     return(
                         <div style={{color:"white"}}>
                             <h1 style={headerStyle}>Difference from Sony’s Mario car game</h1>
@@ -59,11 +62,9 @@ export default function Project11() {
 
                         </div>
                     )
-                    
                 },
                 src: Prior_Project11_video2,
             }]}
-
         />
     )
 }

@@ -1,5 +1,6 @@
 import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import drone_collaboration from "./drone_collab.jpg";
+
 function Project6_Description() {
     return (
         <div>
@@ -35,22 +36,22 @@ function Project6_Description() {
         </div>
     )
 }
+
 const Project6_publications = () => {
     return (
-      <div style={{ padding: '20px' }}>
-        <ul style={{listStyleType:"disc"}}>
-          <li>
-          Bisig, Caleb and Ma, Ou; “Scalable and Robust Decentralized Cargo Transport via Genetic Fuzzy Systems”, Proc. of 2022 AIAA SciTech, San Diego, https://doi.org/10.2514/6.2022-1728.
-
-          </li>
-          <li>
-          Sathyan, A.; Ma, O. and Cohen, K.; “Genetic Fuzzy Methodology for Decentralized Cooperative UAVs to Transport a Shared Payload”, Drones, 2023. https://doi.org/10.3390/drones7020103
-
-          </li>
-        </ul>
-      </div>
+        <div style={{ padding: '20px' }}>
+            <ul style={{listStyleType:"disc"}}>
+                <li>
+                    Bisig, Caleb and Ma, Ou; “Scalable and Robust Decentralized Cargo Transport via Genetic Fuzzy Systems”, Proc. of 2022 AIAA SciTech, San Diego, https://doi.org/10.2514/6.2022-1728.
+                </li>
+                <li>
+                    Sathyan, A.; Ma, O. and Cohen, K.; “Genetic Fuzzy Methodology for Decentralized Cooperative UAVs to Transport a Shared Payload”, Drones, 2023. https://doi.org/10.3390/drones7020103
+                </li>
+            </ul>
+        </div>
     );
-  }
+}
+
 export default function Project6() {
     return (
         <ProjectUI
@@ -62,7 +63,6 @@ export default function Project6() {
                 src: drone_collaboration
             }]}
             publications={Project6_publications}
-
         />
     )
 }

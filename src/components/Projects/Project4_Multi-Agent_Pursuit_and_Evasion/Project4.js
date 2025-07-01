@@ -1,10 +1,12 @@
 import Prior_Project6_video1 from "./Prior_Project6_video1.mp4";
 import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
+
 const headerStyle = {
     textAlign: 'center',
     fontWeight: 'bold',
     padding: '20px'
 };
+
 function Project4_Description() {
     return (
         <div>
@@ -30,7 +32,6 @@ function Project4_Description() {
                     Captured one evader whose motion was pre-defined. Agents learned achieving the goal with consideration of safety constraints. Learned control policy is robust against uncertainties.
                 </p>
             </section>
-            
         </div>
     )
 }
@@ -46,7 +47,6 @@ export default function Project4() {
                 title: "Simulation",
                 src: Prior_Project6_video1
             }]}
-
         />
     )
 }

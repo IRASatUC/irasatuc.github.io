@@ -2,12 +2,10 @@ import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import architecture from "./architecture.jpg";
 import interface_img from "./interface.jpg";
 import Project10_video1 from "./Project10_video1.mp4";
+
 function Project10_Description() {
-
     return (
-
         <div style={{ padding: '20px' }}>
-
             <h2 style={{ textAlign: 'center', fontWeight: 'bold' }}>Objectives</h2>
             <ul style={{ listStyleType: 'disc' }}>
                 <li>Develop an architecture of multi-mode simulation including 3D visual, audio, force and motion effects, all driven by physics-based and hardware-in-the-loop dynamic simulations.</li>
@@ -34,6 +32,7 @@ export default function Project10() {
             projectTitle="Physics-Based Mixed Reality Simulation"
             projectTeaser=""
             projectDescription={Project10_Description}
+
             projectImage={[{
                 title: "",
                 src: architecture
@@ -41,11 +40,11 @@ export default function Project10() {
                 title: "",
                 src: interface_img
             }]}
+
             projectVideo={[{
                 title: "",
                 src: Project10_video1
-            }]
-}
+            }]}
         />
     )
 }

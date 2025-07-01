@@ -1,11 +1,13 @@
+import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import applications from "./applications.jpg"
 import uav_arm from './uav_arm.jpg'
-import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
+
 const headerStyle = {
     textAlign: 'center',
     fontWeight: 'bold',
     padding: '20px'
 };
+
 function Project25_Description() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
@@ -34,7 +36,6 @@ function Project25_Description() {
                     <li>3D printing large structures from the air</li>
                 </ul>
             </section>
-
         </div>
     )
 }
@@ -52,7 +53,6 @@ export default function Project25() {
                 title: "",
                 src: uav_arm
             }]}
-
         />
     )
 }

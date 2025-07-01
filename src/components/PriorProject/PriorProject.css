@@ -1,12 +1,11 @@
-.PriorProject h1{
+.PriorProject h1 {
     font-weight: bold;
     font-size: xx-large;
 }
-.PriorProject ul li{
+.PriorProject ul li {
     font-size: large;
-    padding:5px
+    padding: 5px
 }
 .PriorProject {
     padding-left: 50px;
-
 }

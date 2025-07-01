@@ -1,4 +1,4 @@
-export const News_contents=[
+export const News_contents = [
     {
         link:"https://www.uc.edu/news/articles/2025/03/exploring-careers-in-robotics-engineering--a-path-to-the-future.html",
         title:"Robotics engineering is not just exciting — it’s lucrative. According to Glassdoor.com, salaries for robotics engineers in the U.S. range from $119,000 to $201,000 annually, with a median salary of $154,000 in total pay. The demand is strong, too: the robotics industry is projected to grow significantly over the next decade, driven by advancements in AI, automation and space exploration. For UC grads, Cincinnati’s proximity to tech hubs and manufacturing giants offers a prime launchpad.",
@@ -52,4 +52,4 @@ export const News_contents=[
         title:"UC develops satellites that fix other satellites",
         date:"November 26, 2019"
     },
-]
+];

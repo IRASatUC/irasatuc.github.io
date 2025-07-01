@@ -5,21 +5,21 @@
     bottom: 0;
     width: 100%;
     height: auto !important;
-  }
-#myImage{
-  position: relative;
+}
+#myImage {
+    position: relative;
     right: 0;
     bottom: 0;
     width: 100%;
     height: auto !important;
 }
-.ProjectUI_vid_container{
+.ProjectUI_vid_container {
     width: 100%;
     display: flex !important;
     background-color: rgb(55,66,91,1);
     justify-content: center !important;
 }
-.ProjectUI_vid{
+.ProjectUI_vid {
     background-color: rgb(55,66,91,1);
     width: 80%;
     display: flex;
@@ -27,34 +27,36 @@
     padding-top: 20px;
     border-top: 1px solid white;
 }
-
-.vid_content_box video{
+.vid_content_box video {
     width: 100%;
     height: auto;
 }
-.vid_content_box{
-  display: flex;
-  justify-content: center;
-  padding:20px
+.vid_content_box {
+    display: flex;
+    justify-content: center;
+    padding: 20px
 }
-.image_content_box{
-  display: flex;
-  justify-content: center;
-  padding:20px
+.image_content_box {
+    display: flex;
+    justify-content: center;
+    padding:20px
 }
-  /* Add some content at the bottom of the video/page */
-  .content {
+/* Add some content at the bottom of the video/page */
+.content {
     position: absolute !important;
-    margin-top:-200px;
+    margin-top: -200px;
     background: linear-gradient(to bottom, rgb(55,66,91,0), rgb(55,66,91,1));
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
     height: 200px;
-  }
-  
-  /* Style the button used to pause/play the video */
-  #myBtn {
+
+    h1 {
+      filter: drop-shadow(5px 5px 0.5rem #000);
+    }
+}
+/* Style the button used to pause/play the video */
+#myBtn {
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -62,59 +64,56 @@
     background: #000;
     color: #fff;
     cursor: pointer;
-  }
-  
-  #myBtn:hover {
+}
+#myBtn:hover {
     background: #ddd;
     color: black;
-  }
-  .ProjectUI_description_container{
+}
+.ProjectUI_description_container {
     width: 100%;
-    display: flex ;
+    display: flex;
     background-color: rgb(55,66,91,1);
     justify-content: center !important;
-  }
-  .ProjectUI_description {
+}
+.ProjectUI_description {
     color: white;
     width: 80%;
     border-bottom: 1px solid white;
     background-color: rgb(55,66,91,1);
     padding: 50px;
-  }
-  
-  .ProjectUI_img{
-    display:flex;
+}
+.ProjectUI_img {
+    display: flex;
     justify-content: center;
     background-color: rgb(55,66,91,1);
     padding: 50px;
-  }
-  .ProjectUI_publication{
+}
+.ProjectUI_publication {
     color: white;
     background-color: rgb(55,66,91,1);
     padding: 50px;
-  }
-  .ProjectUI_publication::before{
+}
+.ProjectUI_publication::before {
     content: "";
     display: block;
     margin: 0 auto; /* Center the border */
-
     border-top:1px solid white;
     width: 60vw;
-  }
+}
 
-  @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     /* Styles specific to screens smaller than 900px */
-    .ProjectUI_img{
-      display:block;
-      background-color: rgb(55,66,91,1);
-      padding: 50px;
+    .ProjectUI_img {
+        display:block;
+        background-color: rgb(55,66,91,1);
+        padding: 50px;
     }
-    .ProjectUI_vid{
-      background-color: rgb(55,66,91,1);
-      width: 60%;
-      display: block;
-      padding-top: 20px;
-      border-top: 1px solid white;
-  }
-  
+
+    .ProjectUI_vid {
+        background-color: rgb(55,66,91,1);
+        width: 60%;
+        display: block;
+        padding-top: 20px;
+        border-top: 1px solid white;
+    }
 }

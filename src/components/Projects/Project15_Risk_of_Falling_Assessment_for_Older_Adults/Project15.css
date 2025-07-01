@@ -5,10 +5,9 @@
     bottom: 0;
     width: 100%;
     height: auto !important;
-  }
-  
-  /* Add some content at the bottom of the video/page */
-  .content {
+}
+/* Add some content at the bottom of the video/page */
+.content {
     position: absolute !important;
     margin-top:-200px;
     background: linear-gradient(to bottom, rgb(55,66,91,0), rgb(55,66,91,1));
@@ -16,10 +15,9 @@
     width: 100%;
     padding: 20px;
     height: 200px;
-  }
-  
-  /* Style the button used to pause/play the video */
-  #myBtn {
+}
+/* Style the button used to pause/play the video */
+#myBtn {
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -27,31 +25,29 @@
     background: #000;
     color: #fff;
     cursor: pointer;
-  }
-  
-  #myBtn:hover {
+}
+#myBtn:hover {
     background: #ddd;
     color: black;
-  }
-  .PriorProject4_img{
+}
+.PriorProject4_img {
     display:flex;
     justify-content: space-around;
     background-color: rgb(55,66,91,1);
     padding: 50px;
-  }
-  .PriorProject4_publication{
+}
+.PriorProject4_publication {
     color: white;
     background-color: rgb(55,66,91,1);
     padding: 50px;
-  }
-  .PriorProject4_publication::before{
+}
+.PriorProject4_publication::before {
     content: "";
     display: block;
     margin: 0 auto; /* Center the border */
-
     border-top:1px solid white;
     width: 60vw;
-  }
-  .PriorProject4_publication ul {
+}
+.PriorProject4_publication ul {
     list-style-type: numbers;
-  }
+}

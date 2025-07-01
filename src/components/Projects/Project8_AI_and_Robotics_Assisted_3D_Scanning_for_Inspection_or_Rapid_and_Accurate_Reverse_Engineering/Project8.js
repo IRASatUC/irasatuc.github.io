@@ -1,12 +1,14 @@
+import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import Aircraft_Scanning from "./Aircraft_Scanning.jpg"
 import Architecture from './Architecture.jpg'
 import Prior_Project8_video1 from './Prior_Project8_video1.mp4';
-import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
+
 const headerStyle = {
     textAlign: 'center',
     fontWeight: 'bold',
     padding: '20px'
 };
+
 function Project8_Description() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
@@ -15,10 +17,10 @@ function Project8_Description() {
 
             <h2 style={headerStyle}>Methodology</h2>
             <p>A two-phase scanning method with using a high-precision indoor positioning system is proposed to meet the requirement of high accuracy for the aircraft scanning. The first phase of scanning is to reconstruct a coarse aircraft model with a consumer-grade RGB-D camera and the second phase of scanning is to reconstruct a precision aircraft model with a high-precision 3D laser scanner based on the coarse model acquired in the first phase.</p>
-
         </div>
     )
 }
+
 const Project8_publications = () => {
     return (
         <div style={{ padding: '20px' }}>
@@ -47,16 +49,17 @@ export default function Project8() {
             projectTitle="AI and Robotics Assisted 3D Scanning for Inspection or Rapid and Accurate Reverse Engineering"
             projectTeaser=""
             projectDescription={Project8_Description}
+
             projectImage={[{
                 title: "",
                 src: Architecture
             }]}
+
             projectVideo={[{
                 title: "Simulation",
                 src: Prior_Project8_video1
             }]}
             publications={Project8_publications}
-
         />
     )
 }

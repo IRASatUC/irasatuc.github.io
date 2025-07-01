@@ -2,26 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-.NewsBox{
-    display:block;
+.NewsBox {
+    display: block;
     justify-content: center;
-    width:100%;
+    width: 100%;
 
     > div:hover {
         filter: drop-shadow(10px 10px 0.75rem rgba(0, 0, 128, 0.5));
     }
 }
-.News h1{
+.News h1 {
     font-weight: bold;
     font-size: xx-large;
 }
-.News ul li{
+.News ul li {
     font-size: large;
-    padding:5px
+    padding: 5px
 }
 .News {
     padding-left: 50px;
-
 }

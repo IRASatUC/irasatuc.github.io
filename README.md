@@ -31,12 +31,12 @@ To add a new project, import the `ProjectUI` component from `reusables/ProjectUI
 
 ```jsx
 <ProjectUI
-  BackGround(optional)="link for background video"
+  Background(optional)="link for background video"
   BackgroundImage(optional)="link to image background"
   projectDescription(optional)="react component to render description"
-  projectImage(optional)='[{title: "title of the image (optional)", src: "src of the image (required)"}]'
-  projectVideo(optional)='[{title: "title of the video (optional)", src: "src of the video (required)"}]'
-  Publication="react component to render the Publications section"
+  projectImage(optional)='[{title: "title of the image (optional) (can be element)", src: "src of the image (required)"}, ...]'
+  projectVideo(optional)='[{title: "title of the video (optional) (can be element)", src: "src of the video (required)", doNotAutoplay: /*true if does not autoplay, show controls*/, captions: "link to .vtt captions file (optional)"}, ...]'
+  publications(optional)="react component to render the Publications section"
 />
 ```
 

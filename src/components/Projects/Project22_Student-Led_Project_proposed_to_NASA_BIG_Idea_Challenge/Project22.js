@@ -1,7 +1,8 @@
+import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import Project22_video1 from './Project22_video1.mp4';
 import Project22_caption1 from './Project22_caption1.vtt';
 import big_idea_icon from "./big_idea_icon.jpg"
-import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
+
 function Project22_Description() {
     return (
         <div>
@@ -13,8 +14,10 @@ function Project22_Description() {
                     <img src={big_idea_icon} alt="BIG Idea Challenge Logo"></img>
                 </div>
             </div>
+
             <div style={{ padding: '20px' }}>
                 <h1 style={{ fontWeight: 'bold', textAlign: "center" }}>CableCat: Powering the PSR</h1>
+
                 <h2 style={{ textAlign: "center" }}>Objectives & Technical Approach</h2>
                 <ul style={{ listStyleType: "disc" }}>
                     <li style={{ textAlign: "start" }}>Establish power infrastructure to the Permanently Shadowed Regions (PSRs) on the lunar surface of scientific interest.</li>
@@ -23,6 +26,7 @@ function Project22_Description() {
                     <li style={{ textAlign: "start" }}>Design the spool such that it guarantees always in right posture while traveling on uncertain terrain.</li>
                 </ul>
             </div>
+
             <div style={{  padding: '20px' }}>
                 <h2 style={{fontWeight:"bold",textAlign:"center"}}>Team</h2>
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '20px' }}>
@@ -89,7 +93,6 @@ export default function Project22() {
                 caption: Project22_caption1,
                 doNotAutoplay: true
             }]}
-
         />
     )
 }

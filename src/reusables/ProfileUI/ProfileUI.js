@@ -1,11 +1,7 @@
-import React from 'react';
 import './ProfileUI.css'
 
-
-
-
-function ProfileUI(props){
-    return(
+export default function ProfileUI(props){
+    return (
         <div className='prof-container' style={{minHeight:"480px"}}>
             <div className='box'>
                 <img className='img-box' src={ props.imgUrl } alt="profile-img"/>
@@ -15,7 +11,4 @@ function ProfileUI(props){
             </div>
         </div>
     );
-
 }
-
-export default ProfileUI;

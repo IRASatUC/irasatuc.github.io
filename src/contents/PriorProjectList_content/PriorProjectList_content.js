@@ -24,11 +24,3 @@ export const PriorProjectList_contents = [
     {link: "/PriorProject/Project23",   text: "23. Prediction of Human Action Intention or Outcome"},
     {link: "/PriorProject/Project17",   text: "24. Space Robot Control for On-Orbit Servicing"},
 ];
-
-
-
-
-
-
-
-
