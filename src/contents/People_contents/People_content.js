@@ -1,7 +1,7 @@
 import Lab_Website_Conrad_Kent from "../Lab Portraits/Lab_Website_Conrad_Kent.jpg"
-import Lab_Website_Andy_Barth from "../Lab Portraits/Lab_Website_Andy_Barth.jpg"
+//import Lab_Website_Andy_Barth from "../Lab Portraits/Lab_Website_Andy_Barth.jpg"
 import Lab_Website_Dylan_Roach from "../Lab Portraits/Lab_Website_Dylan_Roach.jpg"
-import Lab_Website_Ethan_Leszcynski from "../Lab Portraits/Lab_Website_Ethan_Leszcynski.jpeg"
+//import Lab_Website_Ethan_Leszcynski from "../Lab Portraits/Lab_Website_Ethan_Leszcynski.jpeg"
 import Lab_Website_Gianni_Gaetano from "../Lab Portraits/Lab_Website_Gianni_Gaetano.jpeg"
 //import Lab_Website_Justin_Panchula from "../Lab Portraits/Lab_Website_Justin_Panchula.jpg"
 import Lab_Website_Linus_Dombrosky from "../Lab Portraits/Lab_Website_Linus_Dombrosky.JPG"
@@ -52,6 +52,7 @@ export const People_contents_falcuty = [
 ];
 
 export const People_contents_colaborating_falcuty_within_UC = [
+/*
     {
         imgUrl: Lab_Website_Andy_Barth,
         name: "Andy Barth",
@@ -70,6 +71,7 @@ export const People_contents_colaborating_falcuty_within_UC = [
             )
         },
     },
+*/
     {
         imgUrl: Lab_Website_Kelly_Cohen,
         name: "Kelly Cohen",
@@ -337,6 +339,18 @@ export const People_contents_students = [
         }
     },
     {
+        name: "John Radey",
+        title: "PHD student"
+    },
+    {
+        name: "Neal D'Andrea",
+        title: "PHD student"
+    },
+    {
+        name: "Iñaki Carrera Bueno",
+        title: "PHD student"
+    },
+    {
         imgUrl: Lab_Website_Waite_Weideman,
         name: "Waite Weideman",
         title: "Master student",
@@ -373,7 +387,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Linus_Dombrosky,
         name: "Linus Dombrosky",
-        title: "Undergraduate Student",
+        title: "Undergraduate student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -401,6 +415,7 @@ export const People_contents_students = [
             )
         },
     },
+/*
     {
         imgUrl: Lab_Website_Ethan_Leszcynski,
         name: "Ethan Leszcynski",
@@ -417,6 +432,7 @@ export const People_contents_students = [
             )
         },
     },
+*/
     {
         imgUrl: Lab_Website_Gianni_Gaetano,
         name: "Gianni Gaetano",
@@ -513,6 +529,14 @@ export const People_contents_students = [
                 </p>
             )
         },
-    }
+    },
 */
+    {
+        name: "Jake Williams",
+        title: "Undergraduate student"
+    },
+    {
+        name: "Elina Bishoyi",
+        title: "Undergraduate student"
+    },
 ];

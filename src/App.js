@@ -2,16 +2,15 @@
 import './App.css';
 import Nav from './components/Nav/Nav';
 import About from './components/About/About';
-import { useState, /*useRef,*/ useEffect } from 'react';
 import PriorProject from './components/PriorProject/PriorProject';
 import CurrentProjects from './components/CurrentProjects/CurrentProjects';
 import People from './components/People/People';
 import Publication from './components/Publication/Publication';
 import News from './components/News/News';
-import Oppoturnities from './components/Oppoturnities/Oppoturnities';
-import OppoturnitiesList from './components/Oppoturnities/OppoturnitiesDetails/OppoturnitiesList/OppoturnitiesList';
-//CURRENT PROJECT IMPORT
+import Opportunities from './components/Opportunities/Opportunities';
+import OpportunitiesList from './components/Opportunities/OpportunitiesDetails/OpportunitiesList/OpportunitiesList';
 
+//CURRENT PROJECT IMPORT
 import CurrentProjectList from './components/CurrentProjects/CurrentProjectContents/CurrentProjectList/CurrentProjectList';
 
 //PRIOR PROJECTS IMPORT
@@ -44,69 +43,89 @@ import Project23 from './components/Projects/Project23_Prediction_of_Human_Actio
 import Project24 from './components/Projects/Project24_Technology_for_Simulating_Human_Activities_in_Partial_Gravity/Project24';
 import Project25 from './components/Projects/Project25_UAV-Manipulator_Systems_for_Aerial_Manipulation/Project25';
 import Project26 from './components/Projects/Project26_Visual-based RobotTracking_of_Arbitrarily_Defined_Object/Project26';
+import Project27 from './components/Projects/Project27_Study_of_Squirrel_s_Capability_of_Stabilizing_Its_Head_while_Body_Tumbling/Project27';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState, /*useRef,*/ useEffect } from 'react';
+import { MathJaxContext } from "better-react-mathjax";
+
+const config = {
+  loader: { load: ["[tex]/html"] },
+  tex: {
+    packages: { "[+]": ["html"] },
+    inlineMath: [
+      ["latex$", "latex$"],
+      ["latex\\(", "latex\\)"]
+    ],
+    displayMath: [
+      ["latex$$", "latex$$"],
+      ["latex\\[", "latex\\]"]
+    ]
+  }
+};
 
 export default function App() {
-    const [routes, setRoutes] = useState('About');
-
+  const [routes, setRoutes] = useState('About');
     useEffect(() => {
         const desiredRoute = window.location.href.split("/").pop();
         setRoutes(desiredRoute);
         console.log(routes, desiredRoute);
     }, [routes]);
     return (
-        <div>
-            <BrowserRouter basename="/IRAS-Lab"> {/* Use basename if deployed under a subdirectory */}
-                <Routes>
-                    <Route path="/" element={<Nav />}>
-                        <Route index element={<About />} />
-                        <Route path="News" element={<News />} />
-                        <Route path="Oppoturnities" element={<Oppoturnities />}>
-                            <Route index element={<OppoturnitiesList />} />
-                        </Route>
-                        {/* PriorProject Routes */}
-                        <Route path="PriorProject" element={<PriorProject />}>
-                            <Route index element={<PriorProjectList />} />
-                            <Route path="Project2" element={<Project2 />} />
-                            <Route path="Project3" element={<Project3 />} />
-                            <Route path="Project4" element={<Project4 />} />
-                            <Route path="Project5" element={<Project5 />} />
-                            <Route path="Project6" element={<Project6 />} />
-                            <Route path="Project8" element={<Project8 />} />
-                            <Route path="Project10" element={<Project10 />} />
-                            <Route path="Project11" element={<Project11 />} />
-                            <Route path="Project13" element={<Project13 />} />
-                            <Route path="Project14" element={<Project14 />} />
-                            <Route path="Project15" element={<Project15 />} />
-                            <Route path="Project17" element={<Project17 />} />
-                            <Route path="Project18" element={<Project18 />} />
-                            <Route path="Project19" element={<Project19 />} />
-                            <Route path="Project20" element={<Project20 />} />
-                            <Route path="Project21" element={<Project21 />} />
-                            <Route path="Project22" element={<Project22 />} />
-                            <Route path="Project23" element={<Project23 />} />
-                            <Route path="Project24" element={<Project24 />} />
-                            <Route path="Project25" element={<Project25 />} />
-                            <Route path="Project26" element={<Project26 />} />
-                            <Route path="PriorProject5" element={<Project8 />} /> {/* Is this a duplicate? */}
-                        </Route>
+        <MathJaxContext version={3} config={config}>
+            <div>
+                <BrowserRouter basename="/IRAS-Lab"> {/* Use basename if deployed under a subdirectory */}
+                    <Routes>
+                        <Route path="/" element={<Nav />}>
+                            <Route index element={<About />} />
+                            <Route path="News" element={<News />} />
+                            <Route path="Opportunities" element={<Opportunities />}>
+                                <Route index element={<OpportunitiesList />} />
+                            </Route>
+                            {/* PriorProject Routes */}
+                            <Route path="PriorProject" element={<PriorProject />}>
+                                <Route index element={<PriorProjectList />} />
+                                <Route path="Project2" element={<Project2 />} />
+                                <Route path="Project3" element={<Project3 />} />
+                                <Route path="Project4" element={<Project4 />} />
+                                <Route path="Project5" element={<Project5 />} />
+                                <Route path="Project6" element={<Project6 />} />
+                                <Route path="Project8" element={<Project8 />} />
+                                <Route path="Project10" element={<Project10 />} />
+                                <Route path="Project11" element={<Project11 />} />
+                                <Route path="Project13" element={<Project13 />} />
+                                <Route path="Project14" element={<Project14 />} />
+                                <Route path="Project15" element={<Project15 />} />
+                                <Route path="Project17" element={<Project17 />} />
+                                <Route path="Project18" element={<Project18 />} />
+                                <Route path="Project19" element={<Project19 />} />
+                                <Route path="Project20" element={<Project20 />} />
+                                <Route path="Project21" element={<Project21 />} />
+                                <Route path="Project22" element={<Project22 />} />
+                                <Route path="Project23" element={<Project23 />} />
+                                <Route path="Project24" element={<Project24 />} />
+                                <Route path="Project25" element={<Project25 />} />
+                                <Route path="Project26" element={<Project26 />} />
+                                <Route path="PriorProject5" element={<Project8 />} /> {/* Is this a duplicate? */}
+                            </Route>
 
-                        {/* CurrentProjects Routes */}
-                        <Route path="CurrentProjects" element={<CurrentProjects />}>
-                            <Route index element={<CurrentProjectList />} />
-                            <Route path="Project7" element={<Project7 />} />
-                            <Route path="Project1" element={<Project1 />} />
-                            <Route path="Project9" element={<Project9 />} />
-                            <Route path="Project12" element={<Project12 />} />
-                            <Route path="Project16" element={<Project16 />} />
-                        </Route>
+                            {/* CurrentProjects Routes */}
+                            <Route path="CurrentProjects" element={<CurrentProjects />}>
+                                <Route index element={<CurrentProjectList />} />
+                                <Route path="Project7" element={<Project7 />} />
+                                <Route path="Project1" element={<Project1 />} />
+                                <Route path="Project9" element={<Project9 />} />
+                                <Route path="Project12" element={<Project12 />} />
+                                <Route path="Project16" element={<Project16 />} />
+                                <Route path="Project27" element={<Project27 />} />
+                            </Route>
 
-                        <Route path="People" element={<People />} />
-                        <Route path="Publication" element={<Publication />} />
-                    </Route>
-                </Routes>
-            </BrowserRouter>
-        </div>
+                            <Route path="People" element={<People />} />
+                            <Route path="Publication" element={<Publication />} />
+                        </Route>
+                    </Routes>
+                </BrowserRouter>
+            </div>
+        </MathJaxContext>
     );
 }

@@ -1,14 +1,14 @@
-import "./OppoturnitiesList.css"
+import "./OpportunitiesList.css"
 import { Link } from "react-router-dom"
 
-export default function OppoturnitiesList() {
+export default function OpportunitiesList() {
     return (
-        <div className='Oppoturnities'>
+        <div className='Opportunities'>
             <div>
-                <h1>Oppoturnities Avaiable</h1>
+                <h1>Opportunities Avaiable</h1>
 
                 <ul>
-                    <li key={0} style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/Oppoturnities">
+                    <li key={0} style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/Opportunities">
                         1. Intelligent and Collaborative Control of Multi-Robot Team
                     </Link></li>
                 </ul>

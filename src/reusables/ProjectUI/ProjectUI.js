@@ -58,33 +58,34 @@ export default function ProjectUI(props) {
                 </div> }
 
             { props.projectVideo &&
-                <div className="ProjectUI_vid_container">
-                    <h1>{props.projectVideoTitle ? props.projectVideoTitle : ""}</h1>
-
-                    <div className='ProjectUI_vid'>
-                        { props.projectVideo.map((vidProps, index)=>{
-                            return (
-                                <div key={index} className="vid_content_box" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "40%"}}>
-                                    <div>
-                                        {
-                                            typeof(vidProps.title)==="string" ?
-                                                <p style={{fontSize:'30px',width:"100%",textAlign:"center",color:"white"}}><strong>
-                                                    {vidProps.title}
-                                                </strong></p> :
-                                                vidProps.title()
-                                        }
-                                        <video autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay}>
-                                            <source src={vidProps.src} type="video/mp4"></source>
+                <>
+                    <h1 className="ProjectUI_vid_header">{props.projectVideoTitle ? props.projectVideoTitle : ""}</h1>
+                    <div className="ProjectUI_vid_container">
+                        <div className='ProjectUI_vid'>
+                            { props.projectVideo.map((vidProps, index)=>{
+                                return (
+                                    <div key={index} className="vid_content_box" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "40%"}}>
+                                        <div>
                                             {
-                                                typeof(vidProps.caption)==="string" && <track label="English" kind="subtitles" srclang="en" src={vidProps.caption} default />
+                                                typeof(vidProps.title)==="string" ?
+                                                    <p style={{fontSize:'30px',width:"100%",textAlign:"center",color:"white"}}><strong>
+                                                        {vidProps.title}
+                                                    </strong></p> :
+                                                    vidProps.title()
                                             }
-                                        </video>
+                                            <video autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay}>
+                                                <source src={vidProps.src} type="video/mp4"></source>
+                                                {
+                                                    typeof(vidProps.caption)==="string" && <track label="English" kind="subtitles" srclang="en" src={vidProps.caption} default />
+                                                }
+                                            </video>
+                                        </div>
                                     </div>
-                                </div>
-                            )
-                        }) }
+                                )
+                            }) }
+                        </div>
                     </div>
-                </div> }
+                </> }
 
             { props.publications &&
               <div className='ProjectUI_publication'>

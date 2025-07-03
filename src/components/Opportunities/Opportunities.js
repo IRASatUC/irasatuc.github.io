@@ -1,7 +1,6 @@
-import './Oppoturnities.css';
 import { Outlet } from 'react-router-dom';
 
-export default function Oppoturnities() {
+export default function Opportunities() {
   return (
       <Outlet/>
   )

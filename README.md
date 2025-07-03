@@ -49,6 +49,8 @@ To add a new project, import the `ProjectUI` component from `reusables/ProjectUI
 - **projectVideo**: (Optional) Array of video objects with:
   - `title`: (Optional) Title of the video.
   - `src`: (Required) Source of the video.
+  - `doNotAutoplay`: (Optional) Set to true if the video should have controls to manually play. Will have audio play.
+  - `captions`: (Optional) Link to .vtt captions file if applicable.
 - **Publication**: React component to render the Publications section.
 
 > **Note**: Ensure each new project follows this structure for consistency.

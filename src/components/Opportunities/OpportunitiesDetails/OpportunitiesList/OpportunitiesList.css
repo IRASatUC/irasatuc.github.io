@@ -1,11 +1,11 @@
-.PriorProject h1 {
+.Opportunities h1 {
     font-weight: bold;
     font-size: xx-large;
 }
-.PriorProject ul li {
+.Opportunities ul li {
     font-size: large;
-    padding:5px
+    padding: 5px
 }
-.PriorProject {
+.Opportunities {
     padding-left: 50px;
 }

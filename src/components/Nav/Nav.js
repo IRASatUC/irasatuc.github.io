@@ -16,8 +16,8 @@ export default function Nav(){
                         <Link to="/" className="nav-Button">
                             About
                         </Link>
-                        <Link to="/Oppoturnities" className="nav-Button">
-                            Oppoturnities
+                        <Link to="/Opportunities" className="nav-Button">
+                            Opportunities
                         </Link>
                         <Link to="/News" className="nav-Button">
                             News

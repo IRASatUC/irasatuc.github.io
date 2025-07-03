@@ -2,15 +2,7 @@
     font-weight: bold;
     font-size: xx-large;
 }
-.PriorProject ul li {
-    font-size: large;
-    padding: 5px;
-
-    :hover {
-        color: #2a3858;
-        text-decoration: underline;
-    }
-}
 .PriorProject {
     padding-left: 50px;
+    max-width: 1000px;
 }

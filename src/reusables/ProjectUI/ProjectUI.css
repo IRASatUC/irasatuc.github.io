@@ -15,6 +15,10 @@
     width: 100%;
     height: auto !important;
 }
+.ProjectUI_header{
+    color: #f1f1f1;
+    background-color: rgb(55,66,91,1);
+}
 .ProjectUI_vid_container {
     width: 100%;
     display: flex !important;
@@ -101,6 +105,22 @@
     margin: 0 auto; /* Center the border */
     border-top:1px solid white;
     width: 60vw;
+}
+#Background {
+    max-height: 800px;
+    overflow: hidden;
+}
+.ProjectUI a {
+    text-decoration: underline;
+    color: rgb(59, 130, 246);
+}
+.ProjectUI_vid_header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 1.25rem;
+    color: white;
+    background-color: rgb(55,66,91,1);
 }
 
 @media only screen and (max-width: 900px) {

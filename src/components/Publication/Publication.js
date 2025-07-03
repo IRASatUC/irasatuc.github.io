@@ -69,16 +69,16 @@ export default function Publication(){
         <div className='Publication'>
             <h1>Publications</h1>
             <div className='menu-box'>
-                <h2 style={{transition: "0.3s", color: (Content==="peer-review"?"red":"black")}} onClick={()=>{setContent("peer-review")}}>
+                <h2 style={{transition: "0.3s", color: (Content==="peer-review"?"rgb(55,66,91,1)":"black")}} onClick={()=>{setContent("peer-review")}}>
                     Peer-Reviewed Journal Papers</h2>
 
-                <h2 style={{transition: "0.3s", color: (Content==="peer-review-conference"?"red":"black")}} onClick={()=>{setContent("peer-review-conference")}}>
+                <h2 style={{transition: "0.3s", color: (Content==="peer-review-conference"?"rgb(55,66,91,1)":"black")}} onClick={()=>{setContent("peer-review-conference")}}>
                     Peer-Reviewed Conference Papers</h2>
 
-                <h2 style={{transition: "0.3s", color: (Content==="book-chapters"?"red":"black")}} onClick={()=>{setContent("book-chapters")}}>
+                <h2 style={{transition: "0.3s", color: (Content==="book-chapters"?"rgb(55,66,91,1)":"black")}} onClick={()=>{setContent("book-chapters")}}>
                     Book Chapters</h2>
 
-                <h2 style={{transition: "0.3s", color: (Content==="patents"?"red":"black")}} onClick={()=>{setContent("patents")}}>
+                <h2 style={{transition: "0.3s", color: (Content==="patents"?"rgb(55,66,91,1)":"black")}} onClick={()=>{setContent("patents")}}>
                     Patents</h2>
             </div>
             <div className='content-box'>
