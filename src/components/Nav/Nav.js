@@ -10,9 +10,9 @@ const NavButtons = (
             <Link to="/" className="nav-Button">
                 About
             </Link>
-            <Link to="/Opportunities" className="nav-Button">
+            {/*<Link to="/Opportunities" className="nav-Button">
                 Opportunities
-            </Link>
+            </Link>*/}
             <Link to="/News" className="nav-Button">
                 News
             </Link>
@@ -25,8 +25,8 @@ const NavButtons = (
             <Link to="/PriorProject" className="nav-Button">
                 Prior Projects
             </Link>
-            <Link to="/Publication" className="nav-Publication">
-                Publication
+            <Link to="/Publications" className="nav-Publication">
+                Publications
             </Link>
         </div>
     </div>

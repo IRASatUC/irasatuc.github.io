@@ -5,6 +5,7 @@ import "./ProjectItem.css";
 export default function ProjectItem({content, index}) {
     content.image = content.image || Placeholder;
     content.link = content.link || "";
+    let thisText = String(index + 1) + ". " + content.text;
 
     const media = null /*
         <div className="projectItemMedia">
@@ -25,12 +26,12 @@ export default function ProjectItem({content, index}) {
                         {media}
                     </Link>
                     <Link to={content.link}>
-                        {content.text}
+                        {thisText}
                     </Link>
                 </> :
                 <>
                     <div>{media}</div>
-                    <div>{content.text}</div>
+                    <div>{thisText}</div>
                 </> }
         </li>
     );

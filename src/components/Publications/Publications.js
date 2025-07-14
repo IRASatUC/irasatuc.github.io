@@ -1,4 +1,4 @@
-import './Publication.css';
+import './Publications.css';
 import { Publication_contents_peers_review, Publication_contents_books_chapter, Publication_contents_patents, Publication_contents_peers_review_conference } from '../../contents/Publication_contents/Publication_contents';
 import { useState } from 'react';
 
@@ -44,16 +44,16 @@ export default function Publication() {
         <div className='Publication big_h1 pl-[20px] no-hamburger:pl-[50px] w-[90%]'>
             <h1>Publications</h1>
             <div className='menu-box flex'>
-                <h2 style={{transition: "0.3s", color: (Content==="peer-review"?"rgb(55,66,91)":"black")}} onClick={()=>{setContent("peer-review")}}>
+                <h2 className={"duration-[0.3s] content-center" + (Content==="peer-review"?" text-[rgb(55,66,91)]":" text-black")} onClick={()=>{setContent("peer-review")}}>
                     Peer-Reviewed Journal Papers</h2>
 
-                <h2 style={{transition: "0.3s", color: (Content==="peer-review-conference"?"rgb(55,66,91)":"black")}} onClick={()=>{setContent("peer-review-conference")}}>
+                <h2 className={"duration-[0.3s] content-center" + (Content==="peer-review-conference"?" text-[rgb(55,66,91)]":" text-black")} onClick={()=>{setContent("peer-review-conference")}}>
                     Peer-Reviewed Conference Papers</h2>
 
-                <h2 style={{transition: "0.3s", color: (Content==="book-chapters"?"rgb(55,66,91)":"black")}} onClick={()=>{setContent("book-chapters")}}>
+                <h2 className={"duration-[0.3s] content-center" + (Content==="book-chapters"?" text-[rgb(55,66,91)]":" text-black")} onClick={()=>{setContent("book-chapters")}}>
                     Book Chapters</h2>
 
-                <h2 style={{transition: "0.3s", color: (Content==="patents"?"rgb(55,66,91)":"black")}} onClick={()=>{setContent("patents")}}>
+                <h2 className={"duration-[0.3s] content-center" + (Content==="patents"?" text-[rgb(55,66,91)]":" text-black")} onClick={()=>{setContent("patents")}}>
                     Patents</h2>
             </div>
             <div className='content-box p-[40px] border-[1px] border-solid border-black'>

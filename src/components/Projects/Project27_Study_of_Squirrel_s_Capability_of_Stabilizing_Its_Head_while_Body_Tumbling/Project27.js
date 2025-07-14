@@ -50,7 +50,7 @@ function Project27_Description() {
                 A squirrel exhibits an astonishing ability to stabilize its head—and thus its gaze—toward a fixed point during free fall,
                 even while its body tumbles unpredictably after being thrown into the air.
                 This remarkable feat of body movement control is vividly demonstrated in the popular YouTube video{" "}
-                <Link href="https://www.youtube.com/watch?v=hFZFjoX2cGg">Backyard Squirrel Maze 1.0</Link>,
+                <a href="https://www.youtube.com/watch?v=hFZFjoX2cGg">Backyard Squirrel Maze 1.0</a>,
                 which has captivated the public with over 138 million views.
             </p> <br />
             <p>

@@ -5,10 +5,10 @@ import About from './components/About/About';
 import PriorProject from './components/PriorProject/PriorProject';
 import CurrentProjects from './components/CurrentProjects/CurrentProjects';
 import People from './components/People/People';
-import Publication from './components/Publication/Publication';
+import Publications from './components/Publications/Publications';
 import News from './components/News/News';
-import Opportunities from './components/Opportunities/Opportunities';
-import OpportunitiesList from './components/Opportunities/OpportunitiesDetails/OpportunitiesList/OpportunitiesList';
+//import Opportunities from './components/Opportunities/Opportunities';
+//import OpportunitiesList from './components/Opportunities/OpportunitiesDetails/OpportunitiesList/OpportunitiesList';
 
 //CURRENT PROJECT IMPORT
 import CurrentProjectList from './components/CurrentProjects/CurrentProjectContents/CurrentProjectList/CurrentProjectList';
@@ -79,9 +79,9 @@ export default function App() {
                         <Route path="/" element={<Nav />}>
                             <Route index element={<About />} />
                             <Route path="News" element={<News />} />
-                            <Route path="Opportunities" element={<Opportunities />}>
+                            {/*<Route path="Opportunities" element={<Opportunities />}>
                                 <Route index element={<OpportunitiesList />} />
-                            </Route>
+                            </Route>*/}
                             {/* PriorProject Routes */}
                             <Route path="PriorProject" element={<PriorProject />}>
                                 <Route index element={<PriorProjectList />} />
@@ -106,6 +106,7 @@ export default function App() {
                                 <Route path="Project24" element={<Project24 />} />
                                 <Route path="Project25" element={<Project25 />} />
                                 <Route path="Project26" element={<Project26 />} />
+                                <Route path="Project27" element={<Project27 />} />
                             </Route>
 
                             {/* CurrentProjects Routes */}
@@ -116,11 +117,10 @@ export default function App() {
                                 <Route path="Project9" element={<Project9 />} />
                                 <Route path="Project12" element={<Project12 />} />
                                 <Route path="Project16" element={<Project16 />} />
-                                <Route path="Project27" element={<Project27 />} />
                             </Route>
 
                             <Route path="People" element={<People />} />
-                            <Route path="Publication" element={<Publication />} />
+                            <Route path="Publications" element={<Publications />} />
                         </Route>
                     </Routes>
                 </BrowserRouter>

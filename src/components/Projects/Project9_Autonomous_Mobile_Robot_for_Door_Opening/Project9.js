@@ -29,7 +29,7 @@ const Project9_publications = () => {
 export default function Project9() {
     return (
         <ProjectUI
-            projectTitle="Robotics Assisted 3D Scanning of Aircraft for Reverse Engineering and Inspection"
+            projectTitle="AI-based Solutions to Allow Mobile Robots to Open Self-closing Doors and Plug in Standard Power Outlets for Charging"
             projectTeaser=""
             projectDescription={Project9_Description}
             projectVideo={[{

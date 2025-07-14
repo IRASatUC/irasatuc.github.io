@@ -1,21 +1,21 @@
 export const Publication_contents_peers_review = [
     <>
         Sun, Y.; Wiedeman, W.; and Ma, O.; “Comparative Study of Deep Learning Methods
-        for Predicting the Behavior of a Dynamic System including Coulomb Friction”,
-        Handbook of Dynamic Data Driven Applications Systems: Volume 4, Springer, 2025.
+        for Predicting the Behavior of a Dynamic System including Coulomb Friction”,{" "}
+       <em>Handbook of Dynamic Data Driven Applications Systems</em>, Volume 4, Springer, 2025.
     </>,
     <>
         Ma, T.; Ma, O.; and Zhang, T.; “Global Reorientation of a Free‑Fall Robotic System
-        using Reconstruction Loss‑based Deep Learning Method‑Theory and Comparison”,
-        Journal of Intelligent & Robotic Systems, 2025;{" "}
+        using Reconstruction Loss‑based Deep Learning Method‑Theory and Comparison”,{" "}
+        <em>Journal of Intelligent & Robotic Systems</em>, 2025;{" "}
         <a href="https://doi.org/10.1007/s10846-025-02253-0">
             doi: 10.1007/s10846-025-02253-0
         </a>
     </>,
     <>
         Ma, T.; Zhang, T. and Ma, O.; “Global Reorientation of a Free-Fall Multibody
-        System using Periodical Joint Motions - Theory and Motion Planning”,
-        Multibody System Dynamics, 2024.{" "}
+        System using Periodical Joint Motions - Theory and Motion Planning”,{" "}
+        <em>Multibody System Dynamics</em>, 2024.{" "}
         <a href="https://doi.org/10.1007/s11044-024-10032-2">
             doi: 10.1007/s11044-024-10032-2
         </a>
@@ -49,8 +49,8 @@ export const Publication_contents_peers_review = [
     </>,
     <>
         Ma, T; Zhang, T; Ma, O. "On the dynamics and control of a squirrel locking
-        its head/eyes toward a fixed spot for safe landing while its body is
-        tumbling in air". <em>Frontiers on Robotics and AI</em>, 2022.{" "}
+        its head/eyes toward a fixed spot for safe landing while its body is tumbling in air".{" "}
+        <em>Frontiers on Robotics and AI</em>, 2022.{" "}
         <a href="https://doi.org/10.3389/frobt.2022.1030601">
             doi: 10.3389/frobt.2022.1030601
         </a>
@@ -58,24 +58,24 @@ export const Publication_contents_peers_review = [
     </>,
     <>
         Sun, Y. and Ma, O. "Automating Aircraft Scanning for Inspection or 3D Model
-        Creation with a UAV and Optimal Path Planning". <em>Drones</em>, 2022, 6(4),
-        87.{" "}
+        Creation with a UAV and Optimal Path Planning".{" "}
+        <em>Drones</em>, 2022, 6(4), 87.{" "}
         <a href="https://doi.org/10.3390/drones6040087">
             doi: 10.3390/drones6040087
         </a>
     </>,
     <>
         Papadopoulos, E.; Aghili, F.; Ma, O.; Lampariello, R. "Editorial: Robotic
-        Manipulation and Capture in Space". <em>Frontiers on Robotics and AI</em>,
-        Vol. 9, 2022.{" "}
+        Manipulation and Capture in Space".{" "}
+        <em>Frontiers on Robotics and AI</em>, Vol. 9, 2022.{" "}
         <a href="https://doi.org/10.3389/frobt.2022.849288">
             doi: 10.3389/frobt.2022.849288
         </a>
     </>,
     <>
         Sun, Y.; Zhang, L., and Ma, O. "Force-Vision Sensor Fusion Improves
-        Learning-based Approach for Self-Closing Door Pulling". <em>IEEE Access</em>
-        , vol.9, 2021.{" "}
+        Learning-based Approach for Self-Closing Door Pulling".{" "}
+        <em>IEEE Access</em>, vol.9, 2021.{" "}
         <a href="https://doi.org/10.1109/ACCESS.2021.3118594">
             doi: 10.1109/ACCESS.2021.3118594
         </a>
@@ -90,8 +90,8 @@ export const Publication_contents_peers_review = [
     </>,
     <>
         Papadopoulos, E.; Aghili, F.; Ma, O.; Lampariello, R. "Robotic Manipulation
-        and Capture in Space: A Survey". <em>Frontiers in Robotics and AI</em>,
-        2021.{" "}
+        and Capture in Space: A Survey".{" "}
+        <em>Frontiers in Robotics and AI</em>, 2021.{" "}
         <a href="https://doi.org/10.3389/frobt.2021.686723">
             doi: 10.3389/frobt.2021.686723
         </a>
@@ -115,7 +115,8 @@ export const Publication_contents_peers_review = [
     <>
         Zhang L.; Sun Y.; Barth A.; and Ma O. "Decentralized Control of Multi-Robot
         System in Cooperative Object Transportation Using Deep Reinforcement
-        Learning". <em>IEEE Access</em>, vol. 8, pp. 184109-184119, 2020.{" "}
+        Learning".{" "}
+        <em>IEEE Access</em>, vol. 8, pp. 184109-184119, 2020.{" "}
         <a href="https://doi.org/10.1109/ACCESS.2020.3025287">
             doi: 10.1109/ACCESS.2020.3025287
         </a>
@@ -137,16 +138,16 @@ export const Publication_contents_peers_review = [
     </>,
     <>
         Ren, W.; Ma, O.; Ji, H.; and Liu, X. "Human Posture Recognition Using a
-        Hybrid of Fuzzy Logic and Machine Learning Approaches". <em>IEEE Access</em>
-        , vol.8, pp.135628-135639, 2020.{" "}
+        Hybrid of Fuzzy Logic and Machine Learning Approaches".{" "}
+        <em>IEEE Access</em>, vol.8, pp.135628-135639, 2020.{" "}
         <a href="https://doi.org/10.1109/ACCESS.2020.3011697">
             doi: 10.1109/ACCESS.2020.3011697
         </a>
     </>,
     <>
         Alsamhi, S.H.; Ma, O.; Ansari, M.S.; and Almalki, F. "Survey on
-        Collaborative Smart Drones and Internet of Things for Improving Smartness of
-        Smart Cities". <em>IEEE Access</em>, 2019.{" "}
+        Collaborative Smart Drones and Internet of Things for Improving Smartness of Smart Cities".{" "}
+        <em>IEEE Access</em>, 2019.{" "}
         <a href="https://doi.org/10.1109/ACCESS.2017.DOI">
             doi: 10.1109/ACCESS.2017.DOI
         </a>
@@ -298,178 +299,181 @@ export const Publication_contents_peers_review = [
     </>,
     <>
         Lu, Q. and Ma, O.; “Identification of Human Inertia Properties using A
-        Momentum-based Approach”, ASME Journal of Biomechanical Engineering, Vol.
-        134, No. 10, 2012.
+        Momentum-based Approach”,{" "}
+        <em>ASME Journal of Biomechanical Engineering</em>, Vol. 134, No. 10, 2012.
     </>,
     <>
         Ma, O.; Flores-Abad, A. and Boge, T.; “Use of industrial robots for
-        hardware-in-the-loop simulation of satellite rendezvous and docking”, Acta
-        Astronautica, Vol. 81(1), 2012, pp. 335-347.
+        hardware-in-the-loop simulation of satellite rendezvous and docking”,{" "}
+        <em>Acta Astronautica</em>, Vol. 81(1), 2012, pp. 335-347.
     </>,
     <>
         Liang, J.; Fillmore, S.; and Ma, O.; “An extended bristle friction force
-        model with experimental validation”, Mechanism and Machine Theory, Vol. 56,
-        2012, pp. 123-137.
+        model with experimental validation”,{" "}
+        <em>Mechanism and Machine Theory</em>, Vol. 56, 2012, pp. 123-137.
     </>,
     <>
         Liang, J.; Ma, O.; and Liu, C.; "Model reduction of contact dynamics
-        simulation using a modified Lyapunov balancing method", Frontier of
-        Mechanical Engineering, Vol. 6, No. 4, 2011, pp. 383-391.
+        simulation using a modified Lyapunov balancing method",{" "}
+        <em>Frontier of Mechanical Engineering</em>, Vol. 6, No. 4, 2011, pp. 383-391.
     </>,
     <>
         Liang, J. and Ma, O.; "Angular-velocity tracking with unknown dynamics for
-        satellite rendezvous and docking", Acta Astronautica, Vol. 69, 2011, pp.
-        1019-1028.
+        satellite rendezvous and docking",{" "}
+        <em>Acta Astronautica</em>, Vol. 69, 2011, pp. 1019-1028.
     </>,
     <>
         Lu, Q.; Ortega, C. and Ma, O.; "Passive gravity compensation mechanisms:
-        technologies and applications", Recent Patents on Engineering, Vol. 5, Issue
-        1, 2011, pp. 32-44.
+        technologies and applications",{" "}
+        <em>Recent Patents on Engineering</em>, Vol. 5, Issue 1, 2011, pp. 32-44.
     </>,
     <>
         Doush, I.A.; Enrico, P.; Simon, D.; Son, C.T.; and Ma, O.; "Multimodal
         presentation of two-dimensional charts: an investigation using open office
-        Xml and Microsoft Excel", ACM Transactions on Accessible Computing, Vol. 3,
-        Issue 2, 2010.
+        Xml and Microsoft Excel",{" "}
+        <em>ACM Transactions on Accessible Computing</em>, Vol. 3, Issue 2, 2010.
     </>,
     <>
         Hatamleh, K.; Ma, O.; and Paz, R.; “A UAV model parameter identification
-        method: A simulation study”. International Journal of Information
-        Acquisition, Vol. 6 (4), 2009, pp. 225-238.
+        method: A simulation study”.{" "}
+        <em>International Journal of Information Acquisition</em>, Vol. 6 (4), 2009, pp. 225-238.
     </>,
     <>
         Diao, X. and Ma, O.; “Force-closure analysis of 6-DOF cable manipulators
-        with seven or more cables”, Robotica, Vol. 27, 2009, pp. 209-215.
+        with seven or more cables”,{" "}
+        <em>Robotica</em>, Vol. 27, 2009, pp. 209-215.
     </>,
     <>
-        Ma, O. and Zhang, M.; “Modeling and control of electroporation-mediated gene
-        delivery”, IEEE Transactions on Automation Science and Engineering, Vol. 6,
-        No. 2, 2009, pp. 228-238.
+        Ma, O. and Zhang, M.; “Modeling and control of electroporation-mediated gene delivery”,{" "}
+        <em>IEEE Transactions on Automation Science and Engineering</em>, Vol. 6, No. 2, 2009, pp. 228-238.
     </>,
     <>
         Diao, X. and Ma, O.; “Vibration analysis of cable-driven parallel
-        manipulators”, Multibody System Dynamics, Vol. 21, Issue 4, 2009, pp.
-        347-360.
+        manipulators”,{" "}
+        <em>Multibody System Dynamics</em>, Vol. 21, Issue 4, 2009, pp. 347-360.
     </>,
     <>
         Ma, O.; Dang, H.; and Pham., K.; “On-orbit identification of inertia
-        properties of spacecraft using a robotic arm”, AIAA Journal of Guidance,
-        Control and Dynamics, Vol. 31, No. 6, 2008, pp. 1761-1771.
+        properties of spacecraft using a robotic arm”,{" "}
+        <em>AIAA Journal of Guidance, Control and Dynamics</em>, Vol. 31, No. 6, 2008, pp. 1761-1771.
     </>,
     <>
         Diao, X. and Ma, O.; “Workspace determination of general 6-DOF cable
-        manipulators”, Advanced Robotics, Vol. 22, 2008, pp. 261-278.
+        manipulators”,{" "}
+        <em>Advanced Robotics</em>, Vol. 22, 2008, pp. 261-278.
     </>,
     <>
         Ma, Z.; Ma, O.; and Shashikanth, B.; “Optimal Approach to and Alignment with
-        a Rotating Rigid Body for Capture”, Journal of the Astronautical Science,
-        Vol. 55, No. 4, 2007, pp. 407-419.
+        a Rotating Rigid Body for Capture”,{" "}
+        <em>Journal of the Astronautical Science</em>, Vol. 55, No. 4, 2007, pp. 407-419.
     </>,
     <>
         Diao, X. and Ma, O., “A method of verifying force-closure condition for
-        general cable manipulators with seven cables”, Mechanism and Machine Theory,
-        Vol. 42, Issue 12, 2007, pp. 1563-1576.
+        general cable manipulators with seven cables”,{" "}
+        <em>Mechanism and Machine Theory</em>, Vol. 42, Issue 12, 2007, pp. 1563-1576.
     </>,
     <>
         Ma, O. and Wang, J., “Model order reduction for impact-contact dynamics
-        simulations of flexible manipulators”, Robotica, Vol. 25, Issue 4, 2007, pp.
-        397-407.
+        simulations of flexible manipulators”,{" "}
+        <em>Robotica</em>, Vol. 25, Issue 4, 2007, pp. 397-407.
     </>,
     <>
         Tao, W., Zhang, M., and Ma, O., “Modeling and vibration suppression for
-        industrial track robots”, Industrial Robot, Vol. 34, No. 4, July 2007, pp.
-        317-325.
+        industrial track robots”,{" "}
+        <em>Industrial Robot</em>, Vol. 34, No. 4, July 2007, pp. 317-325.
     </>,
     <>
         Tao, W., Zhang, M., Ma, O., and Yun, X.P., “Residual vibration analysis and
-        suppression for SCARA robots in semiconductor manufacturing”, International
-        Journal of Intelligent Control and Systems, Vol. 11, No. 2, 2006, pp.
-        97-105.
+        suppression for SCARA robots in semiconductor manufacturing”,{" "}
+        <em>International Journal of Intelligent Control and Systems</em>, Vol. 11, No. 2, 2006, pp. 97-105.
     </>,
     <>
         Weber, M.; Patel, K.; Ma, O.; and Sharf, I.; “Identification of contact
-        dynamics model parameters from constrained robotic operations”, ASME J. of
-        Dyn. Syst., Meas., and Ctrl, Vol. 128(2), 2006, pp. 307-318.
+        dynamics model parameters from constrained robotic operations”,{" "}
+        <em>ASME J. of Dyn. Syst., Meas., and Ctrl</em>, Vol. 128(2), 2006, pp. 307-318.
     </>,
     <>
         Zhang, M.; Ma, O.; and Diao, X.; “Dynamics modeling and analysis of inkjet
-        technology based oligo DNA microarray spotting”, IEEE Trans. on Auto.
-        Science and Eng., Vol. 3, No. 2, 2006, pp. 159-168.
+        technology based oligo DNA microarray spotting”,{" "}
+        <em>IEEE Trans. on Auto. Science and Eng.</em>, Vol. 3, No. 2, 2006, pp. 159-168.
     </>,
     <>
         61. Ma, O.; Wang, J.; Misra, S.; and Liu, M.; “On the validation of SPDM
-        task verification facility”, Journal of Robotic Systems, Vol. 21, No. 5,
-        2004, pp. 219-235.
+        task verification facility”,{" "}
+        <em>Journal of Robotic Systems</em>, Vol. 21, No. 5, 2004, pp. 219-235.
     </>,
     <>
         Van Vliet, J.; Sharf, I.; and Ma, O.; “Experimental validation of contact
-        dynamics simulation of constrained robotic tasks”, The International Journal
-        of Robotics Research, Vol. 19, No. 12, 2000, pp. 1203-1217.
+        dynamics simulation of constrained robotic tasks”,{" "}
+        <em>The International Journal of Robotics Research</em>, Vol. 19, No. 12, 2000, pp. 1203-1217.
     </>,
     <>
         Ma, O. and Carr, R.; “Dynamics modelling and simulation of SPDM contact
-        operations, Part I: simulation model and berthing 6B avionics boxes”, IFAC
-        Proceedings, Vol. 31, Issue 33, 1998, pp. 159-164.
+        operations, Part I: simulation model and berthing 6B avionics boxes”,{" "}
+        <em>IFAC Proceedings</em>, Vol. 31, Issue 33, 1998, pp. 159-164.
     </>,
     <>
         Ma, O. and Carr, R.; “Dynamics modelling and simulation of SPDM contact
-        operations, Part II: SPDM handling the IEA battery ORUs”, IFAC Proceedings,
-        Vol. 31, Issue 33, 1998, pp. 165-170.
+        operations, Part II: SPDM handling the IEA battery ORUs”,{" "}
+        <em>IFAC Proceedings</em>, Vol. 31, Issue 33, 1998, pp. 165-170.
     </>,
     <>
         Ma, O.; Buhariwala K.; Neil R.; Maclean J.; and Carr R.; "MDSF - A generic
-        development and simulation facility for flexible, complex robotic systems",
-        Robotica, Vol. 15, No. 1, 1997, pp. 49-62.
+        development and simulation facility for flexible, complex robotic systems",{" "}
+        <em>Robotica</em>, Vol. 15, No. 1, 1997, pp. 49-62.
     </>,
     <>
         Ma, O. and Angeles J.; "Architecture singularities of parallel
-        manipulators", International Journal of Robotics & Automation, 1992, Vol. 7,
-        No. 1, pp. 23-29.
+        manipulators",{" "}
+        <em>International Journal of Robotics & Automation</em>, 1992, Vol. 7, No. 1, pp. 23-29.
     </>,
     <>
         Angeles, J. and Ma, O.; "Performance evaluation of four-bar linkages for
-        rigid-body guidance based on generalized coupler curves", ASME Trans., J. of
-        Mech. Design, 1991, Vol. 113 (No. 1), pp. 17-24.
+        rigid-body guidance based on generalized coupler curves",{" "}
+        <em>ASME Trans., J. of Mech. Design</em>, 1991, Vol. 113 (No. 1), pp. 17-24.
     </>,
     <>
         Angeles, J.; Ma, O.; and Rajas, A.; "An algorithm for the inverse dynamics
-        of n-axis general manipulators using Kane's equations", International
-        Journal of Computers and Mathematics with Applications, 1989, Vol. 17, No.
-        12, pp. 1545-1561.
+        of n-axis general manipulators using Kane's equations",{" "}
+        <em>International Journal of Computers and Mathematics with Applications</em>, 1989, Vol. 17, No. 12, pp. 1545-1561.
     </>,
     <>
         Angeles, J. and Ma, O.; "Dynamic simulation of n-axis serial robotic
-        manipulators using a natural orthogonal complement", International Journal
-        of Robotic Research, 1988, Vol. 7, No. 5, pp. 32-47.
+        manipulators using a natural orthogonal complement",{" "}
+        <em>International Journal of Robotic Research</em>, 1988, Vol. 7, No. 5, pp. 32-47.
     </>,
     <>
         Ma, O. and Angeles, J.; "Performance evaluation of path-generating planar,
-        spherical and spatial four-bar mechanisms", Mechanism and Machine Theory,
-        1988, Vol. 21, pp. 257-268.
+        spherical and spatial four-bar mechanisms",{" "}
+        <em>Mechanism and Machine Theory</em>, 1988, Vol. 21, pp. 257-268.
     </>,
 ];
 
 export const Publication_contents_books_chapter = [
     <>
-        Barth, A.; Cohen, K.; Ma, O.; “A Fuzzy Logic Approach for Spacecraft Landing Site Selection”,
-        Proceedings of Explainable AI and Other Applications of Fuzzy Techniques;
+        Barth, A.; Cohen, K.; Ma, O.; “A Fuzzy Logic Approach for Spacecraft Landing Site Selection”,{" "}
+        <em>Proceedings of Explainable AI and Other Applications of Fuzzy Techniques</em>,
         edited by Julia Rayz, Victor Raskin, Scott Dick, Vladik Kreinovich; Springer 2021.
     </>,
     <>
         Diao, X.; Ma, O. and Zhang, M.; “Contact Dynamic Simulation of Micro-/Nano-scale Manipulation for Medical Applications”,
-        a chapter of Systems Engineering Approach to Medical Automation,
+        a chapter of{" "}
+        <em>Systems Engineering Approach to Medical Automation</em>,
         edited by R. Felder, M. Alwan, and M. Zhang, Artech House Publishers, 2008, ISBN: 9781596931640.
     </>,
     <>
         Ma, O. and Zhang, M.; “Modeling and control of electroporation-mediated gene delivery process for gene therapy”,
-        Chapter 17 of Life Science Automation: Fundamentals and Applications,
+        Chapter 17 of{" "}
+        <em>Life Science Automation: Fundamentals and Applications</em>,
         edited by M. Zhang, B. Nelson and R.A. Felder, Artech House Publishers, 2007.
     </>,
     <>
         Ma, O. and Xie, P.; “Unmanned Vehicle Systems and Technologies for Geomatics Applications”,
-        Chapter 2 of Unmanned Aerial Vehicle Systems for Geomatics, 2019, ISBN: 978-184995-127-2.
+        Chapter 2 of{" "}
+        <em>Unmanned Aerial Vehicle Systems for Geomatics</em>, 2019, ISBN: 978-184995-127-2.
     </>,
 ];
+
 export const Publication_contents_patents = [
     <>
         Ma, O.; King, Samuel; Sun, Yufeng; “Device Allowing an Autonomous Vehicle to Open a Self-Close Door and Charge its Battery”,
@@ -492,38 +496,39 @@ export const Publication_contents_patents = [
         US Patent #8,152,699, April 2012.
     </>,
 ];
+
 export const Publication_contents_peers_review_conference = [
     <>
-        Landon M., Barth A., and Ma O., “Camera Viewpoints Optimization for Fully Imaging a Resident Space Object”,
-        76th IAF International Astronautical Congress (IAC 2025), Oct. 1-3, 2025, Sydney.
+        Landon M., Barth A., and Ma O., “Camera Viewpoints Optimization for Fully Imaging a Resident Space Object”,{" "}
+        <em>76th IAF International Astronautical Congress (IAC 2025)</em>, Oct. 1-3, 2025, Sydney.
     </>,
     <>
         Kent C., Ma O., Marsh D., Wei Huang, Eric Coghill,
-        "Pose estimation of a 3D tumbling CubeSat using a camera and LiDAR sensor-fusion approach,"
-        Proc. SPIE 13483, Sensors and Systems for Space Applications XVIII, 1348305 (21 May 2025);{" "}
+        "Pose estimation of a 3D tumbling CubeSat using a camera and LiDAR sensor-fusion approach,"{" "}
+        <em>Proc. SPIE 13483</em>, Sensors and Systems for Space Applications XVIII, 1348305 (21 May 2025);{" "}
         <a href="https://doi.org/10.1117/12.3052410">
             doi: 10.1117/12.3052410
         </a>
     </>,
     <>
         Huang W., Coghill E., Lukowski C., Stracci M., Marsh D., Kent C., Sharma R., and Ma O.,
-        “COVERT: A 6 Degree of Freedom Pose Estimation and 3D Reconstruction Solution for Relative Navigation with Noncooperative Space Objects”,
-        47th AAS Guidance, Navigation and Control Conf., Feb.1-5, 2025, Breckenridge, CO.
+        “COVERT: A 6 Degree of Freedom Pose Estimation and 3D Reconstruction Solution for Relative Navigation with Noncooperative Space Objects”,{" "}
+        <em>47th AAS Guidance, Navigation and Control Conf.</em>, Feb.1-5, 2025, Breckenridge, CO.
     </>,
     <>
         Barth, A.; Roach, D., Ma, O.; Hernandez, M. and Fleming, A.;
-        “Machine Learning-based Optimal Trajectory Planning for Spacecraft Passively Flying Around a Satellite for Proximity Operations”,
-        Proc. of the 2025 AIAA SciTech, Orlando, FL.
+        “Machine Learning-based Optimal Trajectory Planning for Spacecraft Passively Flying Around a Satellite for Proximity Operations”,{" "}
+        <em>Proc. of the 2025 AIAA SciTech</em>, Orlando, FL.
     </>,
     <>
         Hoffmann, J.; Barth, A.; Ma, O.; and Dong, J.;
-        “An Innovative Spherical Air Bearing-based Testbed for Testing 3D Attitude Motion of CubeSats”,
-        Proc. of the 2025 AIAA SciTech, Orlando, FL.
+        “An Innovative Spherical Air Bearing-based Testbed for Testing 3D Attitude Motion of CubeSats”,{" "}
+        <em>Proc. of the 2025 AIAA SciTech</em>, Orlando, FL.
     </>,
     <>
         Yufeng Sun and Ou Ma,
-        “A Physics-Enhanced Deep Learning Model for Fast Prediction of the Behavior of a Forced Dynamic System”,
-        5th International Conference on Dynamic Data Driven Applications Systems (DDDAS), 2024, New Brunswick, NJ.
+        “A Physics-Enhanced Deep Learning Model for Fast Prediction of the Behavior of a Forced Dynamic System”,{" "}
+        <em>5th International Conference on Dynamic Data Driven Applications Systems (DDDAS)</em>, 2024, New Brunswick, NJ.
     </>,
     <>
         Hoffmann, J.; Barth, A.; Ma, O.; and Dong, J.;
@@ -532,574 +537,579 @@ export const Publication_contents_peers_review_conference = [
     </>,
     <>
         T. Ma, T. Zhang, O. Ma,
-        “Global Reorientation of a Free-Fall Multibody System using Reconstruction Loss-based Deep Learning Method”,
-        IFToMM Symposium of RoManSy & USCToMM Symposium on Mechanical Systems and Robotics, May 23-25, 2024, Tampa, FL.
+        “Global Reorientation of a Free-Fall Multibody System using Reconstruction Loss-based Deep Learning Method”,{" "}
+        <em>IFToMM Symposium of RoManSy & USCToMM Symposium on Mechanical Systems and Robotics</em>, May 23-25, 2024, Tampa, FL.
     </>,
     <>
         Roach, D.; Barth, A.; Ma, O.; Fleming, A.;
-        “PRO-based Trajectory Planning for Spacecraft Close-Distance Flight around a Client Satellite for Proximity Operations”,
-        Proc. of 2023 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2023), 2023, Las Vegas, NV.
+        “PRO-based Trajectory Planning for Spacecraft Close-Distance Flight around a Client Satellite for Proximity Operations”,{" "}
+        <em> Proc. of 2023 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2023)</em>, 2023, Las Vegas, NV.
     </>,
     <>
-        Sun, Y. and Ma, O.; “Drone-based Automated Exterior Inspection of an Aircraft using Reinforcement Learning Technique”,
-        AIAA 2023 SciTech, National Harbor, MD, Jan 23-27, 2023.
+        Sun, Y. and Ma, O.; “Drone-based Automated Exterior Inspection of an Aircraft using Reinforcement Learning Technique”,{" "}
+        <em>AIAA 2023 SciTech</em>, National Harbor, MD, Jan 23-27, 2023.
     </>,
     <>
-        Sathyan, A.; Ma, O.; Cohen, K.; “Genetic Fuzzy Methodology for Decentralized Multi-UAV Cooperation with Physical Constraints”,
-        AIAA 2023 SciTech, National Harbor, MD, Jan 23-27, 2023.
+        Sathyan, A.; Ma, O.; Cohen, K.; “Genetic Fuzzy Methodology for Decentralized Multi-UAV Cooperation with Physical Constraints”,{" "}
+        <em>AIAA 2023 SciTech</em>, National Harbor, MD, Jan 23-27, 2023.
     </>,
     <>
-        Dong, J; Barth, A.; Ma, O., “Development of a Bio-Inspired Hopping Leg for Lunar Exploration Rover”,
-        ASME 2022 International Mechanical Engineering Congress and Exposition (IMECE2022); Oct.30-Nov.3, 2022, Columbus, OH.
+        Dong, J; Barth, A.; Ma, O., “Development of a Bio-Inspired Hopping Leg for Lunar Exploration Rover”,{" "}
+        <em>ASME 2022 International Mechanical Engineering Congress and Exposition (IMECE2022)</em>; Oct.30-Nov.3, 2022, Columbus, OH.
     </>,
     <>
-        Barth, A. and Ma, O., “Autonomous Control Algorithm Development for On-Orbit Servicing Missions”;
-        2022 IFA International Astronautical Congress, Sep. 18-22, 2022, Paris.
+        Barth, A. and Ma, O., “Autonomous Control Algorithm Development for On-Orbit Servicing Missions”;{" "}
+        <em>2022 IFA International Astronautical Congress</em>, Sep. 18-22, 2022, Paris.
     </>,
     <>
-        Bisig, Caleb and Ma, Ou; “Scalable and Robust Decentralized Cargo Transport via Genetic Fuzzy Systems”,
-        Proc. of 2022 AIAA SciTech, San Diego. {" "}
+        Bisig, Caleb and Ma, Ou; “Scalable and Robust Decentralized Cargo Transport via Genetic Fuzzy Systems”,{" "}
+        <em>Proc. of 2022 AIAA SciTech</em>, San Diego. {" "}
         <a href="https://doi.org/10.2514/6.2022-1728">
             doi: 10.2514/6.2022-1728
         </a>
     </>,
     <>
         Barth, A.; Cohen, K.; Ma, O. “A Fuzzy Logic Approach for Spacecraft Landing Site Selection”.
-        In: Rayz J., Raskin V., Dick S., Kreinovich V. (eds) Explainable AI and Other Applications of Fuzzy Techniques. NAFIPS 2021. Lecture Notes in Networks and Systems, vol 258, 2022. Springer.
+        In: Rayz J., Raskin V., Dick S., Kreinovich V. (eds){" "}
+        <em>Explainable AI and Other Applications of Fuzzy Techniques</em>. NAFIPS 2021. Lecture Notes in Networks and Systems, vol 258, 2022. Springer.
     </>,
     <>
-        Barth, A.; Zhang, L.; Ma, O., “Cooperation of a Team of Heterogeneous Swarm Robots for Space Exploration”;
-        Proc. of 2021 IFA International Astronautical Congress, Oct. 25-29, 2021, Dubai.
+        Barth, A.; Zhang, L.; Ma, O., “Cooperation of a Team of Heterogeneous Swarm Robots for Space Exploration”;{" "}
+        <em>Proc. of 2021 IFA International Astronautical Congress</em>, Oct. 25-29, 2021, Dubai.
     </>,
     <>
-        Barth, A. and Ma, O., “Study of Hopping Mechanics for Different Terrain Conditions for Hopping on a Low-Gravity Surface”;
-        Proc. of 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vegas, NV.
+        Barth, A. and Ma, O., “Study of Hopping Mechanics for Different Terrain Conditions for Hopping on a Low-Gravity Surface”;{" "}
+        <em>Proc. of 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021)</em>, November 15-17, 2021, Las Vegas, NV.
     </>,
     <>
         Barth, A.; Ma, O.; Putman, P.; Walker, A.,
-        “Determining an optimal attitude profile for thermal management of a remote sensing cubesat”;
-        Proc. of 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vegas, NV.
+        “Determining an optimal attitude profile for thermal management of a remote sensing cubesat”;{" "}
+        <em>Proc. of 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021)</em>, November 15-17, 2021, Las Vegas, NV.
     </>,
     <>
         Yu, Q.; Shen, Z.; Pang, Y.; Ma, O.; and Liu, R., “Environment-Driven Multi UAV-UGV Teaming with Proficiency”,
-        presented at Workshop: Cognitive and Social Aspects of Human Multi-Robot Interaction,
-        2021 International Conference on Intelligent Robots and Systems (IROS 2021), 2021.
+        presented at Workshop: Cognitive and Social Aspects of Human Multi-Robot Interaction,{" "}
+        <em>2021 International Conference on Intelligent Robots and Systems (IROS 2021)</em>, 2021.
     </>,
     <>
-        Sun Y. and Ma O., “Automating Aircraft Exterior Inspection with Robotics and Machine Learning Technologies”,
-        ASME 2020 Intl. Mech. Eng Congress and Exposition (IMECE2020), Nov. 16-19, 2020, Portland, OR.
+        Sun Y. and Ma O., “Automating Aircraft Exterior Inspection with Robotics and Machine Learning Technologies”,{" "}
+        <em>ASME 2020 Intl. Mech. Eng Congress and Exposition (IMECE2020)</em>, Nov. 16-19, 2020, Portland, OR.
     </>,
     <>
-        Sahay P., Dong J., Bisig C., and Ma O., “Robotic handling of Jet Engine Turbine Blade using Collaborative Robot”,
-        Proc. of the ASME 2020 Intl. Mech. Eng Congress and Exposition (IMECE2020), Nov. 16-19, 2020, Portland, OR.
+        Sahay P., Dong J., Bisig C., and Ma O., “Robotic handling of Jet Engine Turbine Blade using Collaborative Robot”,{" "}
+        <em>Proc. of the ASME 2020 Intl. Mech. Eng Congress and Exposition (IMECE2020)</em>, Nov. 16-19, 2020, Portland, OR.
     </>,
     <>
         Barth A, Bisig C., Ma O., Dong J., and Abdallah S.
-        “CableCat: An Autonomous System to Develop Power and Data Infrastructure on the Moon”,
-        2020 IAF International Astronautical Congress (IAC 2020), Dubai, October 2020.
+        “CableCat: An Autonomous System to Develop Power and Data Infrastructure on the Moon”,{" "}
+        <em>2020 IAF International Astronautical Congress (IAC 2020)</em>, Dubai, October 2020.
     </>,
     <>
         Barth, A. L., Bisig, C., Ma, O., Dong, J. J., & Abdallah, S. (2020).
-        “Prototype Design of the CableCat Lunar Rover.” In AIAA 2020 ASCEND (p. 4256){" "}
+       {" "}
+       <em>AIAA 2020 ASCEND</em> (p. 4256){" "}
         <a href="https://doi.org/10.2514/6.2020-4256">
             doi: 10.2514/6.2020-4256
         </a>
     </>,
     <>
-        Sun Y., Zhang, L. and Ma O., “Robotics-Assisted 3D Scanning of Aircraft”,
-        Proc. of AIAA Aviation Forum, June 15-19, 2020, Reno, Nevada.
+        Sun Y., Zhang, L. and Ma O., “Robotics-Assisted 3D Scanning of Aircraft”,{" "}
+        <em>Proc. of AIAA Aviation Forum</em>, June 15-19, 2020, Reno, Nevada.
     </>,
     <>
-        Bisig C.; Montejo J.; Verbryke M.; Sathyan A.; and Ma O., “Genetic Fuzzy Systems for Decentralized, Multi-UAV Cargo Handling”,
-        Proceedings of AIAA SciTech, Jan 6-10, 2020, Orlando, FL.
+        Bisig C.; Montejo J.; Verbryke M.; Sathyan A.; and Ma O., “Genetic Fuzzy Systems for Decentralized, Multi-UAV Cargo Handling”,{" "}
+        <em>Proceedings of AIAA SciTech</em>, Jan 6-10, 2020, Orlando, FL.
     </>,
     <>
-        Sun Y., Barth A. and Ma O., “An Intelligent Approach for a Two-robot Team to Perform a Cooperative Task”,
-        Proceedings of AIAA SciTech, Jan 6-10, 2020, Orlando, FL
+        Sun Y., Barth A. and Ma O., “An Intelligent Approach for a Two-robot Team to Perform a Cooperative Task”,{" "}
+        <em>Proceedings of AIAA SciTech</em>, Jan 6-10, 2020, Orlando, FL
     </>,
     <>
-        Liu, Qian; Ma, O.; and Li, Haiquan, “A Novel Hybrid Modeling Method for Contact Problems”,
-        ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE2019), August 18-21, 2019, Anaheim, CA, USA.
+        Liu, Qian; Ma, O.; and Li, Haiquan, “A Novel Hybrid Modeling Method for Contact Problems”,{" "}
+        <em>ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE2019)</em>, August 18-21, 2019, Anaheim, CA, USA.
     </>,
     <>
         Zhang, L., Li, S., Xiong, H., Diao, X., Ma, O. and Wang, Z,
-        “Prediction of Intention Behind a Single Human Action: An Application of Convolutional Neural Network”,
-        Proc. of 9th IEEE Intl. Conf. on Cyber Tech. in Auto., Control, and Intelligent Systems, Suzhou, China 7/29-8/2, 2019.
+        “Prediction of Intention Behind a Single Human Action: An Application of Convolutional Neural Network”,{" "}
+        <em>Proc. of 9th IEEE Intl. Conf. on Cyber Tech. in Auto., Control, and Intelligent Systems</em>, Suzhou, China 7/29-8/2, 2019.
     </>,
     <>
-        Sathyan, A. and Ma, O., “Collaborative Control of Multiple Robots using Genetic Fuzzy Systems Approach”,
-        Proc. of Dynamic Systems and Control Conference (DSCC 2018), Atlanta, GA, September 30-October 3, 2018.
+        Sathyan, A. and Ma, O., “Collaborative Control of Multiple Robots using Genetic Fuzzy Systems Approach”,{" "}
+        <em>Proc. of Dynamic Systems and Control Conference (DSCC 2018)</em>, Atlanta, GA, September 30-October 3, 2018.
     </>,
     <>
-        Sathyan, Ma, O., and Cohen K., “Intelligent Approach for Inliidual Space Robots Performing Collaborative Tasks”,
-        Proc. of AIAA Space Forum, Orlando, FL, Sept. 16-18, 2018.
+        Sathyan, Ma, O., and Cohen K., “Intelligent Approach for Inliidual Space Robots Performing Collaborative Tasks”,{" "}
+        <em>Proc. of AIAA Space Forum</em>, Orlando, FL, Sept. 16-18, 2018.
     </>,
     <>
-        Meng，Q. and Ma, O., “Estimate of All the Inertial Parameters of a Free-Floating Object in Orbit”,
-        Proc. of 2018 GNC Conference, AIAA SciTech, Orlando, Florida, Jan 2018.{" "}
+        Meng，Q. and Ma, O., “Estimate of All the Inertial Parameters of a Free-Floating Object in Orbit”,{" "}
+        <em>Proc. of 2018 GNC Conference</em>, AIAA SciTech, Orlando, Florida, Jan 2018.{" "}
         <a href="https://arc.aiaa.org/doi/pdf/10.2514/6.2018-1606">
             https://arc.aiaa.org/doi/pdf/10.2514/6.2018-1606
         </a>
     </>,
     <>
         Mou F.; Wu S., Xiao X.; Zhang T. and Ma O.;
-        "Control of a Space Manipulator Capturing a Rotating Object in the Three-dimensional Space,"
-        2018 15th International Conference on Ubiquitous Robots (UR), 2018, pp. 763-768.{" "}
+        "Control of a Space Manipulator Capturing a Rotating Object in the Three-dimensional Space,"{" "}
+        <em>2018 15th International Conference on Ubiquitous Robots (UR)</em>, 2018, pp. 763-768.{" "}
         <a href="https://doi.org/10.1109/URAI.2018.8441888">
             doi: 10.1109/URAI.2018.8441888
         </a>
     </>,
     <>
         Beck, Richard et al.,
-        “Adapting Low-Cost Drone Technology to CubeSats for Environmental Monitoring and Management: Harmful Algal Bloom Satellite-1 (HABsat-1)”,
-        32nd Annual AIAA/USU Conference on Small Satellite, Logan, UT, August 4-9, 2018.
+        “Adapting Low-Cost Drone Technology to CubeSats for Environmental Monitoring and Management: Harmful Algal Bloom Satellite-1 (HABsat-1)”,{" "}
+        <em>32nd Annual AIAA/USU Conference on Small Satellite</em>, Logan, UT, August 4-9, 2018.
     </>,
     <>
-        Zhang, L., Diao, X., and Ma, O., “A Preliminary Study on a Robot’s Prediction of Human Intention”,
-        Proc. of the 7th IEEE Int. Conf. on Cyber Tech. in Auto., Ctrl., and Intel. Syst., July 31–Aug 4, 2017, Honolulu, Hawaii.
+        Zhang, L., Diao, X., and Ma, O., “A Preliminary Study on a Robot’s Prediction of Human Intention”,{" "}
+        <em>Proc. of the 7th IEEE Int. Conf. on Cyber Tech. in Auto., Ctrl., and Intel. Syst.</em>, July 31–Aug 4, 2017, Honolulu, Hawaii.
     </>,
     <>
         Xiao, X., Ma, O., and Asano, F.,
-        “Control Walking Speed by Approximate-kinetic-model-based Self-adaptive Control on Underactuated Compass-like Bipedal Walker”,
-        Proc. of the IEEE International Conference on Robotics and Automation (ICRA 2017), May 29 – June 3, Singapore.
+        “Control Walking Speed by Approximate-kinetic-model-based Self-adaptive Control on Underactuated Compass-like Bipedal Walker”,{" "}
+        <em>Proc. of the IEEE International Conference on Robotics and Automation (ICRA 2017)</em>, May 29 – June 3, Singapore.
     </>,
     <>
-        Wu, S., Mou, F.L., and Ma, O., “Contact Dynamics and Control of a Space Manipulator Capturing a Rotating Object”,
-        Proc. of the AIAA Guidance, Navigation, and Control Conference, SciTech 2017, Grapevine, TX, January 9-13, 2017.
+        Wu, S., Mou, F.L., and Ma, O., “Contact Dynamics and Control of a Space Manipulator Capturing a Rotating Object”,{" "}
+        <em>Proc. of the AIAA Guidance, Navigation, and Control Conference</em>, SciTech 2017, Grapevine, TX, January 9-13, 2017.
     </>,
     <>
         Martinez, G., Ma, O., and Taylor, G.,
-        “Suborbital Flight Experiment of A Flight-in-Flight Payload for Testing A Robotics-Based Satellite Inertia Estimate Method”,
-        Proc. of the AIAA Space and Exposition 2016, Long Beach, CA, Sept. 12-16, 2016.
+        “Suborbital Flight Experiment of A Flight-in-Flight Payload for Testing A Robotics-Based Satellite Inertia Estimate Method”,{" "}
+        <em>Proc. of the AIAA Space and Exposition 2016</em>, Long Beach, CA, Sept. 12-16, 2016.
     </>,
     <>
         Xiao, X., Asano, F. and Ma, O.,
-        “Analytical solution of target walking speed generation by underactuated compass-like bipedal walker”,
-        Proc. of the 2016 IEEE International Conference on Robots and Biomimetics (ROBIO), Qingdao, China, Dec. 5-8, 2016.
+        “Analytical solution of target walking speed generation by underactuated compass-like bipedal walker”,{" "}
+        <em>Proc. of the 2016 IEEE International Conference on Robots and Biomimetics (ROBIO)</em>, Qingdao, China, Dec. 5-8, 2016.
     </>,
     <>
         Wu, S., Mou, F.L., and Ma, O.,
-        “Study of a Space Robot Capturing a Fast Rotating Object from a Floating Spacecraft”,
-        Proc. of The 2016 International Symposium on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS 2016),
+        “Study of a Space Robot Capturing a Fast Rotating Object from a Floating Spacecraft”,{" "}
+        <em>Proc. of The 2016 International Symposium on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS 2016)</em>,
         Beijing, China, June 20-22, 2016.
     </>,
     <>
         Zhang, X., Han, D.P., and Ma, O.,
-        “Using Modified Industrial Robots to Emulate the Contact Dynamics Behavior of A Space Manipulator”,
-        Proc. of The 2016 International Symposium on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS 2016),
+        “Using Modified Industrial Robots to Emulate the Contact Dynamics Behavior of A Space Manipulator”,{" "}
+        <em>Proc. of The 2016 International Symposium on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS 2016)</em>,
         Beijing, China, June 20-22, 2016.
     </>,
     <>
         Ma, O., Chen, T., Zhao, Z.,
-        “Understanding the Dynamics of a Space Manipulator from Its Testing with Air-Bearing based Support Equipment”,
-        Proc. of AIAA Space and Exposition, Pasadena, CA, Aug. 31-Sept .3, 2015.
+        “Understanding the Dynamics of a Space Manipulator from Its Testing with Air-Bearing based Support Equipment”,{" "}
+        <em>Proc. of AIAA Space and Exposition</em>, Pasadena, CA, Aug. 31-Sept .3, 2015.
     </>,
     <>
         Xie, P., Ma, O., Zhang, L., Zhao, Z.,
-        “A Bio-inspired UAV Leg-Foot Mechanism for Landing, Grasping and Perching Tasks”,
-        Proc. of AIAA Atmospheric Flight Mechanics Conference, AIAA Science and Technology Forum, Kissimmee, FL, Jan. 5-9, 2015.
+        “A Bio-inspired UAV Leg-Foot Mechanism for Landing, Grasping and Perching Tasks”,{" "}
+        <em>Proc. of AIAA Atmospheric Flight Mechanics Conference, AIAA Science and Technology Forum</em>, Kissimmee, FL, Jan. 5-9, 2015.
     </>,
     <>
         Zhang, L., Ma, O., Fabre, J. M., Wood, R. H., Garcia, S., Ivey, K., McCann, E.,
-        “Classification of older adults with/without a fall history using machine learning methods”,
-        IEEE International Conference of Engineering in Medicine and Biology Society (EMBC), Milan, Italy, August 25-29, 2015
+        “Classification of older adults with/without a fall history using machine learning methods”,{" "}
+        <em>IEEE International Conference of Engineering in Medicine and Biology Society (EMBC)</em>, Milan, Italy, August 25-29, 2015
     </>,
     <>
         Xiu, W., Ruble, K. and Ma O.,
-        “A Reduced-Gravity Simulator for Physically Simulating Human Walking in Microgravity or Reduced-Gravity Environment”,
-        Proc. of 2014 Intl. Conf. on Robotics and Auto. (ICRA), Hong Kong, China, May 31-June 5, 2014.
+        “A Reduced-Gravity Simulator for Physically Simulating Human Walking in Microgravity or Reduced-Gravity Environment”,{" "}
+        <em>Proc. of 2014 Intl. Conf. on Robotics and Auto. (ICRA)</em>, Hong Kong, China, May 31-June 5, 2014.
     </>,
     <>
-        Wood, R.H., Fabre, J. M., Ma, O., Deleon, P., and Zhang, L., “Emerging measures of falls screening and assessment”,
-        Proc. of the 4th Annual International Aging Conference. Manchester, UK, November, 2014.
+        Wood, R.H., Fabre, J. M., Ma, O., Deleon, P., and Zhang, L., “Emerging measures of falls screening and assessment”,{" "}
+        <em>Proc. of the 4th Annual International Aging Conference</em>. Manchester, UK, November, 2014.
     </>,
     <>
-        Xie, P., and Ma, O., “Grasping analysis of a bio-inspired UAV/MAV perching mechanism”,
-        Proc. of the ASME 2013 International Mechanical Engineering Congress & Exposition Conference (IMECE),
+        Xie, P., and Ma, O., “Grasping analysis of a bio-inspired UAV/MAV perching mechanism”,{" "}
+        <em>Proc. of the ASME 2013 International Mechanical Engineering Congress & Exposition Conference (IMECE)</em>,
         Nov. 15-21, 2013, San Diego, CA. Paper # IMECE2013-66526.
     </>,
     <>
-        Zhang, Z., Xie, P., and Ma, O., “Bio-inspired trajectory generation for UAV perching”,
-        Proc. 2013 IEEE/ASME Intl. Conference on Advanced Intelligent Mechatronics (AIM), Wollongong, Australia, July 9-12, 2013.
+        Zhang, Z., Xie, P., and Ma, O., “Bio-inspired trajectory generation for UAV perching”,{" "}
+        <em>Proc. 2013 IEEE/ASME Intl. Conference on Advanced Intelligent Mechatronics (AIM)</em>, Wollongong, Australia, July 9-12, 2013.
     </>,
     <>
-        Paz, R.A., Barajas, J.C., Ma, O., “Autobalancing Control for a Reduced Gravity Simulator”, 
-        Proc. 2013 IEEE/ASME Intl. Conference on Advanced Intelligent Mechatronics (AIM), Wollongong, Australia, July 9-12, 2013.
+        Paz, R.A., Barajas, J.C., Ma, O., “Autobalancing Control for a Reduced Gravity Simulator”, {" "}
+        <em>Proc. 2013 IEEE/ASME Intl. Conference on Advanced Intelligent Mechatronics (AIM)</em>, Wollongong, Australia, July 9-12, 2013.
     </>,
     <>
-        Xiu, W. and Ma, O., “Relation between End-Effector Impedance and Joint Friction of Statically-Balanced Mechanisms”,
-        Proc. of 2013 ASME Dynamic Systems & Control Conference (DSCC), October 21-23, 2013, Palo Alto, CA, Paper No. DSCC2013-4095.
+        Xiu, W. and Ma, O., “Relation between End-Effector Impedance and Joint Friction of Statically-Balanced Mechanisms”,{" "}
+        <em>Proc. of 2013 ASME Dynamic Systems & Control Conference (DSCC)</em>, October 21-23, 2013, Palo Alto, CA, Paper No. DSCC2013-4095.
     </>,
     <>
         Flores-Abad, A., Wei, Z., Ma, O., and Pham, K.,
-        “Optimal Control of a Space Robot to Approach a Tumbling Object for Capture with Uncertainties in the Boundary Conditions”,
-        Proc. AIAA Guidance, Navigation and Control Conference, Aug.19-22, 2013, Boston, MA; Paper #AIAA-2013-4522.
+        “Optimal Control of a Space Robot to Approach a Tumbling Object for Capture with Uncertainties in the Boundary Conditions”,{" "}
+        <em>Proc. AIAA Guidance, Navigation and Control Conference</em>, Aug.19-22, 2013, Boston, MA; Paper #AIAA-2013-4522.
     </>,
     <>
-        Xie, P., Ma, O., and Zhang, Z., “A Bio-inspired Approach for UAV Landing and Perching”,
-        Proc. AIAA Guidance, Navigation and Control (GNC) Conference, Aug.19-22, 2013, Boston, MA; Paper #AIAA-2013-5108.
+        Xie, P., Ma, O., and Zhang, Z., “A Bio-inspired Approach for UAV Landing and Perching”,{" "}
+        <em>Proc. AIAA Guidance, Navigation and Control (GNC) Conference</em>, Aug.19-22, 2013, Boston, MA; Paper #AIAA-2013-5108.
     </>,
     <>
         Ma, O., Ruble, K., Tessier, R., and Krech, E.,
-        “A New Technology for Physically Simulating 3D Free Floating and Rotating of an Object in Zero-Gravity Environment”,
-        Proc. AIAA Modeling and Simulation Technologies Conference, Aug.19-22, 2013, Boston, MA; Paper #AIAA-2013-4677.
+        “A New Technology for Physically Simulating 3D Free Floating and Rotating of an Object in Zero-Gravity Environment”,{" "}
+        <em>Proc. AIAA Modeling and Simulation Technologies Conference</em>, Aug.19-22, 2013, Boston, MA; Paper #AIAA-2013-4677.
     </>,
     <>
         Ma, O.; Flores-Abad, A.; and Pham, K.;
-        "Control of a Robot for Minimal Impact to the Base Satellite for Capturing a Moving Object",
-        Proc. 12th Intl. Symposium on Artificial Intelligence, Robotics and Automation in Space (iSAIRAS), Sept.3-7, 2012, Turin, Italy.
+        "Control of a Robot for Minimal Impact to the Base Satellite for Capturing a Moving Object",{" "}
+        <em>Proc. 12th Intl. Symposium on Artificial Intelligence, Robotics and Automation in Space (iSAIRAS)</em>, Sept.3-7, 2012, Turin, Italy.
     </>,
     <>
-        Flores-Abad A., Xie P., and Ma O., “Test of a Special Inertial Measurement Unit using a Quadrotor Aircraft”,
-        Proc. of 2012 AIAA Guidance, Navigation and Control Conferences, August 13-16, Minneapolis, Minnesota.
+        Flores-Abad A., Xie P., and Ma O., “Test of a Special Inertial Measurement Unit using a Quadrotor Aircraft”,{" "}
+        <em>Proc. of 2012 AIAA Guidance, Navigation and Control Conferences</em>, August 13-16, Minneapolis, Minnesota.
     </>,
     <>
         Zhang, L., Ma, O., and Wood, R.,
-        “A Pilot Study of Dynamic Stability Indices for Potential Application of Identifying Older Adult Fallers”,
-        Proc. of ASME Annual Dynamic Systems and Control Conference (DSCC), Fort Lauderdale, Florida, USA, October 17–19, 2012.{" "}
+        “A Pilot Study of Dynamic Stability Indices for Potential Application of Identifying Older Adult Fallers”,{" "}
+        <em>Proc. of ASME Annual Dynamic Systems and Control Conference (DSCC)</em>, Fort Lauderdale, Florida, USA, October 17–19, 2012.{" "}
         <a href="https://doi.org/10.1115/DSCC2012-MOVIC2012-8562">
             doi: 10.1115/DSCC2012-MOVIC2012-8562
         </a>
     </>,
     <>
         Ma, O., Flores-Abad, A., and Boge,
-        “Using Industrial Robots for Hardware-in-the-Loop Simulation of Spacecraft Rendezvous and Docking”,
-        Proc. 2012 ASME International Design Engineering Technical Conferences (IDETC), Aug.12-15, 2012, Chicago, IL.
+        “Using Industrial Robots for Hardware-in-the-Loop Simulation of Spacecraft Rendezvous and Docking”,{" "}
+        <em>Proc. 2012 ASME International Design Engineering Technical Conferences (IDETC)</em>, Aug.12-15, 2012, Chicago, IL.
     </>,
     <>
-        Liang J., Ma O., and Liu C., “Relative Contact Dynamics and Its Application on Manipulator’s Contact Stability Problem”,
-        Proc. 2012 ASME International Design Engineering Technical Conferences (IDETC), Aug.12-15, 2012, Chicago, IL.
+        Liang J., Ma O., and Liu C., “Relative Contact Dynamics and Its Application on Manipulator’s Contact Stability Problem”,{" "}
+        <em>Proc. 2012 ASME International Design Engineering Technical Conferences (IDETC)</em>, Aug.12-15, 2012, Chicago, IL.
     </>,
     <>
-        Xiu W., Lu Q. and Ma O., “Trajectory Estimation of Human Mass Center based on an Inertia Identification Approach”,
-        Proc. 2012 ASME International Design Engineering Technical Conferences (IDETC), Aug.12-15, 2012, Chicago, IL.
+        Xiu W., Lu Q. and Ma O., “Trajectory Estimation of Human Mass Center based on an Inertia Identification Approach”,{" "}
+        <em>Proc. 2012 ASME International Design Engineering Technical Conferences (IDETC)</em>, Aug.12-15, 2012, Chicago, IL.
     </>,
     <>
-        Flores-Abad A. and Ma O., "Control of a Robot for Minimal Impact to the Base Satellite for Capturing A Moving Object",
-        Proc. 2012 SPIE Defense, Security and Sensing Symposiums - Sensors and Systems for Space Applications,
+        Flores-Abad A. and Ma O., "Control of a Robot for Minimal Impact to the Base Satellite for Capturing A Moving Object",{" "}
+        <em>Proc. 2012 SPIE Defense, Security and Sensing Symposiums - Sensors and Systems for Space Applications</em>,
         April 23-27, 2012, Baltimore, MD. SPIE.{" "}
         <a href="https://doi.org/10.1117/12.918523">
             doi: 10.1117/12.918523
         </a>
     </>,
     <>
-        Lu Q., Xiu W. and Ma O., "On the Impedance of Statically-Balanced Mechanisms",
-        Proc. 2011 ASME International Design Engineering Technical Conferences (IDETC), Aug.29-31, 2011, Washington, DC.
+        Lu Q., Xiu W. and Ma O., "On the Impedance of Statically-Balanced Mechanisms",{" "}
+        <em>Proc. 2011 ASME International Design Engineering Technical Conferences (IDETC)</em>, Aug.29-31, 2011, Washington, DC.
     </>,
     <>
-        Liang J. and Ma O., "Model Reduction of Contact Dynamics Simulation using Modified Lyapunov Balancing Method",
-        Proc. of 2011 ASME International Design Engineering Technical Conferences (IDETC), Aug.29-31, 2011, Washington, DC.
+        Liang J. and Ma O., "Model Reduction of Contact Dynamics Simulation using Modified Lyapunov Balancing Method",{" "}
+        <em>Proc. of 2011 ASME International Design Engineering Technical Conferences (IDETC)</em>, Aug.29-31, 2011, Washington, DC.
     </>,
     <>
-        Xie P., Gardner B. and Ma O., "Integration of an Autopilot System with a Hobby RC Helicopter",
-        Proc. of 2011 ASME International Design Engineering Technical Conferences (IDETC), Aug.29-31, 2011, Washington, DC.
+        Xie P., Gardner B. and Ma O., "Integration of an Autopilot System with a Hobby RC Helicopter",{" "}
+        <em>Proc. of 2011 ASME International Design Engineering Technical Conferences (IDETC)</em>, Aug.29-31, 2011, Washington, DC.
     </>,
     <>
-        Liang J., Ma O. and Liu C., "Linearization and Model Reduction of Contact Dynamics Simulation",
-        Proc. of 2011 ASME Dynamic Systems & Control Conference (DSCC), Oct.31-Nov.2, 2011, Arlington, VA.
+        Liang J., Ma O. and Liu C., "Linearization and Model Reduction of Contact Dynamics Simulation",{" "}
+        <em>Proc. of 2011 ASME Dynamic Systems & Control Conference (DSCC)</em>, Oct.31-Nov.2, 2011, Arlington, VA.
     </>,
     <>
-        Xie P.,Flores-Abad A., Martinez G. and Ma O., "Development of a Small UAV with Autopilot Capability",
-        Proc. of 2011 AIAA Atmospheric Flight Mechanics Conference, August 8-11, 2011, Portland, Oregon.
+        Xie P.,Flores-Abad A., Martinez G. and Ma O., "Development of a Small UAV with Autopilot Capability",{" "}
+        <em>Proc. of 2011 AIAA Atmospheric Flight Mechanics Conference</em>, August 8-11, 2011, Portland, Oregon.
     </>,
     <>
-        Boge, T. and Ma O., “Using Advanced Industrial Robotics for Spacecraft Rendezvous and Docking Simulation”,
-        Proc. of the 2011 Intl. Conf. on Robotics and Auto. (ICRA), Shanghai, China, May 9-13, 2011.
+        Boge, T. and Ma O., “Using Advanced Industrial Robotics for Spacecraft Rendezvous and Docking Simulation”,{" "}
+        <em>Proc. of the 2011 Intl. Conf. on Robotics and Auto. (ICRA)</em>, Shanghai, China, May 9-13, 2011.
     </>,
     <>
         Martinez G., Inzunza-Ibarra M., Ferrel I., Herrera B. and Ma O.,
         “Development of a Suborbital Flight Experiment for Validating A Satellite Inertia Identification Method”,
-        2011, SPIE 8044, 80440H (2011).{" "}
+       {" "}
+       <em>SPIE 8044</em>, 80440H (2011).{" "}
         <a href="https://doi.org/10.1117/12.887253">
             doi: 10.1117/12.887253
         </a>
     </>,
     <>
-        Ma O., Fillmore S., and Zebenay M., “Control of an Industrial Robot for Hardware-in-the-Loop Simulation of Satellite Docking”,
-        Proc. of SPIE Defense, Security, and Sensing Symposium - Space Missions and Technologies, Orlando, FL, April 25-29, 2011.
+        Ma O., Fillmore S., and Zebenay M., “Control of an Industrial Robot for Hardware-in-the-Loop Simulation of Satellite Docking”,{" "}
+        <em>Proc. of SPIE Defense, Security, and Sensing Symposium - Space Missions and Technologies</em>, Orlando, FL, April 25-29, 2011.
     </>,
     <>
-        Ma, O., Lu, Q., McAvoy, J., and Ruble, K., “Concept study of a passive reduced-gravity simulator for training astronauts”,
-        Proc. ASME 2010 Intl. Design Eng. Tech. Conf. (IDETC), Aug.15-18, 2010, Montreal, Paper #DETC2010-29079.
+        Ma, O., Lu, Q., McAvoy, J., and Ruble, K., “Concept study of a passive reduced-gravity simulator for training astronauts”,{" "}
+        <em>Proc. ASME 2010 Intl. Design Eng. Tech. Conf. (IDETC)</em>, Aug.15-18, 2010, Montreal, Paper #DETC2010-29079.
     </>,
     <>
         Boge, T., Wimmer, T., Ma, O. and, Zebenay, M.,
-        "EPOS – A Robotics-Based Hardware-in-the-Loop Simulator for Simulating Satellite RvD Operations",
-        Proc. 10th Intl. Symposium on Artificial Intelligence, Robotics and Automation in Space (iSAIRAS),
+        "EPOS – A Robotics-Based Hardware-in-the-Loop Simulator for Simulating Satellite RvD Operations",{" "}
+        <em>Proc. 10th Intl. Symposium on Artificial Intelligence, Robotics and Automation in Space (iSAIRAS)</em>,
         Aug.29-Sept.1, 2010, Sapporo, Japan.
     </>,
     <>
-        Lu, Q. and Ma, O., "A Momentum-Based Algorithm for Identifying the Inertia Properties of a Human Body: A Preliminary Study",
-        Proc 2010 ASME Dynamic Systems and Control Conference (DSCC), September 13-15, 2010, Cambridge, MA, Paper #4052.
+        Lu, Q. and Ma, O., "A Momentum-Based Algorithm for Identifying the Inertia Properties of a Human Body: A Preliminary Study",{" "}
+        <em>Proc 2010 ASME Dynamic Systems and Control Conference (DSCC)</em>, September 13-15, 2010, Cambridge, MA, Paper #4052.
     </>,
     <>
-        Fillmore, S., Liang, J. and Ma, O., "Experimental validation of a 2D bristle friction force model",
-        Proc. 2010 ASME Dynamic Systems and Control Conference (DSCC), September 13-15, 2010, Cambridge, MA, Paper #4031.
+        Fillmore, S., Liang, J. and Ma, O., "Experimental validation of a 2D bristle friction force model",{" "}
+        <em>Proc. 2010 ASME Dynamic Systems and Control Conference (DSCC)</em>, September 13-15, 2010, Cambridge, MA, Paper #4031.
     </>,
     <>
-        Boge T., Wimmer T., Ma O., Tzschichholz T., “EPOS – using robotics for RvD simulation of on-orbit servicing missions”,
-        Proc. of the AIAA Simulations Technologies Conf., Aug. 2-5, 2010, Toronto, Paper #AIAA-2010-7788.
+        Boge T., Wimmer T., Ma O., Tzschichholz T., “EPOS – using robotics for RvD simulation of on-orbit servicing missions”,{" "}
+        <em>Proc. of the AIAA Simulations Technologies Conf.</em>, Aug. 2-5, 2010, Toronto, Paper #AIAA-2010-7788.
     </>,
     <>
-        Hatamleh, K., Ma, O., and Paz, R., "An UAV parameters identification method",
-        Proc. of the AIAA Atmospheric Flight Mech. Conf., Aug. 2-5, 2010, Toronto, Paper #AIAA-2010-7649.
+        Hatamleh, K., Ma, O., and Paz, R., "An UAV parameters identification method",{" "}
+        <em>Proc. of the AIAA Atmospheric Flight Mech. Conf.</em>, Aug. 2-5, 2010, Toronto, Paper #AIAA-2010-7649.
     </>,
     <>
         Hatamleh, K., Flores-Abad, A., Xie, P., Martinez, G., Herrera, B. and Ma, O.,
-        “Development of an inertial measurement unit for unmanned aerial vehicles”,
-        Proce. 7th Jordanian International Mechanical Engineering Conference, 27-29 September, 2010, Amman, Jordan.
+        “Development of an inertial measurement unit for unmanned aerial vehicles”,{" "}
+        <em>Proc. 7th Jordanian International Mechanical Engineering Conference</em>, 27-29 September, 2010, Amman, Jordan.
     </>,
     <>
-        Liang, J., Fillmore, S. and Ma, O., "A 2D Bristle Friction Force Model for General Contact Dynamics Simulation",
-        Proc. of the 1st ASME, IFToMM, IUAM, JSME and KSME Joint International Conference on Multibody System Dynamics,
+        Liang, J., Fillmore, S. and Ma, O., "A 2D Bristle Friction Force Model for General Contact Dynamics Simulation",{" "}
+        <em>Proc. of the 1st ASME, IFToMM, IUAM, JSME and KSME Joint International Conference on Multibody System Dynamics</em>,
         May 25-27, 2010, Lappeenranta, Finland.
     </>,
     <>
         Bruggemann, J., Ferrel, I., Martinez, G., Xie, P., and Ma, O.,
-        "Zero-G experimental validation of a robotics-based inertia identification algorithm",
-        Space Missions and Technologies Conference, SPIE Proceedings Vol. 7691, 2010.{" "}
+        "Zero-G experimental validation of a robotics-based inertia identification algorithm",{" "}
+        <em>Space Missions and Technologies Conference</em>, SPIE Proceedings Vol. 7691, 2010.{" "}
         <a href="https://doi.org/10.1117/12.849772">
             doi: 10.1117/12.849772
         </a>
     </>,
     <>
         Lu, Q., McAvoy, J., and Ma, O.,
-        "A Simulation Study of using a Gravity-Balanced Mechanism to Simulate human walking in a Reduced-Gravity Environment",
-        Proc. the 2009 ASME Dynamic Systems and Control Conference (DSCC), Oct.12-14, 2009, Hollywood, CA.
+        "A Simulation Study of using a Gravity-Balanced Mechanism to Simulate human walking in a Reduced-Gravity Environment",{" "}
+        <em>Proc. the 2009 ASME Dynamic Systems and Control Conference (DSCC)</em>, Oct.12-14, 2009, Hollywood, CA.
     </>,
     <>
         Ma, O., Liang, J. and Fillmore, S., "A 2D bristle friction force model for contact dynamics simulation",
-        accepted for publication at the 2009 ASME Dynamic Systems and Control Conference (DSCC), Oct.12-14, 2009, Hollywood, CA.
+       {" "}
+       <em>2009 ASME Dynamic Systems and Control Conference (DSCC)</em>, Oct.12-14, 2009, Hollywood, CA.
     </>,
     <>
-        Hatamleh, K., Ma, O., Gilbert, J. and McAvoy, J., "An UAV model parameter identification method",
-        Proc. of the AIAA Modeling and Simulation Tech. Conf., Aug. 10-13, 2009, Chicago, IL, Paper # AIAA-2009-6136.
+        Hatamleh, K., Ma, O., Gilbert, J. and McAvoy, J., "An UAV model parameter identification method",{" "}
+        <em>Proc. of the AIAA Modeling and Simulation Tech. Conf.</em>, Aug. 10-13, 2009, Chicago, IL, Paper # AIAA-2009-6136.
     </>,
     <>
-        Hatamleh, K., Ma, O., and Paz, R., "In-flight UAV parameters identification: A simulation study",
-        Proc. of the AIAA Atmospheric Flight Mechanics Conf., Aug. 10-13, 2009, Chicago, IL, Paper # AIAA-2009-5936.
+        Hatamleh, K., Ma, O., and Paz, R., "In-flight UAV parameters identification: A simulation study",{" "}
+        <em>Proc. of the AIAA Atmospheric Flight Mechanics Conf.</em>, Aug. 10-13, 2009, Chicago, IL, Paper # AIAA-2009-5936.
     </>,
     <>
-        Ortega, C., Ma, O., and Ruble, K., "Gravity-balanced test stand for testing micro air vehicles",
-        Proc. of the AIAA Atmospheric Flight Mechanics Conf., Aug. 10-13, 2009, Chicago, IL, Paper # AIAA-2009-5734.
+        Ortega, C., Ma, O., and Ruble, K., "Gravity-balanced test stand for testing micro air vehicles",{" "}
+        <em>Proc. of the AIAA Atmospheric Flight Mechanics Conf.</em>, Aug. 10-13, 2009, Chicago, IL, Paper # AIAA-2009-5734.
     </>,
     <>
         Liang, J., Hernandez, A., Ma, O., Qiao, B., and Paz, R.,
-        “Nonhuman test of a new active body support system for improving locomotion training”,
-        Proc. of the IEEE Int. Conf. on Advanced Intelligent Mechatronics, July 14-17, 2009, Singapore, pp.1312-1317.
+        “Nonhuman test of a new active body support system for improving locomotion training”,{" "}
+        <em>Proc. of the IEEE Int. Conf. on Advanced Intelligent Mechatronics</em>, July 14-17, 2009, Singapore, pp.1312-1317.
     </>,
     <>
-        Lu, Q,, Ma, O., Qiao, B., "Virtually offloading body mass for rehabilitation: a simulation study",
-        Proc. of IEEE Int. Conf. on Rehabilitation Robotics, June.23-26, 2009, Kyoto, Japan, pp.972-977.
+        Lu, Q,, Ma, O., Qiao, B., "Virtually offloading body mass for rehabilitation: a simulation study",{" "}
+        <em>Proc. of IEEE Int. Conf. on Rehabilitation Robotics</em>, June.23-26, 2009, Kyoto, Japan, pp.972-977.
     </>,
     <>
-        Doush I.A., Enrico P., Simon D., Son C.T., Ma O., "Making Microsoft Excel™ Accessible: Multimodal Presentation of Charts",
-        Proc. 11th International ACM SIGACCESS conference on Computers and Accessibility,    pp.147-154, 2009.
+        Doush I.A., Enrico P., Simon D., Son C.T., Ma O., "Making Microsoft Excel™ Accessible: Multimodal Presentation of Charts",{" "}
+        <em>Proc. 11th International ACM SIGACCESS conference on Computers and Accessibility</em>, pp. 147-154, 2009.
     </>,
     <>
-        Diao, X., Liang, J., and Ma, O., "Angular-velocity tracking with unknown dynamics for satellite rendezvous and docking",
-        Proc. of the SPIE Defense, Security, and Sensing Conferences, April 13-17, 2009, Orlando, FL, Volume 7330, pp. 733004-733004-11.
+        Diao, X., Liang, J., and Ma, O., "Angular-velocity tracking with unknown dynamics for satellite rendezvous and docking",{" "}
+        <em>Proc. of the SPIE Defense, Security, and Sensing Conferences</em>, April 13-17, 2009, Orlando, FL, Volume 7330, pp. 733004-733004-11.
     </>,
     <>
-        Lu, Q., Ortega, C. and Ma, O., “A gravity balanced test stand for flight testing of small/micro unmanned aerial vehicles”,
-        Proc. ASME Int. Mech. Eng. Congress, Boston, MA, Oct.31-Nov.6, 2008, paper #IMECE2008-67978.
+        Lu, Q., Ortega, C. and Ma, O., “A gravity balanced test stand for flight testing of small/micro unmanned aerial vehicles”,{" "}
+        <em>Proc. ASME Int. Mech. Eng. Congress</em>, Boston, MA, Oct.31-Nov.6, 2008, paper #IMECE2008-67978.
     </>,
     <>
         Bruggemann, J., Cole, J.R., Gilbert, J., Kecman, M., Skaggs-Ryan, G., and Ma, O.,
-        “Experimental testbed for testing a robotics based identification method”,
-        Proc. ASME Int. Mech. Eng. Congress, Boston, MA, Oct.31-Nov.6, 2008, paper #IMECE2008-66651.
+        “Experimental testbed for testing a robotics based identification method”,{" "}
+        <em>Proc. ASME Int. Mech. Eng. Congress</em>, Boston, MA, Oct.31-Nov.6, 2008, paper #IMECE2008-66651.
     </>,
     <>
         Ma, O., Hernandez, A., Liang, J., and Paz, R.,
-        “A testbed for testing an active body support system for locomotion training”,
-        Proc. 2008 IEEE/ASME Int. Conf. on Advanced Intelligent Mechatronics, July 2-5, 2008, Xi’an, China, pp.996-1001.
+        “A testbed for testing an active body support system for locomotion training”,{" "}
+        <em>Proc. 2008 IEEE/ASME Int. Conf. on Advanced Intelligent Mechatronics</em>, July 2-5, 2008, Xi’an, China, pp.996-1001.
     </>,
     <>
-        Diao, X., Ma, O., and Lu, Q., “Singularity analysis of planar cable-driven parallel manipulators”,
-        Proc. of the 2008 IEEE Int. Conf. on Robotics, Automation, and Mechatronics, Sept.21-24, 2008, Chengdu, China, pp.272-277.
+        Diao, X., Ma, O., and Lu, Q., “Singularity analysis of planar cable-driven parallel manipulators”,{" "}
+        <em>Proc. of the 2008 IEEE Int. Conf. on Robotics, Automation, and Mechatronics</em>, Sept.21-24, 2008, Chengdu, China, pp.272-277.
     </>,
     <>
-        Diao, X. and Ma, O., “Force-closure analysis of general 6-DOF cable manipulators”,
-        Proc. of the IEEE Int. Conf. on Intelligent Robots and Systems (IROS’07), San Diego, CA, USA, Oct.29-Nov.2, 2007. pp.3931-3936.
+        Diao, X. and Ma, O., “Force-closure analysis of general 6-DOF cable manipulators”,{" "}
+        <em>Proc. of the IEEE Int. Conf. on Intelligent Robots and Systems (IROS’07)</em>, San Diego, CA, USA, Oct.29-Nov.2, 2007. pp.3931-3936.
     </>,
     <>
-        Ma, O., Diao, X., and Zhang, M., “Simulation of nanomanipulation using compliance-based contact dynamics modeling technique”,
-        Proc. of ASME Int. Design Eng. Tech Confs. and Computers and Info. Conf. (IDETC), Sept.4-7, 2007, Las Vegas, NV, Paper # DETC2007/VIB-35691.
+        Ma, O., Diao, X., and Zhang, M., “Simulation of nanomanipulation using compliance-based contact dynamics modeling technique”,{" "}
+        <em>Proc. of ASME Int. Design Eng. Tech Confs. and Computers and Info. Conf. (IDETC)</em>, Sept.4-7, 2007, Las Vegas, NV, Paper # DETC2007/VIB-35691.
     </>,
     <>
-        Ma, O. and Kim, J., “A robotics-based testbed for verifying a systematic method of identifying contact-dynamics model parameters”,
-        Proc. of ASME Int. Design Eng. Tech Confs. and Computers and Info. Conf. (IDETC), Sept 4-7, 2007, Las Vegas, NV, Paper # DETC2007-35092.
+        Ma, O. and Kim, J., “A robotics-based testbed for verifying a systematic method of identifying contact-dynamics model parameters”,{" "}
+        <em>Proc. of ASME Int. Design Eng. Tech Confs. and Computers and Info. Conf. (IDETC)</em>, Sept 4-7, 2007, Las Vegas, NV, Paper # DETC2007-35092.
     </>,
     <>
-        Diao, X. and Ma, O., “Vibration analysis of cable-driven parallel manipulators for hardware-in-the-loop contact-dynamics simulation”,
-        Proc. of ASME Int. Design Eng. Tech Confs. and Computers and Info. Conf. (IDETC), Sept.4-7, 2007, Las Vegas, NV, Paper #DETC2007/VIB-35093.
+        Diao, X. and Ma, O., “Vibration analysis of cable-driven parallel manipulators for hardware-in-the-loop contact-dynamics simulation”,{" "}
+        <em>Proc. of ASME Int. Design Eng. Tech Confs. and Computers and Info. Conf. (IDETC)</em>, Sept.4-7, 2007, Las Vegas, NV, Paper #DETC2007/VIB-35093.
     </>,
     <>
-        Ma, O., Dang, H., and Pham, K.., “On-orbit identification of inertia properties of spacecraft using robotics technology”,
-        Proc. of the AIAA Guidance, Navigation, and Control Conf., Hilton Head, SC, Aug. 20-23, 2007, Paper # AIAA-2007-6815.
+        Ma, O., Dang, H., and Pham, K.., “On-orbit identification of inertia properties of spacecraft using robotics technology”,{" "}
+        <em>Proc. of the AIAA Guidance, Navigation, and Control Conf.</em>, Hilton Head, SC, Aug. 20-23, 2007, Paper # AIAA-2007-6815.
     </>,
     <>
-        Reveles, R., Ma, O., Maes, M., and Kim, J., “Fuzzy-neural model based control of a mobile robot for chasing a moving target”,
-        Proc. of the 13th Int. Conf. on Advanced Robotics (ICAR’07), Jeju, Korea, Agu.21-24, 2007, pp.808-813.
+        Reveles, R., Ma, O., Maes, M., and Kim, J., “Fuzzy-neural model based control of a mobile robot for chasing a moving target”,{" "}
+        <em>Proc. of the 13th Int. Conf. on Advanced Robotics (ICAR’07)</em>, Jeju, Korea, Agu.21-24, 2007, pp.808-813.
     </>,
     <>
-        Kim, J. and Ma, O., “Testing of a contact-dynamics parameters identification method using a robotics-based testbed”,
-        Proc. of the 13th Int. Conf. on Advanced Robotics (ICAR’07), Jeju, Korea, Agu.21-24, 2007, pp.975-980.
+        Kim, J. and Ma, O., “Testing of a contact-dynamics parameters identification method using a robotics-based testbed”,{" "}
+        <em>Proc. of the 13th Int. Conf. on Advanced Robotics (ICAR’07)</em>, Jeju, Korea, Agu.21-24, 2007, pp.975-980.
     </>,
     <>
-        Lin, B.W. and Ma, O., “Modeling and analysis of human binocular perception of position and velocity in the visual cortex”,
-        Proc. the 2007 Inter. Joint Conf. on Neural Networks (IJCNN’07), Orlando, Fl, USA, Aug.12-17, 2007, Paper # 1273.
+        Lin, B.W. and Ma, O., “Modeling and analysis of human binocular perception of position and velocity in the visual cortex”,{" "}
+        <em>Proc. the 2007 Inter. Joint Conf. on Neural Networks (IJCNN’07)</em>, Orlando, Fl, USA, Aug.12-17, 2007, Paper # 1273.
     </>,
     <>
         Ma, O., Diao, X., Matinez, L. and Sarkodie-Gyan, T.,
-        “Dynamically removing partial body mass using acceleration feedback for neural training”,
-        Proc. IEEE Int. Conf. on Rehabilitation Robotics (ICORR’07), Noordwijk, The Netherlands, June 13-15, 2007, pp.1102-1107.
+        “Dynamically removing partial body mass using acceleration feedback for neural training”,{" "}
+        <em>Proc. IEEE Int. Conf. on Rehabilitation Robotics (ICORR’07)</em>, Noordwijk, The Netherlands, June 13-15, 2007, pp.1102-1107.
     </>,
     <>
         Ma, O., Dang, H. and Pham, K.,
-        “Simulation study of a robotics-based method for on-orbit identification of spacecraft inertia properties”,
-        SPIE Defense and Security Symp, Orlando, Fl, April 9-13, 2007, Paper #65555-47.
+        “Simulation study of a robotics-based method for on-orbit identification of spacecraft inertia properties”,{" "}
+        <em>SPIE Defense and Security Symp</em>, Orlando, Fl, April 9-13, 2007, Paper #65555-47.
     </>,
     <>
-        Ma, Z., Ma, O. and Shashikanth, B., “Optimal control for spacecraft to rendezvous with a tumbling satellite in a close range”,
-        Proc. IEEE Int. Conf. on Intelligent Robots and Systems (IROS’06), Beijing, China, Oct.9-15, 2006, pp.4109-4114.
+        Ma, Z., Ma, O. and Shashikanth, B., “Optimal control for spacecraft to rendezvous with a tumbling satellite in a close range”,{" "}
+        <em>Proc. IEEE Int. Conf. on Intelligent Robots and Systems (IROS’06)</em>, Beijing, China, Oct.9-15, 2006, pp.4109-4114.
     </>,
     <>
-        Ma, O. and Yang, G., “Validation of a satellite docking simulator using the SOSS experimental testbed”,
-        Proc. IEEE Int. Conf. on Intelligent Robots and Systems (IROS’06), Beijing, China, Oct.9-15, 2006, pp.4115-4120.
+        Ma, O. and Yang, G., “Validation of a satellite docking simulator using the SOSS experimental testbed”,{" "}
+        <em>Proc. IEEE Int. Conf. on Intelligent Robots and Systems (IROS’06)</em>, Beijing, China, Oct.9-15, 2006, pp.4115-4120.
     </>,
     <>
-        Diao, X. and Ma, O., “Workspace analysis of a 6-DOF cable robot for hardware-in-the-loop Dynamic simulation”,
-        Proc. IEEE Int. Conf. on Intelligent Robots and Systems (IROS’06), Beijing, China, Oct.9-15, 2006, pp.4103-4108. [Citations: 10]
+        Diao, X. and Ma, O., “Workspace analysis of a 6-DOF cable robot for hardware-in-the-loop Dynamic simulation”,{" "}
+        <em>Proc. IEEE Int. Conf. on Intelligent Robots and Systems (IROS’06)</em>, Beijing, China, Oct.9-15, 2006, pp.4103-4108. [Citations: 10]
     </>,
     <>
         Diao, X., Ma, O., and Paz, R.,
-        "Study of 6-DOF cable-robots for potential application of HIL microgravity contact-dynamics simulation",
-        Proc. AIAA Modeling and Simulation Technologies Conference and Exhibit, Keystone, CO, August 21-24, 2006, AIAA-2006-6732, pp. 1097-1110.
+        "Study of 6-DOF cable-robots for potential application of HIL microgravity contact-dynamics simulation",{" "}
+        <em>Proc. AIAA Modeling and Simulation Technologies Conference and Exhibit</em>, Keystone, CO, August 21-24, 2006, AIAA-2006-6732, pp. 1097-1110.
     </>,
     <>
-        Ma, O. and Boyden, S., “A robotics-based testbed for verifying a method of identifying contact-dynamics model parameters”,
-         SPIE Defense and Security Symp, Orlando, Fl, April 18-21, 2006, Paper #6221-2, p.622102.
+        Ma, O. and Boyden, S., “A robotics-based testbed for verifying a method of identifying contact-dynamics model parameters”,{" "}
+        <em>SPIE Defense and Security Symp</em>, Orlando, Fl, April 18-21, 2006, Paper #6221-2, p.622102.
     </>,
     <>
         Diao, X., Ma, O., and Liu, M.,
-        “Dynamics of a robotics-based hardware-in-the-loop simulator for verifying microgravity contact dynamics”,
-        SPIE Defense and Security Symp, Orlando, Fl, April 18-21, 2006, Paper #6221-4, p.622104.
+        “Dynamics of a robotics-based hardware-in-the-loop simulator for verifying microgravity contact dynamics”,{" "}
+        <em>SPIE Defense and Security Symp</em>, Orlando, Fl, April 18-21, 2006, Paper #6221-4, p.622104.
     </>,
     <>
-        Tao, W., Zhang, M. and Ma, O., “Modeling and vibration suspension for industrial track robots”,
-        Proc. IEEE Int. Conf. on Robotics and Auto. (ICRA’06), Orlando, FL, May 2006, pp.1072-1077.
+        Tao, W., Zhang, M. and Ma, O., “Modeling and vibration suspension for industrial track robots”,{" "}
+        <em>Proc. IEEE Int. Conf. on Robotics and Auto. (ICRA’06)</em>, Orlando, FL, May 2006, pp.1072-1077.
     </>,
     <>
-        Ma, O. and Horan, S., “NMSU Nanosatellite with robotics capabilities”,
-        Proc. of the 8th Int. symp. on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS’05),
+        Ma, O. and Horan, S., “NMSU Nanosatellite with robotics capabilities”,{" "}
+        <em>Proc. of the 8th Int. symp. on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS’05)</em>,
         Munich, Germany, Sept.5-9, 2005, pp.145-152.
     </>,
     <>
-        Ma, O., Yang, G. and Diao, X., “Experimental validation of CDT-based satellite docking simulations using SOSS testbed”,
-        Proc. of the 8th Inter. Symp. on Artificial Intelligence, Robotics and Auto. in Space (i-SAIRAS’05),
+        Ma, O., Yang, G. and Diao, X., “Experimental validation of CDT-based satellite docking simulations using SOSS testbed”,{" "}
+        <em>Proc. of the 8th Inter. Symp. on Artificial Intelligence, Robotics and Auto. in Space (i-SAIRAS’05)</em>,
         Munich, Germany, Sept.5-9, 2005, pp.441-447.
     </>,
     <>
-        Ma, O. and Diao, X., “Dynamics analysis of a cable-driven parallel manipulator for hardware-in-the-loop dynamic simulation”,
-        Proc. of the 2005 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM’05),
+        Ma, O. and Diao, X., “Dynamics analysis of a cable-driven parallel manipulator for hardware-in-the-loop dynamic simulation”,{" "}
+        <em>Proc. of the 2005 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM’05)</em>,
         24-28 July, 2005, Monterey, CA, pp. 837-842.
     </>,
     <>
-        Ma, O. and Wang, J., "Model order reduction for contact dynamics simulations of flexible multibody systems",
-        Proc. of the 46th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics & Materials Conference, Austin, Texas, Paper # 2005-2262, April 18-21, 2005.
+        Ma, O. and Wang, J., "Model order reduction for contact dynamics simulations of flexible multibody systems",{" "}
+        <em>Proc. of the 46th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics & Materials Conference</em>, Austin, Texas, Paper # 2005-2262, April 18-21, 2005.
     </>,
     <>
-        Zhang, M. and Ma, O., “Dynamic modeling and analysis of Oligo DNA microarray spotting”,
-        Proc. American Control Conf. (ACC’05), Portland, Oregon, June 8-10, 2005, pp.388-393.
+        Zhang, M. and Ma, O., “Dynamic modeling and analysis of Oligo DNA microarray spotting”,{" "}
+        <em>Proc. American Control Conf. (ACC’05), Portland, Oregon, June 8-10, 2005, pp.388-393</em>.
     </>,
     <>
-        Ma, O., "Model order reduction for contact dynamics simulations of manipulator systems",
-        Proc. of IEEE Inter. Conf. on Robotics and Auto. (ICRA), New Orleans, LA, April 27-30, 2004, pp.1814-1819.
+        Ma, O., "Model order reduction for contact dynamics simulations of manipulator systems",{" "}
+        <em>Proc. of IEEE Inter. Conf. on Robotics and Auto. (ICRA)</em>, New Orleans, LA, April 27-30, 2004, pp.1814-1819.
     </>,
     <>
-        Dupris, E., Doyon, M., Martin, E., Allard, P., Piedboeuf, J.-C., and Ma, O., “Autonomous operations for space robots”,
-        Proc., 55th IAF International Astronautical Congress, Vancouver, Oct.4-8, 2004, Vol.12, pp. 8019-8026.
+        Dupris, E., Doyon, M., Martin, E., Allard, P., Piedboeuf, J.-C., and Ma, O., “Autonomous operations for space robots”,{" "}
+        <em>Proc., 55th IAF International Astronautical Congress</em>, Vancouver, Oct.4-8, 2004, Vol.12, pp. 8019-8026.
     </>,
     <>
-        Ma, O., Wang J., Misra S., and Liu M., “Validation Plan for SPDM Task Verification Facility”,
-        Proc. of the 7th International Symposium on Artificial Intelligence, Robotics and Automation in Space, Nara, Japan, May 19-23, 2003.
+        Ma, O., Wang J., Misra S., and Liu M., “Validation Plan for SPDM Task Verification Facility”,{" "}
+        <em>Proc. of the 7th International Symposium on Artificial Intelligence, Robotics and Automation in Space</em>, Nara, Japan, May 19-23, 2003.
     </>,
     <>
         Ma, O., Crabtree, D., Jones, H., Yang, G., Martin, E., Carr, R., and Piedboeuf, J.C.,
-        “Development and applications of a simulink-based satellite docking simulator with generic contact dynamics capabilities”,
-        Proc., the 2002 IAF World Space Congress, Houston, TX, Oct.10-19, 2002, p.U-3-02.
+        “Development and applications of a simulink-based satellite docking simulator with generic contact dynamics capabilities”,{" "}
+        <em>Proc., the 2002 IAF World Space Congress</em>, Houston, TX, Oct.10-19, 2002, p.U-3-02.
     </>,
     <>
-        Weber, M., Ma, O., and Sharf, I., “Identification of contact dynamics model parameters from constrained robotic operations”,
-        ASME Design Eng. Tech. Conf. and Computers in Eng Conf., Montreal, Canada, Sept.29-Oct.2, 2002, pp. 1289-1298.
+        Weber, M., Ma, O., and Sharf, I., “Identification of contact dynamics model parameters from constrained robotic operations”,{" "}
+        <em>ASME Design Eng. Tech. Conf. and Computers in Eng Conf.</em>, Montreal, Canada, Sept.29-Oct.2, 2002, pp. 1289-1298.
     </>,
     <>
         Carretero, J.A., Nahon, M., and Ma, O.,
-        “Using genetic algorithms with niche formation to solve the minimum distance problem amongst concave objects”,
-        ASME Design Eng. Tech. Conf. and Computers in Eng Conf., Sept.29-Oct.2, 2002, Montreal, DETC2002-DAC34105.
+        “Using genetic algorithms with niche formation to solve the minimum distance problem amongst concave objects”,{" "}
+        <em>ASME Design Eng. Tech. Conf. and Computers in Eng Conf.</em>, Sept.29-Oct.2, 2002, Montreal, DETC2002-DAC34105.
     </>,
     <>
-        Carretero, J.A., Nahon, M.A. and Ma, O., “Solving distance problems with concave bodies using Simulated Annealing”,
-        Proc of the 2001 IROS Conference, Maui, Hawaii, US, October 29-November 3, 2001, pp. 1507-1512.
+        Carretero, J.A., Nahon, M.A. and Ma, O., “Solving distance problems with concave bodies using Simulated Annealing”,{" "}
+        <em>Proc of the 2001 IROS Conference</em>, Maui, Hawaii, US, October 29-November 3, 2001, pp. 1507-1512.
     </>,
     <>
         Carr, R., Ma O., Yang, G., Jones, H., Bolger, J. Martin, E., Piedboeuf, J.C., and Crabtree, D.,
-        “A simulink-based satellite docking simulator with generic contact dynamics capabilities”,
-        The 6th Int. Symp. on Artificial Intelligence, Robotics, and Automation in Space, Montreal, Canada, June 2001.
+        “A simulink-based satellite docking simulator with generic contact dynamics capabilities”,{" "}
+        <em>The 6th Int. Symp. on Artificial Intelligence, Robotics, and Automation in Space</em>, Montreal, Canada, June 2001.
     </>,
     <>
-        Ma, O., “CDT – a general contact dynamics toolkit”,
-        Proc. 31st International Symposium on Robotics, Montreal, Canada, May 2000, pp.468-473.
+        Ma, O., “CDT – a general contact dynamics toolkit”,{" "}
+        <em>Proc. 31st International Symposium on Robotics</em>, Montreal, Canada, May 2000, pp.468-473.
     </>,
     <>
-        Ma, O. and Martin, E., “Extending the capability of attitude control systems to assist satellite docking missions”,
-        Proc. of 2000 CCToMM workshop, Saint-Hubert, Quebec, July, 2000.
+        Ma, O. and Martin, E., “Extending the capability of attitude control systems to assist satellite docking missions”,{" "}
+        <em> Proc. of 2000 CCToMM workshop</em>, Saint-Hubert, Quebec, July, 2000.
     </>,
     <>
         Nahon, M., Ma, O., Piedboeuf, J.-C., and DeCarufel J.,
-        “A distance determination algorithm for real-time simulation of contact dynamics”,
-        Proc. of the 10th CASI Conference on Astronautics, Ottawa, October, 1998, pp.51-57.
+        “A distance determination algorithm for real-time simulation of contact dynamics”,{" "}
+        <em>Proc. of the 10th CASI Conference on Astronautics</em>, Ottawa, October, 1998, pp.51-57.
     </>,
     <>
         Crabtree, D., Buhariwala, K., Ma O., Maclean, J., and Poirier, A.,
         "The manipulator development simulation facility, a generic facility for development of flexible robotics manipulators",
-        Presented at the 47th IAF Int. Astronautical Congress, October 1996, Beijing, China.
+       {" "}
+       <em>47th IAF Int. Astronautical Congress</em>, October 1996, Beijing, China.
     </>,
     <>
-        Ma, O., "Contact dynamics modelling for the simulation of Space Station manipulators handling payloads",
-        Proc. of the 1995 IEEE Int. Conf. on Robotics and Auto., May 1995, Nagoya, Japan, pp.1252-1258.
+        Ma, O., "Contact dynamics modelling for the simulation of Space Station manipulators handling payloads",{" "}
+        <em>Proc. of the 1995 IEEE Int. Conf. on Robotics and Auto.</em>, May 1995, Nagoya, Japan, pp.1252-1258.
     </>,
     <>
-        Ma, O. and Angeles, J., "Optimum design of manipulators under dynamic isotropy conditions",
-        Proc. of IEEE Int. Conf. on Rob. and Auto., May 2-7, 1993, Atlanta, Georgia, Vol.1, pp.470-475.
+        Ma, O. and Angeles, J., "Optimum design of manipulators under dynamic isotropy conditions",{" "}
+        <em>Proc. of IEEE Int. Conf. on Rob. and Auto.</em>, May 2-7, 1993, Atlanta, Georgia, Vol.1, pp.470-475.
     </>,
     <>
-        Ma, O. and Nahon, M., "A general method of computing the distance between two moving objects",
-        Proc. of ASME 1992 Design Automation Conference, Sept. 13-16, 1992, Scottsdale, Arizona, Vol.1, pp.109-117.
+        Ma, O. and Nahon, M., "A general method of computing the distance between two moving objects",{" "}
+        <em>Proc. of ASME 1992 Design Automation Conference</em>, Sept. 13-16, 1992, Scottsdale, Arizona, Vol.1, pp.109-117.
     </>,
     <>
-        Ma, O. and Angeles, J., "Optimum architecture design of platform manipulators",
-        Proc. of 1991 IEEE International Conference on Advanced Robotics, June 19-22, 1991, Pisa, Italy, Vol.2, pp.1130-1135.
+        Ma, O. and Angeles, J., "Optimum architecture design of platform manipulators",{" "}
+        <em>Proc. of 1991 IEEE International Conference on Advanced Robotics</em>, June 19-22, 1991, Pisa, Italy, Vol.2, pp.1130-1135.
     </>,
     <>
-        Ma, O. and Angeles, J., "Architecture singularities of platform manipulators",
-        Proc. of 1991 IEEE International Conference on Robotics and Automation, April 1991, Sacramento, California, Vol.2, pp.1542-1548.
+        Ma, O. and Angeles, J., "Architecture singularities of platform manipulators",{" "}
+        <em>Proc. of 1991 IEEE International Conference on Robotics and Automation</em>, April 1991, Sacramento, California, Vol.2, pp.1542-1548.
     </>,
     <>
-        Ma, O. and Angeles, J., "An algorithmic approach for the direct-kinematics of special Steward-platform manipulators",
-        Proc. of 3rd International Symposium on Robotics and Manufacturing, July 18-20, 1990, Vancouver, BC, Vol.1, pp.3-10.
+        Ma, O. and Angeles, J., "An algorithmic approach for the direct-kinematics of special Steward-platform manipulators",{" "}
+        <em>Proc. of 3rd International Symposium on Robotics and Manufacturing</em>, July 18-20, 1990, Vancouver, BC, Vol.1, pp.3-10.
     </>,
     <>
-        Ma, O. and Angeles, J., "The concept of dynamic isotropy and its applications to inverse kinematics and trajectory planning",
-        Proc. of 1990 IEEE International Conference on Robotics and Automation, May 13-18 ,1990, Cincinnati, Ohio, Vol.1, pp.481-486.
+        Ma, O. and Angeles, J., "The concept of dynamic isotropy and its applications to inverse kinematics and trajectory planning",{" "}
+        <em>Proc. of 1990 IEEE International Conference on Robotics and Automation</em>, May 13-18 ,1990, Cincinnati, Ohio, Vol.1, pp.481-486.
     </>,
     <>
-        Angeles, J. and Ma, O., "QUADMIN: an integrated package for constrained nonlinear least-square problems",
-        Proc. of 1989 ASME International Computers in Engineering Conference, July 1989, Anaheim, CA, Vol.2, pp.247-252.
+        Angeles, J. and Ma, O., "QUADMIN: an integrated package for constrained nonlinear least-square problems",{" "}
+        <em>Proc. of 1989 ASME International Computers in Engineering Conference</em>, July 1989, Anaheim, CA, Vol.2, pp.247-252.
     </>,
     <>
-        Angeles, J., Ma, O. and Patel, R.V., “DYNVERS: an integrated package for robotic manipulators' inverse and direct dynamics”,
-        ASME Int. Conf. on Computers in Engineering, San Francisco, CA, Jul 31-Aug 4, 1988, p 439-445.
+        Angeles, J., Ma, O. and Patel, R.V., “DYNVERS: an integrated package for robotic manipulators' inverse and direct dynamics”,{" "}
+        <em>ASME Int. Conf. on Computers in Engineering</em>, San Francisco, CA, Jul 31-Aug 4, 1988, p 439-445.
     </>,
 ];

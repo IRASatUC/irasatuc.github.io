@@ -40,7 +40,7 @@ export default function About() {
                         Lab Director : Dr. Ou Ma, maou@ucmail.uc.edu, (513) 556-3747
                     </p>
                     <p className='mt-5 flex items-center justify-start flex-wrap text-white text-xl max-[1000px]:text-lg font-bold w-full'>
-                        Lab Manager : Conrad Kent, kentcm@ucmail.uc.edu, (614) 529-0870
+                        Lab Manager : Brian Van Fossen, vanfosbn@ucmail.uc.edu, (513) 556-3684
                     </p>
                 </div>
             </div>
