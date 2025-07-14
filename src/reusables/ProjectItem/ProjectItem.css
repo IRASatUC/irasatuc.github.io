@@ -1,31 +1,21 @@
 .projectItem {
-    font-size: large;
-    padding: 5px;
-    position: relative;
-
     .projectItemMedia {
         width: calc(var(--imgSize, 24) + var(--bordSize, 0) * 2);
         height: calc(var(--imgSize, 24) + var(--bordSize, 0) * 2);
     }
     .imgBord {
-        position: absolute;
-        transition: 0.3s linear;
         padding: calc(var(--imgSize, 24) / 2 + var(--bordSize, 0));
     }
     img {
-        position: absolute;
         max-height: var(--imgSize, 24);
         left: calc(var(--bordSize, 0) * 2);
         top: calc(var(--bordSize, 0) * 2);
     }
     video {
-        position: relative;
         width: var(--imgSize, 24);
         height: var(--imgSize, 24);
         max-height: var(--imgSize, 24);
         left: var(--bordSize, 0);
-        top: 50%;
-        transform: translateY(-50%);
     }
     &:has(a):hover {
         color: #2a3858;

@@ -1,9 +1,8 @@
-import "./OpportunitiesList.css"
 import { Link } from "react-router-dom"
 
 export default function OpportunitiesList() {
     return (
-        <div className='Opportunities'>
+        <div className='Opportunities big_h1 pl-[20px] no-hamburger:pl-[50px]'>
             <div>
                 <h1>Opportunities Available</h1>
 

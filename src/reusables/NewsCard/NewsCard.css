@@ -1,3 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.NewsCard_div:hover {
+    filter: drop-shadow(10px 10px 0.75rem rgba(0, 0, 128, 0.5));
+}

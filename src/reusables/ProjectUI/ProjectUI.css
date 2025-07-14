@@ -1,147 +1,17 @@
-@tailwind components;
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto !important;
+.backgroundContainerGradient {
+    background: linear-gradient(to bottom, transparent, rgb(55,66,91));
 }
-#myImage {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto !important;
-}
-.ProjectUI_header{
-    color: #f1f1f1;
-    background-color: rgb(55,66,91,1);
-}
-.ProjectUI_vid_container {
-    width: 100%;
-    display: flex !important;
-    background-color: rgb(55,66,91,1);
-    justify-content: center !important;
-}
-.ProjectUI_vid {
-    background-color: rgb(55,66,91,1);
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 20px;
-    border-top: 1px solid white;
-}
-.vid_content_box video {
-    width: 100%;
-    height: auto;
-}
-.vid_content_box {
-    display: flex;
-    justify-content: center;
-    padding: 20px
-}
-.image_content_box {
-    display: flex;
-    justify-content: center;
-    padding:20px
-}
-/* Add some content at the bottom of the video/page */
-.content {
-    position: absolute !important;
-    margin-top: -200px;
-    background: linear-gradient(to bottom, rgb(55,66,91,0), rgb(55,66,91,1));
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-    height: 200px;
-
-    h1 {
+.content h1 {
       filter: drop-shadow(5px 5px 0.5rem #000);
-    }
-}
-/* Style the button used to pause/play the video */
-#myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-}
-#myBtn:hover {
-    background: #ddd;
-    color: black;
-}
-.ProjectUI_description_container {
-    width: 100%;
-    display: flex;
-    background-color: rgb(55,66,91,1);
-    justify-content: center !important;
-}
-.ProjectUI_description {
-    color: white;
-    width: 80%;
-    border-bottom: 1px solid white;
-    background-color: rgb(55,66,91,1);
-    padding: 50px;
-}
-.ProjectUI_img {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(55,66,91,1);
-    padding: 50px;
-}
-.ProjectUI_publication {
-    color: white;
-    background-color: rgb(55,66,91,1);
-    padding: 50px;
 }
 .ProjectUI_publication::before {
     content: "";
     display: block;
     margin: 0 auto; /* Center the border */
-    border-top:1px solid white;
+    border-top: 1px solid white;
     width: 60vw;
-}
-#Background {
-    max-height: 800px;
-    overflow: hidden;
 }
 .ProjectUI a {
     text-decoration: underline;
     color: rgb(59, 130, 246);
 }
-.ProjectUI_vid_header {
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 1.25rem;
-    color: white;
-    background-color: rgb(55,66,91,1);
-}
-
-@media only screen and (max-width: 900px) {
-    /* Styles specific to screens smaller than 900px */
-    .ProjectUI_img {
-        display:block;
-        background-color: rgb(55,66,91,1);
-        padding: 50px;
-    }
-
-    .ProjectUI_vid {
-        background-color: rgb(55,66,91,1);
-        width: 60%;
-        display: block;
-        padding-top: 20px;
-        border-top: 1px solid white;
-    }
-}
-
-@layer components {
-    .ProjectUI_header {
-        @apply text-center font-bold p-5;
-    }
-} 

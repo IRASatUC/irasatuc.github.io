@@ -11,7 +11,7 @@ export default function ProjectUI(props) {
     );
 
     return (
-        <div className='ProjectUI'>
+        <div className='ProjectUI text-white'>
 
             {   (props.Background || props.BackgroundImage) &&
                 <>
@@ -26,27 +26,28 @@ export default function ProjectUI(props) {
                     </div>
                     <div className="backgroundContainerGradient relative -mt-[200px] h-[200px] pointer-events-none"></div>
 
-                    <div className="content">
-                        <h1 style={{fontSize: "30px"}}>{props.projectTitle}</h1>
+                    <div className="content relative -mt-[200px] text-[#f1f1f1] w-full p-[20px] z-[1]">
+                        <h1 className="text-[30px]">{props.projectTitle}</h1>
                         <p>{props.projectTeaser}</p>
-                        <button id="myBtn" onClick={() => console.log("Hi")}>Explore</button>
+                        <button id="myBtn" className="w-[200px]text-[18px] p-[10px] border-none bg-black hover:text-black hover:bg-[#ddd]" onClick={() => console.log("Hi")}>Explore</button>
                     </div>
-                </> }
+                </>
+            }
 
             { props.projectDescription &&
-                <div className="ProjectUI_description_container">
-                    <div className="ProjectUI_description">
+                <div className="ProjectUI_description_container flex justify-center">
+                    <div className="ProjectUI_description w-[80%] border-b-[1px] border-solid border-white p-[10px] min-[900px]:p-[50px]">
                         {props.projectDescription()}
                     </div>
                 </div> }
 
             { props.projectImage &&
-                <div className='ProjectUI_img'>
+                <div className='ProjectUI_img max-[900px]:flex-col max-[900px]:items-center max-[900px]:p-[20px] flex justify-center p-[50px]'>
                     <h1>{props.projectImageTitle?props.projectImageTitle:""}</h1>
 
                     { props.projectImage.map((imageProps, index)=>{
                         return (
-                            <div key={index} className="image_content_box" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "40%"}}>
+                            <div key={index} className="image_content_box flex justify-center p-[20px]" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "60%"}}>
                                 <div>
                                     {
                                         typeof(imageProps.title) === "string" ?
@@ -64,16 +65,16 @@ export default function ProjectUI(props) {
 
             { props.projectVideo &&
                 <>
-                    <h1 className="ProjectUI_vid_header">{props.projectVideoTitle ? props.projectVideoTitle : ""}</h1>
-                    <div className="ProjectUI_vid_container">
-                        <div className='ProjectUI_vid'>
+                    <h1 className="ProjectUI_vid_header text-[#f1f1f1] text-center font-bold text-[30px] p-5">{props.projectVideoTitle ? props.projectVideoTitle : ""}</h1>
+                    <div className="ProjectUI_vid_container flex justify-center">
+                        <div className='ProjectUI_vid max-[900px]:flex-col max-[900px]:items-center max-[900px]:pt-[20px] w-[80%] flex pt-[20px] border-t-[1px] border-solid border-white'>
                             { props.projectVideo.map((vidProps, index)=>{
                                 return (
-                                    <div key={index} className="vid_content_box" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "40%"}}>
-                                        <div>
+                                    <div key={index} className="vid_content_box flex justify-center p-[20px]" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "40%"}}>
+                                        <div className="flex flex-col">
                                             {
                                                 typeof(vidProps.title)==="string" ?
-                                                    <p style={{fontSize:'30px',width:"100%",textAlign:"center",color:"white"}}><strong>
+                                                    <p className="text-[30px] w-full text-center text-white flex-grow-[1] content-center"><strong className="font-[20px]">
                                                         {vidProps.title}
                                                     </strong></p> :
                                                     vidProps.title()
@@ -93,7 +94,7 @@ export default function ProjectUI(props) {
                 </> }
 
             { props.publications &&
-              <div className='ProjectUI_publication'>
+              <div className='ProjectUI_publication p-[50px]'>
                     <h1 style={{display:'flex',justifyContent:"center",width:"100%",fontSize:"30px",fontWeight:"bold"}}>Publications</h1>
 
                     <div style={{display:'flex',justifyContent:"center",width:"100%"}} >
