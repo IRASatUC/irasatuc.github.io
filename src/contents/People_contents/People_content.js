@@ -28,7 +28,7 @@ import Lab_Website_Jamie_Williams from "../Lab Portraits/Lab_Website_Jamie_Willi
 import Lab_Website_Omar_Al_Thehabey from "../Lab Portraits/Lab_Website_Omar_Al_Thehabey.jpg"
 import Lab_Web_Site_Raj_Sharma from "../Lab Portraits/Lab_Website_Rajnikant_Sharma.jpg"
 
-export const People_contents_falcuty = [
+export const People_contents_faculty = [
     {
         imgUrl: Lab_Website_Ma_Ou,
         name: "Ou Ma",
@@ -51,7 +51,7 @@ export const People_contents_falcuty = [
     },
 ];
 
-export const People_contents_colaborating_falcuty_within_UC = [
+export const People_contents_colaborating_faculty_within_UC = [
 /*
     {
         imgUrl: Lab_Website_Andy_Barth,
@@ -154,7 +154,7 @@ export const People_contents_colaborating_falcuty_within_UC = [
     }
 ];
 
-export const People_contents_colaborating_falcuty_outside_UC = [
+export const People_contents_colaborating_faculty_outside_UC = [
     {
         imgUrl: Lab_Web_Site_Eric_Butcher,
         name: "Eric Butcher",
@@ -261,7 +261,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Dylan_Roach,
         name: "Dylan Roach",
-        title: "PHD student",
+        title: "PHD Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -278,7 +278,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Kai_Liao,
         name: "Kai Liao",
-        title: "PHD student",
+        title: "PHD Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -294,7 +294,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Gerardo_Martinez_Avila,
         name: "Gerardo Martinez-Avila",
-        title: "PHD student",
+        title: "PHD Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -310,7 +310,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_James_Talavage,
         name: "James Talavage",
-        title: "PHD student",
+        title: "PHD Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -326,7 +326,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Omar_Al_Thehabey,
         name: "Omar Al-Thehabey",
-        title: "PHD student",
+        title: "PHD Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -340,20 +340,20 @@ export const People_contents_students = [
     },
     {
         name: "John Radey",
-        title: "PHD student"
+        title: "PHD Student"
     },
     {
         name: "Neal D'Andrea",
-        title: "PHD student"
+        title: "PHD Student"
     },
     {
         name: "Iñaki Carrera Bueno",
-        title: "PHD student"
+        title: "PHD Student"
     },
     {
         imgUrl: Lab_Website_Waite_Weideman,
         name: "Waite Weideman",
-        title: "Master student",
+        title: "Master Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -370,7 +370,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Justin_Panchula,
         name: "Justin Panchula",
-        title: "Master student",
+        title: "Master Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -387,7 +387,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Linus_Dombrosky,
         name: "Linus Dombrosky",
-        title: "Undergraduate student",
+        title: "Undergraduate Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -402,7 +402,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Moshe_Landon,
         name: "Moshe Landon",
-        title: "Undergraduate student",
+        title: "Undergraduate Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -436,7 +436,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Gianni_Gaetano,
         name: "Gianni Gaetano",
-        title: "Undergraduate student",
+        title: "Undergraduate Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -452,7 +452,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Akshat_Shah,
         name: "Akshat Shah",
-        title: "Undergraduate student",
+        title: "Undergraduate Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -468,7 +468,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Long_pham,
         name: "Long Pham",
-        title: "Undergraduate student",
+        title: "Undergraduate Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -484,7 +484,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_John_Fischer,
         name: "John Fischer",
-        title: "Undergraduate student",
+        title: "Undergraduate Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -499,7 +499,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Website_Jamie_Williams,
         name: "Jamie Williams",
-        title: "Undergraduate student",
+        title: "Undergraduate Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -516,7 +516,7 @@ export const People_contents_students = [
     {
         imgUrl: Lab_Wesite_Taha_Momayiz,
         name: "Taha Momayiz",
-        title: "Undergraduate student",
+        title: "Undergraduate Student",
         description: () => {
             return (
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
@@ -533,10 +533,10 @@ export const People_contents_students = [
 */
     {
         name: "Jake Williams",
-        title: "Undergraduate student"
+        title: "Undergraduate Student"
     },
     {
         name: "Elina Bishoyi",
-        title: "Undergraduate student"
+        title: "Undergraduate Student"
     },
 ];

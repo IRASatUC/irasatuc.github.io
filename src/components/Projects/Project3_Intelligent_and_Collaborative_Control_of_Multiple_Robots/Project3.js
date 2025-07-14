@@ -4,7 +4,7 @@ import Project3_video2 from './Project3_video2.mp4';
 import human_experiment from './human_experiment.jpg';
 import operation_model from './operation_model.jpg'
 
-function Project3_Description(){
+function Project3_Description() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px',width:"100%" }}>
             <h1 style={{ textAlign: 'center', fontWeight: 'bold',fontSize:"30px",width:"100%"}}>

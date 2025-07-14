@@ -1,4 +1,3 @@
-import './CurrentProjects.css';
 import { Outlet } from "react-router-dom";
 
 export default function CurrentProjects() {

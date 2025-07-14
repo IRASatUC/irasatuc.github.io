@@ -1,8 +1,4 @@
-.PriorProject h1 {
-    font-weight: bold;
-    font-size: xx-large;
-}
 .PriorProject {
-    padding-left: 50px;
-    max-width: 1000px;
+    --imgSize: 100px;
+    --bordSize: 5px;
 }

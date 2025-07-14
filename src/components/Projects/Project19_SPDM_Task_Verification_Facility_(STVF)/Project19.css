@@ -9,7 +9,7 @@
 /* Add some content at the bottom of the video/page */
 .content {
     position: absolute !important;
-    margin-top:-200px;
+    margin-top: -200px;
     background: linear-gradient(to bottom, rgb(55,66,91,0), rgb(55,66,91,1));
     color: #f1f1f1;
     width: 100%;
@@ -31,7 +31,7 @@
     color: black;
 }
 .PriorProject1_img {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     background-color: rgb(55,66,91,1);
     padding: 50px;
@@ -45,6 +45,6 @@
     content: "";
     display: block;
     margin: 0 auto; /* Center the border */
-    border-top:1px solid white;
+    border-top: 1px solid white;
     width: 60vw;
 }

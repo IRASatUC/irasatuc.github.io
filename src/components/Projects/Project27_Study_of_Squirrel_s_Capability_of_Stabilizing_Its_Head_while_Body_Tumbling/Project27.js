@@ -1,8 +1,9 @@
 import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
-//import MathJax from 'react-mathjax2';
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { MathJax } from "better-react-mathjax";
 
+import "./Project27.css";
 import Project27_high from './SquirrelSim high_angvel.mp4';
 import Project27_low from './SquirrelSim low_angvel.mp4';
 import Project27_veryhigh from './SquirrelSim veryhigh_angvel.mp4';
@@ -10,17 +11,32 @@ import SquirrelExample from "./SquirrelExample.png";
 import NetworkDesign from "./NetworkDesign.png";
 import JointModel from "./JointModel.png";
 
+import {useIsOverflow} from "../../../utils/WindowStates";
+
 const inertial = `latex$$\\large{\\underset{\\mathcal{P}}{\\min}L = \\frac{1}{2} \\text{tr}\\left(\\left(\\mathbf{Q}_{0, T} - \\mathbf{Q}_{\\text{d}}\\right)^{\\text{T}} \\left(\\mathbf{Q}_{0, T} - \\mathbf{Q}_{\\text{d}}\\right)\\right)}latex$$`
 const orientation = `latex$\\mathbf{Q}_{\\text{d}} \\in \\text{SO(3)}latex$`;
 const fancyP = `latex$\\mathcal{P}latex$`;
 const controlPolicy = `latex$\\mathcal{N}\\left(\\mathbf{\\theta} \\: | \\: \\Theta \\right)latex$`;
 const loss = `latex$$\\large{L_{\\omega} = \\frac{1}{\\left|\\mathcal{D}\\right|} \\sum \\left(\\left|\\left|\\mathbf{D}_{0,\\mathbf{\\theta}_{\\mathcal{D}}}^{-1}\\left(\\mathbf{Q}_{\\mathcal{D}}^{\\text{T}} \\: \\mathbf{H} - \\mathbf{D}_{\\mathbf{\\theta}_{\\mathcal{D}}}\\dot{\\mathbf{\\theta}}_{\\mathcal{D}}\\right) - \\mathbf{\\omega}_{0, \\mathcal{D}}\\right|\\right|^2 + \\left|\\left|\\underset{n}{\\sum} m_n \\mathbf{r}_n\\right|\\right|^2\\right)}latex$$`;
 
-function insertLatex(input, inline=false) {
-    return (
-        <span>
-            <MathJax hideUntilTypeset={"first"} inline={inline}>{input}</MathJax>
-        </span>
+
+function LatexSection(input, inline=false) {
+    const ref = useRef();
+    const isOverflowing = useIsOverflow(ref, (isOverflowFromCallback) => {
+    console.log(isOverflowFromCallback);});
+    const eq = <MathJax hideUntilTypeset={"first"} inline={inline}>{input}</MathJax>;
+    return ( (inline === true) ?
+        <span className="mathJaxBar">
+            {eq}
+        </span> :
+        <div className="help">
+            {isOverflowing &&
+                <div className="mathJax_gradient"></div>
+            }
+            <div className={"bg-blue-900 rounded-xl overflow-x-scroll overflow-y-hidden pl-4 pr-4 mathJaxBar" + (isOverflowing?"":" justify-center flex")} ref={ref}>
+                {eq}
+            </div>
+        </div>
     );
 }
 
@@ -63,26 +79,26 @@ function Project27_Description() {
                 The control goal is to achieve the head stabilization in an inertial defined as
             </p>
             <div>
-                {insertLatex(inertial)}
+                { LatexSection(inertial) }
             </div>
             <p>
                 where{" "}
-                    { insertLatex(orientation, true) }
+                    { LatexSection(orientation, true) }
                 {" "}is the desired head orientation and{" "}
-                    { insertLatex(fancyP, true) }
+                    { LatexSection(fancyP, true) }
                 {" "}is the set of joint coordinates. Joint limites are counted as constraints of the optimization process.
                 The loss function for training the MADDPG control policy{" "}
-                    { insertLatex(controlPolicy, true) }
+                    { LatexSection(controlPolicy, true) }
                 {" "}is defined as
             </p>
             <div>
-                { insertLatex(loss, false) }
+                { LatexSection(loss, false) }
             </div>
             <p>
                 Details can be found in the listed documentation<sup><a href="#ref1" onClick={() => {const ref = document.getElementById('ref1'); ref.style.border='2px solid rgb(128,128,64)'; ref.style.borderRadius="2px"}}>[1]</a></sup>.
             </p> <br />
             <img className="m-auto" src={NetworkDesign}
-                alt={`A diagram of the neural network used.`} />
+                alt="A diagram of the neural network used." />
         </div>
     )
 }
@@ -92,20 +108,20 @@ function Project27_Publications() {
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
             <ul style={{listStyle: "disc"}}>
                 <li id="ref1">
-                    T. Ma, O. Ma, and T. Zhang, “Global Reorientation of a Free‑Fall Robotic System using Reconstruction Loss‑based Deep Learning Method‑Theory and Comparison,”
-                    <em>Journal of Intelligent & Robotic Systems</em>, Vol. 111, 2025, <Link href="https://doi.org/10.1007/s10846-025-02253-0">doi.org/10.1007/s10846-025-02253-0</Link>.
+                    T. Ma, O. Ma, and T. Zhang, “Global Reorientation of a Free‑Fall Robotic System using Reconstruction Loss‑based Deep Learning Method‑Theory and Comparison,”{" "}
+                    <em>Journal of Intelligent & Robotic Systems</em>, Vol. 111, 2025, <Link href="https://doi.org/10.1007/s10846-025-02253-0">doi: 10.1007/s10846-025-02253-0</Link>.
                 </li>
                 <li>
-                    T. Ma, T. Zhang, and O. Ma, “Global reorientation of a free-fall multibody system using periodical joint motions – theory and motion planning”.
-                    <em>Multibody System Dynamics, Vol. 2024</em>. <Link href="https://doi.org/10.1007/s11044-024-10032-2">doi.org/10.1007/s11044-024-10032-2</Link>.
+                    T. Ma, T. Zhang, and O. Ma, “Global reorientation of a free-fall multibody system using periodical joint motions – theory and motion planning”.{" "}
+                    <em>Multibody System Dynamics, Vol. 2024</em>. <Link href="https://doi.org/10.1007/s11044-024-10032-2">doi: 10.1007/s11044-024-10032-2</Link>.
                 </li>
                 <li>
-                    T. Ma, T. Zhang, O. Ma, “Global Reorientation of a Free-Fall Multibody System using Reconstruction Loss-based Deep Learning Method”,
+                    T. Ma, T. Zhang, O. Ma, “Global Reorientation of a Free-Fall Multibody System using Reconstruction Loss-based Deep Learning Method”,{" "}
                     <em>IFToMM Symposium of RoManSy & USCToMM Symposium on Mechanical Systems and Robotics</em>, May 23-25, 2024, Tampa, FL.
                 </li>
                 <li>
-                    T. Ma, T. Zhang, O. Ma, “On the dynamics and control of a squirrel locking its head/eyes toward a fixed spot for safe landing while its body is tumbling in air”.
-                    <em>Frontiers on Robotics and AI</em>. 2022, <Link href="https://doi.org/10.3389/frobt.2022.1030601">doi.org/10.3389/frobt.2022.1030601</Link>.
+                    T. Ma, T. Zhang, O. Ma, “On the dynamics and control of a squirrel locking its head/eyes toward a fixed spot for safe landing while its body is tumbling in air”.{" "}
+                    <em>Frontiers on Robotics and AI</em>. 2022, <Link href="https://doi.org/10.3389/frobt.2022.1030601">doi: 10.3389/frobt.2022.1030601</Link>.
                 </li>
             </ul>
         </div>

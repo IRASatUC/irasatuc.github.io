@@ -14,8 +14,8 @@ import OpportunitiesList from './components/Opportunities/OpportunitiesDetails/O
 import CurrentProjectList from './components/CurrentProjects/CurrentProjectContents/CurrentProjectList/CurrentProjectList';
 
 //PRIOR PROJECTS IMPORT
-
 import PriorProjectList from './components/PriorProject/PriorProjectDetails/PriorProjectList/PriorProjectList';
+
 //import project
 import Project1 from './components/Projects/Project1_Development_of_A_3D_Proximity-Operation_Test_System_for_On-Orbit_Servicing_a_Non-Cooperative_Object/Project1';
 import Project2 from './components/Projects/Project2_Identification_of_Mass_Distribution_of_a_Live_Human/Project2';
@@ -106,7 +106,6 @@ export default function App() {
                                 <Route path="Project24" element={<Project24 />} />
                                 <Route path="Project25" element={<Project25 />} />
                                 <Route path="Project26" element={<Project26 />} />
-                                <Route path="PriorProject5" element={<Project8 />} /> {/* Is this a duplicate? */}
                             </Route>
 
                             {/* CurrentProjects Routes */}

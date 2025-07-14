@@ -2,7 +2,7 @@ import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import operation_concept from './operation_concept.jpg';
 import tumbling from './Tumbling satellite.mp4'
 
-function Project1_Description(){
+function Project1_Description() {
     return(
         <div>
             <h2><strong>Objectives</strong></h2>

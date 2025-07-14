@@ -5,7 +5,7 @@ export default function OpportunitiesList() {
     return (
         <div className='Opportunities'>
             <div>
-                <h1>Opportunities Avaiable</h1>
+                <h1>Opportunities Available</h1>
 
                 <ul>
                     <li key={0} style={{fontWeight:"bold",cursor:"pointer"}} ><Link to="/Opportunities">

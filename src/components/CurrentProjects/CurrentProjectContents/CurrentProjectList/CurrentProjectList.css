@@ -1,8 +1,5 @@
-.CurrentProjects h1 {
-    font-weight: bold;
-    font-size: xx-large;
-}
 .CurrentProjects {
-    padding-left: 50px;
-    max-width: 1500px;
+    --imgSize: 200px;
+    --bordSize: 5px;
 }
+

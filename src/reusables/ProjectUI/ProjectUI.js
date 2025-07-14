@@ -1,25 +1,30 @@
 import "./ProjectUI.css";
+import { useEffect } from 'react'
 
 export default function ProjectUI(props) {
+    useEffect(() => {
+            document.body.style.backgroundColor = 'rgb(55,66,91)';
+            return () => {
+                document.body.style.backgroundColor = 'initial';
+            };
+        }
+    );
+
     return (
         <div className='ProjectUI'>
 
-            { props.Background &&
+            {   (props.Background || props.BackgroundImage) &&
                 <>
-                    <video autoPlay muted loop id="myVideo">
-                        <source src={props.Background} type="video/mp4"></source>
-                    </video>
+                    <div className="backgroundContainer max-h-[80vh] overflow-hidden">
+                        { props.Background &&
+                            <video autoPlay muted loop id="myVideo" className="w-full">
+                                <source src={props.Background} type="video/mp4"></source>
+                            </video> }
 
-                    <div className="content">
-                        <h1 style={{fontSize: "30px"}}>{props.projectTitle}</h1>
-                        <p>{props.projectTeaser}</p>
-                        <button id="myBtn" onClick={() => console.log("Hi")}>Explore</button>
+                        { props.BackgroundImage &&
+                            <img id="myImage" className="cover" src={props.BackgroundImage} alt=""/> }
                     </div>
-                </> }
-
-            { props.BackgroundImage &&
-                <>
-                    <img id="myImage" src={props.BackgroundImage} alt=""/>
+                    <div className="backgroundContainerGradient relative -mt-[200px] h-[200px] pointer-events-none"></div>
 
                     <div className="content">
                         <h1 style={{fontSize: "30px"}}>{props.projectTitle}</h1>
@@ -76,7 +81,7 @@ export default function ProjectUI(props) {
                                             <video autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay}>
                                                 <source src={vidProps.src} type="video/mp4"></source>
                                                 {
-                                                    typeof(vidProps.caption)==="string" && <track label="English" kind="subtitles" srclang="en" src={vidProps.caption} default />
+                                                    typeof(vidProps.caption)==="string" && <track label="English" kind="subtitles" srcLang="en" src={vidProps.caption} default />
                                                 }
                                             </video>
                                         </div>

@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .ProjectUI_header {
+        @apply text-center font-bold p-5;
+    }
+    .nav-Button {
+        @apply block mt-4 mr-4 text-teal-200 no-hamburger:inline-block no-hamburger:mt-0 hover:text-white;
+    }
+    .nav-Publication {
+        @apply inline-block mt-4 text-white no-hamburger:mt-0 no-hamburger:text-xl
+                px-4 py-2 leading-none border rounded border-white
+                hover:border-transparent hover:text-base-blue hover:bg-white
+    }
+    .big_h1 {
+        h1 {
+            @apply font-bold text-[xx-large]
+        }
+        ul li, ol li {
+            @apply p-[5px] text-[large]
+        }
+    }
+}
+
+:root {
+    --color-base-blue: #37425B;
+}

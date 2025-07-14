@@ -1,44 +1,65 @@
-import './Nav.css';
 import IRAS_LOGO from '../img/IRAS_LOGO_2.png';
 import { Outlet, Link } from "react-router-dom";
+import { useState } from 'react';
+import HamburgerPNG from "../img/Hamburger.png";
+import { useDeviceSize } from "../../utils/WindowStates";
 
-export default function Nav(){
-    return(
-        <div>
-            <nav className="flex items-center justify-between flex-wrap bg-[#37425B] p-6">
-
-                <div className="flex items-center flex-shrink-0 text-white mr-6">
-                    <Link to='/'><img className="nav-Logo" src={IRAS_LOGO} alt=""></img></Link>
-                </div>
-
-                <div className="w-full block lg:flex lg:items-center lg:w-auto">
-                    <div className="text-lg lg:flex-grow lg:text-xl xl:text-2xl">
-                        <Link to="/" className="nav-Button">
-                            About
-                        </Link>
-                        <Link to="/Opportunities" className="nav-Button">
-                            Opportunities
-                        </Link>
-                        <Link to="/News" className="nav-Button">
-                            News
-                        </Link>
-                        <Link to="/People" className="nav-Button">
-                            People
-                        </Link>
-                        <Link to="/CurrentProjects" className="nav-Button">
-                            Current Projects
-                        </Link>
-                        <Link to="/PriorProject" className="nav-Button">
-                            Prior Projects
-                        </Link>
-                        <Link to="/Publication" className="nav-Publication">
-                            Publication
-                        </Link>
-                    </div>
-                </div>
-            </nav>
-
-            <Outlet />
+const NavButtons = (
+    <div className="nav-Buttons w-full block no-hamburger:flex no-hamburger:items-center no-hamburger:w-auto">
+        <div className="text-lg no-hamburger:flex-grow no-hamburger:text-xl xl:text-2xl">
+            <Link to="/" className="nav-Button">
+                About
+            </Link>
+            <Link to="/Opportunities" className="nav-Button">
+                Opportunities
+            </Link>
+            <Link to="/News" className="nav-Button">
+                News
+            </Link>
+            <Link to="/People" className="nav-Button">
+                People
+            </Link>
+            <Link to="/CurrentProjects" className="nav-Button">
+                Current Projects
+            </Link>
+            <Link to="/PriorProject" className="nav-Button">
+                Prior Projects
+            </Link>
+            <Link to="/Publication" className="nav-Publication">
+                Publication
+            </Link>
         </div>
+    </div>
+)
+
+export default function Nav() {
+    const windowWidth = useDeviceSize()[0];
+    const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+    return (
+        <>
+            <div className="Nav">
+                <nav className="flex items-center justify-between flex-wrap bg-base-blue p-6">
+
+                    <div className="flex items-center flex-shrink-0 text-white mr-6">
+                        <Link to='/'><img className="w-[200px] h-auto invert" src={IRAS_LOGO} alt=""></img></Link>
+                    </div>
+
+                    {
+                        windowWidth <= 1042 ?
+                        <>
+                            <button className="h-[50px]" onClick={() => setHamburgerOpen(!hamburgerOpen)}>
+                                <img alt="Hamburger button" width="50px" height="auto" src={HamburgerPNG} onClick={() => setHamburgerOpen(!hamburgerOpen)} />
+                            </button>
+                            <div style={{...(hamburgerOpen?{maxHeight:"350px"}:{maxHeight:"0"}),transition:"0.8s ease-in-out",width:"100%",overflow:"hidden"}}>
+                                { NavButtons }
+                            </div>
+                        </> :
+                        <>{ NavButtons }</>
+                    }
+                </nav>
+            </div>
+            <Outlet />
+        </>
     )
 }

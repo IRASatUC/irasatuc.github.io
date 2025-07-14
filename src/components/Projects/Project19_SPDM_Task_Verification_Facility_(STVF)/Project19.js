@@ -3,7 +3,7 @@ import SPDM from './SPDM operating.mp4';
 import stvf from './stvf.jpg';
 import spdm_on_ssrms from './spdm_on_ssrms.jpg';
 
-function Project19_Publication(){
+function Project19_Publication() {
     return(
         <ul>
             <li>
