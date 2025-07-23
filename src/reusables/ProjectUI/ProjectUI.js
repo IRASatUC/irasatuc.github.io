@@ -22,7 +22,7 @@ export default function ProjectUI(props) {
                             </video> }
 
                         { props.BackgroundImage &&
-                            <img id="myImage" className="cover" src={props.BackgroundImage} alt=""/> }
+                            <img id="myImage" className="w-full" src={props.BackgroundImage} alt=""/> }
                     </div>
                     <div className="backgroundContainerGradient relative -mt-[200px] h-[200px] pointer-events-none"></div>
 
@@ -36,7 +36,7 @@ export default function ProjectUI(props) {
 
             { props.projectDescription &&
                 <div className="ProjectUI_description_container flex justify-center">
-                    <div className="ProjectUI_description w-[80%] border-b-[1px] border-solid border-white p-[10px] min-[900px]:p-[50px]">
+                    <div className="z-[1] ProjectUI_description w-[80%] border-b-[1px] border-solid border-white p-[10px] min-[900px]:p-[50px]">
                         {props.projectDescription()}
                     </div>
                 </div> }
@@ -67,11 +67,11 @@ export default function ProjectUI(props) {
                 <>
                     <h1 className="ProjectUI_vid_header text-[#f1f1f1] text-center font-bold text-[30px] p-5">{props.projectVideoTitle ? props.projectVideoTitle : ""}</h1>
                     <div className="ProjectUI_vid_container flex justify-center">
-                        <div className='ProjectUI_vid max-[900px]:flex-col max-[900px]:items-center max-[900px]:pt-[20px] w-[80%] flex pt-[20px] border-t-[1px] border-solid border-white'>
+                        <div className='ProjectUI_vid flex justify-center max-[900px]:flex-col max-[900px]:items-center max-[900px]:pt-[20px] w-[80%] pt-[20px] border-t-[1px] border-solid border-white'>
                             { props.projectVideo.map((vidProps, index)=>{
                                 return (
                                     <div key={index} className="vid_content_box flex justify-center p-[20px]" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "40%"}}>
-                                        <div className="flex flex-col">
+                                        <div className="flex flex-col w-full">
                                             {
                                                 typeof(vidProps.title)==="string" ?
                                                     <p className="text-[30px] w-full text-center text-white flex-grow-[1] content-center"><strong className="font-[20px]">

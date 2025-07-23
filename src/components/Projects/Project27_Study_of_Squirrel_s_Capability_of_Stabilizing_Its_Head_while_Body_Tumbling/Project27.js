@@ -1,7 +1,6 @@
 import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
-import { useRef } from "react";
+import LatexSection from "../../../reusables/LatexSection/LatexSection";
 import { Link } from "react-router-dom";
-import { MathJax } from "better-react-mathjax";
 
 import "./Project27.css";
 import Project27_high from './SquirrelSim high_angvel.mp4';
@@ -11,38 +10,15 @@ import SquirrelExample from "./SquirrelExample.png";
 import NetworkDesign from "./NetworkDesign.png";
 import JointModel from "./JointModel.png";
 
-import {useIsOverflow} from "../../../utils/WindowStates";
-
 const inertial = `latex$$\\large{\\underset{\\mathcal{P}}{\\min}L = \\frac{1}{2} \\text{tr}\\left(\\left(\\mathbf{Q}_{0, T} - \\mathbf{Q}_{\\text{d}}\\right)^{\\text{T}} \\left(\\mathbf{Q}_{0, T} - \\mathbf{Q}_{\\text{d}}\\right)\\right)}latex$$`
 const orientation = `latex$\\mathbf{Q}_{\\text{d}} \\in \\text{SO(3)}latex$`;
 const fancyP = `latex$\\mathcal{P}latex$`;
 const controlPolicy = `latex$\\mathcal{N}\\left(\\mathbf{\\theta} \\: | \\: \\Theta \\right)latex$`;
 const loss = `latex$$\\large{L_{\\omega} = \\frac{1}{\\left|\\mathcal{D}\\right|} \\sum \\left(\\left|\\left|\\mathbf{D}_{0,\\mathbf{\\theta}_{\\mathcal{D}}}^{-1}\\left(\\mathbf{Q}_{\\mathcal{D}}^{\\text{T}} \\: \\mathbf{H} - \\mathbf{D}_{\\mathbf{\\theta}_{\\mathcal{D}}}\\dot{\\mathbf{\\theta}}_{\\mathcal{D}}\\right) - \\mathbf{\\omega}_{0, \\mathcal{D}}\\right|\\right|^2 + \\left|\\left|\\underset{n}{\\sum} m_n \\mathbf{r}_n\\right|\\right|^2\\right)}latex$$`;
 
-
-function LatexSection(input, inline=false) {
-    const ref = useRef();
-    const isOverflowing = useIsOverflow(ref, (isOverflowFromCallback) => {
-    console.log(isOverflowFromCallback);});
-    const eq = <MathJax hideUntilTypeset={"first"} inline={inline}>{input}</MathJax>;
-    return ( (inline === true) ?
-        <span className="mathJaxBar">
-            {eq}
-        </span> :
-        <div className="help">
-            {isOverflowing &&
-                <div className="mathJax_gradient"></div>
-            }
-            <div className={"bg-blue-900 rounded-xl overflow-x-scroll overflow-y-hidden pl-4 pr-4 mathJaxBar" + (isOverflowing?"":" justify-center flex")} ref={ref}>
-                {eq}
-            </div>
-        </div>
-    );
-}
-
 function Project27_Description() {
     return (
-        <div style={{  padding: '20px' }}>
+        <div style={{padding: '20px'}}>
             <h1 className="ProjectUI_header">Study of Squirrel’s Capability of Stabilizing Its Head while Body Tumbling</h1>
 
             <h2 className="ProjectUI_header">Goals and Objectives</h2>
@@ -79,20 +55,20 @@ function Project27_Description() {
                 The control goal is to achieve the head stabilization in an inertial defined as
             </p>
             <div>
-                { LatexSection(inertial) }
+                <LatexSection input={inertial} />
             </div>
             <p>
                 where{" "}
-                    { LatexSection(orientation, true) }
+                    <LatexSection input={orientation} inline />
                 {" "}is the desired head orientation and{" "}
-                    { LatexSection(fancyP, true) }
+                    <LatexSection input={fancyP} inline />
                 {" "}is the set of joint coordinates. Joint limites are counted as constraints of the optimization process.
                 The loss function for training the MADDPG control policy{" "}
-                    { LatexSection(controlPolicy, true) }
+                    <LatexSection input={controlPolicy} inline />
                 {" "}is defined as
             </p>
             <div>
-                { LatexSection(loss, false) }
+                <LatexSection input={loss} />
             </div>
             <p>
                 Details can be found in the listed documentation<sup><a href="#ref1" onClick={() => {const ref = document.getElementById('ref1'); ref.style.border='2px solid rgb(128,128,64)'; ref.style.borderRadius="2px"}}>[1]</a></sup>.

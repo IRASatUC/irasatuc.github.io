@@ -1,4 +1,5 @@
-import {useState, useEffect, useLayoutEffect} from 'react';
+import {useState, useEffect, useLayoutEffect, useCallback} from 'react';
+import {useLocation} from 'react-router';
 
 const useDeviceSize = () => {
     const [width, setWidth] = useState(0)
@@ -21,32 +22,39 @@ const useDeviceSize = () => {
 }
 
 const useIsOverflow = (ref, callback) => {
-  const [isOverflow, setIsOverflow] = useState(undefined);
+    const [isOverflow, setIsOverflow] = useState(undefined);
+    const location = useLocation();
 
-  useLayoutEffect(() => {
-    const current = ref.current;
-
-    const trigger = () => {
-        if (current === undefined) return;
-        const hasOverflow = current.scrollWidth > current.clientWidth;
-        console.log(current.scrollWidth + " vs " + current.clientWidth);
+    const trigger = useCallback((cur) => {
+        if (cur === undefined) return;
+        const hasOverflow = cur.scrollWidth > cur.clientWidth;
+        console.log(cur.scrollWidth + " vs " + cur.clientWidth);
 
         setIsOverflow(hasOverflow);
 
         if (callback) callback(hasOverflow);
-    };
+    }, [callback]);
 
-    window.addEventListener('resize', trigger);
-    window.addEventListener('load', trigger);
-    trigger();
+    useLayoutEffect(() => {
+        const current = ref.current;
 
-    return () => {
-        window.removeEventListener('resize', trigger);
-        window.removeEventListener('load', trigger);
-    }
-  }, [callback, ref]);
+        trigger(current);
 
-  return isOverflow;
+        window.addEventListener('resize', ()=>{trigger(current)});
+        window.addEventListener('load', ()=>{trigger(current)});
+
+        return () => {
+            window.removeEventListener('resize', ()=>{trigger(current)});
+            window.removeEventListener('load', ()=>{trigger(current)});
+        }
+    }, [callback, ref, trigger]);
+
+    useEffect(() => {
+        setTimeout(()=>{trigger(ref.current)}, 1);
+        
+    }, [location, ref, trigger]);
+
+    return isOverflow;
 };
 
 export { useDeviceSize, useIsOverflow };

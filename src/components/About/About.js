@@ -14,7 +14,7 @@ export default function About() {
             <div className='iras-lab-about-section-1 aspect-[1.49] h-auto min-[933px]:aspect-auto min-[933px]:h-[700px] bg-cover'>
 
                 <div id='Home-About-Container' className='flex items-center justify-center w-full'>
-                    <p id='About-text' className='flex justify-center rounded-[5px] mt-[50px] text-white text-center text-3xl font-bold p-5 w-1/2 min-w-[460px] overflow-y-scroll max-[1000px]:text-xl max-[1000px]:max-h-[200px]'>
+                    <p id='About-text' className='leading-10 flex justify-center rounded-[5px] mt-[50px] text-white text-center text-3xl font-bold p-5 w-1/2 min-w-[460px] overflow-y-scroll max-[1000px]:text-xl max-[1000px]:max-h-[200px]'>
                         {About_descriptions[1]}
                     </p>
                 </div>
@@ -36,10 +36,10 @@ export default function About() {
                 <div id='transition-contact-section' className="w-full h-[200px] absolute -top-[200px] pointer-events-none"></div>
 
                 <div className='w-3/4'>
-                    <p className='flex items-center justify-start flex-wrap text-white text-xl max-[1000px]:text-lg font-bold w-full'>
+                    <p className='flex items-center justify-start flex-wrap text-white text-xl max-[1000px]:text-sm font-bold w-full'>
                         Lab Director : Dr. Ou Ma, maou@ucmail.uc.edu, (513) 556-3747
                     </p>
-                    <p className='mt-5 flex items-center justify-start flex-wrap text-white text-xl max-[1000px]:text-lg font-bold w-full'>
+                    <p className='mt-5 flex items-center justify-start flex-wrap text-white text-xl max-[1000px]:text-sm font-bold w-full'>
                         Lab Manager : Brian Van Fossen, vanfosbn@ucmail.uc.edu, (513) 556-3684
                     </p>
                 </div>

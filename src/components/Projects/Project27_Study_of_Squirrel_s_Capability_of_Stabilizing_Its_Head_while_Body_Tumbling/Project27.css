@@ -7,20 +7,4 @@ div.mathJaxBar {
         width: fit-content;
         position: relative;
     }
-
-}
-div.help {
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.mathJax_gradient {
-    position: absolute;
-    left: 0px;
-    height: 100px;
-    background-image: linear-gradient(to right, rgb(30 58 138), transparent 32px, transparent calc(100% - 32px), rgb(30 58 138) 100%);
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    pointer-events: none;
 }

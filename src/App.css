@@ -4,7 +4,12 @@
 
 @layer components {
     .ProjectUI_header {
-        @apply text-center font-bold p-5;
+        &:is(h1) {
+            @apply text-center font-bold p-5 text-xl;
+        }
+        &:is(h2) {
+            @apply text-center font-bold p-5;
+        }
     }
     .nav-Button {
         @apply block mt-4 mr-4 text-teal-200 no-hamburger:inline-block no-hamburger:mt-0 hover:text-white;
@@ -22,6 +27,10 @@
             @apply p-[5px] text-[large]
         }
     }
+}
+
+.mathJax_gradient {
+    background-image: linear-gradient(to right, rgb(30 58 138), transparent 32px, transparent calc(100% - 32px), rgb(30 58 138) 100%);
 }
 
 :root {

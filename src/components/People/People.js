@@ -33,7 +33,7 @@ export default function People() {
                         return (
                             <>
                                 <li className="text-[2em] p-[5px]" key={index}><strong>{content.header}</strong></li>
-                                <div className="flex w-full h-auto flex-wrap gap-x-[20px]">
+                                <div className="flex justify-center no-hamburger:justify-normal w-full h-auto flex-wrap gap-x-[20px]">
                                     { content.source.map((content, index) => {
                                         return (
                                             <ProfileUI key={index} imgUrl={content.imgUrl} title={content.title} name={content.name} description={content.description} />

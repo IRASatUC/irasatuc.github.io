@@ -5,7 +5,7 @@ import ProjectItem from "../../../../reusables/ProjectItem/ProjectItem"
 export default function PriorProjectList() {
 
     return (
-        <div className='PriorProject big_h1 pl-[50px] max-w-[1000px]'>
+        <div className='PriorProject big_h1 pl-[20px] no-hamburger:pl-[50px] max-w-[1000px]'>
             <div>
                 <h1>Prior Projects</h1>
                 <ul>

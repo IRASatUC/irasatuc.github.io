@@ -2,5 +2,5 @@
     text-decoration: underline;
 }
 .Publication .menu-box h2 {
-    @apply cursor-pointer font-bold text-[x-large] w-[300px] rounded-t-[20px] p-[10px] text-center align-middle border-[1px] border-solid border-black;
+    @apply cursor-pointer font-bold text-[x-large] w-[300px] rounded-t-[20px] p-[10px] text-center align-middle border-[1px] border-b-0 border-solid border-black;
 }

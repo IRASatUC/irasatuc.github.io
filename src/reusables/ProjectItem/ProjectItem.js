@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useDeviceSize } from "../../utils/WindowStates";
 import Placeholder from "../../components/img/Placeholder_200x200.png";
 import "./ProjectItem.css";
 
@@ -11,28 +12,34 @@ export default function ProjectItem({content, index}) {
         <div className="projectItemMedia">
             <div className="imgBord absolute duration-300 ease-linear"></div>
             { (content.video === undefined) ?
-                <img className="absolute" src={content.image} alt="Placeholder" /> :
+                <img className="absolute" src={content.image} alt={content.imageAlt || "Placeholder"} /> :
                 <video className="relative top-[50%] -translate-y-[50%]" autoPlay loop muted playsInline poster={content.image}>
                     <source src={content.video} type="video/mp4" />
                 </video> }
         </div>;*/
 
+    const windowWidth = useDeviceSize()[0];
+
     return (
-        <li key={index} className="projectItem relative text-[large] p-[5px]" style={(content.link.length > 0) ? {fontWeight:"bold",cursor:"pointer",display:"flex",columnGap:"10px"}
-                                : {display:"flex",columnGap:"10px"}} >
-            { (content.link.length > 0) ?
-                <>
-                    <Link to={content.link}>
-                        {media}
-                    </Link>
-                    <Link to={content.link}>
-                        {thisText}
-                    </Link>
-                </> :
-                <>
-                    <div>{media}</div>
-                    <div>{thisText}</div>
-                </> }
-        </li>
+        <>
+            { (index > 0) &&
+                <hr className="border-black my-[5px]"></hr>
+            }
+            <li key={index} className={"projectItem relative text-[large] p-[5px] flex items-center gap-x-[10px] " + ((windowWidth>1042)?"":"smallThumbs ") + ((content.link.length>0)?"font-bold cursor-pointer":"")}>
+                { (content.link.length > 0) ?
+                    <>
+                        <Link to={content.link}>
+                            {media}
+                        </Link>
+                        <Link to={content.link}>
+                            {thisText}
+                        </Link>
+                    </> :
+                    <>
+                        <div>{media}</div>
+                        <div>{thisText}</div>
+                    </> }
+            </li>
+        </>
     );
 }
