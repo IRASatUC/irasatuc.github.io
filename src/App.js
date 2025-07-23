@@ -44,6 +44,7 @@ import Project24 from './components/Projects/Project24_Technology_for_Simulating
 import Project25 from './components/Projects/Project25_UAV-Manipulator_Systems_for_Aerial_Manipulation/Project25';
 import Project26 from './components/Projects/Project26_Visual-based RobotTracking_of_Arbitrarily_Defined_Object/Project26';
 import Project27 from './components/Projects/Project27_Study_of_Squirrel_s_Capability_of_Stabilizing_Its_Head_while_Body_Tumbling/Project27';
+import Project28 from './components/Projects/Project28_Physics_Enhanced_Deep_Learning_for_Faster_than_Real_Time_Prediction_of_Dynamic_Behavior_of_Space_Robotic_Systems/Project28';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, /*useRef,*/ useEffect } from 'react';
@@ -117,6 +118,7 @@ export default function App() {
                                 <Route path="Project9" element={<Project9 />} />
                                 <Route path="Project12" element={<Project12 />} />
                                 <Route path="Project16" element={<Project16 />} />
+                                <Route path="Project28" element={<Project28 />} />
                             </Route>
 
                             <Route path="People" element={<People />} />

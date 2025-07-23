@@ -1,29 +1,37 @@
 .projectItem {
+    &.smallThumbs {
+        --imgSizeModified: calc(var(--imgSize, 24px) / 2);
+        --bordSizeModified: calc(var(--bordSize, 0));
+    }
+
+    --finalImgSize: var(--imgSizeModified, var(--imgSize));
+    --finalBordSize: var(--bordSizeModified, var(--bordSize));
+
     .projectItemMedia {
-        width: calc(var(--imgSize, 24) + var(--bordSize, 0) * 2);
-        height: calc(var(--imgSize, 24) + var(--bordSize, 0) * 2);
+        width: calc(var(--finalImgSize, 24px) + var(--finalBordSize, 0) * 2);
+        height: calc(var(--finalImgSize, 24px) + var(--finalBordSize, 0) * 2);
     }
     .imgBord {
-        padding: calc(var(--imgSize, 24) / 2 + var(--bordSize, 0));
+        padding: calc(var(--finalImgSize, 24px) * .5 + var(--finalBordSize, 0));
     }
     img {
-        max-height: var(--imgSize, 24);
-        left: calc(var(--bordSize, 0) * 2);
-        top: calc(var(--bordSize, 0) * 2);
+        max-height: var(--finalImgSize, 24px);
+        left: calc(var(--finalBordSize, 0) * 2);
+        top: calc(var(--finalBordSize, 0) * 2);
     }
     video {
-        width: var(--imgSize, 24);
-        height: var(--imgSize, 24);
-        max-height: var(--imgSize, 24);
-        left: var(--bordSize, 0);
+        width: var(--finalImgSize, 24px);
+        height: var(--finalImgSize, 24px);
+        max-height: var(--finalImgSize, 24px);
+        left: var(--finalBordSize, 0);
     }
     &:has(a):hover {
         color: #2a3858;
         text-decoration: underline;
 
         .imgBord {
-            border: blue solid var(--bordSize, 0);
-            padding: calc(var(--imgSize, 24) / 2);
+            border: blue solid var(--finalBordSize, 0);
+            padding: calc(var(--finalImgSize, 24px) * .5);
         }
     }
 }

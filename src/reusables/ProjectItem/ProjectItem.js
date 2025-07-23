@@ -8,7 +8,7 @@ export default function ProjectItem({content, index}) {
     content.link = content.link || "";
     let thisText = String(index + 1) + ". " + content.text;
 
-    const media = null /*
+    const media = 
         <div className="projectItemMedia">
             <div className="imgBord absolute duration-300 ease-linear"></div>
             { (content.video === undefined) ?
@@ -16,7 +16,7 @@ export default function ProjectItem({content, index}) {
                 <video className="relative top-[50%] -translate-y-[50%]" autoPlay loop muted playsInline poster={content.image}>
                     <source src={content.video} type="video/mp4" />
                 </video> }
-        </div>;*/
+        </div>;
 
     const windowWidth = useDeviceSize()[0];
 

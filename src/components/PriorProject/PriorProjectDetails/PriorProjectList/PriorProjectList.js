@@ -1,4 +1,4 @@
-//import "./PriorProjectList.css"
+import "./PriorProjectList.css"
 import { PriorProjectList_contents } from "../../../../contents/PriorProjectList_content/PriorProjectList_content"
 import ProjectItem from "../../../../reusables/ProjectItem/ProjectItem"
 

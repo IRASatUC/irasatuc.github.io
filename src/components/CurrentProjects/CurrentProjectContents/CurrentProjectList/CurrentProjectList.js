@@ -1,4 +1,4 @@
-//import "./CurrentProjectList.css";
+import "./CurrentProjectList.css";
 import { CurrentProjectList_contents } from "../../../../contents/CurrentProjectList_content/CurrentProjectList_content";
 import ProjectItem from "../../../../reusables/ProjectItem/ProjectItem";
 
