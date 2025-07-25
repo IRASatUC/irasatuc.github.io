@@ -1,4 +1,3 @@
-import './Project24.css';
 import ProjectUI from '../../../reusables/ProjectUI/ProjectUI';
 import lowGravity from "./Playing in Low Gravity.mp4"
 

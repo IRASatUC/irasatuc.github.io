@@ -82,7 +82,7 @@ function Project27_Description() {
 function Project27_Publications() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
-            <ul style={{listStyle: "disc"}}>
+            <ul>
                 <li id="ref1">
                     T. Ma, O. Ma, and T. Zhang, “Global Reorientation of a Free‑Fall Robotic System using Reconstruction Loss‑based Deep Learning Method‑Theory and Comparison,”{" "}
                     <em>Journal of Intelligent & Robotic Systems</em>, Vol. 111, 2025, <Link href="https://doi.org/10.1007/s10846-025-02253-0">doi: 10.1007/s10846-025-02253-0</Link>.

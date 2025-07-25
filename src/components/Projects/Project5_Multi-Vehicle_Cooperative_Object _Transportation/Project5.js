@@ -37,7 +37,7 @@ function Project5_Description() {
 const Project5_publications = () => {
     return (
         <div >
-            <ul style={{ listStyleType: "disc" }}>
+            <ul>
                 <li>Zhang L, Sun Y, Barth A, Ma O. Decentralized Control of Multi-Robot System in Cooperative Object Transportation Using Deep Reinforcement Learning. IEEE Access. 2020 Sep 21;8:184109-19.​</li>
             </ul>
         </div>

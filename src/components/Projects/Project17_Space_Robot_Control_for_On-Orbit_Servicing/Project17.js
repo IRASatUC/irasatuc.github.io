@@ -31,7 +31,7 @@ function Project17() {
 const PriorProject5_publications = () => {
     return (
         <div style={{ padding: '20px' }}>
-            <ul style={{listStyleType: "disc"}}>
+            <ul>
                 <li>
                     Flores-Abad, A.; Ma, O.; Pham, K.; and Ulrich, S.; “A Review of Robotics Technologies for On-Orbit Services”, Progress in Aerospace Science, Vol.68, 2014, pp.1-26.
                 </li>

@@ -30,7 +30,7 @@ const Project14Description = () => {
 
 const Project14Publication = () => {
     return (
-        <ul className="list-disc">
+        <ul>
             <li>Xiu, W., Ruble, K. and Ma O., “A Reduced-Gravity Simulator for Physically Simulating Human Walking in Microgravity or Reduced-Gravity Environment”, Proc. of 2014 Intl. Conf. on Robotics and Auto. (ICRA 2014), Hong Kong, China, May 31-June 5, 2014.</li>
             <li>Paz, R.A., Barajas, J.C., Ma, O., “Autobalancing Control for a Reduced Gravity Simulator”, Proc. 2013 IEEE/ASME Intl. Conference on Advanced Intelligent Mechatronics (AIM 2013), Wollongong, Australia, July 9-12, 2013.</li>
             <li>Ma, O., Lu, Q., McAvoy, J., and Ruble, K., “Concept study of a passive reduced-gravity simulator for training astronauts”, Proc. ASME 2010 Intl. Design Eng. Tech. Conf. (IDETC 2010), Aug.15-18, 2010, Montreal, Paper #DETC2010-29079.</li>

@@ -19,7 +19,7 @@ function Project9_Description() {
 const Project9_publications = () => {
     return (
         <div style={{ padding: '20px' }}>
-            <ul style={{ listStyleType: "disc" }}>
+            <ul>
                 <li>Sun, Yufeng, Lin Zhang, and Ou Ma. “Force-Vision Sensor Fusion Improves Learning-based Approach for Self-Closing Door Pulling.” IEEE Access (2021).</li>
             </ul>
         </div>

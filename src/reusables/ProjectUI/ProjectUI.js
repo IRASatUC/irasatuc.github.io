@@ -95,9 +95,9 @@ export default function ProjectUI(props) {
 
             { props.publications &&
               <div className='ProjectUI_publication p-[50px]'>
-                    <h1 style={{display:'flex',justifyContent:"center",width:"100%",fontSize:"30px",fontWeight:"bold"}}>Publications</h1>
+                    <h1 className="flex justify-center w-full text-[30px]">Publications</h1>
 
-                    <div style={{display:'flex',justifyContent:"center",width:"100%"}} >
+                    <div className="flex justify-center w-full publicationsDiv" >
                         {props.publications()}
                     </div>
               </div> }

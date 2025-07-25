@@ -42,7 +42,7 @@ function Project12_Description() {
 const Project12_publications = () => {
     return (
         <div style={{ padding: '20px' }}>
-            <ul style={{ listStyleType: "disc" }}>
+            <ul>
                 <li>
                     Barth, A.; Ma, O.; Putman, P.; Walker, A., “Determining an optimal attitude profile for thermal management of a remote sensing cubesat”; Proc. of 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021), November 15-17, 2021, Las Vegas, NV.
                 </li>

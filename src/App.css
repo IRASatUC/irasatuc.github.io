@@ -33,6 +33,12 @@
     background-image: linear-gradient(to right, rgb(30 58 138), transparent 32px, transparent calc(100% - 32px), rgb(30 58 138) 100%);
 }
 
+@counter-style bracketed {
+    system: extends decimal;
+    prefix: "[";
+    suffix: "] ";
+}
+
 :root {
     --color-base-blue: #37425B;
 }

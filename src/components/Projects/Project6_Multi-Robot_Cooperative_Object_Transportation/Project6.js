@@ -40,7 +40,7 @@ function Project6_Description() {
 const Project6_publications = () => {
     return (
         <div style={{padding: "20px"}}>
-            <ul style={{listStyleType:"disc"}}>
+            <ul>
                 <li>
                     Bisig, Caleb and Ma, Ou; “Scalable and Robust Decentralized Cargo Transport via Genetic Fuzzy Systems”, Proc. of 2022 AIAA SciTech, San Diego, https://doi.org/10.2514/6.2022-1728.
                 </li>

@@ -5,7 +5,7 @@ import Picture2 from './Picture2.jpg'
 function Project21_Publications() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
-            <ul style={{listStyleType:"disc"}}>
+            <ul>
                 <li>
                     Barth, A. and Ma, O., “Study of Hopping Mechanics for Different Terrain Conditions for Hopping on a Low-Gravity Surface”;
                     <em> Proc. of 2021 AIAA Accelerating Space Commerce, Exploration, and New Discovery (ASCEND 2021)</em>, November 15-17, 2021, Las Vegas, NV.

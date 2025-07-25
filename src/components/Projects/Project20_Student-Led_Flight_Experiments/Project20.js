@@ -11,7 +11,7 @@ import video2 from './video2.mp4';
 function Project20_Publications() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
-            <ul style={{listStyleType:"disc"}}>
+            <ul>
                 <li>
                     Ma, O. and Horan, S., “NMSU Nanosatellite with robotics capabilities”,
                     <em> Proc. of 8th Intl. symp. on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS’05)</em>, Munich, Germany, Sept. 5-9, 2005, pp. 145-152.

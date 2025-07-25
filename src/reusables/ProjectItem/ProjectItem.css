@@ -4,34 +4,17 @@
         --bordSizeModified: calc(var(--bordSize, 0));
     }
 
-    --finalImgSize: var(--imgSizeModified, var(--imgSize));
-    --finalBordSize: var(--bordSizeModified, var(--bordSize));
+    --finalImgSize: var(--imgSizeModified, var(--imgSize, 24px));
+    --finalBordSize: var(--bordSizeModified, var(--bordSize, 0));
+    --totalThumbSize: calc(var(--finalImgSize) + var(--finalBordSize) * 2);
 
-    .projectItemMedia {
-        width: calc(var(--finalImgSize, 24px) + var(--finalBordSize, 0) * 2);
-        height: calc(var(--finalImgSize, 24px) + var(--finalBordSize, 0) * 2);
-    }
-    .imgBord {
-        padding: calc(var(--finalImgSize, 24px) * .5 + var(--finalBordSize, 0));
-    }
-    img {
-        max-height: var(--finalImgSize, 24px);
-        left: calc(var(--finalBordSize, 0) * 2);
-        top: calc(var(--finalBordSize, 0) * 2);
-    }
-    video {
-        width: var(--finalImgSize, 24px);
-        height: var(--finalImgSize, 24px);
-        max-height: var(--finalImgSize, 24px);
-        left: var(--finalBordSize, 0);
-    }
     &:has(a):hover {
         color: #2a3858;
         text-decoration: underline;
 
         .imgBord {
-            border: blue solid var(--finalBordSize, 0);
-            padding: calc(var(--finalImgSize, 24px) * .5);
+            border: blue solid var(--finalBordSize);
+            padding: calc(var(--finalImgSize) * .5);
         }
     }
 }

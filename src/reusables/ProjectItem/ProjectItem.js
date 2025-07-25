@@ -9,11 +9,11 @@ export default function ProjectItem({content, index}) {
     let thisText = String(index + 1) + ". " + content.text;
 
     const media = 
-        <div className="projectItemMedia">
-            <div className="imgBord absolute duration-300 ease-linear"></div>
+        <div className="projectItemMedia w-[var(--totalThumbSize)] h-[var(--totalThumbSize)]">
+            <div className="imgBord absolute p-[calc(var(--totalThumbSize)_/_2)] duration-300 ease-linear"></div>
             { (content.video === undefined) ?
-                <img className="absolute" src={content.image} alt={content.imageAlt || "Placeholder"} /> :
-                <video className="relative top-[50%] -translate-y-[50%]" autoPlay loop muted playsInline poster={content.image}>
+                <img className="absolute top-[50%] -translate-y-[50%] w-[var(--finalImgSize)] h-[var(--finalImgSize)] ml-[var(--finalBordSize)]" src={content.image} alt={content.imageAlt || "Placeholder"} /> :
+                <video className="absolute top-[50%] -translate-y-[50%] w-[var(--finalImgSize)] h-[var(--finalImgSize)]  ml-[var(--finalBordSize)]" autoPlay loop muted playsInline poster={content.image}>
                     <source src={content.video} type="video/mp4" />
                 </video> }
         </div>;

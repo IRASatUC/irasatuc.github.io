@@ -5,7 +5,7 @@ import Picture2 from './Picture2.jpg'
 function Project23_Publications() {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: "100%" }}>
-            <ul style={{listStyleType:"disc"}}>
+            <ul>
                 <li>
                     Zhang, L., Li, S., Xiong, H., Diao, X. & Ma, O., "An Application of Convolutional Neural Networks on Human Intention Prediction."
                     <em> International Journal of Artificial Intelligence Applications</em>, 10, (2019).

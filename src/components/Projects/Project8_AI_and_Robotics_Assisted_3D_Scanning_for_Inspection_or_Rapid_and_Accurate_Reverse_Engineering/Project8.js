@@ -18,7 +18,7 @@ function Project8_Description() {
 const Project8_publications = () => {
     return (
         <div style={{ padding: '20px' }}>
-            <ul style={{ listStyleType: "disc" }}>
+            <ul>
                 <li>
                     Yufeng Sun, Lin Zhang, and Ou Ma. “Robotics-Assisted 3D Scanning of Aircraft.” AIAA AVIATION 2020 FORUM. July 2020.
                 </li>
