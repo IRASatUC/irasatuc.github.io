@@ -51,7 +51,7 @@ export default function Nav() {
                             <button className="h-[50px]" onClick={() => setHamburgerOpen(!hamburgerOpen)}>
                                 <img alt="Hamburger button" width="50px" height="auto" src={HamburgerPNG} onClick={() => setHamburgerOpen(!hamburgerOpen)} />
                             </button>
-                            <div style={{...(hamburgerOpen?{maxHeight:"350px"}:{maxHeight:"0"}),transition:"0.8s ease-in-out",width:"100%",overflow:"hidden"}}>
+                            <div style={{...(hamburgerOpen?{maxHeight:"272px"}:{maxHeight:"0"}),transition:"0.8s ease-in-out",width:"100%",overflow:"hidden"}}>
                                 { NavButtons }
                             </div>
                         </> :

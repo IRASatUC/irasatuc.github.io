@@ -32,7 +32,7 @@ import Project12 from './components/Projects/Project12_Optimal_Attitude_Profilin
 import Project13 from './components/Projects/Project13_Contact_Dynamics_Modeling_and_Simulation/Project13';
 import Project14 from './components/Projects/Project14_Reduced-Gravity_and_Biomechanics_(RGB)_Lab_at_NMSU/Project14';
 import Project15 from './components/Projects/Project15_Risk_of_Falling_Assessment_for_Older_Adults/Project15';
-import Project16 from './components/Projects/Project16_Robot_Control _for_Capturing_a_Non-cooperative_Object/Project16';
+import Project16 from './components/Projects/Project16_Robot_Control_for_Capturing_a_Non-cooperative_Object/Project16';
 import Project17 from './components/Projects/Project17_Space_Robot_Control_for_On-Orbit_Servicing/Project17';
 import Project18 from './components/Projects/Project18_Design_and_Control_of_Unmanned_Arial_Vehicles/Project18';
 import Project19 from './components/Projects/Project19_SPDM_Task_Verification_Facility_(STVF)/Project19';
@@ -42,7 +42,7 @@ import Project22 from './components/Projects/Project22_Student-Led_Project_propo
 import Project23 from './components/Projects/Project23_Prediction_of_Human_Action_Intention_or_Outcome/Project23';
 import Project24 from './components/Projects/Project24_Technology_for_Simulating_Human_Activities_in_Partial_Gravity/Project24';
 import Project25 from './components/Projects/Project25_UAV-Manipulator_Systems_for_Aerial_Manipulation/Project25';
-import Project26 from './components/Projects/Project26_Visual-based RobotTracking_of_Arbitrarily_Defined_Object/Project26';
+import Project26 from './components/Projects/Project26_Visual-based_Robot_Tracking_of_Arbitrarily_Defined_Object/Project26';
 import Project27 from './components/Projects/Project27_Study_of_Squirrel_s_Capability_of_Stabilizing_Its_Head_while_Body_Tumbling/Project27';
 import Project28 from './components/Projects/Project28_Physics_Enhanced_Deep_Learning_for_Faster_than_Real_Time_Prediction_of_Dynamic_Behavior_of_Space_Robotic_Systems/Project28';
 

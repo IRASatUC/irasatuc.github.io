@@ -13,7 +13,7 @@
         text-decoration: underline;
 
         .imgBord {
-            border: blue solid var(--finalBordSize);
+            border: var(--color-brighter-blue) solid var(--finalBordSize);
             padding: calc(var(--finalImgSize) * .5);
         }
     }

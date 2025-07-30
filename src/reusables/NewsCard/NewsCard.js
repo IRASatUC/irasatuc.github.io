@@ -2,11 +2,11 @@ import "./NewsCard.css";
 
 export default function NewsCard(props) {
     return (
-        <div className="bg-white overflow-hidden border-4 border-blue-500 w-3/4 duration-[0.3s] NewsCard_div" style={{margin:"10px"}}>
+        <div className="bg-white overflow-hidden border-4 border-brighter-blue w-3/4 duration-[0.3s] NewsCard_div" style={{margin:"10px"}}>
             <a href={(props.link.length > 0) ? props.link : false} >
                 <div className="p-4 md:p-6">
                     <div className="leading-none flex items-center gap-6">
-                        <p className="text-blue-500 mb-1 font-semibold text-xs leading-none">News</p>
+                        <p className="text-brighter-blue mb-1 font-semibold text-xs leading-none">News</p>
 
                         {props.link.length > 0 &&
                             <>

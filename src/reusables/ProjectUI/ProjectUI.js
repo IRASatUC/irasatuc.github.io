@@ -47,7 +47,7 @@ export default function ProjectUI(props) {
 
                     { props.projectImage.map((imageProps, index)=>{
                         return (
-                            <div key={index} className="image_content_box flex justify-center p-[20px]" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "60%"}}>
+                            <div key={index} className="image_content_box flex flex-1 justify-center p-[20px]">
                                 <div>
                                     {
                                         typeof(imageProps.title) === "string" ?
@@ -56,7 +56,7 @@ export default function ProjectUI(props) {
                                             </strong></p> :
                                             imageProps.title()
                                     }
-                                    <img src={imageProps.src} style={{width: "100%", height: "auto"}} alt=""></img>
+                                    <img src={imageProps.src}alt=""></img>
                                 </div>
                             </div>
                         )
@@ -67,19 +67,19 @@ export default function ProjectUI(props) {
                 <>
                     <h1 className="ProjectUI_vid_header text-[#f1f1f1] text-center font-bold text-[30px] p-5">{props.projectVideoTitle ? props.projectVideoTitle : ""}</h1>
                     <div className="ProjectUI_vid_container flex justify-center">
-                        <div className='ProjectUI_vid flex justify-center max-[900px]:flex-col max-[900px]:items-center max-[900px]:pt-[20px] w-[80%] pt-[20px] border-t-[1px] border-solid border-white'>
+                        <div className='ProjectUI_vid flex justify-center max-[900px]:flex-col max-[900px]:items-center max-[900px]:pt-[20px] w-[80%] max-h-[60vh] pt-[20px] border-t-[1px] border-solid border-white'>
                             { props.projectVideo.map((vidProps, index)=>{
                                 return (
-                                    <div key={index} className="vid_content_box flex justify-center p-[20px]" style={{width: ((props.projectImage || "").length <= 1) ? "80%" : "40%"}}>
+                                    <div key={index} className="vid_content_box flex flex-1 justify-center p-[20px]">
                                         <div className="flex flex-col w-full">
                                             {
                                                 typeof(vidProps.title)==="string" ?
-                                                    <p className="text-[30px] w-full text-center text-white flex-grow-[1] content-center"><strong className="font-[20px]">
+                                                    <p className="text-[20px] no-hamburger:text-[30px] w-full text-center text-white flex-grow-[1] content-center"><strong className="font-[20px]">
                                                         {vidProps.title}
                                                     </strong></p> :
                                                     vidProps.title()
                                             }
-                                            <video autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay}>
+                                            <video className="max-h-[60vh]" autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay}>
                                                 <source src={vidProps.src} type="video/mp4"></source>
                                                 {
                                                     typeof(vidProps.caption)==="string" && <track label="English" kind="subtitles" srcLang="en" src={vidProps.caption} default />

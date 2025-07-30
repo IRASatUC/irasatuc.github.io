@@ -4,7 +4,7 @@ import ProjectItem from "../../../../reusables/ProjectItem/ProjectItem";
 
 export default function CurrentProjectList() {
     return (
-        <div className='CurrentProjects big_h1 pl-[20px] no-hamburger:pl-[50px] max-w-[1500px]'>
+        <div className='CurrentProjects big_h1 pl-[20px] no-hamburger:pl-[50px] max-w-[1500px] text-center no-hamburger:text-left'>
             <div>
                 <h1>Current Projects</h1>
                 <ul>

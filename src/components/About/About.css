@@ -2,7 +2,7 @@
     background-image: linear-gradient(to bottom, transparent, transparent calc(100% - 200px), var(--color-base-blue)), url("../img/IRAS_LAB_2021.jpg");
 }
 #Home-About-Container {
-    animation: fadeIn 2s ease-in-out forwards;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 #About-text {
     background-color: color-mix(in srgb, var(--color-base-blue) 70%, transparent);

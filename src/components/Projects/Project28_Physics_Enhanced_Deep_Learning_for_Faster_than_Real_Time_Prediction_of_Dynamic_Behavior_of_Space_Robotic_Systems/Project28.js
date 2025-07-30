@@ -76,31 +76,31 @@ function Project28_Description() {
 
             <h2 className="ProjectUI_header">Modeling and Simulation</h2>
             <img src={LatenciesJPG} className="mx-auto" alt="Time latencies in teleoperation of a space robotic system and its physics-model or DL-model based predictions"/>
-            <div className="text-center">
+            <div className="text-center pb-10">
                 <b>Figure 1.</b> Time latencies in teleoperation of a space robotic system and its physics-model or DL-model based predictions
             </div>
             <img src={DeltaTJPG} className="mx-auto" alt="Prediction of a future behavior must be calculated step by step when using a physics model"/>
-            <div className="text-center">
+            <div className="text-center pb-10">
                 <b>Figure 2.</b> Prediction of a future behavior must be calculated step by step when using a physics model
             </div>
             <img src={JumpTJPG} className="mx-auto" alt="Prediction of a future behavior can be calculated in one step when using a DNN model"/>
-            <div className="text-center">
+            <div className="text-center pb-10">
                 <b>Figure 3.</b> Prediction of a future behavior can be calculated in one step when using a DNN model
             </div>
 
             <h2 className="ProjectUI_header">Deep Learning-based Body Motion Control</h2>
             <img src={NeuralNetworksJPG} className="mx-auto" alt="DL models: (a) MLP training; (b) LSTM training; (c) PINN training; (d) PGNN training"/>
-            <div className="text-center">
+            <div className="text-center pb-10">
                 <b>Figure 4.</b> DL models: (a) MLP training; (b) LSTM training; (c) PINN training; (d) PGNN training
             </div>
             <img src={FlowchartJPG} className="mx-auto" alt="The training process and application process of the PEDL prediction model"/>
-            <div className="text-center">
+            <div className="text-center pb-10">
                 <b>Figure 5.</b> The training process and application process of the PEDL prediction model
             </div>
 
             <h2 className="ProjectUI_header">Simulation Results</h2>
             <img src={ForceModelJPG} className="mx-auto" alt="A 2-DOF cart-pendulum system with highly nonlinear coulomb friction"/>
-            <div className="text-center">
+            <div className="text-center pb-10">
                 <b>Figure 6.</b> A 2-DOF cart-pendulum system with highly nonlinear coulomb friction
             </div>
             <p>The system's physics model</p>

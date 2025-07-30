@@ -1,18 +1,26 @@
 import SquirrelPNG from "./Squirrel.png";
+import SquirrelMP4 from "./Squirrel.mp4";
 import CooperativeControlPNG from "./CooperativeControl.png";
 import TrackingPNG from "./Tracking.png";
+import TrackingMP4 from "./Tracking.mp4";
 import CableCatPNG from "./CableCat.png";
 import MixedRealitySimulationPNG from "./MixedRealitySimulation.png";
+import MixedRealitySimulationMP4 from "./MixedRealitySimulation.mp4";
 import MultiDronePNG from "./MultiDrone.png";
 import PhysicalDrivingSimPNG from "./PhysicalDrivingSim.png";
+import PhysicalDrivingSimMP4 from "./PhysicalDrivingSim.mp4";
 import AgilePNG from "./Agile.png";
 import Scanning3DPNG from "./Scanning3D.png";
+import Scanning3DMP4 from "./Scanning3D.mp4";
 import MultiVehiclePNG from "./MultiVehicle.png";
 import PursuitPNG from "./Pursuit.png";
+import PursuitMP4 from "./Pursuit.mp4";
 import SPDMPNG from "./SPDM.png";
 import ReducedGPNG from "./ReducedG.png";
+import ReducedGMP4 from "./ReducedG.mp4";
 import ContactPNG from "./Contact.png";
 import LowGBarPNG from "./LowGBar.png";
+import LowGBarMP4 from "./LowGBar.mp4";
 import GaitPNG from "./Gait.png";
 import MassDistributionPNG from "./MassDistribution.png";
 import PerchingPNG from "./Perching.png";
@@ -25,6 +33,7 @@ export const PriorProjectList_contents = [
         link: "/PriorProject/Project27",
         text: "Study of Squirrel’s Capability of Stabilizing Its Head while Body Tumbling",
         image: SquirrelPNG,
+        video: SquirrelMP4,
     },
     {
         link: "/PriorProject/Project3", 
@@ -35,6 +44,7 @@ export const PriorProjectList_contents = [
         link: "/PriorProject/Project26",
         text: "Visual-based Robotic Tracking of Arbitrarily defined Object",
         image: TrackingPNG,
+        video: TrackingMP4,
     },
     {
         link: "/PriorProject/Project22",
@@ -45,6 +55,7 @@ export const PriorProjectList_contents = [
         link: "/PriorProject/Project10",
         text: "Physics-Based Mixed Reality Simulation",
         image: MixedRealitySimulationPNG,
+        video: MixedRealitySimulationMP4,
     },
     {
         link: "/PriorProject/Project6", 
@@ -55,6 +66,7 @@ export const PriorProjectList_contents = [
         link: "/PriorProject/Project11",
         text: "Physical Simulation of a Human-Driving Vehicle in Lab Environment",
         image: PhysicalDrivingSimPNG,
+        video: PhysicalDrivingSimMP4,
     },
     {
         link: "/PriorProject/Project25",
@@ -65,6 +77,7 @@ export const PriorProjectList_contents = [
         link: "/PriorProject/Project8", 
         text: "AI and Robotics Assisted 3D Scanning for Inspection or Rapid and Accurate Reverse Engineering",
         image: Scanning3DPNG,
+        video: Scanning3DMP4,
     },
     {
         link: "/PriorProject/Project5", 
@@ -75,6 +88,7 @@ export const PriorProjectList_contents = [
         link: "/PriorProject/Project4", 
         text: "Multi-Agent Pursuit and Evasion",
         image: PursuitPNG,
+        video: PursuitMP4,
     },
     {
         link: "",                       
@@ -93,6 +107,7 @@ export const PriorProjectList_contents = [
         link: "/PriorProject/Project14",
         text: "Reduced-Gravity and Biomechanics (RGB) Lab at NMSU",
         image: ReducedGPNG,
+        video: ReducedGMP4,
     },
     {
         link: "/PriorProject/Project13",
@@ -103,6 +118,7 @@ export const PriorProjectList_contents = [
         link: "/PriorProject/Project24",
         text: "Technology for Simulating Human Activities in Partial Gravity",
         image: LowGBarPNG,
+        video: LowGBarMP4,
     },
     {
         link: "/PriorProject/Project15",
