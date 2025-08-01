@@ -36,7 +36,7 @@ export default function ProjectUI(props) {
 
             { props.projectDescription &&
                 <div className="ProjectUI_description_container flex justify-center">
-                    <div className="z-[1] ProjectUI_description w-[80%] border-b-[1px] border-solid border-white p-[10px] min-[900px]:p-[50px]">
+                    <div className="z-[1] ProjectUI_description w-[90%] no-hamburger:w-[80%] border-b-[1px] border-solid border-white p-[10px] min-[900px]:p-[50px]">
                         {props.projectDescription()}
                     </div>
                 </div> }
@@ -67,7 +67,7 @@ export default function ProjectUI(props) {
                 <>
                     <h1 className="ProjectUI_vid_header text-[#f1f1f1] text-center font-bold text-[30px] p-5">{props.projectVideoTitle ? props.projectVideoTitle : ""}</h1>
                     <div className="ProjectUI_vid_container flex justify-center">
-                        <div className='ProjectUI_vid flex justify-center max-[900px]:flex-col max-[900px]:items-center max-[900px]:pt-[20px] w-[80%] max-h-[60vh] pt-[20px] border-t-[1px] border-solid border-white'>
+                        <div className='ProjectUI_vid flex justify-center max-[900px]:flex-col max-[900px]:items-center max-[900px]:pt-[20px] w-[80%] pt-[20px] border-t-[1px] border-solid border-white'>
                             { props.projectVideo.map((vidProps, index)=>{
                                 return (
                                     <div key={index} className="vid_content_box flex flex-1 justify-center p-[20px]">
@@ -79,7 +79,7 @@ export default function ProjectUI(props) {
                                                     </strong></p> :
                                                     vidProps.title()
                                             }
-                                            <video className="max-h-[60vh]" autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay}>
+                                            <video className="max-[900px]:max-h-[30vh] max-h-[60vh]" autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay}>
                                                 <source src={vidProps.src} type="video/mp4"></source>
                                                 {
                                                     typeof(vidProps.caption)==="string" && <track label="English" kind="subtitles" srcLang="en" src={vidProps.caption} default />

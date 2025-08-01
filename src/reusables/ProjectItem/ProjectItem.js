@@ -23,9 +23,9 @@ export default function ProjectItem({content, index}) {
     return (
         <>
             { (index > 0) &&
-                <hr className="border-black my-[5px]"></hr>
+                <hr className="border-black my-[5px] max-w-[95vw] mx-auto"></hr>
             }
-            <li key={index} className={"projectItem relative text-[large] p-[5px] flex items-center gap-x-[10px] " + ((windowWidth>1042)?"":"smallThumbs ") + ((content.link.length>0)?"font-bold cursor-pointer":"")}>
+            <li key={index} className={"projectItem relative text-[large] p-[5px] flex items-center gap-x-[10px] max-w-[95vw] mx-auto " + ((windowWidth>1042)?"":"smallThumbs ") + ((content.link.length>0)?"font-bold cursor-pointer":"")}>
                 { (content.link.length > 0) ?
                     <>
                         <Link to={content.link}>

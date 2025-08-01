@@ -6,8 +6,13 @@ import HighBayJPG from "../img/DF HighBay room 1.jpg";
 import SpaceRoboticsJPG from "../img/space_robotics_2023.jpg";
 
 function textSwap(newText,id) {
-    document.getElementById(id).style.animation='fadeIn 1s ease-in-out forwards';
-    document.getElementById(id).innerHTML = newText;
+    const description = document.getElementById(id);
+    description.style.animation='fadeIn 1s ease-in-out forwards';
+    description.classList.add("text-xl");
+    description.classList.remove("text-3xl");
+    description.classList.add("max-[932px]:text-sm");
+    description.classList.remove("max-[932px]:text-xl");
+    description.innerHTML = newText;
 }
 
 export default function About() {
@@ -24,7 +29,7 @@ export default function About() {
             <div className='iras-lab-about-section-1 aspect-[1.49] h-auto min-[933px]:aspect-auto min-[933px]:h-[700px] bg-cover'>
 
                 <div id='Home-About-Container' className='flex items-center justify-center w-full'>
-                    <p id='About-text' className='leading-10 flex justify-center rounded-[5px] mt-[50px] text-white text-center text-3xl font-bold p-5 w-1/2 min-w-[460px] overflow-y-scroll max-[932px]:text-xl max-h-[50vw]'>
+                    <p id='About-text' className='flex justify-center rounded-[5px] mt-[50px] text-white text-center text-3xl font-bold p-5 w-1/2 min-w-[460px] max-h-[50vw] overflow-y-scroll max-[932px]:text-xl max-[932px]:min-w-[80vw]'>
                         {About_descriptions[1]}
                     </p>
                 </div>
@@ -37,9 +42,9 @@ export default function About() {
                 </div>
 
             </div>
-            <div className="flex flex-col items-center gap-20 mt-6">
-                <div className="aspect-[calc(7/6)] w-[67%] no-hamburger:w-[700px] overflow-hidden"><img alt="High Bay room 1" src={HighBayJPG} /></div>
-                <div className="aspect-[calc(7/6)] w-[67%] no-hamburger:w-[700px] overflow-hidden mb-5"><img alt="Space Robotics 2023" src={SpaceRoboticsJPG} /></div>
+            <div className="flex flex-col items-center gap-10 mt-6">
+                <div className="aspect-[calc(7/6)] w-[90%] no-hamburger:w-[700px] overflow-hidden"><img alt="High Bay room 1" src={HighBayJPG} /></div>
+                <div className="aspect-[calc(7/6)] w-[90%] no-hamburger:w-[700px] overflow-hidden mb-5"><img alt="Space Robotics 2023" src={SpaceRoboticsJPG} /></div>
             </div>
 
             <div id="About_contact_section" className='flex items-end justify-center bottom-0 pb-[10px] sticky h-full w-full bg-base-blue'>

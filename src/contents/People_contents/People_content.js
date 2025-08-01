@@ -225,7 +225,7 @@ export const People_contents_staffs = [
         description: () => {
             return (
                 <>
-                <p style={{ textAlign:"center",padding:"5px",fontWeight:"bold",marginTop:"-15px",fontSize:"10px" }}>SSTI Lab Engineer</p>
+                <p className="text-center p-[5px] font-bold -mt-[10px] no-hamburger:-mt-[15px] text-[10px]">SSTI Lab Engineer</p>
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
                     Research Areas<br />
 
@@ -244,7 +244,7 @@ export const People_contents_staffs = [
         description: () => {
             return (
                 <>
-                <p style={{ textAlign:"center",padding:"5px",fontWeight:"bold",marginTop:"-15px",fontSize:"10px" }}>SSTI Project Coordinator</p>
+                <p className="text-center p-[5px] font-bold -mt-[10px] no-hamburger:-mt-[15px] text-[10px]">SSTI Project Coordinator</p>
                 <p style={{ textAlign: "left", paddingLeft: "5px" }}>
                      Research Areas<br />
 

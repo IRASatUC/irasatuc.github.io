@@ -41,9 +41,9 @@ export default function Publication() {
     const [Content, setContent] = useState("peer-review");
 
     return(
-        <div className='Publication big_h1 pl-[20px] no-hamburger:pl-[50px] w-[90%]'>
+        <div className='Publication big_h1 pl-[20px] no-hamburger:pl-[50px] pb-10 w-[90%]'>
             <h1 className="text-center no-hamburger:text-left">Publications</h1>
-            <div className='menu-box flex overflow-x-scroll w-full sticky top-0 border-b-[1px] border-black bg-white'>
+            <div className='menu-box flex overflow-x-scroll w-full sticky top-[105px] border-b-[1px] border-black bg-white'>
                 <h2 className={"duration-[0.3s] min-w-[250px] content-center" + (Content==="peer-review"?" text-brighter-blue":" text-black")} onClick={()=>{setContent("peer-review")}}>
                     Peer-Reviewed Journal&nbsp;Papers</h2>
 
@@ -56,7 +56,7 @@ export default function Publication() {
                 <h2 className={"duration-[0.3s] min-w-[250px] content-center" + (Content==="patents"?" text-brighter-blue":" text-black")} onClick={()=>{setContent("patents")}}>
                     Patents</h2>
             </div>
-            <div className='content-box p-[40px] border-[1px] border-t-0 border-solid border-black'>
+            <div className='content-box px-[45px] py-4 border-[1px] border-t-0 border-solid border-black'>
                 { PublicationContent(Content) }
             </div>
         </div>

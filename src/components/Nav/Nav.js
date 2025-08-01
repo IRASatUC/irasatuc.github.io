@@ -39,7 +39,7 @@ export default function Nav() {
     return (
         <>
             <div className="Nav">
-                <nav className="flex items-center justify-between flex-wrap bg-base-blue p-6">
+                <nav className="flex items-center justify-between flex-wrap w-full bg-base-blue p-6 fixed z-10">
 
                     <div className="flex items-center flex-shrink-0 text-white mr-6">
                         <Link to='/'><img className="w-[200px] h-auto invert" src={IRAS_LOGO} alt=""></img></Link>
@@ -51,7 +51,7 @@ export default function Nav() {
                             <button className="h-[50px]" onClick={() => setHamburgerOpen(!hamburgerOpen)}>
                                 <img alt="Hamburger button" width="50px" height="auto" src={HamburgerPNG} onClick={() => setHamburgerOpen(!hamburgerOpen)} />
                             </button>
-                            <div style={{...(hamburgerOpen?{maxHeight:"272px"}:{maxHeight:"0"}),transition:"0.8s ease-in-out",width:"100%",overflow:"hidden"}}>
+                            <div className={"duration-[0.8s] ease-in-out w-full overflow-hidden " + (hamburgerOpen?"max-h-[272px]":"max-h-[0px]")}>
                                 { NavButtons }
                             </div>
                         </> :
@@ -59,6 +59,7 @@ export default function Nav() {
                     }
                 </nav>
             </div>
+            <div className="h-[108px]"></div>
             <Outlet />
         </>
     )

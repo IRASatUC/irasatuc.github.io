@@ -1,8 +1,10 @@
 import "./NewsCard.css";
+import {useDeviceSize} from "../../utils/WindowStates";
 
 export default function NewsCard(props) {
+    const windowWidth = useDeviceSize()[0];
     return (
-        <div className="bg-white overflow-hidden border-4 border-brighter-blue w-3/4 duration-[0.3s] NewsCard_div" style={{margin:"10px"}}>
+        <div className="bg-white overflow-hidden border-4 border-brighter-blue w-3/4 duration-[0.3s] NewsCard_div m-[10px]">
             <a href={(props.link.length > 0) ? props.link : false} >
                 <div className="p-4 md:p-6">
                     <div className="leading-none flex items-center gap-6">
@@ -11,7 +13,7 @@ export default function NewsCard(props) {
                         {props.link.length > 0 &&
                             <>
                                 <p className="text-2xl mb-1.5 select-none">•</p>
-                                <p className="text-gray-700 mb-1 text-xs hover:underline"> {props.link} </p>
+                                <p className="text-gray-700 mb-1 text-xs hover:underline"> {(windowWidth > 1042)?props.link:props.link.substring(0, props.link.search(/(?<!https:)(?<!\/)\//)+1)+"…"} </p>
                             </>
                         }
                     </div>
