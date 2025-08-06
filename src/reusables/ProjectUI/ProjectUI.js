@@ -42,12 +42,12 @@ export default function ProjectUI(props) {
                 </div> }
 
             { props.projectImage &&
-                <div className='ProjectUI_img max-[900px]:flex-col max-[900px]:items-center max-[900px]:p-[20px] flex justify-center p-[50px]'>
+                <div className='ProjectUI_img max-[900px]:flex-col max-[900px]:items-center p-[50px] pt-[80px] max-[900px]:p-[20px] max-[900px]:pt-[80px] flex justify-center'>
                     <h1>{props.projectImageTitle?props.projectImageTitle:""}</h1>
 
                     { props.projectImage.map((imageProps, index)=>{
                         return (
-                            <div key={index} className="image_content_box flex flex-1 justify-center p-[20px]">
+                            <div key={index} className="image_content_box flex flex-col items-center p-[20px]">
                                 <div>
                                     {
                                         typeof(imageProps.title) === "string" ?
@@ -56,7 +56,7 @@ export default function ProjectUI(props) {
                                             </strong></p> :
                                             imageProps.title()
                                     }
-                                    <img src={imageProps.src}alt=""></img>
+                                    <img className="h-[300px] no-hamburger:h-[40vh] w-auto" src={imageProps.src} alt=""></img>
                                 </div>
                             </div>
                         )

@@ -10,7 +10,7 @@ export default function ProjectItem({content, index}) {
 
     const media = 
         <div className="projectItemMedia w-[var(--totalThumbSize)] h-[var(--totalThumbSize)]">
-            <div className="imgBord absolute p-[calc(var(--totalThumbSize)_/_2)] duration-300 ease-linear"></div>
+            <div className="imgBord absolute p-[calc(var(--totalThumbSize)_/_2)] transition-[padding,_border] duration-300 ease-linear"></div>
             { (content.video === undefined) ?
                 <img className="absolute top-[50%] -translate-y-[50%] w-[var(--finalImgSize)] h-[var(--finalImgSize)] ml-[var(--finalBordSize)]" src={content.image} alt={content.imageAlt || "Placeholder"} /> :
                 <video className="absolute top-[50%] -translate-y-[50%] w-[var(--finalImgSize)] h-[var(--finalImgSize)]  ml-[var(--finalBordSize)]" autoPlay loop muted playsInline poster={content.image}>

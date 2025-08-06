@@ -47,8 +47,9 @@ import Project27 from './components/Projects/Project27_Study_of_Squirrel_s_Capab
 import Project28 from './components/Projects/Project28_Physics_Enhanced_Deep_Learning_for_Faster_than_Real_Time_Prediction_of_Dynamic_Behavior_of_Space_Robotic_Systems/Project28';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState, /*useRef,*/ useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { MathJaxContext } from "better-react-mathjax";
+import ScrollToTop from "./reusables/ScrollToTop/ScrollToTop";
 
 const config = {
   loader: { load: ["[tex]/html"] },
@@ -76,6 +77,7 @@ export default function App() {
         <MathJaxContext version={3} config={config}>
             <div>
                 <BrowserRouter basename="/IRAS-Lab"> {/* Use basename if deployed under a subdirectory */}
+                    <ScrollToTop />
                     <Routes>
                         <Route path="/" element={<Nav />}>
                             <Route index element={<About />} />

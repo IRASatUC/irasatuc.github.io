@@ -18,7 +18,25 @@ const useDeviceSize = () => {
         return () => window.removeEventListener('resize', handleWindowResize);
     }, []);
 
-    return [width, height]
+    return [width, height];
+}
+
+const useScrollPosition = () => {
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrollPosition(position);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    return scrollPosition;
 }
 
 const useIsOverflow = (ref, callback) => {
@@ -57,4 +75,4 @@ const useIsOverflow = (ref, callback) => {
     return isOverflow;
 };
 
-export { useDeviceSize, useIsOverflow };
+export { useDeviceSize, useScrollPosition, useIsOverflow };

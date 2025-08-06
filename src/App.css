@@ -5,10 +5,10 @@
 @layer components {
     .ProjectUI_header {
         &:is(h1) {
-            @apply text-center font-bold p-5 text-xl;
+            @apply text-center font-bold p-5 text-xl no-hamburger:text-2xl;
         }
         &:is(h2) {
-            @apply text-center font-bold p-5;
+            @apply text-center font-bold p-5 no-hamburger:text-xl;
         }
     }
     .nav-Button {
@@ -42,4 +42,13 @@
 :root {
     --color-base-blue: #37425B;
     --color-brighter-blue: #213461;
+}
+
+::selection {
+    color: white;
+    background-color: var(--color-base-blue);
+}
+
+Nav ::selection {
+    background-color: var(--color-brighter-blue);
 }

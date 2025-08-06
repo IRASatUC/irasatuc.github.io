@@ -2,7 +2,7 @@ import IRAS_LOGO from '../img/IRAS_LOGO_2.png';
 import { Outlet, Link } from "react-router-dom";
 import { useState } from 'react';
 import HamburgerPNG from "../img/Hamburger.png";
-import { useDeviceSize } from "../../utils/WindowStates";
+import { useDeviceSize, useScrollPosition } from "../../utils/WindowStates";
 
 const NavButtons = (
     <div className="nav-Buttons w-full block no-hamburger:flex no-hamburger:items-center no-hamburger:w-auto">
@@ -35,6 +35,7 @@ const NavButtons = (
 export default function Nav() {
     const windowWidth = useDeviceSize()[0];
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
+    const scrollPosition = useScrollPosition();
 
     return (
         <>
@@ -48,18 +49,25 @@ export default function Nav() {
                     {
                         windowWidth <= 1042 ?
                         <>
-                            <button className="h-[50px]" onClick={() => setHamburgerOpen(!hamburgerOpen)}>
+                            <button className="h-[50px] z-10" onClick={() => setHamburgerOpen(!hamburgerOpen)}>
                                 <img alt="Hamburger button" width="50px" height="auto" src={HamburgerPNG} onClick={() => setHamburgerOpen(!hamburgerOpen)} />
                             </button>
-                            <div className={"duration-[0.8s] ease-in-out w-full overflow-hidden " + (hamburgerOpen?"max-h-[272px]":"max-h-[0px]")}>
+                            <div className={"duration-[0.8s] ease-in-out w-full overflow-hidden z-10 " + (hamburgerOpen?"max-h-[272px]":"max-h-[0px]")}>
                                 { NavButtons }
                             </div>
                         </> :
                         <>{ NavButtons }</>
                     }
                 </nav>
+                
+                { windowWidth <= 1042 &&
+                    <div className={"bg-black fixed top-0 left-0 w-[1000px] h-[1000px] z-[5] transition-opacity duration-[0.3s] " + (hamburgerOpen?"opacity-80":"opacity-0 pointer-events-none")} onClick={() => setHamburgerOpen(!hamburgerOpen)}></div>
+                }
             </div>
-            <div className="h-[108px]"></div>
+            <div className="h-[105px]"></div>
+            <div className={"text-white rounded-md font-bold fixed w-12 h-12 flex items-center justify-center bottom-5 right-5 z-50 cursor-pointer bg-base-blue transition-opacity duration-[0.3s] ease-in-out " + ((scrollPosition > 300)?"opacity-100":"opacity-0 pointer-events-none")} onClick={()=>{window.scrollTo({top: 0, behavior: "smooth"})}}>
+                <p>Top</p>
+            </div>
             <Outlet />
         </>
     )

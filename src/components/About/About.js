@@ -17,9 +17,9 @@ function textSwap(newText,id) {
 
 export default function About() {
     useEffect(() => {
-            document.body.style.backgroundColor = 'rgb(55,66,91)';
+            document.getElementById('root').style.background = 'linear-gradient(to bottom, var(--color-base-blue) 50%, white 100%)';
             return () => {
-                document.body.style.backgroundColor = 'initial';
+                document.getElementById('root').style.background = 'initial';
             };
         }
     );

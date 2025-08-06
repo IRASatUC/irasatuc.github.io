@@ -4,11 +4,15 @@
 }
 .box:hover, .ProfileMobileTouched {
     background: linear-gradient(45deg, rgb(55,66,91,1) 30%, rgb(68, 90, 141) 90%);
-    box-shadow: 0 3px 5px 2px rgba(68, 90, 141, 0.3);
+    box-shadow: 0 3px 5px 2px rgba(68, 90, 141, 0.6);
     @apply py-[10px];
 
     .des {
         @apply max-h-[1000px] opacity-100 visible pl-[10px];
+    }
+
+    .img-box {
+        box-shadow: 0 3px 5px 2px rgba(68, 90, 141, 0.6);
     }
 }
 .img-box {

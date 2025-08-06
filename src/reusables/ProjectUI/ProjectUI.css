@@ -9,7 +9,7 @@
     display: block;
     margin: 0 auto; /* Center the border */
     border-top: 1px solid white;
-    width: 60vw;
+    width: 80vw;
 }
 .ProjectUI a {
     text-decoration: underline;

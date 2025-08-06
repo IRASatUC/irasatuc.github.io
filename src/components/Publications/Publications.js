@@ -2,11 +2,6 @@ import './Publications.css';
 import { Publication_contents_peers_review, Publication_contents_books_chapter, Publication_contents_patents, Publication_contents_peers_review_conference } from '../../contents/Publication_contents/Publication_contents';
 import { useState } from 'react';
 
-/*function dropdownDisplay(id) {
-    let elem = document.getElementById(id)
-    elem.style.display = (elem.style.display.charAt(0) === 'b') ? "none" : "block";
-}*/
-
 function id_and_source_from_content(content) {
     switch (content) {
         case "peer-review-conference":
