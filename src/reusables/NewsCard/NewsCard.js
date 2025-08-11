@@ -4,7 +4,7 @@ import {useDeviceSize} from "../../utils/WindowStates";
 export default function NewsCard(props) {
     const windowWidth = useDeviceSize()[0];
     return (
-        <div className="bg-white overflow-hidden border-4 border-brighter-blue w-3/4 duration-[0.3s] NewsCard_div m-[10px]">
+        <div className="bg-white overflow-hidden border-4 border-brighter-blue w-3/4 duration-[0.3s] NewsCard_div m-[10px]" onFocus={(e)=>{e.target.closest(".NewsCard_div").classList.add("NewsBox_backdrop")}} onBlur={(e)=>{e.target.closest(".NewsCard_div").classList.remove("NewsBox_backdrop")}}>
             <a href={(props.link.length > 0) ? props.link : false} >
                 <div className="p-4 md:p-6">
                     <div className="leading-none flex items-center gap-6">

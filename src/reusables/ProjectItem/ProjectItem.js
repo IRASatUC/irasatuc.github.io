@@ -13,7 +13,7 @@ export default function ProjectItem({content, index}) {
             <div className="imgBord absolute p-[calc(var(--totalThumbSize)_/_2)] transition-[padding,_border] duration-300 ease-linear"></div>
             { (content.video === undefined) ?
                 <img className="absolute top-[50%] -translate-y-[50%] w-[var(--finalImgSize)] h-[var(--finalImgSize)] ml-[var(--finalBordSize)]" src={content.image} alt={content.imageAlt || "Placeholder"} /> :
-                <video className="absolute top-[50%] -translate-y-[50%] w-[var(--finalImgSize)] h-[var(--finalImgSize)]  ml-[var(--finalBordSize)]" autoPlay loop muted playsInline poster={content.image}>
+                <video className="absolute top-[50%] -translate-y-[50%] w-[var(--finalImgSize)] h-[var(--finalImgSize)]  ml-[var(--finalBordSize)]" autoPlay loop muted playsInline poster={content.image} tabIndex={-1}>
                     <source src={content.video} type="video/mp4" />
                 </video> }
         </div>;
@@ -25,19 +25,19 @@ export default function ProjectItem({content, index}) {
             { (index > 0) &&
                 <hr className="border-black my-[5px] max-w-[95vw] mx-auto"></hr>
             }
-            <li key={index} className={"projectItem relative text-[large] p-[5px] flex items-center gap-x-[10px] max-w-[95vw] mx-auto " + ((windowWidth>1042)?"":"smallThumbs ") + ((content.link.length>0)?"font-bold cursor-pointer":"")}>
+            <li key={index} className={"projectItem relative text-[large] p-[5px] flex items-center gap-x-[10px] max-w-[95vw] mx-auto " + ((windowWidth>1042)?"text-left ":"smallThumbs text-center ") + ((content.link.length>0)?"font-bold cursor-pointer":"")}>
                 { (content.link.length > 0) ?
                     <>
                         <Link to={content.link}>
                             {media}
                         </Link>
-                        <Link to={content.link}>
+                        <Link to={content.link} className="flex-1">
                             {thisText}
                         </Link>
                     </> :
                     <>
                         <div>{media}</div>
-                        <div>{thisText}</div>
+                        <div className="flex-1">{thisText}</div>
                     </> }
             </li>
         </>

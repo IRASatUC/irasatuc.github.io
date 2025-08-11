@@ -56,7 +56,7 @@ export default function ProjectUI(props) {
                                             </strong></p> :
                                             imageProps.title()
                                     }
-                                    <img className="h-[300px] no-hamburger:h-[40vh] w-auto" src={imageProps.src} alt=""></img>
+                                    <img className="max-h-[40vh] object-contain" src={imageProps.src} alt=""></img>
                                 </div>
                             </div>
                         )
@@ -79,7 +79,7 @@ export default function ProjectUI(props) {
                                                     </strong></p> :
                                                     vidProps.title()
                                             }
-                                            <video className="max-[900px]:max-h-[30vh] max-h-[60vh]" autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay}>
+                                            <video className="max-h-[40vh] object-contain" autoPlay={!(vidProps.doNotAutoplay)} muted={!(vidProps.doNotAutoplay)} loop={!(vidProps.doNotAutoplay)} controls={vidProps.doNotAutoplay}>
                                                 <source src={vidProps.src} type="video/mp4"></source>
                                                 {
                                                     typeof(vidProps.caption)==="string" && <track label="English" kind="subtitles" srcLang="en" src={vidProps.caption} default />

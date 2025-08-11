@@ -531,11 +531,6 @@ export const Publication_contents_peers_review_conference = [
         <em>5th International Conference on Dynamic Data Driven Applications Systems (DDDAS)</em>, 2024, New Brunswick, NJ.
     </>,
     <>
-        Hoffmann, J.; Barth, A.; Ma, O.; and Dong, J.;
-        “An Innovative Spherical Air Bearing-based Testbed for Testing 3D Attitude Motion of CubeSats”,
-        accepted for publication at AIAA SciTech 2025.
-    </>,
-    <>
         T. Ma, T. Zhang, O. Ma,
         “Global Reorientation of a Free-Fall Multibody System using Reconstruction Loss-based Deep Learning Method”,{" "}
         <em>IFToMM Symposium of RoManSy & USCToMM Symposium on Mechanical Systems and Robotics</em>, May 23-25, 2024, Tampa, FL.

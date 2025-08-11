@@ -6,7 +6,8 @@ export default function Project24() {
         <ProjectUI
             Background={lowGravity}
             projectTitle="Technology for Simulating Human Activities in Partial Gravity"
-            projectTeaser={<ul>
+            projectTeaser={
+                <ul className="list-disc">
                     <li>Simulate any gravity level from 0 to 1g</li>
                     <li>Multi-DOF mechanism and exoskeletons</li>
                     <li>Reliable passive technology</li>
