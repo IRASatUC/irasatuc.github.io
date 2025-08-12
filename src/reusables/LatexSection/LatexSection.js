@@ -4,8 +4,7 @@ import {useIsOverflow} from "../../utils/WindowStates";
 
 export default function LatexSection({input, inline=false}) {
     const ref = useRef();
-    const isOverflowing = useIsOverflow(ref, (isOverflowFromCallback) => {
-    console.log(isOverflowFromCallback);});
+    const isOverflowing = useIsOverflow(ref, () => {});
     const eq = <MathJax hideUntilTypeset={"first"} inline={inline}>{input}</MathJax>;
 
     return ( (inline) ?

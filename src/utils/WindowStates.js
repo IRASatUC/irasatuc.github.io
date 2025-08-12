@@ -46,7 +46,6 @@ const useIsOverflow = (ref, callback) => {
     const trigger = useCallback((cur) => {
         if (cur === undefined) return;
         const hasOverflow = cur.scrollWidth > cur.clientWidth;
-        console.log(cur.scrollWidth + " vs " + cur.clientWidth);
 
         setIsOverflow(hasOverflow);
 
