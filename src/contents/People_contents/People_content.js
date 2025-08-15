@@ -353,6 +353,14 @@ export const People_contents_students = [
         title: "PHD Student"
     },
     {
+        name: "Sophia Yu",
+        title: "PHD Student"
+    },
+    {
+        name: "Tiffany Liaw",
+        title: "PHD Student"
+    },
+    {
         imgUrl: Lab_Web_Site_Waite_Weideman,
         name: "Waite Weideman",
         title: "Master Student",
