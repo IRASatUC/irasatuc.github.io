@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Current Projects
-permalink: /current_projects/
+#layout: page
+#title: Current Projects
+#permalink: /current_projects/
 ---
 # [Development of A 3D Proximity-Operation Test System for On-Orbit Servicing a Non-Cooperative Object]({% link projects/orbit_servicing_test.markdown %})
 
