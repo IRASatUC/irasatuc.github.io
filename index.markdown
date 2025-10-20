@@ -20,4 +20,4 @@ layout: page
 
 # ![IRAS Lab Logo](/images/IRAS_LOGO.jpg "IRAS LAB LOGO")
 ---
-TEST
+Please see our new site at [https://ceas5.uc.edu/IRAS-Lab/](https://ceas5.uc.edu/IRAS-Lab/)
