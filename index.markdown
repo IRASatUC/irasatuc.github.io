@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 # layout: home
----
+
 # ![IRAS Lab](/images/IRAS_LAB_2021.jpg "IRAS LAB")
 
 # <p align="justify">
@@ -19,5 +19,5 @@
 # - Collaborating Faculty : Professors Catharine McGhan, Donghoon Kim, Kelly Cohen, Raj Sharma, Janet Dong, etc.
 
 # ![IRAS Lab Logo](/images/IRAS_LOGO.jpg "IRAS LAB LOGO")
-
+---
 TEST
