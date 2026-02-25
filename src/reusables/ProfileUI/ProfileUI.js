@@ -1,26 +1,67 @@
-import './ProfileUI.css'
-import Placeholder from "../../components/img/Placeholder_people.png"
+import "./ProfileUI.css";
+import Placeholder from "../../components/img/Placeholder_people.png";
+import { useEffect, useRef } from "react";
 
 export default function ProfileUI(props) {
-    const noHover = window.matchMedia("(hover: none)").matches;
-    return (
-        <div className='prof-container m-[10px] pt-[60px] no-hamburger:pt-[80px] w-fit min-h-[350px] no-hamburger:min-h-[480px]'>
-            <div className='box w-[150px] no-hamburger:w-[250px] rounded-[5px] text-white text-center duration-[0.3s] transition-[padding,_max-height]' onClick={
-                    noHover ?
-                        (e)=>{
-                            if (!(e.target instanceof HTMLButtonElement)) {
-                                let cl = e.target.closest(".box").classList;
-                                (cl.contains("ProfileMobileTouched")) ?
-                                    cl.remove("ProfileMobileTouched") :
-                                    cl.add("ProfileMobileTouched")
-                            }
-                        } :
-                    null}>
-                <img className='img-box relative -top-[30px] no-hamburger:-top-[80px] w-[100px] no-hamburger:w-[190px] aspect-square rounded-[6px] bg-black mx-auto' src={ props.imgUrl || Placeholder } alt="profile-img"/>
-                <h2 className='name -mt-[25px] no-hamburger:-mt-[75px] text-[18px] no-hamburger:text-[27px]'>{ props.name }</h2>
-                <h3 className='title text-[16px] no-hamburger:text-[20px] text-[rgba(255,255,255,0.7)] p-[5px]'>{ props.title }</h3>
-                <div className='des text-[9px] no-hamburger:text-[10px] text-[rgba(255,255,255,0.7)] pl-[0px] pr-[10px] min-h-[15px] max-h-[15px] opacity-0 invisible duration-[0.3s]'>{ props.description ? props.description() : <div></div> }</div>
-            </div>
+  const website = props.website;
+  const descRef = useRef(null);
+
+  useEffect(() => {
+    const el = descRef.current;
+    if (!el) return;
+
+    const MAX = 10;  // start font size (px)
+    const MIN = 5;   // smallest allowed (px)
+
+    const fit = () => {
+      // reset first (important when resizing bigger)
+      let size = MAX;
+      el.style.setProperty("--desc-font", `${size}px`);
+
+      // shrink until fits or hits MIN
+      while (size > MIN && el.scrollHeight > el.clientHeight + 1) {
+        size -= 0.5;
+        el.style.setProperty("--desc-font", `${size}px`);
+      }
+    };
+
+    // run now + on resize
+    fit();
+    window.addEventListener("resize", fit);
+    return () => window.removeEventListener("resize", fit);
+  }, [props.name, props.title, props.description]);
+
+  return (
+    <div className="profile-row">
+      {/* Circle */}
+      <div className="profile-row__avatarWrap">
+        <img
+          className="profile-row__avatar"
+          src={props.imgUrl || Placeholder}
+          alt={props.name || "profile"}
+        />
+      </div>
+
+      {/* Rectangle */}
+      <div className="profile-row__card">
+        <h2 className="profile-row__name">{props.name}</h2>
+        <h3 className="profile-row__title">{props.title}</h3>
+    
+
+        {/* Description */}
+        <div className="profile-row__desc" ref={descRef}>
+          {props.description ? props.description() : null}
         </div>
-    );
+
+        {/* Hover CTA */}
+        {website && (
+          <div className="profile-row__cta">
+            <a href={website} target="_blank" rel="noreferrer">
+              Personal Website
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
+  );
 }

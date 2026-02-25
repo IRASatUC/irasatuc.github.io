@@ -45,6 +45,7 @@ import Project25 from './components/Projects/Project25_UAV-Manipulator_Systems_f
 import Project26 from './components/Projects/Project26_Visual-based_Robot_Tracking_of_Arbitrarily_Defined_Object/Project26';
 import Project27 from './components/Projects/Project27_Study_of_Squirrel_s_Capability_of_Stabilizing_Its_Head_while_Body_Tumbling/Project27';
 import Project28 from './components/Projects/Project28_Physics_Enhanced_Deep_Learning_for_Faster_than_Real_Time_Prediction_of_Dynamic_Behavior_of_Space_Robotic_Systems/Project28';
+import Project29 from './components/Projects/Project29_EnhancingHuman_RobotInteractionSafetyinManufacturing/Project29';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from 'react';
@@ -114,6 +115,7 @@ export default function App() {
 
                             {/* CurrentProjects Routes */}
                             <Route path="CurrentProjects" element={<CurrentProjects />}>
+                        
                                 <Route index element={<CurrentProjectList />} />
                                 <Route path="Project7" element={<Project7 />} />
                                 <Route path="Project1" element={<Project1 />} />
@@ -121,6 +123,7 @@ export default function App() {
                                 <Route path="Project12" element={<Project12 />} />
                                 <Route path="Project16" element={<Project16 />} />
                                 <Route path="Project28" element={<Project28 />} />
+                                <Route path="Project29" element={<Project29 />} />
                             </Route>
 
                             <Route path="People" element={<People />} />

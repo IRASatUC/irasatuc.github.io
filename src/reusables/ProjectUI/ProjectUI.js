@@ -11,7 +11,7 @@ export default function ProjectUI(props) {
     );
 
     return (
-        <div className='ProjectUI text-white'>
+        <div className='ProjectUI text-white pt-[50px]'>
 
             {   (props.Background || props.BackgroundImage) &&
                 <>

@@ -1,20 +1,153 @@
-.box {
-    background: linear-gradient(45deg, rgb(55,66,91,1) 30%, rgb(68, 90, 141) 90%);
-    box-shadow: 0 3px 5px 2px rgb(55,66,91,0.3);
+:root {
+  --avatar: 175px;
+  --overlap: 100px;
 }
-.box:hover, .ProfileMobileTouched {
-    background: linear-gradient(45deg, rgb(55,66,91,1) 30%, rgb(68, 90, 141) 90%);
-    box-shadow: 0 3px 5px 2px rgba(68, 90, 141, 0.6);
-    @apply py-[10px];
 
-    .des {
-        @apply max-h-[1000px] opacity-100 visible pl-[10px];
-    }
-
-    .img-box {
-        box-shadow: 0 3px 5px 2px rgba(68, 90, 141, 0.6);
-    }
+.profile-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 22px 0;
 }
-.img-box {
-    box-shadow: 0 3px 5px 2px rgba(68, 90, 141, 0.3);
+
+.profile-row__avatarWrap {
+  width: var(--avatar);
+  height: var(--avatar);
+  border-radius: 9999px;
+  overflow: hidden;
+  background: #6b7280;
+  z-index: 2;
+  flex: 0 0 auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.profile-row__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-row__card {
+  position: relative;
+  min-height: 160px;
+  height: 160px;
+  max-height: 160px;
+  width: min(860px, 68vw);
+  border-radius: 22px;
+
+  padding: 2px 28px 18px;
+  padding-left: calc(28px + var(--overlap));
+  margin-left: calc(var(--overlap) * -1);
+
+  color: white;
+  background: linear-gradient(45deg, rgba(55,66,91,1) 30%, rgba(68, 90, 141, 1) 90%);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.profile-row__name {
+  margin: 0;
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.profile-row__title {
+  margin: 4px -4px 1.5px 0px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+}
+
+
+.profile-row__desc {
+  /* JS will update this var */
+  --desc-font: 10px;
+
+  font-size: var(--desc-font);
+  line-height: 1.5;
+  color: rgba(255,255,255,0.92);
+  max-height: 120px;
+  overflow: hidden;
+
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+.profile-row__cta {
+  position: absolute; /* Position button inside card */
+  bottom: 35px; /* Move button up from the bottom */
+  right: 60px;  /* Move button in from the right */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Initially hidden */
+  pointer-events: none; /* Disable interaction when not hovered */
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+.profile-row__cta a {
+  border: 1px solid rgba(255,255,255,0.85);
+  background: rgba(0,0,0,0.18);
+  padding: 10px 16px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.profile-row__cta a:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.profile-row__card:hover .profile-row__desc {
+  opacity: 0;
+}
+
+.profile-row__card:hover .profile-row__cta {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 900px) {
+  :root { --avatar: 260px; --overlap: 60px; }
+
+  .profile-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .profile-row__card {
+    width: 92vw;
+    height: auto;
+    max-height: none;
+    margin-left: 0;
+    padding-left: 26px;
+  }
+
+  .profile-row__desc {
+    max-height: none;
+    overflow: visible;
+    opacity: 1 !important;
+  }
+
+  .profile-row__cta {
+    display: none;
+  }
+}
+
+/* Hide any inline buttons that come from People_content.js description() */
+.profile-row__desc button,
+.profile-row__desc a {
+  display: none !important;
 }

@@ -6,6 +6,7 @@ import RobotLatchMP4 from "./RobotLatch.mp4";
 import ControlCapturingPNG from "./ControlCapturing.png";
 import ControlCapturingMP4 from "./ControlCapturing.mp4";
 import DynamicBehaviorPredictionPNG from "./DynamicBehaviorPrediction.png";
+import Picture1DrLiThumbJPG from "./Picture1DrLiThumb.jpg";
 
 export const CurrentProjectList_contents = [
     {   link: "/CurrentProjects/Project7",
@@ -33,5 +34,10 @@ export const CurrentProjectList_contents = [
     {   link: "/CurrentProjects/Project28",
         text: "Physics-Enhanced Deep Learning for Fast-than-Real-Time Prediction of Dynamic Behavior of Space Robotic Systems",
         image: DynamicBehaviorPredictionPNG,
+    },
+
+    {   link: "/CurrentProjects/Project29",
+        text: "Enhancing Human–Robot Interaction Safety in Manufacturing Using 3D Vision and Machine Learning Technologies",
+        image: Picture1DrLiThumbJPG,
     },
 ];

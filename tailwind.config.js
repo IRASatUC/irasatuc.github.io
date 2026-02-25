@@ -9,8 +9,8 @@ module.exports = {
         'no-hamburger': '1043px',
       },
       colors: {
-        'base-blue': '#37425B',
-        'brighter-blue': '#213461',
+        'base-blue': '#37425B',  // primary (white)   
+        'brighter-blue': '#213461', // secondary (beige)
       },
     },
   },

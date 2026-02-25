@@ -8,25 +8,25 @@ function NavButtons({windowWidth, hamburgerOpen}) {
     return (
         <div className="nav-Buttons w-full block no-hamburger:flex no-hamburger:items-center no-hamburger:w-auto">
             <div className="text-lg no-hamburger:flex-grow no-hamburger:text-xl xl:text-2xl">
-                <Link to="/" className="nav-Button" tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
+                <Link to="/" className="nav-Button" style={{ marginRight: '35px' }} tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
                     About
                 </Link>
                 {/*<Link to="/Opportunities" className="nav-Button" tabIndex={(windowWidth > 1042 && !hamburgerOpen)-1:undefined}>
                     Opportunities
                 </Link>*/}
-                <Link to="/News" className="nav-Button" tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
+                <Link to="/News" className="nav-Button" style={{ marginRight: '35px' }} tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
                     News
                 </Link>
-                <Link to="/People" className="nav-Button" tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
+                <Link to="/People" className="nav-Button" style={{ marginRight: '35px' }} tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
                     People
                 </Link>
-                <Link to="/CurrentProjects" className="nav-Button" tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
+                <Link to="/CurrentProjects" className="nav-Button" style={{ marginRight: '35px' }} tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
                     Current Projects
                 </Link>
-                <Link to="/PriorProject" className="nav-Button" tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
+                <Link to="/PriorProject" className="nav-Button" style={{ marginRight: '35px' }} tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
                     Prior Projects
                 </Link>
-                <Link to="/Publications" className="nav-Publication" tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
+                <Link to="/Publications" className="nav-Button" style={{ marginRight: '35px' }} tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
                     Publications
                 </Link>
             </div>
