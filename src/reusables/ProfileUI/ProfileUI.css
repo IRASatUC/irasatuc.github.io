@@ -1,6 +1,6 @@
 :root {
-  --avatar: 175px;
-  --overlap: 100px;
+  --avatar: 250px;
+  --overlap: 150px;
 }
 
 .profile-row {
@@ -30,14 +30,14 @@
 
 .profile-row__card {
   position: relative;
-  min-height: 160px;
-  height: 160px;
-  max-height: 160px;
+  min-height: 230px;
+  height: 230px;
+  max-height: 230px;
   width: min(860px, 68vw);
-  border-radius: 22px;
+  border-radius: 26px;
 
-  padding: 2px 28px 18px;
-  padding-left: calc(28px + var(--overlap));
+  padding: 6px 34px 22px;  /* slightly more breathing room */
+  padding-left: calc(34px + var(--overlap));
   margin-left: calc(var(--overlap) * -1);
 
   color: white;
@@ -61,7 +61,7 @@
 .profile-row__title {
   margin: 4px -4px 1.5px 0px;
   line-height: 1;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   color: rgba(255,255,255,0.75);
 }
@@ -69,12 +69,12 @@
 
 .profile-row__desc {
   /* JS will update this var */
-  --desc-font: 10px;
+  --desc-font: 12px;
 
   font-size: var(--desc-font);
   line-height: 1.5;
   color: rgba(255,255,255,0.92);
-  max-height: 120px;
+  max-height: 150px;
   overflow: hidden;
 
   opacity: 1;
@@ -84,8 +84,8 @@
 
 .profile-row__cta {
   position: absolute; /* Position button inside card */
-  bottom: 35px; /* Move button up from the bottom */
-  right: 60px;  /* Move button in from the right */
+  bottom: 50px; /* Move button up from the bottom */
+  right: 210px;  /* Move button in from the right */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,8 +118,8 @@
   pointer-events: auto;
 }
 
-@media (max-width: 900px) {
-  :root { --avatar: 260px; --overlap: 60px; }
+@media (max-width: 800px) {
+  :root { --avatar: 230px; --overlap: 50px; }
 
   .profile-row {
     flex-direction: column;
@@ -128,7 +128,7 @@
   }
 
   .profile-row__card {
-    width: 92vw;
+    width: 80vw;
     height: auto;
     max-height: none;
     margin-left: 0;

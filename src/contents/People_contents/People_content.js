@@ -248,7 +248,7 @@ export const People_contents_colaborating_faculty_outside_UC = [
                         <br/> Research Areas<br />   
 
                         - Spacecraft Dynamics and Control, and Coulomb Formation Flying<br />
-                        - Coupled Orbit/Attitude Dynamics, and Multi-agent Consensus Contro<br />
+                        - Coupled Orbit/Attitude Dynamics, and Multi-agent Consensus Control<br />
                         - Time-delayed, Stochastic, and Fractional Order Systems<br />
 
                         <strong>Email: ebutcher@arizona.edu</strong>

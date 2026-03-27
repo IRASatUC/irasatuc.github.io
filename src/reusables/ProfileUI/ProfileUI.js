@@ -10,8 +10,8 @@ export default function ProfileUI(props) {
     const el = descRef.current;
     if (!el) return;
 
-    const MAX = 10;  // start font size (px)
-    const MIN = 5;   // smallest allowed (px)
+    const MAX = 12;  // start font size (px)
+    const MIN = 7;   // smallest allowed (px)
 
     const fit = () => {
       // reset first (important when resizing bigger)
