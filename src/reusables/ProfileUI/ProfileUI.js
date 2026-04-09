@@ -57,7 +57,7 @@ export default function ProfileUI(props) {
         {website && (
           <div className="profile-row__cta">
             <a href={website} target="_blank" rel="noreferrer">
-              Personal Website
+              PERSONAL WEBSITE
             </a>
           </div>
         )}
