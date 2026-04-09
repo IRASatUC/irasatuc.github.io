@@ -83,21 +83,23 @@
 
 
 .profile-row__cta {
-  position: absolute; /* Position button inside card */
-  bottom: 50px; /* Move button up from the bottom */
-  right: 210px;  /* Move button in from the right */
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0; /* Initially hidden */
-  pointer-events: none; /* Disable interaction when not hovered */
+
+  opacity: 0;
+  pointer-events: none;
   transition: opacity 0.3s ease-in-out;
+
+  z-index: 10;
 }
 
 
 .profile-row__cta a {
-  border: 1px solid rgba(255,255,255,0.85);
-  background: rgba(0,0,0,0.18);
+  background: rgba(0, 0, 0, 0.18);
   padding: 10px 16px;
   border-radius: 12px;
   color: white;
@@ -119,7 +121,7 @@
 }
 
 @media (max-width: 800px) {
-  :root { --avatar: 230px; --overlap: 50px; }
+  :root { --avatar: 230npx; --overlap: 50px; }
 
   .profile-row {
     flex-direction: column;
