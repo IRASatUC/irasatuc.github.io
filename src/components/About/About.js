@@ -98,7 +98,7 @@ function ProjectHighlightRow({
       className="aspect-[4/3] md:aspect-square w-full bg-black/80 text-white flex items-center justify-center text-center px-6
                  hover:bg-black/70 transition"
     >
-      <p className="text-2xl md:text-3xl font-bold underline leading-tight">
+      <p className="text-2xl md:text-3xl font-bold underline leading-tight text-right">
         {pageTitle}
       </p>
     </Link>
