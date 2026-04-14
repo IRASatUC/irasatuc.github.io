@@ -5,8 +5,25 @@ import SpaceForceSelections from "../../components/News/img/211123-F-GO452-0001F
 import SatellitesThatFixOtherSatellites from "../../components/News/img/ouma7.jpeg";
 import PushFoward from "../../components/News/img/push-forward-commercial-tess.jpeg";
 import RobotOpeningDoor from "../../components/News/img/door_bot_hGRbGxwmWf.avif";
+import SpaceRepairRobot from "../../components/News/img/space-repair-robot.jpeg";
+import Expo26 from "../../components/News/img/Expo 26.jpg";
 
 export const News_contents = [
+    {
+        link:"",
+        title:"CEAS Expo 2026",
+        summary: "Our lab had two teams present at the CEAS EXPO on April 7th. This event features 250+ senior engineering capstone teams across all disciplines. Nick Bardash, Alec Wright, and Will Langdon created an airbearing-based, remote controlled 3U CubeSat. This is an important platform for testing planar motion of nanosatellites on our granite table, which allows us to get near-frictionless motion here on Earth. Nitin Vasudevan, Chandra Oli*, Mouhamed Fall*, and Matt Maniglia spent their year working on the development of a reduced gravity simulator for human kinematics. This device offsets the weight of a human body, by a chosen amount, to mimic the motion that would occur at different gravities. This could include both lunar and Martian gravity, making this an important testbed for studying human motion as we continue to explore and develop off-world habitats. Congratulations and thank you to both teams for their hard work this year. (*Not pictured)",
+        image: Expo26,
+        date:"April 7, 2026"
+    },
+    {
+        link:"https://www.uc.edu/news/articles/2026/03/dual-arm-robot-stabilizes-satellite-for-repairs-in-space.html",
+        title:"Professor Ou Ma and graduate student James Talavage demonstrated in simulations how dual-arm robot stabilizes satellite for repairs in space",
+        summary: "Researchers at the University of Cincinnati found that a robot performing maintenance tasks in space can reduce unwanted motion by moving a second arm to offset the forces created by the working arm. They presented their simulation at the American Institute for Aeronautics and Astronautics’ SciTech Forum conference in Orlando, Florida, this year. The research is supported with grants from the U.S. Space Force.",
+        image: SpaceRepairRobot,
+        date:"Mar 11, 2026"
+    },
+
     {
         link:"https://www.uc.edu/news/articles/2025/03/exploring-careers-in-robotics-engineering--a-path-to-the-future.html",
         title:"Robotics engineering is not just exciting — it’s lucrative.",
@@ -70,7 +87,7 @@ export const News_contents = [
         title:"University of Cincinnati's Robot Can Locate Outlets and Open Doors",
         summary: "Researchers at the University of Cincinnati have developed a robot capable of locating electrical outlets and opening doors, showcasing advancements in robotics and artificial intelligence. The robot utilizes advanced sensors and machine learning algorithms to navigate complex environments, making it a significant step forward in the field of autonomous robotics.",
         image: RobotOpeningDoor,
-        date:"3 years ago"
+        date:"October 19, 2021"
     },
     {   link:"https://www.uc.edu/news/articles/2019/11/n20877097.html",
         title:"UC develops satellites that fix other satellites",
