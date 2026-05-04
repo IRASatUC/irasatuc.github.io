@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 import "./About.css";
 import { About_descriptions } from "../../contents/About_descriptions/About_descriptions";
 
-import SpaceRoboticsJPG from "../img/space_robotics_2023.jpg";
+import SpaceRobotics2023 from "../img/space_robotics_2023.jpg";
+import DFHighBay from "../img/DFHighBay.JPG";
+import AirBearingTable from "../img/Air_bearing_table.jpg";
 import GroupPhotoJan2026 from "../img/GroupPhotoJan2026.jpg";
 import Lab_Web_Site_Ma_Ou from "../img/Lab_Website_Ma_Ou.jpg";
 import Lab_Web_Site_Brian_VanFossen from "../img/Lab_Website_Brian_VanFossen.jpg";
@@ -174,12 +176,39 @@ export default function About() {
         </div>
       </div>
 
-      {/* Section 3: Lab Contact Info (full-width image background) */}
+      {/* Section 3: High Bay + Air Bearing Table */}
+      <section className="w-full px-4 md:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-stretch">
+          
+          {/* Left side: first 2 columns */}
+          <div className="md:col-span-2 flex items-center">
+            <div className="w-full">
+              <img
+              src={DFHighBay}
+              alt="Air Bearing Table"
+              className="w-full h-auto object-contain aspect-[3/2] rounded-2xl"
+              />
+            </div>
+          </div>
+
+          {/* Right side: last 2 columns */}
+          <div className="md:col-span-2 flex items-center justify-center">
+            <img
+              src={AirBearingTable}
+              alt="Air Bearing Table"
+              className="w-full h-auto object-contain aspect-[3/2] rounded-2xl"
+            />
+          </div>
+          
+        </div>
+      </section> 
+  
+      {/* Section 4: Lab Contact Info (full-width image background) */}
       <section className="w-full mt-24">
         <div
           className="relative w-full bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${SpaceRoboticsJPG})` }}
-        >
+          style={{ backgroundImage: `url(${SpaceRobotics2023})` }}
+        >x
           {/* overlay */}
           <div className="absolute inset-0 bg-black/40" />
 
@@ -207,7 +236,8 @@ export default function About() {
         </div>
       </section>
 
-      {/* Section 4: Project Highlights (current left, prior right) */}
+
+      {/* Section 5: Project Highlights (current left, prior right) */}
       <section className="flex flex-col items-center gap-10 mt-24">
         <div className="w-full max-w-6xl mx-auto">
           <ProjectHighlightRow
@@ -240,7 +270,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Section 5: Meet the Team (full-width + top/bottom fade) */}
+      {/* Section 6: Meet the Team (full-width + top/bottom fade) */}
       <div
         className="relative w-full min-h-[420px] md:min-h-[700px] bg-cover bg-center bg-no-repeat mt-12 md:mt-24"
         style={{
@@ -260,7 +290,7 @@ export default function About() {
         >
           MEET THE TEAM
         </Link>
-      </div>
+      </div>     
 
       {/* Footer logo section */}
       <div className="iras-lab-about-section-end bg-white h-[20vh] bg-contain bg-no-repeat bg-bottom" />
