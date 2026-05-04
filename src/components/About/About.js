@@ -176,39 +176,21 @@ export default function About() {
         </div>
       </div>
 
-      {/* Section 3: High Bay + Air Bearing Table */}
-      <section className="w-full px-4 md:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-stretch">
-          
-          {/* Left side: first 2 columns */}
-          <div className="md:col-span-2 flex items-center">
-            <div className="w-full">
-              <img
-              src={DFHighBay}
-              alt="Air Bearing Table"
-              className="w-full h-auto object-contain aspect-[3/2] rounded-2xl"
-              />
-            </div>
-          </div>
-
-          {/* Right side: last 2 columns */}
-          <div className="md:col-span-2 flex items-center justify-center">
-            <img
-              src={AirBearingTable}
-              alt="Air Bearing Table"
-              className="w-full h-auto object-contain aspect-[3/2] rounded-2xl"
-            />
-          </div>
-          
-        </div>
-      </section> 
+      {/* Section 3: Air Bearing Table */}
+      <div className="w-full px-4 md:px-8 py-4 flex justify-center">
+        <img
+          src={AirBearingTable}
+          alt="Description"
+          className="w-full h-[680px] object-cover rounded-2xl"
+        />
+      </div>
   
       {/* Section 4: Lab Contact Info (full-width image background) */}
       <section className="w-full mt-24">
         <div
           className="relative w-full bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${SpaceRobotics2023})` }}
-        >x
+          style={{ backgroundImage: `url(${DFHighBay})` }}
+        >
           {/* overlay */}
           <div className="absolute inset-0 bg-black/40" />
 
