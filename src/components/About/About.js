@@ -287,8 +287,8 @@ export default function About() {
       >
         <Link
           to="/People"
-          className="absolute inset-10 flex items-end justify-center
-          text-white text-[12rem] font-bold px-4 pb-16 text-center
+          className="absolute inset-12 flex items-end justify-center
+          text-white text-[10rem] font-bold px-4 pb-16 text-center
           hover:text-blue-200 transition-colors duration-300"
         >
           MEET THE TEAM
