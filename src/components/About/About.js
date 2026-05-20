@@ -6,10 +6,9 @@ import { Link } from "react-router-dom";
 import "./About.css";
 import { About_descriptions } from "../../contents/About_descriptions/About_descriptions";
 
-import SpaceRobotics2023 from "../img/space_robotics_2023.jpg";
 import DFHighBay from "../img/DFHighBay.JPG";
 import AirBearingTable from "../img/Air_bearing_table.jpg";
-import GroupPhotoJan2026 from "../img/GroupPhotoJan2026.jpg";
+import GroupPhotoMay2026 from "../img/GroupPhotoMay2026.jpg";
 import Lab_Web_Site_Ma_Ou from "../img/Lab_Website_Ma_Ou.jpg";
 import Lab_Web_Site_Brian_VanFossen from "../img/Lab_Website_Brian_VanFossen.jpg";
 
@@ -252,27 +251,49 @@ export default function About() {
         </div>
       </section>
 
-      {/* Section 6: Meet the Team (full-width + top/bottom fade) */}
+      {/* Section 6: Meet the Team */}
+
+      {/* Mobile: full image */}
+      <div className="relative md:hidden w-full mt-12">
+        <img src={GroupPhotoMay2026} alt="Group" className="w-full object-contain" />
+        
+        {/* Gradient overlay */}
+        <div className="absolute inset-0" style={{
+          background: `
+            linear-gradient(to bottom, var(--color-base-blue) 0%, transparent 15%, transparent 85%, var(--color-base-blue) 100%)
+          `
+        }} />
+
+        <Link
+          to="/People"
+          className="absolute inset-4 flex items-end justify-center
+          text-white text-3xl font-bold px-4 pb-6 text-center
+          hover:text-gray-300 transition-colors duration-300"
+        >
+          MEET THE TEAM
+        </Link>
+      </div>
+
+      {/* Desktop: background with fades */}
       <div
-        className="relative w-full min-h-[420px] md:min-h-[700px] bg-cover bg-center bg-no-repeat mt-12 md:mt-24"
+        className="relative hidden md:block w-full min-h-[900px] bg-cover bg-center bg-no-repeat mt-24"
         style={{
           backgroundImage: `
-            linear-gradient(to top, transparent, transparent calc(100% - 200px), var(--color-base-blue)),
-            linear-gradient(to bottom, transparent, transparent calc(100% - 200px), var(--color-base-blue)),
-            url(${GroupPhotoJan2026})
+            linear-gradient(to top, transparent, transparent calc(100% - 80px), var(--color-base-blue)),
+            linear-gradient(to bottom, transparent, transparent calc(100% - 80px), var(--color-base-blue)),
+            url(${GroupPhotoMay2026})
           `,
         }}
       >
         <Link
           to="/People"
-          className="absolute top-10 md:top-24 left-0 w-full flex justify-center
-           text-white text-4xl sm:text-5xl md:text-7xl font-bold underline
-           px-4 text-center"
-
+          className="absolute inset-10 flex items-end justify-center
+          text-white text-[12rem] font-bold px-4 pb-16 text-center
+          hover:text-blue-200 transition-colors duration-300"
         >
           MEET THE TEAM
         </Link>
-      </div>     
+      </div>
 
       {/* Footer logo section */}
       <div className="iras-lab-about-section-end bg-white h-[20vh] bg-contain bg-no-repeat bg-bottom" />
