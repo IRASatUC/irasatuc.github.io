@@ -34,9 +34,10 @@ import Lab_Web_Site_Grabiel_Wiser from "../Lab Portraits/Lab_Web_Site_Grabiel_Wi
 import Lab_Website_Neal_DAndrea from "../Lab Portraits/Lab_Website_Neal_DAndrea.jpg"
 import Lab_Website_Abdou_Wade   from "../Lab Portraits/Lab_Web_Site_Abdou_Wade.jpg"
 import Lab_Web_Site_Rongfei_Li  from "../Lab Portraits/Lab_Web_Site_Rongfei_Li.png"
-import Lab_Website_Elina_Bishoyi from "../Lab Portraits/Lab_Website_Elina_Bishoyi.jpg"
+//import Lab_Website_Elina_Bishoyi from "../Lab Portraits/Lab_Website_Elina_Bishoyi.jpg"
 import Lab_Web_Site_Xiaodong_Jia from "../Lab Portraits/Lab_Web_Site_Xiaodong_Jia.jpg"
 import Lab_Web_Site_Sophia_Yu from "../Lab Portraits/Lab_Web_Site_Sophia_Yu.png"
+import Lab_Website_Josh_Wachs from "../Lab Portraits/Lab_Website_Josh_Wachs.PNG"
 
 export const People_contents_faculty = [
     {
@@ -730,6 +731,8 @@ export const People_contents_students = [
             )
         },  
     },
+
+/*
     {
         imgUrl: Lab_Website_Elina_Bishoyi,
         name: "Elina Bishoyi",
@@ -744,6 +747,7 @@ export const People_contents_students = [
             )
         }
     },
+*/
 
     {
         imgUrl: Lab_Web_Site_Ethan_Do,
@@ -755,7 +759,7 @@ export const People_contents_students = [
                     <br/>Research Areas<br />
                     - In Space Service, Assembly, and Manufacturing (ISAM)<br />
                     - Autonomous Systems <br />
-                    - Space Robotics Dynamics and Control
+                    - 6 DOF Pose Estimation and Tracking<br />
                 </p>
             )
         }
@@ -776,6 +780,36 @@ export const People_contents_students = [
             )
         }
     },
+
+    {
+        imgUrl: Lab_Website_Josh_Wachs,
+        name: "Josh Wachs",
+        title: "Undergraduate Student",
+        description: () => {
+            return (
+                <p style={{ textAlign: "left", paddingLeft: "0px" }}>
+                    <br/>Research Areas<br />
+                    - In Space Service, Assembly, and Manufacturing (ISAM) <br />
+                    - Imitation Learning <br />
+                    - Reinforcement Learning<br />
+                </p>
+            )
+        }
+    },
+
+    {
+        name: "Elizabeth",
+        title: "Undergraduate Student",
+        description: () => {
+            return (
+                <p style={{ textAlign: "left", paddingLeft: "0px" }}>
+                    <br/>Research Areas<br />
+                </p>
+            )
+        }
+    },
+
+/*
     {
         //imgUrl: Lab_Website_Sabal_Dahal,
         name: "Sabal Dahal",
@@ -791,4 +825,6 @@ export const People_contents_students = [
             )
         }
     }
+*/
+
 ];
