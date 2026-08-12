@@ -29,6 +29,9 @@ function NavButtons({windowWidth, hamburgerOpen}) {
                 <Link to="/Publications" className="nav-Button" style={{ marginRight: '35px' }} tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
                     Publications
                 </Link>
+                <Link to="/UCPayloadInformation" className="nav-Button" style={{ marginRight: '35px' }} tabIndex={(windowWidth <= 1042 && !hamburgerOpen)?-1:undefined}>
+                    UC Payload Information
+                </Link>
             </div>
         </div>
     )
