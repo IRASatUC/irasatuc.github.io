@@ -121,14 +121,17 @@
 }
 
 @media (max-width: 800px) {
-  :root { --avatar: 230npx; --overlap: 50px; }
+  :root { --avatar: min(230px, 55vw); --overlap: 50px; }
 
   .profile-row {
     flex-direction: column;
     align-items: center;
     gap: 14px;
   }
-
+  .profile-row__avatarWrap {
+  aspect-ratio: 1 / 1;
+  flex: 0 0 auto;
+  }
   .profile-row__card {
     width: 80vw;
     height: auto;
